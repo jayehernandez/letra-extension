@@ -9,7 +9,8 @@ export default new Vuex.Store({
     dailyData: {
       word: {},
       language: {},
-      photo: {},
+      quote: {},
+      photo: { user: {}},
     }
   },
   actions: {
