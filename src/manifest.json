@@ -1,0 +1,24 @@
+{
+  "name": "letra-extensions",
+  "description": "A Vue.js web extension",
+  "version": null,
+  "manifest_version": 2,
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "browser_action": {
+    "default_title": "letra-page",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://code.responsivevoice.org/responsivevoice.js http://localhost:3100; object-src 'self'"
+}
