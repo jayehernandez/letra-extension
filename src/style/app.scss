@@ -1,145 +1,52 @@
 @import "twemoji-awesome";
+@import "variables";
+@import "base";
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  --spacing-xs: 10px;
-  --spacing: 24px;
-  --spacing-s: 12px;
-  --spacing-m: 36px;
-  --spacing-l: 72px;
-  --bg-color-1: #BC7559;
-  --bg-color-2: #3EB0FF;
-  --primary-color: #d8c078;
-  --secondary-color: #bdbdbd;
-  --third-color: #474747;
-  --body-color: #888888;
-  --fs-s: 12px;
-  --fs-m: 14px;
-  --fs-l: 16px;
-}
-
-body {
-  margin: 0;
-  font-family: 'Sen', sans-serif;
-  width: 100%;
-  height: 100%;
-  font-size: var(--fs-m);
-  color: var(--body-color);
-  background-color: black;
-}
-
-.is-text-primary { color: var(--primary-color); }
-.is-text-secondary { color: var(--secondary-color); }
-
-.mb1 { margin-bottom: var(--spacing-xs); }
-.mt1 { margin-top: var(--spacing-xs); }
-
-.has-text-centered { text-align: center; }
-
-
-/* <---------------- OVERRIDES ----------------> */
-a {
-  text-decoration: none;
-  color: var(--secondary-color);
-  transition: all 0.8s;
-  opacity: 0.8;
-}
-
-a:hover {
-  color: var(--primary-color);
-  transition: all 0.8s;
-}
-
-button {
-  font-family: 'Sen', sans-serif;
-  background: none;
-  border: none;
-}
-
-button:focus {
-  outline: none;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-input[type=checkbox] {
-  visibility: hidden;
-  display: none;
-}
+/* <---------------- DAILY WORD ----------------> */
 
 h1 {
   font-family: 'Playfair Display', serif;
   margin: 0;
   font-size: 10vw;
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 h2 {
   text-transform: uppercase;
-  letter-spacing: var(--spacing-xs);
+  letter-spacing: $spacing-xs;
   font-size: 2.5vw;
   margin-top: -10px;
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
-#background {
-  opacity: 0.4;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-}
-
-/* <---------------- DAILY WORD ----------------> */
 .center-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%;
-  height: 100%;
-}
-
-#translate-button {
-  align-self: flex-end;
-  margin-bottom: var(--spacing);
-  color: var(--primary-color);
-}
-
-.word-container {
-  display: flex;
-}
-
-.quote-container {
-  margin-top: 80px;
-  width: 70w;
+  width: 100vw;
+  height: 100vh;
 }
 
 /* <---------------- QUOTE ----------------> */
-.quote {
+
+.quote-container {
+  margin-top: 80px;
   padding: 1.5vw 2.5vw;
   border-radius: 10px;
   background-color: rgba(0,0,0, 0.5);
+  max-width: 70vw;
 }
 
-#quote {
+.sentence {
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  font-size: 1.252vw;
+  font-size: $fs-xl;
   font-weight: 400;
 }
 
-#author {
+.author {
   text-transform: uppercase;
 }
 
@@ -151,7 +58,7 @@ h2 {
 
 #date {
   font-size: 1.5vw;
-  letter-spacing: var(--spacing-xs);
+  letter-spacing: $spacing-xs;
   text-transform: uppercase;
   margin-bottom: -10px;
 }
@@ -159,30 +66,30 @@ h2 {
 /* <---------------- CORNER ELEMENTS ----------------> */
 .top-left {
   position: absolute;
-  top: var(--spacing);
-  left: var(--spacing);
+  top: $spacing;
+  left: $spacing;
 }
 
 .top-right {
   position: absolute;
-  top: var(--spacing);
-  right: var(--spacing);
+  top: $spacing;
+  right: $spacing;
   z-index: 3;
 }
 
 .bottom-left {
   position: absolute;
-  font-size: var(--fs-s);
-  left: var(--spacing);
-  bottom: var(--spacing);
+  font-size: $fs-s;
+  left: $spacing;
+  bottom: $spacing;
   opacity: 0.8;
-  line-height: var(--spacing);
+  line-height: $spacing;
 }
 
 .bottom-right {
   position: absolute;
   text-align: right;
-  right: var(--spacing);
+  right: $spacing;
   opacity: 0.2;
   bottom: 0;
   z-index: 3;
@@ -196,20 +103,6 @@ h2 {
   width: 50px;
 }
 
-svg {
-  stroke: var(--body-color);
-  transition: all 0.8s;
-}
-
-svg:hover {
-  stroke: var(--primary-color);
-  transition: all 0.8s;
-}
-
-svg:focus {
-  stroke: var(--primary-color);
-}
-
 /* <---------------- OPTIONS ----------------> */
 #options-menu {
   position: absolute;
@@ -218,7 +111,7 @@ svg:focus {
   width: 9%;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  padding: var(--spacing-s);
+  padding: $spacing-s;
   display: none;
   z-index: 2;
 }
@@ -226,12 +119,12 @@ svg:focus {
 .option {
   display: block;
   position: relative;
-  padding-left: var(--spacing);
+  padding-left: $spacing;
   cursor: pointer;
 }
 
 .option:not(:last-child) {
-  margin-bottom: var(--spacing-xs);
+  margin-bottom: $spacing-xs;
 }
 
 .checkmark {
@@ -240,15 +133,15 @@ svg:focus {
   left: 0;
   height: 15px;
   width: 15px;
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
 }
 
 .option:hover input ~ .checkmark {
-  background-color: var(--body-color);
+  background-color: $body-color;
 }
 
 .option input:checked ~ .checkmark {
-  background-color: var(--primary-color);
+  background-color: $primary-color;
 }
 
 .checkmark:after {
@@ -265,7 +158,7 @@ svg:focus {
   left: 5px;
   width: 4px;
   height: 10px;
-  border: solid var(--third-color);
+  border: solid $third-color;
   border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -273,19 +166,19 @@ svg:focus {
 }
 
 #save-button {
-  background-color: var(--primary-color);
+  background-color: $primary-color;
   border-radius: 10px;
   color: black;
   padding: 5px;
   text-align: center;
-  font-size: var(--fs-m);
+  font-size: $fs-m;
   width: 100%;
   border-radius: 2px;
-  margin-top: var(--spacing-s);
+  margin-top: $spacing-s;
   transition: all 0.8s;
 }
 
 #save-button:hover {
-  background-color: var(--secondary-color);
+  background-color: $secondary-color;
   transition: all 0.8s;
 }

@@ -20,5 +20,5 @@
       "background.js"
     ]
   },
-  "content_security_policy": "script-src 'self' 'unsafe-eval' https://code.responsivevoice.org/responsivevoice.js http://localhost:3100; object-src 'self'"
+  "content_security_policy": "style-src 'self' https://code.responsivevoice.org/responsivevoice.js 'unsafe-inline' 'unsafe-eval';"
 }

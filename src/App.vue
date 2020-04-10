@@ -1,5 +1,6 @@
 <template lang="pug">
   div
+    #background(:style="{ backgroundImage: `url('${imageUrl}')` }")
     Credit
     Flag
     Word
@@ -20,6 +21,11 @@ export default {
   },
   computed: {
     ...mapState(['dailyData']),
+
+    imageUrl() {
+      if (!!this.dailyData.photo.urls) return this.dailyData.photo.urls.full;
+      return '';
+    },
   },
   mounted() {
     this.loadDailyData();
