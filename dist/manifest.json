@@ -1,6 +1,6 @@
 {
-  "name": "letra-extensions",
-  "description": "A Vue.js web extension",
+  "name": "Letra",
+  "description": "Passively learn a new word in a different language every day.",
   "version": "1.0.0",
   "manifest_version": 2,
   "permissions": [
@@ -14,7 +14,7 @@
     "newtab": "index.html"
   },
   "browser_action": {
-    "default_title": "letra-page",
+    "default_title": "Letra",
     "default_popup": "popup/popup.html"
   },
   "background": {

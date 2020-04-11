@@ -1,6 +1,7 @@
 @import "twemoji-awesome";
 @import "variables";
 @import "base";
+@import "options";
 
 /* <---------------- DAILY WORD ----------------> */
 
@@ -51,12 +52,12 @@ h2 {
 }
 
 /* <---------------- DATE AND TIME ----------------> */
-#time {
+.time {
   font-size: 7vw;
   font-family: 'Abel', sans-serif;
 }
 
-#date {
+.date {
   font-size: 1.5vw;
   letter-spacing: $spacing-xs;
   text-transform: uppercase;
@@ -82,7 +83,7 @@ h2 {
   font-size: $fs-s;
   left: $spacing;
   bottom: $spacing;
-  opacity: 0.8;
+  opacity: 0.3;
   line-height: $spacing;
 }
 
@@ -90,7 +91,7 @@ h2 {
   position: absolute;
   text-align: right;
   right: $spacing;
-  opacity: 0.2;
+  opacity: 0.3;
   bottom: 0;
   z-index: 3;
 }
@@ -101,84 +102,4 @@ h2 {
 
 .icon {
   width: 50px;
-}
-
-/* <---------------- OPTIONS ----------------> */
-#options-menu {
-  position: absolute;
-  top: 70px;
-  right: 20px;
-  width: 9%;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 10px;
-  padding: $spacing-s;
-  display: none;
-  z-index: 2;
-}
-
-.option {
-  display: block;
-  position: relative;
-  padding-left: $spacing;
-  cursor: pointer;
-}
-
-.option:not(:last-child) {
-  margin-bottom: $spacing-xs;
-}
-
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 15px;
-  width: 15px;
-  background-color: $secondary-color;
-}
-
-.option:hover input ~ .checkmark {
-  background-color: $body-color;
-}
-
-.option input:checked ~ .checkmark {
-  background-color: $primary-color;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.option input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.option .checkmark:after {
-  left: 5px;
-  width: 4px;
-  height: 10px;
-  border: solid $third-color;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-#save-button {
-  background-color: $primary-color;
-  border-radius: 10px;
-  color: black;
-  padding: 5px;
-  text-align: center;
-  font-size: $fs-m;
-  width: 100%;
-  border-radius: 2px;
-  margin-top: $spacing-s;
-  transition: all 0.8s;
-}
-
-#save-button:hover {
-  background-color: $secondary-color;
-  transition: all 0.8s;
 }

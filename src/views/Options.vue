@@ -1,45 +1,46 @@
-<template>
-  <transition name="fade">
-    <div id="options-menu" v-if="showOptions">
-      <div class="mb1">I'm learning:</div>
-      <div id="options-choices">
-        <label class="option">Lol
-        <input class="checkbox" type="checkbox" id="lol">
-        <span class="checkmark"></span></label>
-      </div>
-      <button id="save-button">Save</button>
-      <div class="has-text-centered is-text-primary mt1 message"></div>
-    </div>
-  </transition>
+<template lang="pug">
+div
+  .top-right.corner-elements
+    RandomButton(@click="retrieveNewData")
+    OptionsButton(@click="toggleOptionsMenu")
+  transition(name="fade")
+    #options-menu(v-if="showOptions")
+      .mb1 I'm learning:
+      #options-choices
+        label.option Lol
+          input.checkbox#lol(type="checkbox")
+          span.checkmark
+      button#save-button Save
+      .has-text-centered.is-text-primary.mt1.message
 </template>
 
 <script>
-// import Background from '../views/Background.vue';
-// import Word from '@/views/Word.vue';
-
-const letraUrl = "https://jayehernandez.github.io/letra"
+import RandomButton from './../components/RandomButton';
+import OptionsButton from './../components/OptionsButton';
 
 export default {
   name: 'Options',
-  props: {
-    showOptions: {
-      type: Boolean,
-      required: true,
-    },
+  components: {
+    RandomButton,
+    OptionsButton,
   },
-  data () {
+  data() {
     return {
-      message: "My new tab page"
-    }
+      showOptions: false,
+    };
+  },
+  mounted() {
+    this.get
+  },
+  methods: {
+    // ...mapActions('getLanguageOptions'),
+
+    retrieveNewData() {
+      console.log('retrieve');
+    },
+    toggleOptionsMenu() {
+      this.showOptions = !this.showOptions;
+    },
   },
 }
 </script>
-
-<style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
-</style>

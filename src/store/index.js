@@ -11,7 +11,8 @@ export default new Vuex.Store({
       language: {},
       quote: {},
       photo: { user: {}},
-    }
+    },
+    hasError: false,
   },
   actions: {
     getDailyData({ dispatch }) {
@@ -22,14 +23,15 @@ export default new Vuex.Store({
         } else dispatch('retrieveDailyData');
       });
     },
-    retrieveDailyData({ dispatch }) {
+    retrieveDailyData({ dispatch, commit }) {
       axios.get("http://localhost:3100")
         .then(response => {
           const { data } = response;
           data.created_at = new Date().toDateString();
           chrome.storage.sync.set({ dailyData: data });
           dispatch('saveDailyData', data);
-        });
+        })
+        .catch(error => commit('setHasError', true));
     },
     saveDailyData({ commit }, data) {
       commit('setDailyData', data);
@@ -38,6 +40,9 @@ export default new Vuex.Store({
   mutations: {
     setDailyData(state, data) {
       state.dailyData = data;
+    },
+    setHasError(state, hasError) {
+      state.hasError = hasError;
     }
   }
 })
