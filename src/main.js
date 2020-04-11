@@ -3,7 +3,9 @@ import App from './App';
 import store from "./store/index";
 import './style/app.scss';
 import LoadScript from 'vue-plugin-load-script';
+import vWow from 'v-wow';
 
+Vue.use(vWow);
 Vue.use(LoadScript);
 // Vue.loadScript("https://code.responsivevoice.org/responsivevoice.js?key=dIZWyNzY");
 

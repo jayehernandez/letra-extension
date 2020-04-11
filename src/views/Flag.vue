@@ -1,5 +1,5 @@
 <template lang="pug">
-.top-left.icon
+.top-left.icon.fadeIn(v-wow data-wow-duration="2s" :key="flagClass")
   i(:class="flagClass")
 </div>
 </template>

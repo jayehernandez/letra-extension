@@ -1,9 +1,9 @@
 <template lang="pug">
-.center-container
+.center-container.fadeIn(v-wow data-wow-duration="2s" :key="dailyData.word.word")
   .daily-word-container
     .is-flex
       h1 {{ dailyData.word.word || '' }}
-      TranslateButton(@click="speak")
+      TranslateButton(@click="speak" v-if="!loading")
     h2 {{ dailyData.word.translation || '' }}
   .quote-container
     .sentence {{ dailyData.quote.sentence }}
@@ -20,7 +20,7 @@ export default {
     TranslateButton,
   },
   computed: {
-    ...mapState(['dailyData']),
+    ...mapState(['dailyData', 'loading']),
   },
   methods: {
     speak() {
