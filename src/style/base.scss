@@ -61,6 +61,11 @@ button:hover {
   cursor: pointer;
 }
 
+button:disabled {
+  background-color: $third-color !important;
+  cursor: not-allowed;
+}
+
 input[type=checkbox] {
   visibility: hidden;
   display: none;

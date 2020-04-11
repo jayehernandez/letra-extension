@@ -40,10 +40,10 @@ export default {
     this.loadDailyData();
   },
   methods: {
-    ...mapActions(['getDailyData']),
+    ...mapActions(['getSelectedLanguages']),
 
     loadDailyData() {
-      this.getDailyData();
+      this.getSelectedLanguages();
     },
 
     toggleOptions() {

@@ -1,4 +1,4 @@
-#options-menu {
+.options-menu {
   position: absolute;
   top: 70px;
   right: 20px;
@@ -58,21 +58,16 @@
   transform: rotate(45deg);
 }
 
-#save-button {
+.save-button {
   background-color: $primary-color;
   border-radius: 10px;
   color: black;
-  padding: 5px;
+  padding: 7px;
   text-align: center;
   font-size: $fs-m;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 5px;
   margin-top: $spacing-s;
-  transition: all 0.8s;
-}
-
-#save-button:hover {
-  background-color: $secondary-color;
   transition: all 0.8s;
 }
 
