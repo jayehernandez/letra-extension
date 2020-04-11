@@ -7,7 +7,7 @@ import vWow from 'v-wow';
 
 Vue.use(vWow);
 Vue.use(LoadScript);
-Vue.loadScript("https://code.responsivevoice.org/responsivevoice.js?key=dIZWyNzY");
+Vue.loadScript(process.env.VUE_APP_VOICE_URL);
 
 Vue.filter('titleize', ((str) => {
   if (typeof str !== 'string') return '';

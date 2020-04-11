@@ -2,6 +2,7 @@ const webpack = require('webpack');
 const ejs = require('ejs');
 const CopyPlugin = require('copy-webpack-plugin');
 const ExtensionReloader = require('webpack-extension-reloader');
+const Dotenv = require('dotenv-webpack');
 const { VueLoaderPlugin } = require('vue-loader');
 const { version } = require('./package.json');
 
@@ -65,6 +66,9 @@ const config = {
   plugins: [
     new webpack.DefinePlugin({
       global: 'window',
+    }),
+    new Dotenv({
+      path: './.env',
     }),
     new VueLoaderPlugin(),
     new CopyPlugin([

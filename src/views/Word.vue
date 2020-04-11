@@ -3,7 +3,7 @@
   .daily-word-container
     .is-flex
       h1 {{ dailyData.word.word || '' }}
-      TranslateButton(@click="speak" v-if="!loading")
+      TranslateButton(@click="speak")
     h2 {{ dailyData.word.translation || '' }}
   .quote-container
     .sentence {{ dailyData.quote.sentence }}
@@ -20,7 +20,7 @@ export default {
     TranslateButton,
   },
   computed: {
-    ...mapState(['dailyData', 'loading']),
+    ...mapState(['dailyData']),
   },
   methods: {
     speak() {
