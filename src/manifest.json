@@ -19,5 +19,6 @@
     "scripts": [
       "background.js"
     ]
-  }
+  },
+  "content_security_policy": "script-src 'self' https://code.responsivevoice.org/responsivevoice.js 'unsafe-eval'; object-src 'self'"
 }

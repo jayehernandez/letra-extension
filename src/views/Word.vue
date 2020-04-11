@@ -24,8 +24,7 @@ export default {
   },
   methods: {
     speak() {
-      debugger;
-
+      responsiveVoice.speak(this.dailyData.word.word, this.dailyData.language.voice);
     }
   },
 }
