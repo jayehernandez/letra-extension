@@ -1,5 +1,5 @@
 <template lang="pug">
-.center-container.fadeIn(v-wow data-wow-duration="2s" :key="dailyData.word.word")
+.center-container.fadeIn(v-wow data-wow-duration="1s" :key="dailyData.word.word")
   .daily-word-container
     .is-flex
       h1 {{ dailyData.word.word || '' }}

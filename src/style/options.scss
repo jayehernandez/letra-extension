@@ -70,28 +70,3 @@
   margin-top: $spacing-s;
   transition: all 0.8s;
 }
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    display: none;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-  }
-}
-
-.fadeIn {
-  animation-name: fadeIn;
-  animation-timing-function: ease-out;
-}
