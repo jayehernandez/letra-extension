@@ -1,14 +1,14 @@
 <template lang="pug">
   div
     div(v-if="hasError")
-      | To do: error page
+      ErrorPage
     div(v-else)
       #background(:style="{ backgroundImage: `url('${imageUrl}')` }")
       Credit
       Flag
       Word
-      Options
-      Time
+    Options
+    Time
 </template>
 
 <script>
@@ -18,6 +18,7 @@ import Flag from './views/Flag';
 import Word from './views/Word';
 import Options from './views/Options';
 import Time from './views/Time';
+import ErrorPage from './views/ErrorPage';
 
 export default {
   name: 'App',
@@ -27,6 +28,7 @@ export default {
     Word,
     Options,
     Time,
+    ErrorPage,
   },
   computed: {
     ...mapState(['dailyData', 'hasError']),

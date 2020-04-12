@@ -12,8 +12,7 @@
     "newtab": "index.html"
   },
   "browser_action": {
-    "default_title": "Letra",
-    "default_popup": "popup/popup.html"
+    "default_title": "Letra"
   },
   "background": {
     "scripts": [
