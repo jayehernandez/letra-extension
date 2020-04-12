@@ -1,6 +1,6 @@
 {
   "name": "Letra",
-  "description": "Passively learn a new word in a different language every day.",
+  "description": "Learn a new word in a different language every day.",
   "version": null,
   "manifest_version": 2,
   "permissions": ["storage"],
