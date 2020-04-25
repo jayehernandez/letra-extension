@@ -1,7 +1,7 @@
 {
-  "name": "letra-page",
-  "version": "1.0.0",
-  "description": "A Vue.js web extension",
+  "name": "letra-extension",
+  "version": "1.0.1",
+  "description": "Learn a new word in a different language every day.",
   "author": "Jaye Hernandez <jaye@dealgrocer.com>",
   "engines": {
     "node": ">=10"
