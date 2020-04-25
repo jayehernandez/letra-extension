@@ -1,13 +1,24 @@
 <template lang="pug">
-.center-container.fadeIn(v-wow data-wow-duration="1s" :key="dailyData.word.word")
-  .daily-word-container
-    .is-flex
-      h1 {{ dailyData.word.word || '' }}
-      TranslateButton(@click="speak")
-    h2 {{ dailyData.word.translation || '' }}
-  .quote-container
-    .sentence {{ dailyData.quote.sentence }}
-    .author.mt1 {{ dailyData.quote.author }}
+.center-container
+  .fadeIn(
+    v-wow data-wow-duration="1s"
+    :key="dailyData.word.word"
+    v-if="!loading"
+  )
+    .daily-word-container
+      .is-flex.is-justify-centered
+        h1 {{ dailyData.word.word || '' }}
+        TranslateButton(@click="speak")
+      h2 {{ dailyData.word.translation || '' }}
+    .quote-container
+      .sentence {{ dailyData.quote.sentence }}
+      .author.mt1 {{ dailyData.quote.author }}
+  div(v-else)
+    .lds-ellipsis
+      div
+      div
+      div
+      div
 </template>
 
 <script>
@@ -20,7 +31,7 @@ export default {
     TranslateButton,
   },
   computed: {
-    ...mapState(['dailyData']),
+    ...mapState(['dailyData', 'loading']),
   },
   methods: {
     speak() {

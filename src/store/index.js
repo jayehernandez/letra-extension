@@ -16,12 +16,14 @@ const state = {
   hasError: false,
   languageOptions: [],
   selectedLanguages: [],
+  loading: false,
 };
 
 export default new Vuex.Store({
   state,
   actions: {
     getSelectedLanguages({ commit, dispatch }) {
+      commit('setLoading', true);
       chrome.storage.sync.get("selectedLanguages", (response) => {
         let { selectedLanguages } = response;
         if (selectedLanguages.length === 0 || selectedLanguages === undefined) {
@@ -40,10 +42,12 @@ export default new Vuex.Store({
         const data = response.dailyData;
         if (!!data && data.created_at == new Date().toDateString()) {
           dispatch('saveDailyData', data);
+          commit('setLoading', false);
         } else dispatch('retrieveDailyData');
       });
     },
     retrieveDailyData({ commit, dispatch }) {
+      commit('setLoading', true);
       const languages = state.selectedLanguages.join(",");
       axios.get(`${process.env.VUE_APP_API_URL}/daily?languages=${languages}`)
         .then(response => {
@@ -51,6 +55,7 @@ export default new Vuex.Store({
           data.created_at = new Date().toDateString();
           chrome.storage.sync.set({ dailyData: data });
           dispatch('saveDailyData', data);
+          commit('setLoading', false);
         })
         .catch(error => commit('setHasError', true));
     },
@@ -89,6 +94,9 @@ export default new Vuex.Store({
     },
     setHasError(state, hasError) {
       state.hasError = hasError;
+    },
+    setLoading(state, loading) {
+      state.loading = loading;
     },
   }
 })
