@@ -1,7 +1,7 @@
 {
   "name": "Letra",
   "description": "Learn a new word in a different language every day.",
-  "version": null,
+  "version": "1.0.1",
   "manifest_version": 2,
   "permissions": ["storage"],
   "icons": {
