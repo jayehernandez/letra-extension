@@ -26,7 +26,7 @@ export default new Vuex.Store({
       commit('setLoading', true);
       chrome.storage.sync.get("selectedLanguages", (response) => {
         let { selectedLanguages } = response;
-        if (selectedLanguages.length === 0 || selectedLanguages === undefined) {
+        if (selectedLanguages === undefined || selectedLanguages.length === 0) {
           selectedLanguages = ['german'];
         }
         dispatch('saveSelectedLanguages', selectedLanguages);
