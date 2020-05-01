@@ -1,7 +1,7 @@
 {
   "name": "letra-extension",
-  "version": "1.0.1",
-  "description": "Learn a new word in a different language every day.",
+  "version": "1.0.2",
+  "description": "Passively learn a new language every time you open a new tab.",
   "author": "Jaye Hernandez <jaye@dealgrocer.com>",
   "engines": {
     "node": ">=10"
