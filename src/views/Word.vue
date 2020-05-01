@@ -1,6 +1,6 @@
 <template lang="pug">
 .center-container
-  .fadeIn(
+  .fadeIn.center-container(
     v-wow data-wow-duration="1s"
     :key="dailyData.word.word"
     v-if="!loading"
