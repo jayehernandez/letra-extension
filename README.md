@@ -25,13 +25,15 @@ A simple supplementary tool for language learning. Download the Google Chrome ex
 
 ## Acknowledgments
 
+* Boilerplate Vue Extension from [Kocal's vue-web-extension](https://github.com/Kocal/vue-web-extension)
 * Text to Speech API from [ResponsiveVoice API](https://responsivevoice.org/api/)
 * Background Image API from [Unsplash](https://responsivevoice.org/api/)
 * Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
 * Icons from [Raj Dev](https://freeicons.io/profile/714)
+* [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
 
 ## Contributing
 
-Issues are very valuable to this project. Suggest a new feature or report an existing bug.
+Issues are very valuable to this project. Suggest a new feature or report an existing bug. 🤔
 
-Thank you for creating an issue! ✨
+Thank you for checking this repo out! ✨
