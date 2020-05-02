@@ -1,14 +1,16 @@
-# Letra
+# ☀️ Letra
 
 A simple supplementary tool for language learning. Download the Google Chrome extension [here](https://chrome.google.com/webstore/detail/cjodkkjokggcaeacdhjliobekbnnmoio)!
 
-## Features:
+![Screenshot](letra_screenshot1.png)
+
+## Features
 ✨ New word everyday  
 ✨ Listen to the word in the chosen language  
 ✨ New inspirational quote about learning  
 ✨ Dark Interface
 
-## Languages available
+## Available Languages
 🇩🇪 German  
 🇫🇷 French  
 🇪🇸 Spanish  
