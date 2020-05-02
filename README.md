@@ -21,7 +21,7 @@ A simple supplementary tool for language learning. Download the Google Chrome ex
 ## Built With
 
 * [VueJS](https://vuejs.org/)
-* [NodeJS](https://nodejs.org/en/)
+* [NodeJS](https://nodejs.org/en/) - API repository and documentation to come!
 
 ## Acknowledgments
 
@@ -35,5 +35,3 @@ A simple supplementary tool for language learning. Download the Google Chrome ex
 Issues are very valuable to this project. Suggest a new feature or report an existing bug.
 
 Thank you for creating an issue! ✨
-
-
