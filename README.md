@@ -1,4 +1,5 @@
-<h1 align="center">Letra ☀️</h1>
+![Title](docs/title.png)
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.4-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/jayehernandez/letra#readme" target="_blank">
@@ -18,6 +19,8 @@
 > Passively learn a new language every time you open a new tab.
 
 ### [Download Chrome Extension](https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio)
+
+![Main Screenshot](docs/main_screenshot.png)
 
 ## ✨Features
 - New word everyday
@@ -43,7 +46,6 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 - Add a new language
 - Edit translations from existing languages
 - Add a learning quote
-
 
 ## Show your support
 
