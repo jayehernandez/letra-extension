@@ -29,11 +29,16 @@
 - Dark Interface
 
 ## 🌎 Supported Languages
-🇩🇪 German<br>
-🇫🇷 French<br>
-🇪🇸 Spanish<br>
-🇯🇵 Japanese<br>
-🇰🇷 Korean
+- 🇩🇪 German
+- 🇫🇷 French
+- 🇪🇸 Spanish
+- 🇯🇵 Japanese
+- 🇰🇷 Korean
+
+## 🛠 Built With
+
+* [VueJS](https://vuejs.org/)
+* [NodeJS](https://nodejs.org/en/)
 
 ## 🤝 Contributing
 
@@ -43,11 +48,18 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 
 ### Good for First Timers
 
-- Add a new language
+- [Add a new language](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md)
 - Edit translations from existing languages
 - Add a learning quote
 
-## 🥂 Show your support
+## 🙏🏻 Acknowledgements
+
+* Boilerplate Vue Extension from [Kocal's vue-web-extension](https://github.com/Kocal/vue-web-extension)
+* Text to Speech API from [ResponsiveVoice API](https://responsivevoice.org/api/)
+* Background Image API from [Unsplash](https://unsplash.com/developers)
+* Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
+* Icons from [Raj Dev](https://freeicons.io/profile/714)
+* [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
 
 Give a ⭐️ if this project helped you!
 
