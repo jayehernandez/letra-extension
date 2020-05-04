@@ -1,0 +1,36 @@
+{
+  "name": "letra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayehernandez/letra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayehernandez/letra/issues"
+  },
+  "homepage": "https://github.com/jayehernandez/letra#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "unsplash-js": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}

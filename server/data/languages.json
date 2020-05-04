@@ -1,0 +1,22 @@
+{
+  "german": {
+    "flag": "twa-germany-flag",
+    "voice": "Deutsch Female"
+  },
+  "french": {
+    "flag": "twa-france-flag",
+    "voice": "French Female"
+  },
+  "spanish": {
+    "flag": "twa-spain-flag",
+    "voice": "Spanish Female"
+  },
+  "japanese": {
+    "flag": "twa-japan-flag",
+    "voice": "Japanese Female"
+  },
+  "korean": {
+    "flag": "twa-korea-south-south-korea-flag",
+    "voice": "Korean Female"
+  }
+}
