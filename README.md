@@ -22,7 +22,7 @@
 
 ![Main Screenshot](docs/main_screenshot.png)
 
-## ✨Features
+## ✨ Features
 - New word everyday
 - Listen to the word in the chosen language
 - New inspirational quote about learning
@@ -47,7 +47,7 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 - Edit translations from existing languages
 - Add a learning quote
 
-## Show your support
+## 🥂 Show your support
 
 Give a ⭐️ if this project helped you!
 
