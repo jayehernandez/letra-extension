@@ -49,8 +49,8 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 ### Good for First Timers
 
 - [Add a new language](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md)
-- Edit translations from existing languages
-- Add a learning quote
+- Edit translations from existing languages - guide 🔜
+- Add a learning quote - guide 🔜
 
 ## 🙏🏻 Acknowledgements
 
