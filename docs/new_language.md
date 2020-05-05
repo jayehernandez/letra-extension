@@ -1,12 +1,12 @@
 # ➕ Adding a New Language
 
-No need for experience in VueJS and NodeJS is needed to add a new language. **You'll only be working with JSON files 🎉**
+> No need for experience in VueJS and NodeJS is needed to add a new language. **You'll only be working with JSON files 🎉**
 
 ## 📝 Guidelines
 
 ### Adding Language Details
 
-Add the New Language in the `server/data/languages.json` file.  
+You'll need to add the new language in the `server/data/languages.json` file.  
 
 Format:
 ```sh
@@ -18,10 +18,10 @@ Format:
 }
 ```
 
-- **voice** attribute: Choose voice in the supported ResponsiveVoice API voices
-- **flag** attribute: Choose flag emoji from twemoji-awesome's list of CSS flag classes
+- **voice** attribute: Choose voice in the supported [ResponsiveVoice API voices](https://github.com/jayehernandez/letra-extension/blob/master/docs/supported_voices.md)
+- **flag** attribute: Choose the flag emoji from twemoji-awesome's [list of CSS classes](https://github.com/jayehernandez/letra-extension/blob/master/client/src/style/twemoji-awesome.scss)
 
-_Example:
+Example:
 ```sh
 {
   "german": {
@@ -37,12 +37,14 @@ Here's the [list](https://github.com/jayehernandez/letra-extension/blob/master/d
 You'll need to add a new file in the `server/data/words` folder called `{language}.json`. This file contains an array of JSON objects with the format:
 ```sh
 {
-  word: "",
-  translation: ""
+  word: "erreichen",
+  translation: "reach"
 }
 ```
 
-For words with the same translation or no direct translation, hope you can remove those words and note them in your Pull Request.
+Here's the [`french.json`](https://github.com/jayehernandez/letra-extension/blob/master/server/data/words/french.json) for the French language  for your reference.
+
+**Please remove words with the same translation or no direct translation and note them in your Pull Request.**
 
 ## ✅ Checklist
 - [ ] There is ❌ no assigned issue or pull request for this new language.
