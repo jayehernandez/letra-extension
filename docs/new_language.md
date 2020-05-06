@@ -44,7 +44,7 @@ Here's the [`french.json`](https://github.com/jayehernandez/letra-extension/blob
 
 To make this process easier, we'll use Google Sheets. I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-XL_EFGZ2BUTII0Gr3ovoKPrjfEi-a14) of the 3000 words. To generate the JSON file, you can do the following steps:
 
-1. Duplicate the reference sheet above.
+1. Make a copy of the reference sheet above. `File -> Make a copy`
 2. Fill in the **words** column.
 3. Install an Export JSON add-on.
   `Add-ons -> Get Add-ons -> Search for "Export Sheet Data: -> Install`
