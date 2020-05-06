@@ -63,6 +63,7 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 * Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
 * Icons from [Raj Dev](https://freeicons.io/profile/714)
 * [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
+* README generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 
 Give a ⭐️ if this project helped you!
 
@@ -70,9 +71,6 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2020 [Jaye Hernandez](https://github.com/jayehernandez).<br />
 This project is [MIT](https://github.com/jayehernandez/letra-extension/blob/master/LICENSE) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
 
 ## Contributors ✨
 
