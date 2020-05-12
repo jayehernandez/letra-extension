@@ -1,0 +1,7576 @@
+[
+  {
+    "ए": {
+      "translation": "a"
+    },
+    "छोड़ देना": {
+      "translation": "abandon"
+    },
+    "योग्यता": {
+      "translation": "ability"
+    },
+    "योग्य": {
+      "translation": "able"
+    },
+    "गर्भपात": {
+      "translation": "abortion"
+    },
+    "बारे में": {
+      "translation": "about"
+    },
+    "ऊपर": {
+      "translation": "top"
+    },
+    "विदेश": {
+      "translation": "abroad"
+    },
+    "अनुपस्थिति": {
+      "translation": "absence"
+    },
+    "पूर्ण": {
+      "translation": "full"
+    },
+    "पूर्ण रूप से": {
+      "translation": "absolutely"
+    },
+    "सोखना": {
+      "translation": "absorb"
+    },
+    "गाली": {
+      "translation": "abuse"
+    },
+    "शैक्षिक": {
+      "translation": "academic"
+    },
+    "स्वीकार करना": {
+      "translation": "admit"
+    },
+    "पहुंच": {
+      "translation": "reach"
+    },
+    "दुर्घटना": {
+      "translation": "crash"
+    },
+    "साथ": {
+      "translation": "accompany"
+    },
+    "पूरा": {
+      "translation": "accomplish"
+    },
+    "अनुसार": {
+      "translation": "according"
+    },
+    "": {
+      "translation": "the"
+    },
+    "सही": {
+      "translation": "right"
+    },
+    "आरोप": {
+      "translation": "accuse"
+    },
+    "प्राप्त": {
+      "translation": "obtain"
+    },
+    "उपलब्धि": {
+      "translation": "achievement"
+    },
+    "अम्ल": {
+      "translation": "acid"
+    },
+    "पावती": {
+      "translation": "acknowledge"
+    },
+    "अधिग्रहण": {
+      "translation": "acquire"
+    },
+    "भर में": {
+      "translation": "across"
+    },
+    "कार्य": {
+      "translation": "task"
+    },
+    "क्रिया": {
+      "translation": "action"
+    },
+    "सक्रिय": {
+      "translation": "active"
+    },
+    "कार्यकर्ता": {
+      "translation": "activist"
+    },
+    "गतिविधि": {
+      "translation": "activity"
+    },
+    "अभिनेता": {
+      "translation": "actor"
+    },
+    "अभिनेत्री": {
+      "translation": "actress"
+    },
+    "वास्तविक": {
+      "translation": "actual"
+    },
+    "वास्तव में": {
+      "translation": "virtually"
+    },
+    "विज्ञापन": {
+      "translation": "ad"
+    },
+    "अनुकूलन": {
+      "translation": "adapt"
+    },
+    "जोड़ना": {
+      "translation": "combine"
+    },
+    "अतिरिक्त": {
+      "translation": "moreover"
+    },
+    "पता": {
+      "translation": "address"
+    },
+    "पर्याप्त": {
+      "translation": "sufficient"
+    },
+    "प्रशासन": {
+      "translation": "administration"
+    },
+    "प्रशासक": {
+      "translation": "administrator"
+    },
+    "admire": {
+      "translation": "admire"
+    },
+    "किशोर": {
+      "translation": "teenager"
+    },
+    "अपनाना": {
+      "translation": "adopt"
+    },
+    "बालिग": {
+      "translation": "adult"
+    },
+    "अग्रिम": {
+      "translation": "advance"
+    },
+    "उन्नत": {
+      "translation": "advanced"
+    },
+    "सलाह": {
+      "translation": "advice"
+    },
+    "सलाह देना": {
+      "translation": "advise"
+    },
+    "सलाहकार": {
+      "translation": "consultant"
+    },
+    "वकील": {
+      "translation": "lawyer"
+    },
+    "भयभीत": {
+      "translation": "afraid"
+    },
+    "अफ़्रीकी": {
+      "translation": "African"
+    },
+    "अफ्रीकी अमेरिकी": {
+      "translation": "African-American"
+    },
+    "उपरांत": {
+      "translation": "after"
+    },
+    "दोपहर": {
+      "translation": "afternoon"
+    },
+    "फिर": {
+      "translation": "then"
+    },
+    "विरुद्ध": {
+      "translation": "against"
+    },
+    "आयु": {
+      "translation": "age"
+    },
+    "कार्यसूची": {
+      "translation": "agenda"
+    },
+    "एजेंट": {
+      "translation": "agent"
+    },
+    "आक्रामक": {
+      "translation": "aggressive"
+    },
+    "पूर्व": {
+      "translation": "prior"
+    },
+    "इस बात से सहमत": {
+      "translation": "agree"
+    },
+    "समझौता": {
+      "translation": "settlement"
+    },
+    "कृषि": {
+      "translation": "agricultural"
+    },
+    "आह": {
+      "translation": "sigh"
+    },
+    "आगे": {
+      "translation": "next"
+    },
+    "सहायता": {
+      "translation": "assistance"
+    },
+    "सहयोगी": {
+      "translation": "aide"
+    },
+    "एड्स": {
+      "translation": "AIDS"
+    },
+    "लक्ष्य": {
+      "translation": "target"
+    },
+    "वायु": {
+      "translation": "air"
+    },
+    "हवाई जहाज": {
+      "translation": "aircraft"
+    },
+    "एयरलाइन": {
+      "translation": "airline"
+    },
+    "हवाई अड्डा": {
+      "translation": "airport"
+    },
+    "एल्बम": {
+      "translation": "album"
+    },
+    "शराब": {
+      "translation": "alcohol"
+    },
+    "ज़िंदा": {
+      "translation": "alive"
+    },
+    "सब": {
+      "translation": "all"
+    },
+    "संधि": {
+      "translation": "treaty"
+    },
+    "अनुमति": {
+      "translation": "permission"
+    },
+    "मित्र": {
+      "translation": "friend"
+    },
+    "लगभग": {
+      "translation": "nearly"
+    },
+    "अकेला": {
+      "translation": "alone"
+    },
+    "साथ में": {
+      "translation": "with"
+    },
+    "पहले से": {
+      "translation": "previously"
+    },
+    "भी": {
+      "translation": "either"
+    },
+    "बदलने": {
+      "translation": "alter"
+    },
+    "विकल्प": {
+      "translation": "option"
+    },
+    "हालांकि": {
+      "translation": "though"
+    },
+    "हमेशा": {
+      "translation": "always"
+    },
+    "AM": {
+      "translation": "AM"
+    },
+    "गजब का": {
+      "translation": "amazing"
+    },
+    "अमेरिकन": {
+      "translation": "American"
+    },
+    "के बीच में": {
+      "translation": "among"
+    },
+    "रकम": {
+      "translation": "amount"
+    },
+    "विश्लेषण": {
+      "translation": "analyze"
+    },
+    "विश्लेषक": {
+      "translation": "analyst"
+    },
+    "प्राचीन": {
+      "translation": "ancient"
+    },
+    "तथा": {
+      "translation": "and"
+    },
+    "गुस्सा": {
+      "translation": "angry"
+    },
+    "कोण": {
+      "translation": "angle"
+    },
+    "जानवर": {
+      "translation": "animal"
+    },
+    "सालगिरह": {
+      "translation": "anniversary"
+    },
+    "की घोषणा": {
+      "translation": "announce"
+    },
+    "वार्षिक": {
+      "translation": "annual"
+    },
+    "एक और": {
+      "translation": "another"
+    },
+    "उत्तर": {
+      "translation": "north"
+    },
+    "आशा": {
+      "translation": "prospect"
+    },
+    "चिंता": {
+      "translation": "worry"
+    },
+    "कोई भी": {
+      "translation": "any"
+    },
+    "कोई": {
+      "translation": "somebody"
+    },
+    "अब": {
+      "translation": "anymore"
+    },
+    "किसी को": {
+      "translation": "anyone"
+    },
+    "कुछ भी": {
+      "translation": "anything"
+    },
+    "वैसे भी": {
+      "translation": "anyway"
+    },
+    "कहीं भी": {
+      "translation": "anywhere"
+    },
+    "अलग": {
+      "translation": "separate"
+    },
+    "फ्लैट": {
+      "translation": "apartment"
+    },
+    "स्पष्ट": {
+      "translation": "clear"
+    },
+    "जाहिरा तौर पर": {
+      "translation": "apparently"
+    },
+    "अपील": {
+      "translation": "appeal"
+    },
+    "दिखाई": {
+      "translation": "visible"
+    },
+    "दिखावट": {
+      "translation": "appearance"
+    },
+    "सेब": {
+      "translation": "apple"
+    },
+    "आवेदन": {
+      "translation": "application"
+    },
+    "लागू": {
+      "translation": "implement"
+    },
+    "नियुक्त करना": {
+      "translation": "appoint"
+    },
+    "नियुक्ति": {
+      "translation": "appointment"
+    },
+    "सराहना": {
+      "translation": "appreciate"
+    },
+    "उचित": {
+      "translation": "reasonable"
+    },
+    "अनुमोदन": {
+      "translation": "approval"
+    },
+    "मंजूर": {
+      "translation": "approve"
+    },
+    "अरब": {
+      "translation": "Arab"
+    },
+    "वास्तुकार": {
+      "translation": "architect"
+    },
+    "क्षेत्र": {
+      "translation": "zone"
+    },
+    "लोगों का तर्क है": {
+      "translation": "argue"
+    },
+    "बहस": {
+      "translation": "debate"
+    },
+    "उठता": {
+      "translation": "arise"
+    },
+    "हाथ": {
+      "translation": "hand"
+    },
+    "सशस्त्र": {
+      "translation": "armed"
+    },
+    "सेना": {
+      "translation": "troop"
+    },
+    "चारों ओर": {
+      "translation": "around"
+    },
+    "व्यवस्था": {
+      "translation": "arrangement"
+    },
+    "गिरफ़्तार करना": {
+      "translation": "arrest"
+    },
+    "पहुचना": {
+      "translation": "arrival"
+    },
+    "आने": {
+      "translation": "arrive"
+    },
+    "कला": {
+      "translation": "art"
+    },
+    "लेख": {
+      "translation": "article"
+    },
+    "कलाकार": {
+      "translation": "artist"
+    },
+    "कलात्मक": {
+      "translation": "artistic"
+    },
+    "जैसा": {
+      "translation": "as"
+    },
+    "एशियाई": {
+      "translation": "Asian"
+    },
+    "पूछना": {
+      "translation": "ask"
+    },
+    "सो": {
+      "translation": "asleep"
+    },
+    "पहलू": {
+      "translation": "aspect"
+    },
+    "हमला": {
+      "translation": "attack"
+    },
+    "ज़ोर": {
+      "translation": "emphasis"
+    },
+    "आकलन": {
+      "translation": "estimate"
+    },
+    "मूल्यांकन": {
+      "translation": "evaluation"
+    },
+    "संपत्ति": {
+      "translation": "property"
+    },
+    "असाइन": {
+      "translation": "assign"
+    },
+    "असाइनमेंट": {
+      "translation": "assignment"
+    },
+    "सहायक": {
+      "translation": "assistant"
+    },
+    "साथी": {
+      "translation": "partner"
+    },
+    "संगति": {
+      "translation": "association"
+    },
+    "मान लीजिये": {
+      "translation": "assume"
+    },
+    "कल्पना": {
+      "translation": "imagination"
+    },
+    "आश्वासन": {
+      "translation": "assure"
+    },
+    "पर": {
+      "translation": "onto"
+    },
+    "एथलीट": {
+      "translation": "athlete"
+    },
+    "पुष्ट": {
+      "translation": "athletic"
+    },
+    "वायुमंडल": {
+      "translation": "atmosphere"
+    },
+    "संलग्न करें": {
+      "translation": "attach"
+    },
+    "प्रयास": {
+      "translation": "attempt"
+    },
+    "भाग लेने": {
+      "translation": "attend"
+    },
+    "ध्यान": {
+      "translation": "attention"
+    },
+    "रवैया": {
+      "translation": "attitude"
+    },
+    "प्रतिनिधि": {
+      "translation": "representative"
+    },
+    "आकर्षित": {
+      "translation": "attract"
+    },
+    "मोह लेने वाला": {
+      "translation": "attractive"
+    },
+    "गुण": {
+      "translation": "virtue"
+    },
+    "दर्शक": {
+      "translation": "viewer"
+    },
+    "लेखक": {
+      "translation": "writer"
+    },
+    "अधिकार": {
+      "translation": "authority"
+    },
+    "ऑटो": {
+      "translation": "auto"
+    },
+    "उपलब्ध": {
+      "translation": "available"
+    },
+    "औसत": {
+      "translation": "average"
+    },
+    "से बचने": {
+      "translation": "avoid"
+    },
+    "पुरस्कार": {
+      "translation": "award"
+    },
+    "अवगत": {
+      "translation": "aware"
+    },
+    "जागरूकता": {
+      "translation": "awareness"
+    },
+    "दूर": {
+      "translation": "far"
+    },
+    "भयंकर": {
+      "translation": "awful"
+    },
+    "बच्चा": {
+      "translation": "kid"
+    },
+    "वापस": {
+      "translation": "back"
+    },
+    "पृष्ठभूमि": {
+      "translation": "background"
+    },
+    "खराब": {
+      "translation": "bad"
+    },
+    "बुरी तरह": {
+      "translation": "badly"
+    },
+    "बैग": {
+      "translation": "bag"
+    },
+    "सेंकना": {
+      "translation": "bake"
+    },
+    "संतुलन": {
+      "translation": "balance"
+    },
+    "गेंद": {
+      "translation": "ball"
+    },
+    "प्रतिबंध": {
+      "translation": "sanction"
+    },
+    "बैंड": {
+      "translation": "band"
+    },
+    "बैंक": {
+      "translation": "bank"
+    },
+    "बार": {
+      "translation": "bar"
+    },
+    "मुश्किल से": {
+      "translation": "hardly"
+    },
+    "बैरल": {
+      "translation": "barrel"
+    },
+    "बैरियर": {
+      "translation": "barrier"
+    },
+    "आधार": {
+      "translation": "foundation"
+    },
+    "बेसबॉल": {
+      "translation": "baseball"
+    },
+    "बुनियादी": {
+      "translation": "basic"
+    },
+    "मूल रूप से": {
+      "translation": "basically"
+    },
+    "टोकरी": {
+      "translation": "basket"
+    },
+    "बास्केटबाल": {
+      "translation": "basketball"
+    },
+    "बाथरूम": {
+      "translation": "bathroom"
+    },
+    "बैटरी": {
+      "translation": "battery"
+    },
+    "लड़ाई": {
+      "translation": "fight"
+    },
+    "होना": {
+      "translation": "happen"
+    },
+    "समुद्र तट": {
+      "translation": "beach"
+    },
+    "सेम": {
+      "translation": "bean"
+    },
+    "भालू": {
+      "translation": "bear"
+    },
+    "हराना": {
+      "translation": "beat"
+    },
+    "सुंदर": {
+      "translation": "pretty"
+    },
+    "सुंदरता": {
+      "translation": "beauty"
+    },
+    "चूंकि": {
+      "translation": "because"
+    },
+    "बनना": {
+      "translation": "become"
+    },
+    "बिस्तर": {
+      "translation": "bed"
+    },
+    "शयनकक्ष": {
+      "translation": "bedroom"
+    },
+    "बीयर": {
+      "translation": "beer"
+    },
+    "इससे पहले": {
+      "translation": "before"
+    },
+    "शुरू": {
+      "translation": "start"
+    },
+    "शुरुआत": {
+      "translation": "beginning"
+    },
+    "व्यवहार": {
+      "translation": "behavior"
+    },
+    "पीछे": {
+      "translation": "behind"
+    },
+    "किया जा रहा है": {
+      "translation": "being"
+    },
+    "धारणा": {
+      "translation": "notion"
+    },
+    "मानना": {
+      "translation": "feel"
+    },
+    "घंटी": {
+      "translation": "bell"
+    },
+    "संबंधित": {
+      "translation": "relate"
+    },
+    "नीचे": {
+      "translation": "down"
+    },
+    "बेल्ट": {
+      "translation": "belt"
+    },
+    "बेंच": {
+      "translation": "bench"
+    },
+    "झुकना": {
+      "translation": "bend"
+    },
+    "फायदा": {
+      "translation": "profit"
+    },
+    "के बगल में": {
+      "translation": "beside"
+    },
+    "के अतिरिक्त": {
+      "translation": "besides"
+    },
+    "श्रेष्ठ": {
+      "translation": "best"
+    },
+    "शर्त": {
+      "translation": "bet"
+    },
+    "बेहतर": {
+      "translation": "better"
+    },
+    "के बीच": {
+      "translation": "between"
+    },
+    "परे": {
+      "translation": "beyond"
+    },
+    "बाइबिल": {
+      "translation": "Bible"
+    },
+    "बड़े": {
+      "translation": "big"
+    },
+    "बाइक": {
+      "translation": "bike"
+    },
+    "बिल": {
+      "translation": "bill"
+    },
+    "एक अरब": {
+      "translation": "billion"
+    },
+    "बाँध": {
+      "translation": "bind"
+    },
+    "जैविक": {
+      "translation": "organic"
+    },
+    "चिड़िया": {
+      "translation": "bird"
+    },
+    "जन्म": {
+      "translation": "birth"
+    },
+    "जन्मदिन": {
+      "translation": "birthday"
+    },
+    "बिट": {
+      "translation": "bit"
+    },
+    "काटना": {
+      "translation": "crop"
+    },
+    "काली": {
+      "translation": "black"
+    },
+    "ब्लेड": {
+      "translation": "blade"
+    },
+    "दोष": {
+      "translation": "fault"
+    },
+    "कंबल": {
+      "translation": "blanket"
+    },
+    "अंधा": {
+      "translation": "blind"
+    },
+    "खंड मैथा": {
+      "translation": "block"
+    },
+    "रक्त": {
+      "translation": "blood"
+    },
+    "फुंक मारा": {
+      "translation": "blow"
+    },
+    "नीला": {
+      "translation": "blue"
+    },
+    "मंडल": {
+      "translation": "board"
+    },
+    "नाव": {
+      "translation": "float"
+    },
+    "तन": {
+      "translation": "body"
+    },
+    "बम": {
+      "translation": "bomb"
+    },
+    "बम विस्फोट": {
+      "translation": "bombing"
+    },
+    "बंधन": {
+      "translation": "restriction"
+    },
+    "हड्डी": {
+      "translation": "bone"
+    },
+    "पुस्तक": {
+      "translation": "book"
+    },
+    "उछाल": {
+      "translation": "boom"
+    },
+    "बूट": {
+      "translation": "boot"
+    },
+    "सीमा": {
+      "translation": "limitation"
+    },
+    "उत्पन्न होने वाली": {
+      "translation": "born"
+    },
+    "उधार": {
+      "translation": "borrow"
+    },
+    "मालिक": {
+      "translation": "owner"
+    },
+    "दोनों": {
+      "translation": "both"
+    },
+    "नाक में दम करना": {
+      "translation": "bother"
+    },
+    "बोतल": {
+      "translation": "bottle"
+    },
+    "तल": {
+      "translation": "bottom"
+    },
+    "कटोरा": {
+      "translation": "bowl"
+    },
+    "डिब्बा": {
+      "translation": "box"
+    },
+    "लड़का": {
+      "translation": "boy"
+    },
+    "प्रेमी": {
+      "translation": "lover"
+    },
+    "दिमाग": {
+      "translation": "brain"
+    },
+    "डाली": {
+      "translation": "cast"
+    },
+    "ब्रांड": {
+      "translation": "brand"
+    },
+    "रोटी": {
+      "translation": "bread"
+    },
+    "टूटना": {
+      "translation": "break"
+    },
+    "सुबह का नाश्ता": {
+      "translation": "breakfast"
+    },
+    "स्तन": {
+      "translation": "breast"
+    },
+    "सांस": {
+      "translation": "breath"
+    },
+    "साँस लेना": {
+      "translation": "breathe"
+    },
+    "ईंट": {
+      "translation": "brick"
+    },
+    "पुल": {
+      "translation": "bridge"
+    },
+    "संक्षिप्त करें": {
+      "translation": "brief"
+    },
+    "संक्षिप्त": {
+      "translation": "briefly"
+    },
+    "उज्ज्वल": {
+      "translation": "bright"
+    },
+    "प्रतिभाशाली": {
+      "translation": "gifted"
+    },
+    "लाना": {
+      "translation": "bring"
+    },
+    "अंग्रेजों": {
+      "translation": "British"
+    },
+    "व्यापक": {
+      "translation": "vast"
+    },
+    "टूटा हुआ": {
+      "translation": "broken"
+    },
+    "भाई": {
+      "translation": "brother"
+    },
+    "भूरा": {
+      "translation": "brown"
+    },
+    "ब्रश": {
+      "translation": "brush"
+    },
+    "हिरन": {
+      "translation": "deer"
+    },
+    "बजट": {
+      "translation": "budget"
+    },
+    "निर्माण": {
+      "translation": "construction"
+    },
+    "इमारत": {
+      "translation": "building"
+    },
+    "गोली": {
+      "translation": "bullet"
+    },
+    "झुंड": {
+      "translation": "bunch"
+    },
+    "बोझ": {
+      "translation": "burden"
+    },
+    "जलाना": {
+      "translation": "burn"
+    },
+    "दफनाना": {
+      "translation": "bury"
+    },
+    "बस": {
+      "translation": "enough"
+    },
+    "व्यापार": {
+      "translation": "trade"
+    },
+    "व्यस्त": {
+      "translation": "busy"
+    },
+    "परंतु": {
+      "translation": "but"
+    },
+    "मक्खन": {
+      "translation": "butter"
+    },
+    "बटन": {
+      "translation": "button"
+    },
+    "खरीद": {
+      "translation": "buy"
+    },
+    "क्रेता": {
+      "translation": "buyer"
+    },
+    "द्वारा": {
+      "translation": "by"
+    },
+    "केबिन": {
+      "translation": "cabin"
+    },
+    "मंत्रिमंडल": {
+      "translation": "cabinet"
+    },
+    "केबल": {
+      "translation": "cable"
+    },
+    "केक": {
+      "translation": "cake"
+    },
+    "calculate": {
+      "translation": "calculate"
+    },
+    "कॉल": {
+      "translation": "call"
+    },
+    "कैमरा": {
+      "translation": "camera"
+    },
+    "शिविर": {
+      "translation": "camp"
+    },
+    "अभियान": {
+      "translation": "campaign"
+    },
+    "कैंपस": {
+      "translation": "campus"
+    },
+    "कर सकते हैं": {
+      "translation": "can"
+    },
+    "कैनेडियन": {
+      "translation": "Canadian"
+    },
+    "कैंसर": {
+      "translation": "cancer"
+    },
+    "उम्मीदवार": {
+      "translation": "candidate"
+    },
+    "टोपी": {
+      "translation": "hat"
+    },
+    "क्षमता": {
+      "translation": "potential"
+    },
+    "सक्षम": {
+      "translation": "enable"
+    },
+    "राजधानी": {
+      "translation": "capital"
+    },
+    "कप्तान": {
+      "translation": "captain"
+    },
+    "कब्जा": {
+      "translation": "capture"
+    },
+    "गाड़ी": {
+      "translation": "car"
+    },
+    "कार्बन": {
+      "translation": "carbon"
+    },
+    "कार्ड": {
+      "translation": "card"
+    },
+    "देखभाल": {
+      "translation": "care"
+    },
+    "व्यवसाय": {
+      "translation": "profession"
+    },
+    "सावधान": {
+      "translation": "careful"
+    },
+    "सावधानी से": {
+      "translation": "carefully"
+    },
+    "वाहक": {
+      "translation": "carrier"
+    },
+    "कैरी": {
+      "translation": "carry"
+    },
+    "मामला": {
+      "translation": "matter"
+    },
+    "नकद": {
+      "translation": "cash"
+    },
+    "बिल्ली": {
+      "translation": "cat"
+    },
+    "पकड़": {
+      "translation": "hold"
+    },
+    "वर्ग": {
+      "translation": "square"
+    },
+    "कैथोलिक": {
+      "translation": "Catholic"
+    },
+    "कारण": {
+      "translation": "reason"
+    },
+    "अधिकतम सीमा": {
+      "translation": "ceiling"
+    },
+    "जश्न": {
+      "translation": "celebrate"
+    },
+    "उत्सव": {
+      "translation": "celebration"
+    },
+    "सेलिब्रिटी": {
+      "translation": "celebrity"
+    },
+    "सेल": {
+      "translation": "cell"
+    },
+    "केंद्र": {
+      "translation": "center"
+    },
+    "केंद्रीय": {
+      "translation": "central"
+    },
+    "सदी": {
+      "translation": "century"
+    },
+    "सी ई ओ": {
+      "translation": "CEO"
+    },
+    "समारोह": {
+      "translation": "function"
+    },
+    "कुछ": {
+      "translation": "some"
+    },
+    "निश्चित रूप से": {
+      "translation": "surely"
+    },
+    "जंजीर": {
+      "translation": "chain"
+    },
+    "कुरसी": {
+      "translation": "chair"
+    },
+    "अध्यक्ष": {
+      "translation": "president"
+    },
+    "चुनौती": {
+      "translation": "challenge"
+    },
+    "कक्ष": {
+      "translation": "room"
+    },
+    "चैंपियन": {
+      "translation": "champion"
+    },
+    "चैंपियनशिप": {
+      "translation": "championship"
+    },
+    "मोका": {
+      "translation": "chance"
+    },
+    "परिवर्तन": {
+      "translation": "variation"
+    },
+    "बदलना": {
+      "translation": "changing"
+    },
+    "चैनल": {
+      "translation": "channel"
+    },
+    "अध्याय": {
+      "translation": "chapter"
+    },
+    "चरित्र": {
+      "translation": "character"
+    },
+    "विशेषता": {
+      "translation": "characteristic"
+    },
+    "विशेषताएँ": {
+      "translation": "characterize"
+    },
+    "चार्ज": {
+      "translation": "charge"
+    },
+    "दान पुण्य": {
+      "translation": "charity"
+    },
+    "चार्ट": {
+      "translation": "chart"
+    },
+    "पीछा": {
+      "translation": "chase"
+    },
+    "सस्ता": {
+      "translation": "cheap"
+    },
+    "चेक": {
+      "translation": "check"
+    },
+    "गाल": {
+      "translation": "cheek"
+    },
+    "पनीर": {
+      "translation": "cheese"
+    },
+    "बावर्ची": {
+      "translation": "chef"
+    },
+    "रासायनिक": {
+      "translation": "chemical"
+    },
+    "छाती": {
+      "translation": "chest"
+    },
+    "मुर्गी": {
+      "translation": "chicken"
+    },
+    "दार सर": {
+      "translation": "chief"
+    },
+    "बचपन": {
+      "translation": "childhood"
+    },
+    "चीनी": {
+      "translation": "sugar"
+    },
+    "टुकड़ा": {
+      "translation": "slice"
+    },
+    "चॉकलेट": {
+      "translation": "chocolate"
+    },
+    "पसंद": {
+      "translation": "preference"
+    },
+    "कोलेस्ट्रॉल": {
+      "translation": "cholesterol"
+    },
+    "चुनें": {
+      "translation": "choose"
+    },
+    "ईसाई": {
+      "translation": "Christian"
+    },
+    "क्रिसमस": {
+      "translation": "Christmas"
+    },
+    "चर्च": {
+      "translation": "church"
+    },
+    "सिगरेट": {
+      "translation": "cigarette"
+    },
+    "वृत्त": {
+      "translation": "circle"
+    },
+    "परिस्थिति": {
+      "translation": "situation"
+    },
+    "अदालत में तलब करना": {
+      "translation": "cite"
+    },
+    "नागरिक": {
+      "translation": "civil"
+    },
+    "Faridabad": {
+      "translation": "city"
+    },
+    "असैनिक": {
+      "translation": "civilian"
+    },
+    "दावा": {
+      "translation": "claim"
+    },
+    "कक्षा": {
+      "translation": "classroom"
+    },
+    "क्लासिक": {
+      "translation": "classic"
+    },
+    "स्वच्छ": {
+      "translation": "clean"
+    },
+    "स्पष्ट रूप से": {
+      "translation": "clearly"
+    },
+    "ग्राहक": {
+      "translation": "customer"
+    },
+    "जलवायु": {
+      "translation": "climate"
+    },
+    "चढना": {
+      "translation": "climb"
+    },
+    "क्लिनिक": {
+      "translation": "clinic"
+    },
+    "नैदानिक": {
+      "translation": "clinical"
+    },
+    "घड़ी": {
+      "translation": "watch"
+    },
+    "बंद करे": {
+      "translation": "close"
+    },
+    "निकट से": {
+      "translation": "closely"
+    },
+    "करीब": {
+      "translation": "closer"
+    },
+    "वस्त्र": {
+      "translation": "clothes"
+    },
+    "कपड़े": {
+      "translation": "clothing"
+    },
+    "बादल": {
+      "translation": "cloud"
+    },
+    "क्लब": {
+      "translation": "club"
+    },
+    "संकेत": {
+      "translation": "signal"
+    },
+    "समूह": {
+      "translation": "group"
+    },
+    "कोच": {
+      "translation": "coach"
+    },
+    "कोयला": {
+      "translation": "coal"
+    },
+    "गठबंधन": {
+      "translation": "coalition"
+    },
+    "तट": {
+      "translation": "coast"
+    },
+    "कोट": {
+      "translation": "coat"
+    },
+    "कोड": {
+      "translation": "code"
+    },
+    "कॉफ़ी": {
+      "translation": "coffee"
+    },
+    "संज्ञानात्मक": {
+      "translation": "cognitive"
+    },
+    "सर्दी": {
+      "translation": "winter"
+    },
+    "ढहने": {
+      "translation": "collapse"
+    },
+    "साथ काम करने वाला": {
+      "translation": "colleague"
+    },
+    "कलेक्ट": {
+      "translation": "collect"
+    },
+    "संग्रह": {
+      "translation": "collection"
+    },
+    "सामूहिक": {
+      "translation": "collective"
+    },
+    "कॉलेज": {
+      "translation": "college"
+    },
+    "औपनिवेशिक": {
+      "translation": "colonial"
+    },
+    "रंग": {
+      "translation": "paint"
+    },
+    "स्तंभ": {
+      "translation": "column"
+    },
+    "मेल": {
+      "translation": "mail"
+    },
+    "आइए": {
+      "translation": "come"
+    },
+    "कॉमेडी": {
+      "translation": "comedy"
+    },
+    "आराम": {
+      "translation": "rest"
+    },
+    "आरामदायक": {
+      "translation": "comfortable"
+    },
+    "आदेश": {
+      "translation": "command"
+    },
+    "कमांडर": {
+      "translation": "commander"
+    },
+    "टिप्पणी": {
+      "translation": "comment"
+    },
+    "व्यावसायिक": {
+      "translation": "commercial"
+    },
+    "आयोग": {
+      "translation": "commission"
+    },
+    "प्रतिबद्ध": {
+      "translation": "commit"
+    },
+    "प्रतिबद्धता": {
+      "translation": "commitment"
+    },
+    "समिति": {
+      "translation": "committee"
+    },
+    "सामान्य": {
+      "translation": "usual"
+    },
+    "संवाद": {
+      "translation": "dialogue"
+    },
+    "संचार": {
+      "translation": "communication"
+    },
+    "समुदाय": {
+      "translation": "community"
+    },
+    "कंपनी": {
+      "translation": "company"
+    },
+    "तुलना": {
+      "translation": "comparison"
+    },
+    "प्रतिस्पर्धा": {
+      "translation": "event"
+    },
+    "प्रतियोगिता": {
+      "translation": "contest"
+    },
+    "प्रतियोगी": {
+      "translation": "competitor"
+    },
+    "शिकायत": {
+      "translation": "complaint"
+    },
+    "पूरी तरह": {
+      "translation": "completely"
+    },
+    "जटिल": {
+      "translation": "sophisticated"
+    },
+    "उलझा हुआ": {
+      "translation": "complicated"
+    },
+    "अंग": {
+      "translation": "component"
+    },
+    "लिखें": {
+      "translation": "compose"
+    },
+    "रचना": {
+      "translation": "composition"
+    },
+    "संगणक": {
+      "translation": "computer"
+    },
+    "ध्यान केंद्रित": {
+      "translation": "concentrate"
+    },
+    "एकाग्रता": {
+      "translation": "concentration"
+    },
+    "संकल्पना": {
+      "translation": "concept"
+    },
+    "चिंतित": {
+      "translation": "worried"
+    },
+    "संगीत कार्यक्रम": {
+      "translation": "concert"
+    },
+    "निष्कर्ष निकालना": {
+      "translation": "conclude"
+    },
+    "निष्कर्ष": {
+      "translation": "conclusion"
+    },
+    "ठोस": {
+      "translation": "substantial"
+    },
+    "स्थिति": {
+      "translation": "status"
+    },
+    "आचरण": {
+      "translation": "conduct"
+    },
+    "सम्मेलन": {
+      "translation": "convention"
+    },
+    "आत्मविश्वास": {
+      "translation": "confidence"
+    },
+    "विश्वास है": {
+      "translation": "confident"
+    },
+    "पुष्टि करें": {
+      "translation": "confirm"
+    },
+    "संघर्ष": {
+      "translation": "struggle"
+    },
+    "सामना": {
+      "translation": "cope"
+    },
+    "भ्रम की स्थिति": {
+      "translation": "confusion"
+    },
+    "कांग्रेस": {
+      "translation": "congressional"
+    },
+    "जुडिये": {
+      "translation": "connect"
+    },
+    "संबंध": {
+      "translation": "relationship"
+    },
+    "चेतना": {
+      "translation": "consciousness"
+    },
+    "आम सहमति": {
+      "translation": "consensus"
+    },
+    "परिणाम": {
+      "translation": "result"
+    },
+    "अपरिवर्तनवादी": {
+      "translation": "conservative"
+    },
+    "विचार करें": {
+      "translation": "consider"
+    },
+    "महत्वपूर्ण": {
+      "translation": "vital"
+    },
+    "विचार": {
+      "translation": "thought"
+    },
+    "मिलकर बनता है": {
+      "translation": "consist"
+    },
+    "संगत": {
+      "translation": "consistent"
+    },
+    "लगातार": {
+      "translation": "constant"
+    },
+    "निरंतर": {
+      "translation": "continued"
+    },
+    "गठित करना": {
+      "translation": "constitute"
+    },
+    "संवैधानिक": {
+      "translation": "constitutional"
+    },
+    "उपभोग करना": {
+      "translation": "consume"
+    },
+    "उपभोक्ता": {
+      "translation": "consumer"
+    },
+    "सेवन": {
+      "translation": "consumption"
+    },
+    "संपर्क करें": {
+      "translation": "contact"
+    },
+    "शामिल": {
+      "translation": "involved"
+    },
+    "पात्र": {
+      "translation": "container"
+    },
+    "समकालीन": {
+      "translation": "contemporary"
+    },
+    "सामग्री": {
+      "translation": "stuff"
+    },
+    "प्रसंग": {
+      "translation": "context"
+    },
+    "जारी रखें": {
+      "translation": "continue"
+    },
+    "अनुबंध": {
+      "translation": "contract"
+    },
+    "इसके विपरीत": {
+      "translation": "contrast"
+    },
+    "सहयोग": {
+      "translation": "support"
+    },
+    "योगदान": {
+      "translation": "contribution"
+    },
+    "नियंत्रण": {
+      "translation": "control"
+    },
+    "विवादास्पद": {
+      "translation": "controversial"
+    },
+    "विवाद": {
+      "translation": "dispute"
+    },
+    "पारंपरिक": {
+      "translation": "conventional"
+    },
+    "बातचीत": {
+      "translation": "talk"
+    },
+    "धर्मांतरित": {
+      "translation": "convert"
+    },
+    "दोषसिद्धि": {
+      "translation": "conviction"
+    },
+    "समझाने": {
+      "translation": "convince"
+    },
+    "रसोइया": {
+      "translation": "cook"
+    },
+    "कुकी": {
+      "translation": "cookie"
+    },
+    "खाना बनाना": {
+      "translation": "cooking"
+    },
+    "ठंडा": {
+      "translation": "cool"
+    },
+    "पुलिस": {
+      "translation": "police"
+    },
+    "प्रतिलिपि": {
+      "translation": "copy"
+    },
+    "कोर": {
+      "translation": "core"
+    },
+    "मक्का": {
+      "translation": "corn"
+    },
+    "कोना": {
+      "translation": "corner"
+    },
+    "कॉर्पोरेट": {
+      "translation": "corporate"
+    },
+    "निगम": {
+      "translation": "corporation"
+    },
+    "सही बात": {
+      "translation": "correct"
+    },
+    "संवाददाता": {
+      "translation": "correspondent"
+    },
+    "लागत": {
+      "translation": "cost"
+    },
+    "कपास": {
+      "translation": "cotton"
+    },
+    "सोफ़ा": {
+      "translation": "couch"
+    },
+    "सकता है": {
+      "translation": "could"
+    },
+    "परिषद": {
+      "translation": "council"
+    },
+    "परामर्शदाता": {
+      "translation": "counselor"
+    },
+    "गिनती": {
+      "translation": "count"
+    },
+    "काउंटर": {
+      "translation": "counter"
+    },
+    "देश": {
+      "translation": "country"
+    },
+    "काउंटी": {
+      "translation": "county"
+    },
+    "जोड़ा": {
+      "translation": "pair"
+    },
+    "साहस": {
+      "translation": "courage"
+    },
+    "कोर्स": {
+      "translation": "course"
+    },
+    "कोर्ट": {
+      "translation": "court"
+    },
+    "चचेरा भाई": {
+      "translation": "cousin"
+    },
+    "आवरण": {
+      "translation": "cover"
+    },
+    "कवरेज": {
+      "translation": "coverage"
+    },
+    "गाय": {
+      "translation": "cow"
+    },
+    "दरार": {
+      "translation": "crack"
+    },
+    "शिल्प": {
+      "translation": "craft"
+    },
+    "पागल": {
+      "translation": "mad"
+    },
+    "मलाई": {
+      "translation": "cream"
+    },
+    "सृजन करना": {
+      "translation": "create"
+    },
+    "सृष्टि": {
+      "translation": "creation"
+    },
+    "रचनात्मक": {
+      "translation": "creative"
+    },
+    "जंतु": {
+      "translation": "creature"
+    },
+    "श्रेय": {
+      "translation": "credit"
+    },
+    "कर्मी दल": {
+      "translation": "crew"
+    },
+    "अपराध": {
+      "translation": "crime"
+    },
+    "अपराधी": {
+      "translation": "criminal"
+    },
+    "संकट": {
+      "translation": "crisis"
+    },
+    "मानदंड": {
+      "translation": "criteria"
+    },
+    "आलोचक": {
+      "translation": "critic"
+    },
+    "नाजुक": {
+      "translation": "critical"
+    },
+    "आलोचना": {
+      "translation": "criticism"
+    },
+    "आलोचना करना": {
+      "translation": "criticize"
+    },
+    "पार करना": {
+      "translation": "cross"
+    },
+    "भीड़": {
+      "translation": "rush"
+    },
+    "रोना": {
+      "translation": "cry"
+    },
+    "सांस्कृतिक": {
+      "translation": "cultural"
+    },
+    "संस्कृति": {
+      "translation": "culture"
+    },
+    "कप": {
+      "translation": "cup"
+    },
+    "जिज्ञासु": {
+      "translation": "curious"
+    },
+    "वर्तमान": {
+      "translation": "present"
+    },
+    "वर्तमान में": {
+      "translation": "currently"
+    },
+    "पाठ्यक्रम": {
+      "translation": "curriculum"
+    },
+    "रिवाज": {
+      "translation": "custom"
+    },
+    "कट गया": {
+      "translation": "cut"
+    },
+    "चक्र": {
+      "translation": "cycle"
+    },
+    "पिता": {
+      "translation": "father"
+    },
+    "रोज": {
+      "translation": "daily"
+    },
+    "क्षति": {
+      "translation": "damage"
+    },
+    "नृत्य": {
+      "translation": "dance"
+    },
+    "खतरा": {
+      "translation": "danger"
+    },
+    "खतरनाक": {
+      "translation": "dangerous"
+    },
+    "हिम्मत": {
+      "translation": "dare"
+    },
+    "अंधेरा": {
+      "translation": "darkness"
+    },
+    "डेटा": {
+      "translation": "data"
+    },
+    "तारीख": {
+      "translation": "date"
+    },
+    "बेटी": {
+      "translation": "daughter"
+    },
+    "दिन": {
+      "translation": "day"
+    },
+    "मृत": {
+      "translation": "dead"
+    },
+    "सौदा": {
+      "translation": "deal"
+    },
+    "विक्रेता": {
+      "translation": "dealer"
+    },
+    "प्रिय": {
+      "translation": "dear"
+    },
+    "मौत": {
+      "translation": "death"
+    },
+    "कर्ज": {
+      "translation": "debt"
+    },
+    "दशक": {
+      "translation": "decade"
+    },
+    "तय": {
+      "translation": "decide"
+    },
+    "फेसला": {
+      "translation": "decision"
+    },
+    "डेक": {
+      "translation": "deck"
+    },
+    "घोषित": {
+      "translation": "declare"
+    },
+    "पतन": {
+      "translation": "decline"
+    },
+    "कमी": {
+      "translation": "reduction"
+    },
+    "गहरा": {
+      "translation": "deeply"
+    },
+    "हार": {
+      "translation": "defeat"
+    },
+    "बचाव": {
+      "translation": "defensive"
+    },
+    "प्रतिवादी": {
+      "translation": "respondent"
+    },
+    "रक्षा": {
+      "translation": "defense"
+    },
+    "घाटा": {
+      "translation": "deficit"
+    },
+    "परिभाषित": {
+      "translation": "define"
+    },
+    "परिभाषा": {
+      "translation": "definition"
+    },
+    "डिग्री": {
+      "translation": "degree"
+    },
+    "विलंब": {
+      "translation": "delay"
+    },
+    "उद्धार": {
+      "translation": "deliver"
+    },
+    "वितरण": {
+      "translation": "distribution"
+    },
+    "मांग": {
+      "translation": "demand"
+    },
+    "जनतंत्र": {
+      "translation": "democracy"
+    },
+    "प्रजातंत्रवादी": {
+      "translation": "Democrat"
+    },
+    "लोकतांत्रिक": {
+      "translation": "democratic"
+    },
+    "प्रदर्शन करना": {
+      "translation": "demonstrate"
+    },
+    "प्रदर्शन": {
+      "translation": "show"
+    },
+    "मना": {
+      "translation": "deny"
+    },
+    "विभाग": {
+      "translation": "department"
+    },
+    "निर्भर": {
+      "translation": "depend"
+    },
+    "आश्रित": {
+      "translation": "dependent"
+    },
+    "निर्भर करता है": {
+      "translation": "depending"
+    },
+    "चित्रित": {
+      "translation": "depict"
+    },
+    "डिप्रेशन": {
+      "translation": "depression"
+    },
+    "गहराई": {
+      "translation": "depth"
+    },
+    "डिप्टी": {
+      "translation": "deputy"
+    },
+    "निकाले जाते हैं": {
+      "translation": "derive"
+    },
+    "वर्णन": {
+      "translation": "describe"
+    },
+    "विवरण": {
+      "translation": "description"
+    },
+    "रेगिस्तान": {
+      "translation": "desert"
+    },
+    "लायक": {
+      "translation": "worth"
+    },
+    "डिज़ाइन": {
+      "translation": "design"
+    },
+    "डिजाइनर": {
+      "translation": "designer"
+    },
+    "मंशा": {
+      "translation": "desire"
+    },
+    "डेस्क": {
+      "translation": "desk"
+    },
+    "बेकरार": {
+      "translation": "desperate"
+    },
+    "के बावजूद": {
+      "translation": "despite"
+    },
+    "नष्ट": {
+      "translation": "destroy"
+    },
+    "विनाश": {
+      "translation": "destruction"
+    },
+    "विस्तार": {
+      "translation": "extension"
+    },
+    "विस्तृत": {
+      "translation": "detailed"
+    },
+    "पता लगाना": {
+      "translation": "detect"
+    },
+    "निर्धारित": {
+      "translation": "determine"
+    },
+    "विकसित करना": {
+      "translation": "evolve"
+    },
+    "विकसित होना": {
+      "translation": "developing"
+    },
+    "विकास": {
+      "translation": "growth"
+    },
+    "युक्ति": {
+      "translation": "tactic"
+    },
+    "समर्पित": {
+      "translation": "devote"
+    },
+    "मरना": {
+      "translation": "die"
+    },
+    "आहार": {
+      "translation": "diet"
+    },
+    "अंतर": {
+      "translation": "odds"
+    },
+    "विभिन्न": {
+      "translation": "various"
+    },
+    "अलग ढंग से": {
+      "translation": "differently"
+    },
+    "कठिन": {
+      "translation": "difficult"
+    },
+    "कठिनाई": {
+      "translation": "difficulty"
+    },
+    "गड्ढा करना": {
+      "translation": "dig"
+    },
+    "डिजिटल": {
+      "translation": "digital"
+    },
+    "आयाम": {
+      "translation": "dimension"
+    },
+    "भोजन": {
+      "translation": "meal"
+    },
+    "रात का खाना": {
+      "translation": "dinner"
+    },
+    "प्रत्यक्ष": {
+      "translation": "direct"
+    },
+    "दिशा": {
+      "translation": "direction"
+    },
+    "सीधे": {
+      "translation": "straight"
+    },
+    "निदेशक": {
+      "translation": "director"
+    },
+    "गंदगी": {
+      "translation": "dirt"
+    },
+    "गंदा": {
+      "translation": "dirty"
+    },
+    "विकलांगता": {
+      "translation": "disability"
+    },
+    "असहमत": {
+      "translation": "disagree"
+    },
+    "गायब होना": {
+      "translation": "disappear"
+    },
+    "आपदा": {
+      "translation": "disaster"
+    },
+    "अनुशासन": {
+      "translation": "discipline"
+    },
+    "प्रवचन": {
+      "translation": "discourse"
+    },
+    "डिस्कवर": {
+      "translation": "discover"
+    },
+    "खोज": {
+      "translation": "search"
+    },
+    "भेदभाव": {
+      "translation": "discrimination"
+    },
+    "चर्चा करें": {
+      "translation": "discuss"
+    },
+    "विचार-विमर्श": {
+      "translation": "discussion"
+    },
+    "रोग": {
+      "translation": "disease"
+    },
+    "थाली": {
+      "translation": "dish"
+    },
+    "खारिज": {
+      "translation": "dismiss"
+    },
+    "विकार": {
+      "translation": "disorder"
+    },
+    "दूरी": {
+      "translation": "distance"
+    },
+    "भेद": {
+      "translation": "distinction"
+    },
+    "अंतर करना": {
+      "translation": "distinguish"
+    },
+    "वितरित करना": {
+      "translation": "distribute"
+    },
+    "जिला": {
+      "translation": "district"
+    },
+    "विविध": {
+      "translation": "diverse"
+    },
+    "विविधता": {
+      "translation": "variety"
+    },
+    "विभाजन": {
+      "translation": "division"
+    },
+    "तलाक": {
+      "translation": "divorce"
+    },
+    "डीएनए": {
+      "translation": "DNA"
+    },
+    "करना": {
+      "translation": "do"
+    },
+    "चिकित्सक": {
+      "translation": "physician"
+    },
+    "दस्तावेज़": {
+      "translation": "document"
+    },
+    "कुत्ता": {
+      "translation": "dog"
+    },
+    "घरेलू": {
+      "translation": "domestic"
+    },
+    "प्रमुख": {
+      "translation": "major"
+    },
+    "हावी": {
+      "translation": "dominate"
+    },
+    "द्वार": {
+      "translation": "gate"
+    },
+    "दोहरा": {
+      "translation": "double"
+    },
+    "शक": {
+      "translation": "doubt"
+    },
+    "शहर": {
+      "translation": "downtown"
+    },
+    "दर्जन": {
+      "translation": "dozen"
+    },
+    "प्रारूप": {
+      "translation": "draft"
+    },
+    "खींचना": {
+      "translation": "draw"
+    },
+    "नाटक": {
+      "translation": "pretend"
+    },
+    "नाटकीय": {
+      "translation": "dramatic"
+    },
+    "नाटकीय रूप से": {
+      "translation": "dramatically"
+    },
+    "चित्रकारी": {
+      "translation": "drawing"
+    },
+    "ख्वाब": {
+      "translation": "dream"
+    },
+    "पोशाक": {
+      "translation": "dress"
+    },
+    "पीना": {
+      "translation": "drink"
+    },
+    "चलाना": {
+      "translation": "drive"
+    },
+    "चालक": {
+      "translation": "driver"
+    },
+    "ड्रॉप": {
+      "translation": "drop"
+    },
+    "दवाई": {
+      "translation": "medication"
+    },
+    "सूखा": {
+      "translation": "dry"
+    },
+    "देय": {
+      "translation": "due"
+    },
+    "दौरान": {
+      "translation": "during"
+    },
+    "धूल": {
+      "translation": "dust"
+    },
+    "कर्तव्य": {
+      "translation": "obligation"
+    },
+    "से प्रत्येक": {
+      "translation": "each"
+    },
+    "उत्सुक": {
+      "translation": "eager"
+    },
+    "कान": {
+      "translation": "ear"
+    },
+    "जल्दी": {
+      "translation": "early"
+    },
+    "कमाना": {
+      "translation": "earn"
+    },
+    "कमाई": {
+      "translation": "earnings"
+    },
+    "पृथ्वी": {
+      "translation": "earth"
+    },
+    "सरलता": {
+      "translation": "easily"
+    },
+    "पूर्व का": {
+      "translation": "eastern"
+    },
+    "आसान": {
+      "translation": "easy"
+    },
+    "खा": {
+      "translation": "eat"
+    },
+    "आर्थिक": {
+      "translation": "economic"
+    },
+    "अर्थशास्त्र": {
+      "translation": "economics"
+    },
+    "अर्थशास्त्री": {
+      "translation": "economist"
+    },
+    "अर्थव्यवस्था": {
+      "translation": "economy"
+    },
+    "धार": {
+      "translation": "edge"
+    },
+    "संस्करण": {
+      "translation": "version"
+    },
+    "संपादक": {
+      "translation": "editor"
+    },
+    "शिक्षित": {
+      "translation": "educate"
+    },
+    "शिक्षा": {
+      "translation": "education"
+    },
+    "शिक्षात्मक": {
+      "translation": "educational"
+    },
+    "शिक्षक": {
+      "translation": "educator"
+    },
+    "प्रभाव": {
+      "translation": "influence"
+    },
+    "प्रभावी": {
+      "translation": "effective"
+    },
+    "प्रभावी रूप से": {
+      "translation": "effectively"
+    },
+    "दक्षता": {
+      "translation": "efficiency"
+    },
+    "कुशल": {
+      "translation": "efficient"
+    },
+    "प्रयास है": {
+      "translation": "effort"
+    },
+    "अंडा": {
+      "translation": "egg"
+    },
+    "आठ": {
+      "translation": "eight"
+    },
+    "बुज़ुर्ग": {
+      "translation": "elderly"
+    },
+    "चुनाव": {
+      "translation": "election"
+    },
+    "बिजली": {
+      "translation": "electricity"
+    },
+    "इलेक्ट्रोनिक": {
+      "translation": "electronic"
+    },
+    "तत्त्व": {
+      "translation": "element"
+    },
+    "प्राथमिक": {
+      "translation": "elementary"
+    },
+    "को खत्म": {
+      "translation": "eliminate"
+    },
+    "अभिजात वर्ग": {
+      "translation": "elite"
+    },
+    "अन्य": {
+      "translation": "others"
+    },
+    "अन्यत्र": {
+      "translation": "elsewhere"
+    },
+    "ईमेल": {
+      "translation": "e-mail"
+    },
+    "आलिंगन": {
+      "translation": "embrace"
+    },
+    "उभरना": {
+      "translation": "emerge"
+    },
+    "आपातकालीन": {
+      "translation": "emergency"
+    },
+    "उत्सर्जन": {
+      "translation": "emission"
+    },
+    "भावना": {
+      "translation": "emotion"
+    },
+    "भावुक": {
+      "translation": "emotional"
+    },
+    "ज़ोर देना": {
+      "translation": "emphasize"
+    },
+    "काम": {
+      "translation": "work"
+    },
+    "कर्मचारी": {
+      "translation": "staff"
+    },
+    "नियोक्ता": {
+      "translation": "employer"
+    },
+    "रोज़गार": {
+      "translation": "employment"
+    },
+    "खाली": {
+      "translation": "empty"
+    },
+    "मुठभेड़": {
+      "translation": "encounter"
+    },
+    "प्रोत्साहित करना": {
+      "translation": "encourage"
+    },
+    "समाप्त": {
+      "translation": "finish"
+    },
+    "दुश्मन": {
+      "translation": "enemy"
+    },
+    "ऊर्जा": {
+      "translation": "energy"
+    },
+    "प्रवर्तन": {
+      "translation": "enforcement"
+    },
+    "संलग्न": {
+      "translation": "engage"
+    },
+    "यन्त्र": {
+      "translation": "engine"
+    },
+    "इंजीनियर": {
+      "translation": "engineer"
+    },
+    "अभियांत्रिकी": {
+      "translation": "engineering"
+    },
+    "अंग्रेज़ी": {
+      "translation": "English"
+    },
+    "बढ़ाने": {
+      "translation": "raise"
+    },
+    "का आनंद लें": {
+      "translation": "enjoy"
+    },
+    "विशाल": {
+      "translation": "large"
+    },
+    "सुनिश्चित": {
+      "translation": "ensure"
+    },
+    "दर्ज": {
+      "translation": "enter"
+    },
+    "उद्यम": {
+      "translation": "venture"
+    },
+    "मनोरंजन": {
+      "translation": "entertainment"
+    },
+    "संपूर्ण": {
+      "translation": "total"
+    },
+    "पूरी तरह से": {
+      "translation": "totally"
+    },
+    "प्रवेश": {
+      "translation": "entry"
+    },
+    "वातावरण": {
+      "translation": "environment"
+    },
+    "पर्यावरण": {
+      "translation": "environmental"
+    },
+    "प्रकरण": {
+      "translation": "episode"
+    },
+    "बराबरी का": {
+      "translation": "equal"
+    },
+    "समान रूप से": {
+      "translation": "equally"
+    },
+    "उपकरण": {
+      "translation": "equipment"
+    },
+    "युग": {
+      "translation": "era"
+    },
+    "त्रुटि": {
+      "translation": "error"
+    },
+    "पलायन": {
+      "translation": "escape"
+    },
+    "विशेष रूप से": {
+      "translation": "specifically"
+    },
+    "निबंध": {
+      "translation": "essay"
+    },
+    "आवश्यक": {
+      "translation": "essential"
+    },
+    "अनिवार्य रूप से": {
+      "translation": "necessarily"
+    },
+    "स्थापित करना": {
+      "translation": "establish"
+    },
+    "स्थापना": {
+      "translation": "setting"
+    },
+    "जायदाद": {
+      "translation": "estate"
+    },
+    "आदि": {
+      "translation": "etc"
+    },
+    "आचार विचार": {
+      "translation": "ethics"
+    },
+    "संजाति विषयक": {
+      "translation": "ethnic"
+    },
+    "यूरोपीय": {
+      "translation": "European"
+    },
+    "मूल्यांकन करना": {
+      "translation": "evaluate"
+    },
+    "यहाँ तक की": {
+      "translation": "even"
+    },
+    "शाम": {
+      "translation": "evening"
+    },
+    "अंत में": {
+      "translation": "ultimately"
+    },
+    "कभी": {
+      "translation": "ever"
+    },
+    "प्रत्येक": {
+      "translation": "every"
+    },
+    "हर": {
+      "translation": "everybody"
+    },
+    "हर दिन": {
+      "translation": "everyday"
+    },
+    "हर कोई": {
+      "translation": "everyone"
+    },
+    "सब कुछ": {
+      "translation": "everything"
+    },
+    "हर जगह": {
+      "translation": "everywhere"
+    },
+    "सबूत": {
+      "translation": "proof"
+    },
+    "क्रमागत उन्नति": {
+      "translation": "evolution"
+    },
+    "सटीक": {
+      "translation": "exact"
+    },
+    "बिल्कुल सही": {
+      "translation": "exactly"
+    },
+    "इंतिहान": {
+      "translation": "examination"
+    },
+    "की जांच": {
+      "translation": "examine"
+    },
+    "उदाहरण": {
+      "translation": "instance"
+    },
+    "से अधिक": {
+      "translation": "exceed"
+    },
+    "अति उत्कृष्ट": {
+      "translation": "excellent"
+    },
+    "के सिवाय": {
+      "translation": "except"
+    },
+    "अपवाद": {
+      "translation": "exception"
+    },
+    "अदला बदली": {
+      "translation": "exchange"
+    },
+    "उत्तेजित करनेवाला": {
+      "translation": "exciting"
+    },
+    "कार्यपालक": {
+      "translation": "executive"
+    },
+    "व्यायाम": {
+      "translation": "exercise"
+    },
+    "एक्ज़िबिट": {
+      "translation": "exhibit"
+    },
+    "प्रदर्शनी": {
+      "translation": "exhibition"
+    },
+    "मौजूद": {
+      "translation": "exist"
+    },
+    "अस्तित्व": {
+      "translation": "existence"
+    },
+    "मौजूदा": {
+      "translation": "existing"
+    },
+    "उम्मीद": {
+      "translation": "expectation"
+    },
+    "व्यय": {
+      "translation": "expense"
+    },
+    "महंगा": {
+      "translation": "expensive"
+    },
+    "अनुभव": {
+      "translation": "experience"
+    },
+    "प्रयोग": {
+      "translation": "experiment"
+    },
+    "विशेषज्ञ": {
+      "translation": "specialist"
+    },
+    "समझाना": {
+      "translation": "explain"
+    },
+    "व्याख्या": {
+      "translation": "interpretation"
+    },
+    "विस्फोट": {
+      "translation": "explosion"
+    },
+    "अन्वेषण करना": {
+      "translation": "explore"
+    },
+    "बेनकाब": {
+      "translation": "expose"
+    },
+    "संसर्ग": {
+      "translation": "exposure"
+    },
+    "एक्सप्रेस": {
+      "translation": "express"
+    },
+    "अभिव्यक्ति": {
+      "translation": "expression"
+    },
+    "बहुत बड़ा": {
+      "translation": "extensive"
+    },
+    "बाहरी": {
+      "translation": "external"
+    },
+    "असाधारण": {
+      "translation": "remarkable"
+    },
+    "चरम": {
+      "translation": "extreme"
+    },
+    "अत्यंत": {
+      "translation": "extremely"
+    },
+    "आंख": {
+      "translation": "eye"
+    },
+    "कपड़ा": {
+      "translation": "fabric"
+    },
+    "चेहरा": {
+      "translation": "face"
+    },
+    "सुविधा": {
+      "translation": "feature"
+    },
+    "तथ्य": {
+      "translation": "fact"
+    },
+    "फ़ैक्टर": {
+      "translation": "factor"
+    },
+    "फ़ैक्टरी": {
+      "translation": "factory"
+    },
+    "संकाय": {
+      "translation": "faculty"
+    },
+    "मुरझाना": {
+      "translation": "fade"
+    },
+    "विफल": {
+      "translation": "fail"
+    },
+    "असफलता": {
+      "translation": "failure"
+    },
+    "निष्पक्ष": {
+      "translation": "fair"
+    },
+    "काफी": {
+      "translation": "significantly"
+    },
+    "आस्था": {
+      "translation": "faith"
+    },
+    "गिरना": {
+      "translation": "fall"
+    },
+    "असत्य": {
+      "translation": false
+    },
+    "परिचित": {
+      "translation": "familiar"
+    },
+    "परिवार": {
+      "translation": "family"
+    },
+    "प्रसिद्ध": {
+      "translation": "prominent"
+    },
+    "पंखा": {
+      "translation": "fan"
+    },
+    "कपोल कल्पित": {
+      "translation": "fantasy"
+    },
+    "खेत": {
+      "translation": "field"
+    },
+    "किसान": {
+      "translation": "farmer"
+    },
+    "फैशन": {
+      "translation": "fashion"
+    },
+    "तेज": {
+      "translation": "fast"
+    },
+    "मोटी": {
+      "translation": "fat"
+    },
+    "किस्मत": {
+      "translation": "fate"
+    },
+    "एहसान": {
+      "translation": "favor"
+    },
+    "पसंदीदा": {
+      "translation": "favorite"
+    },
+    "डर": {
+      "translation": "fear"
+    },
+    "संघीय": {
+      "translation": "federal"
+    },
+    "शुल्क": {
+      "translation": "fee"
+    },
+    "चारा": {
+      "translation": "feed"
+    },
+    "अनुभूति": {
+      "translation": "perception"
+    },
+    "महिला": {
+      "translation": "woman"
+    },
+    "बाड़": {
+      "translation": "fence"
+    },
+    "कम": {
+      "translation": "short"
+    },
+    "रेशा": {
+      "translation": "fiber"
+    },
+    "उपन्यास": {
+      "translation": "novel"
+    },
+    "पंद्रह": {
+      "translation": "fifteen"
+    },
+    "पांचवां": {
+      "translation": "fifth"
+    },
+    "पचास": {
+      "translation": "fifty"
+    },
+    "योद्धा": {
+      "translation": "fighter"
+    },
+    "मार पिटाई": {
+      "translation": "fighting"
+    },
+    "आकृति": {
+      "translation": "figure"
+    },
+    "फ़ाइल": {
+      "translation": "file"
+    },
+    "भरण": {
+      "translation": "fill"
+    },
+    "फ़िल्म": {
+      "translation": "film"
+    },
+    "अंतिम": {
+      "translation": "last"
+    },
+    "आखिरकार": {
+      "translation": "finally"
+    },
+    "वित्त": {
+      "translation": "finance"
+    },
+    "वित्तीय": {
+      "translation": "financial"
+    },
+    "ठीक": {
+      "translation": "ok"
+    },
+    "उंगली": {
+      "translation": "finger"
+    },
+    "आग": {
+      "translation": "fire"
+    },
+    "दृढ़": {
+      "translation": "firm"
+    },
+    "प्रथम": {
+      "translation": "first"
+    },
+    "मछली": {
+      "translation": "fish"
+    },
+    "मछली पकड़ना": {
+      "translation": "fishing"
+    },
+    "फिट": {
+      "translation": "fit"
+    },
+    "फिटनेस": {
+      "translation": "fitness"
+    },
+    "पांच": {
+      "translation": "five"
+    },
+    "ठीक कर": {
+      "translation": "fix"
+    },
+    "झंडा": {
+      "translation": "flag"
+    },
+    "ज्योति": {
+      "translation": "flame"
+    },
+    "समतल": {
+      "translation": "flat"
+    },
+    "स्वाद": {
+      "translation": "taste"
+    },
+    "भागना": {
+      "translation": "flee"
+    },
+    "मांस": {
+      "translation": "meat"
+    },
+    "उड़ान": {
+      "translation": "flight"
+    },
+    "मंज़िल": {
+      "translation": "floor"
+    },
+    "बहे": {
+      "translation": "flow"
+    },
+    "फूल": {
+      "translation": "flower"
+    },
+    "उड़ना": {
+      "translation": "fly"
+    },
+    "फोकस": {
+      "translation": "focus"
+    },
+    "लोक": {
+      "translation": "folk"
+    },
+    "का पालन करें": {
+      "translation": "follow"
+    },
+    "निम्नलिखित": {
+      "translation": "following"
+    },
+    "खाना": {
+      "translation": "food"
+    },
+    "पैर": {
+      "translation": "foot"
+    },
+    "फ़ुटबॉल": {
+      "translation": "football"
+    },
+    "के लिये": {
+      "translation": "for"
+    },
+    "बल": {
+      "translation": "force"
+    },
+    "विदेशी": {
+      "translation": "foreign"
+    },
+    "जंगल": {
+      "translation": "forest"
+    },
+    "सदैव": {
+      "translation": "forever"
+    },
+    "भूल जाओ": {
+      "translation": "forget"
+    },
+    "प्रपत्र": {
+      "translation": "form"
+    },
+    "औपचारिक": {
+      "translation": "formal"
+    },
+    "गठन": {
+      "translation": "formation"
+    },
+    "भूतपूर्व": {
+      "translation": "former"
+    },
+    "सूत्र": {
+      "translation": "formula"
+    },
+    "भाग्य": {
+      "translation": "luck"
+    },
+    "मिल गया": {
+      "translation": "found"
+    },
+    "संस्थापक": {
+      "translation": "founder"
+    },
+    "चार": {
+      "translation": "four"
+    },
+    "चौथा": {
+      "translation": "fourth"
+    },
+    "ढांचा": {
+      "translation": "framework"
+    },
+    "नि: शुल्क": {
+      "translation": "free"
+    },
+    "स्वतंत्रता": {
+      "translation": "freedom"
+    },
+    "फ्रीज": {
+      "translation": "freeze"
+    },
+    "फ्रेंच": {
+      "translation": "French"
+    },
+    "आवृत्ति": {
+      "translation": "frequency"
+    },
+    "बारंबार": {
+      "translation": "frequent"
+    },
+    "बार बार": {
+      "translation": "frequently"
+    },
+    "ताज़ा": {
+      "translation": "fresh"
+    },
+    "अनुकूल": {
+      "translation": "friendly"
+    },
+    "मित्रता": {
+      "translation": "friendship"
+    },
+    "से": {
+      "translation": "than"
+    },
+    "सामने": {
+      "translation": "opposite"
+    },
+    "फल": {
+      "translation": "fruit"
+    },
+    "निराशा": {
+      "translation": "frustration"
+    },
+    "ईंधन": {
+      "translation": "fuel"
+    },
+    "आनंद": {
+      "translation": "fun"
+    },
+    "निधि": {
+      "translation": "fund"
+    },
+    "मौलिक": {
+      "translation": "fundamental"
+    },
+    "वित्त पोषण": {
+      "translation": "funding"
+    },
+    "अंतिम संस्कार": {
+      "translation": "funeral"
+    },
+    "मजेदार": {
+      "translation": "funny"
+    },
+    "फर्नीचर": {
+      "translation": "furniture"
+    },
+    "और भी": {
+      "translation": "furthermore"
+    },
+    "भविष्य": {
+      "translation": "future"
+    },
+    "लाभ": {
+      "translation": "gain"
+    },
+    "आकाशगंगा": {
+      "translation": "galaxy"
+    },
+    "गेलरी": {
+      "translation": "gallery"
+    },
+    "खेल": {
+      "translation": "sport"
+    },
+    "गिरोह": {
+      "translation": "gang"
+    },
+    "अन्तर": {
+      "translation": "gap"
+    },
+    "गेराज": {
+      "translation": "garage"
+    },
+    "बगीचा": {
+      "translation": "garden"
+    },
+    "लहसुन": {
+      "translation": "garlic"
+    },
+    "गैस": {
+      "translation": "gas"
+    },
+    "इकट्ठा": {
+      "translation": "gather"
+    },
+    "समलैंगिक": {
+      "translation": "gay"
+    },
+    "निगाहें": {
+      "translation": "gaze"
+    },
+    "गियर": {
+      "translation": "gear"
+    },
+    "लिंग": {
+      "translation": "sex"
+    },
+    "जीन": {
+      "translation": "gene"
+    },
+    "आम तौर पर": {
+      "translation": "typically"
+    },
+    "उत्पन्न": {
+      "translation": "generate"
+    },
+    "पीढ़ी": {
+      "translation": "generation"
+    },
+    "आनुवंशिक": {
+      "translation": "genetic"
+    },
+    "सज्जन": {
+      "translation": "gentleman"
+    },
+    "धीरे": {
+      "translation": "gently"
+    },
+    "जर्मन": {
+      "translation": "German"
+    },
+    "इशारा": {
+      "translation": "gesture"
+    },
+    "भूत": {
+      "translation": "ghost"
+    },
+    "उपहार": {
+      "translation": "gift"
+    },
+    "लड़की": {
+      "translation": "girl"
+    },
+    "प्रेमिका": {
+      "translation": "girlfriend"
+    },
+    "देना": {
+      "translation": "give"
+    },
+    "दिया हुआ": {
+      "translation": "given"
+    },
+    "प्रसन्न": {
+      "translation": "glad"
+    },
+    "झलक": {
+      "translation": "glance"
+    },
+    "कांच": {
+      "translation": "glass"
+    },
+    "वैश्विक": {
+      "translation": "global"
+    },
+    "दस्ताना": {
+      "translation": "glove"
+    },
+    "जाओ": {
+      "translation": "go"
+    },
+    "परमेश्वर": {
+      "translation": "God"
+    },
+    "सोना": {
+      "translation": "gold"
+    },
+    "स्वर्ण": {
+      "translation": "golden"
+    },
+    "गोल्फ़": {
+      "translation": "golf"
+    },
+    "अच्छा": {
+      "translation": "nice"
+    },
+    "सरकार": {
+      "translation": "government"
+    },
+    "राज्यपाल": {
+      "translation": "governor"
+    },
+    "लपकना": {
+      "translation": "grab"
+    },
+    "ग्रेड": {
+      "translation": "grade"
+    },
+    "धीरे - धीरे": {
+      "translation": "gradually"
+    },
+    "स्नातक": {
+      "translation": "graduate"
+    },
+    "अनाज": {
+      "translation": "grain"
+    },
+    "बड़ा": {
+      "translation": "massive"
+    },
+    "दादा": {
+      "translation": "grandfather"
+    },
+    "दादी मा": {
+      "translation": "grandmother"
+    },
+    "अनुदान": {
+      "translation": "grant"
+    },
+    "घास": {
+      "translation": "grass"
+    },
+    "गंभीर": {
+      "translation": "severe"
+    },
+    "धूसर": {
+      "translation": "gray"
+    },
+    "महान": {
+      "translation": "great"
+    },
+    "महानतम": {
+      "translation": "greatest"
+    },
+    "हरा": {
+      "translation": "green"
+    },
+    "किराना": {
+      "translation": "grocery"
+    },
+    "भूमि": {
+      "translation": "land"
+    },
+    "बढ़ना": {
+      "translation": "proceed"
+    },
+    "बढ़ रही है": {
+      "translation": "growing"
+    },
+    "गारंटी": {
+      "translation": "guarantee"
+    },
+    "रक्षक": {
+      "translation": "guard"
+    },
+    "अनुमान": {
+      "translation": "guess"
+    },
+    "अतिथि": {
+      "translation": "guest"
+    },
+    "मार्गदर्शक": {
+      "translation": "guide"
+    },
+    "दिशानिर्देश": {
+      "translation": "guideline"
+    },
+    "दोषी": {
+      "translation": "guilty"
+    },
+    "बंदूक": {
+      "translation": "gun"
+    },
+    "पुरुष": {
+      "translation": "male"
+    },
+    "आदत": {
+      "translation": "habit"
+    },
+    "वास": {
+      "translation": "habitat"
+    },
+    "केश": {
+      "translation": "hair"
+    },
+    "आधा": {
+      "translation": "half"
+    },
+    "हॉल": {
+      "translation": "hall"
+    },
+    "मुट्ठी": {
+      "translation": "handful"
+    },
+    "हैंडल": {
+      "translation": "handle"
+    },
+    "लटकना": {
+      "translation": "hang"
+    },
+    "खुश": {
+      "translation": "happy"
+    },
+    "मुश्किल": {
+      "translation": "hard"
+    },
+    "नफरत": {
+      "translation": "hate"
+    },
+    "है": {
+      "translation": "have"
+    },
+    "वह": {
+      "translation": "she"
+    },
+    "सिर": {
+      "translation": "head"
+    },
+    "शीर्षक": {
+      "translation": "title"
+    },
+    "मुख्यालय": {
+      "translation": "headquarters"
+    },
+    "स्वास्थ्य": {
+      "translation": "health"
+    },
+    "स्वस्थ": {
+      "translation": "healthy"
+    },
+    "सुनो": {
+      "translation": "hear"
+    },
+    "सुनवाई": {
+      "translation": "hearing"
+    },
+    "दिल": {
+      "translation": "heart"
+    },
+    "तपिश": {
+      "translation": "heat"
+    },
+    "स्वर्ग": {
+      "translation": "heaven"
+    },
+    "भारी": {
+      "translation": "heavy"
+    },
+    "एड़ी": {
+      "translation": "heel"
+    },
+    "ऊंचाई": {
+      "translation": "height"
+    },
+    "हेलीकॉप्टर": {
+      "translation": "helicopter"
+    },
+    "नरक": {
+      "translation": "hell"
+    },
+    "हैलो": {
+      "translation": "hello"
+    },
+    "मदद": {
+      "translation": "help"
+    },
+    "उपयोगी": {
+      "translation": "useful"
+    },
+    "उसके": {
+      "translation": "his"
+    },
+    "यहाँ": {
+      "translation": "here"
+    },
+    "विरासत": {
+      "translation": "legacy"
+    },
+    "नायक": {
+      "translation": "hero"
+    },
+    "स्वयं": {
+      "translation": "yourself"
+    },
+    "हे": {
+      "translation": "hey"
+    },
+    "नमस्ते": {
+      "translation": "hi"
+    },
+    "छिपाना": {
+      "translation": "hide"
+    },
+    "उच्च": {
+      "translation": "high"
+    },
+    "मुख्य आकर्षण": {
+      "translation": "highlight"
+    },
+    "अत्यधिक": {
+      "translation": "highly"
+    },
+    "हाइवे": {
+      "translation": "highway"
+    },
+    "पहाड़ी": {
+      "translation": "hill"
+    },
+    "उसे": {
+      "translation": "him"
+    },
+    "कमर": {
+      "translation": "hip"
+    },
+    "किराये": {
+      "translation": "hire"
+    },
+    "इतिहासकार": {
+      "translation": "historian"
+    },
+    "ऐतिहासिक": {
+      "translation": "historical"
+    },
+    "इतिहास": {
+      "translation": "history"
+    },
+    "मारो": {
+      "translation": "hit"
+    },
+    "छेद": {
+      "translation": "hole"
+    },
+    "छुट्टी का दिन": {
+      "translation": "holiday"
+    },
+    "पवित्र": {
+      "translation": "holy"
+    },
+    "घर": {
+      "translation": "home"
+    },
+    "बेघर": {
+      "translation": "homeless"
+    },
+    "ईमानदार": {
+      "translation": "honest"
+    },
+    "शहद": {
+      "translation": "honey"
+    },
+    "आदर": {
+      "translation": "honor"
+    },
+    "क्षितिज": {
+      "translation": "horizon"
+    },
+    "डरावनी": {
+      "translation": "horror"
+    },
+    "घोड़ा": {
+      "translation": "horse"
+    },
+    "अस्पताल": {
+      "translation": "hospital"
+    },
+    "मेज़बान": {
+      "translation": "host"
+    },
+    "गरम": {
+      "translation": "warm"
+    },
+    "होटल": {
+      "translation": "hotel"
+    },
+    "घंटा": {
+      "translation": "hour"
+    },
+    "मकान": {
+      "translation": "house"
+    },
+    "गृहस्थी": {
+      "translation": "household"
+    },
+    "आवास": {
+      "translation": "housing"
+    },
+    "किस तरह": {
+      "translation": "how"
+    },
+    "तथापि": {
+      "translation": "however"
+    },
+    "मानव": {
+      "translation": "human"
+    },
+    "हास्य": {
+      "translation": "humor"
+    },
+    "सौ": {
+      "translation": "hundred"
+    },
+    "भूखे पेट": {
+      "translation": "hungry"
+    },
+    "शिकारी": {
+      "translation": "hunter"
+    },
+    "शिकार करना": {
+      "translation": "hunting"
+    },
+    "चोट": {
+      "translation": "injury"
+    },
+    "पति": {
+      "translation": "husband"
+    },
+    "परिकल्पना": {
+      "translation": "hypothesis"
+    },
+    "मैं": {
+      "translation": "I"
+    },
+    "बर्फ": {
+      "translation": "ice"
+    },
+    "आदर्श": {
+      "translation": "ideal"
+    },
+    "पहचान": {
+      "translation": "identity"
+    },
+    "अर्थात": {
+      "translation": "ie"
+    },
+    "अगर": {
+      "translation": "if"
+    },
+    "नज़रअंदाज़ करना": {
+      "translation": "ignore"
+    },
+    "बीमार": {
+      "translation": "sick"
+    },
+    "अवैध": {
+      "translation": "illegal"
+    },
+    "बीमारी": {
+      "translation": "illness"
+    },
+    "उदाहरण देकर स्पष्ट करना": {
+      "translation": "illustrate"
+    },
+    "छवि": {
+      "translation": "image"
+    },
+    "कल्पना कीजिए": {
+      "translation": "imagine"
+    },
+    "तुरंत": {
+      "translation": "immediate"
+    },
+    "हाथोंहाथ": {
+      "translation": "immediately"
+    },
+    "आप्रवासी": {
+      "translation": "immigrant"
+    },
+    "आप्रवासन": {
+      "translation": "immigration"
+    },
+    "निहितार्थ": {
+      "translation": "implication"
+    },
+    "मतलब": {
+      "translation": "mean"
+    },
+    "महत्त्व": {
+      "translation": "importance"
+    },
+    "जरूरी": {
+      "translation": "important"
+    },
+    "थोपना": {
+      "translation": "impose"
+    },
+    "असंभव": {
+      "translation": "impossible"
+    },
+    "Impress": {
+      "translation": "impress"
+    },
+    "प्रभावशाली": {
+      "translation": "impressive"
+    },
+    "सुधारें": {
+      "translation": "improve"
+    },
+    "सुधार की": {
+      "translation": "improvement"
+    },
+    "में": {
+      "translation": "into"
+    },
+    "प्रोत्साहन": {
+      "translation": "incentive"
+    },
+    "घटना": {
+      "translation": "phenomenon"
+    },
+    "समेत": {
+      "translation": "including"
+    },
+    "आय": {
+      "translation": "income"
+    },
+    "बढ़ी हुई": {
+      "translation": "increased"
+    },
+    "बढ़ रहा": {
+      "translation": "increasing"
+    },
+    "तेजी से": {
+      "translation": "rapidly"
+    },
+    "अविश्वसनीय": {
+      "translation": "incredible"
+    },
+    "आजादी": {
+      "translation": "independence"
+    },
+    "स्वतंत्र": {
+      "translation": "independent"
+    },
+    "सूची": {
+      "translation": "list"
+    },
+    "भारतीय": {
+      "translation": "Indian"
+    },
+    "संकेत मिलता है": {
+      "translation": "indicate"
+    },
+    "व्यक्ति": {
+      "translation": "person"
+    },
+    "औद्योगिक": {
+      "translation": "industrial"
+    },
+    "उद्योग": {
+      "translation": "industry"
+    },
+    "शिशु": {
+      "translation": "infant"
+    },
+    "संक्रमण": {
+      "translation": "transition"
+    },
+    "मुद्रास्फीति": {
+      "translation": "inflation"
+    },
+    "सूचित करना": {
+      "translation": "inform"
+    },
+    "जानकारी": {
+      "translation": "information"
+    },
+    "घटक": {
+      "translation": "ingredient"
+    },
+    "प्रारंभिक": {
+      "translation": "opening"
+    },
+    "शुरू में": {
+      "translation": "initially"
+    },
+    "पहल": {
+      "translation": "initiative"
+    },
+    "भीतरी": {
+      "translation": "inner"
+    },
+    "मासूम": {
+      "translation": "innocent"
+    },
+    "जांच": {
+      "translation": "inquiry"
+    },
+    "के भीतर": {
+      "translation": "inside"
+    },
+    "अंतर्दृष्टि": {
+      "translation": "insight"
+    },
+    "जोर देते हैं": {
+      "translation": "insist"
+    },
+    "को प्रेरित": {
+      "translation": "inspire"
+    },
+    "इंस्टॉल": {
+      "translation": "install"
+    },
+    "बजाय": {
+      "translation": "instead"
+    },
+    "संस्थान": {
+      "translation": "institution"
+    },
+    "संस्थागत": {
+      "translation": "institutional"
+    },
+    "अनुदेश": {
+      "translation": "instruction"
+    },
+    "प्रशिक्षक": {
+      "translation": "instructor"
+    },
+    "साधन": {
+      "translation": "tool"
+    },
+    "बीमा": {
+      "translation": "insurance"
+    },
+    "बौद्धिक": {
+      "translation": "intellectual"
+    },
+    "बुद्धि": {
+      "translation": "intelligence"
+    },
+    "इरादा करना": {
+      "translation": "intend"
+    },
+    "तीव्र": {
+      "translation": "rapid"
+    },
+    "तीव्रता": {
+      "translation": "intensity"
+    },
+    "इरादा": {
+      "translation": "intention"
+    },
+    "ब्याज": {
+      "translation": "interest"
+    },
+    "रुचि": {
+      "translation": "interested"
+    },
+    "दिलचस्प": {
+      "translation": "interesting"
+    },
+    "अंदर का": {
+      "translation": "internal"
+    },
+    "अंतरराष्ट्रीय": {
+      "translation": "international"
+    },
+    "इंटरनेट": {
+      "translation": "Internet"
+    },
+    "हस्तक्षेप": {
+      "translation": "intervention"
+    },
+    "साक्षात्कार": {
+      "translation": "interview"
+    },
+    "परिचय कराना": {
+      "translation": "introduce"
+    },
+    "परिचय": {
+      "translation": "introduction"
+    },
+    "आक्रमण": {
+      "translation": "invasion"
+    },
+    "निवेश": {
+      "translation": "investment"
+    },
+    "छान - बीन करना": {
+      "translation": "investigate"
+    },
+    "जाँच पड़ताल": {
+      "translation": "investigation"
+    },
+    "अन्वेषक": {
+      "translation": "investigator"
+    },
+    "निवेशक": {
+      "translation": "investor"
+    },
+    "आमंत्रण": {
+      "translation": "invite"
+    },
+    "भागीदारी": {
+      "translation": "involvement"
+    },
+    "इराक": {
+      "translation": "Iraqi"
+    },
+    "आयरिश": {
+      "translation": "Irish"
+    },
+    "लोहा": {
+      "translation": "iron"
+    },
+    "इस्लामी": {
+      "translation": "Islamic"
+    },
+    "द्वीप": {
+      "translation": "island"
+    },
+    "इजरायल": {
+      "translation": "Israeli"
+    },
+    "मुद्दा": {
+      "translation": "issue"
+    },
+    "यह": {
+      "translation": "it"
+    },
+    "इतालवी": {
+      "translation": "Italian"
+    },
+    "मद": {
+      "translation": "item"
+    },
+    "आईटी इस": {
+      "translation": "its"
+    },
+    "अपने आप": {
+      "translation": "itself"
+    },
+    "जैकेट": {
+      "translation": "jacket"
+    },
+    "जेल": {
+      "translation": "jail"
+    },
+    "जापानी": {
+      "translation": "Japanese"
+    },
+    "जेट": {
+      "translation": "jet"
+    },
+    "यहूदी": {
+      "translation": "Jewish"
+    },
+    "में शामिल होने के": {
+      "translation": "join"
+    },
+    "संयुक्त": {
+      "translation": "joint"
+    },
+    "मज़ाक": {
+      "translation": "joke"
+    },
+    "पत्रिका": {
+      "translation": "magazine"
+    },
+    "पत्रकार": {
+      "translation": "journalist"
+    },
+    "यात्रा": {
+      "translation": "visit"
+    },
+    "हर्ष": {
+      "translation": "joy"
+    },
+    "न्यायाधीश": {
+      "translation": "judge"
+    },
+    "निर्णय": {
+      "translation": "judgment"
+    },
+    "रस": {
+      "translation": "juice"
+    },
+    "कूद": {
+      "translation": "jump"
+    },
+    "कनिष्ठ": {
+      "translation": "junior"
+    },
+    "पंचायत": {
+      "translation": "jury"
+    },
+    "केवल": {
+      "translation": "simply"
+    },
+    "न्याय": {
+      "translation": "justice"
+    },
+    "औचित्य साबित": {
+      "translation": "justify"
+    },
+    "रखना": {
+      "translation": "lay"
+    },
+    "चाभी": {
+      "translation": "key"
+    },
+    "लात": {
+      "translation": "kick"
+    },
+    "मार": {
+      "translation": "kill"
+    },
+    "हत्यारा": {
+      "translation": "killer"
+    },
+    "हत्या": {
+      "translation": "murder"
+    },
+    "मेहरबान": {
+      "translation": "kind"
+    },
+    "राजा": {
+      "translation": "king"
+    },
+    "चुम्मा": {
+      "translation": "kiss"
+    },
+    "रसोई": {
+      "translation": "kitchen"
+    },
+    "घुटना": {
+      "translation": "knee"
+    },
+    "चाकू": {
+      "translation": "knife"
+    },
+    "दस्तक": {
+      "translation": "knock"
+    },
+    "जानना": {
+      "translation": "know"
+    },
+    "ज्ञान": {
+      "translation": "knowledge"
+    },
+    "प्रयोगशाला": {
+      "translation": "laboratory"
+    },
+    "लेबल": {
+      "translation": "label"
+    },
+    "श्रम": {
+      "translation": "labor"
+    },
+    "झील": {
+      "translation": "lake"
+    },
+    "परिदृश्य": {
+      "translation": "scenario"
+    },
+    "भाषा: हिन्दी": {
+      "translation": "language"
+    },
+    "गोद": {
+      "translation": "lap"
+    },
+    "काफी हद तक": {
+      "translation": "largely"
+    },
+    "देर से": {
+      "translation": "late"
+    },
+    "बाद में": {
+      "translation": "later"
+    },
+    "लैटिन": {
+      "translation": "Latin"
+    },
+    "बाद वाला": {
+      "translation": "latter"
+    },
+    "हसना": {
+      "translation": "laugh"
+    },
+    "प्रक्षेपण": {
+      "translation": "launch"
+    },
+    "कानून": {
+      "translation": "law"
+    },
+    "लॉन": {
+      "translation": "lawn"
+    },
+    "मुकदमा": {
+      "translation": "lawsuit"
+    },
+    "परत": {
+      "translation": "layer"
+    },
+    "नेतृत्व": {
+      "translation": "leadership"
+    },
+    "नेता": {
+      "translation": "leader"
+    },
+    "पत्ती": {
+      "translation": "leaf"
+    },
+    "संघ": {
+      "translation": "union"
+    },
+    "दुबला": {
+      "translation": "lean"
+    },
+    "सीखना": {
+      "translation": "learn"
+    },
+    "सीख रहा हूँ": {
+      "translation": "learning"
+    },
+    "कम से कम": {
+      "translation": "least"
+    },
+    "चमड़ा": {
+      "translation": "leather"
+    },
+    "छोड़ना": {
+      "translation": "quit"
+    },
+    "बाएं": {
+      "translation": "left"
+    },
+    "टांग": {
+      "translation": "leg"
+    },
+    "कानूनी": {
+      "translation": "legal"
+    },
+    "किंवदंती": {
+      "translation": "legend"
+    },
+    "विधान": {
+      "translation": "legislation"
+    },
+    "वैध": {
+      "translation": "legitimate"
+    },
+    "नींबू": {
+      "translation": "lemon"
+    },
+    "लंबाई": {
+      "translation": "length"
+    },
+    "कम से": {
+      "translation": "less"
+    },
+    "पाठ": {
+      "translation": "lesson"
+    },
+    "चलो": {
+      "translation": "let"
+    },
+    "पत्र": {
+      "translation": "letter"
+    },
+    "स्तर": {
+      "translation": "level"
+    },
+    "उदार": {
+      "translation": "liberal"
+    },
+    "पुस्तकालय": {
+      "translation": "library"
+    },
+    "लाइसेंस": {
+      "translation": "license"
+    },
+    "झूठ": {
+      "translation": "lie"
+    },
+    "जिंदगी": {
+      "translation": "life"
+    },
+    "जीवन शैली": {
+      "translation": "lifestyle"
+    },
+    "जीवन काल": {
+      "translation": "lifetime"
+    },
+    "लिफ़्ट": {
+      "translation": "lift"
+    },
+    "रोशनी": {
+      "translation": "light"
+    },
+    "उपयुक्त": {
+      "translation": "likely"
+    },
+    "सीमित": {
+      "translation": "limited"
+    },
+    "लाइन": {
+      "translation": "line"
+    },
+    "संपर्क": {
+      "translation": "link"
+    },
+    "ओंठ": {
+      "translation": "lip"
+    },
+    "बात सुनो": {
+      "translation": "listen"
+    },
+    "सचमुच": {
+      "translation": "literally"
+    },
+    "साहित्यिक": {
+      "translation": "literary"
+    },
+    "साहित्य": {
+      "translation": "literature"
+    },
+    "थोड़ा": {
+      "translation": "slightly"
+    },
+    "लाइव": {
+      "translation": "live"
+    },
+    "जीवित": {
+      "translation": "living"
+    },
+    "भार": {
+      "translation": "load"
+    },
+    "ऋण": {
+      "translation": "loan"
+    },
+    "स्थानीय": {
+      "translation": "local"
+    },
+    "का पता लगाने": {
+      "translation": "locate"
+    },
+    "स्थान": {
+      "translation": "spot"
+    },
+    "ताला": {
+      "translation": "lock"
+    },
+    "लंबा": {
+      "translation": "tall"
+    },
+    "दीर्घावधि": {
+      "translation": "long-term"
+    },
+    "नज़र": {
+      "translation": "look"
+    },
+    "ढीला": {
+      "translation": "loose"
+    },
+    "खोना": {
+      "translation": "lose"
+    },
+    "नुकसान": {
+      "translation": "loss"
+    },
+    "खो गया": {
+      "translation": "lost"
+    },
+    "बहुत": {
+      "translation": "very"
+    },
+    "बहुत सारे": {
+      "translation": "lots"
+    },
+    "जोर": {
+      "translation": "loud"
+    },
+    "प्रेम": {
+      "translation": "love"
+    },
+    "सौभाग्यशाली": {
+      "translation": "lucky"
+    },
+    "दोपहर का भोजन": {
+      "translation": "lunch"
+    },
+    "फेफड़ा": {
+      "translation": "lung"
+    },
+    "मशीन": {
+      "translation": "machine"
+    },
+    "मुख्य": {
+      "translation": "primary"
+    },
+    "में मुख्य": {
+      "translation": "mainly"
+    },
+    "बनाए रखने के": {
+      "translation": "retain"
+    },
+    "रखरखाव": {
+      "translation": "maintenance"
+    },
+    "बहुमत": {
+      "translation": "majority"
+    },
+    "बनाना": {
+      "translation": "make"
+    },
+    "निर्माता": {
+      "translation": "producer"
+    },
+    "शृंगार": {
+      "translation": "makeup"
+    },
+    "मॉल": {
+      "translation": "mall"
+    },
+    "आदमी": {
+      "translation": "man"
+    },
+    "प्रबंधन": {
+      "translation": "manage"
+    },
+    "प्रबंध": {
+      "translation": "management"
+    },
+    "प्रबंधक": {
+      "translation": "manager"
+    },
+    "तौर तरीका": {
+      "translation": "manner"
+    },
+    "उत्पादक": {
+      "translation": "manufacturer"
+    },
+    "विनिर्माण": {
+      "translation": "manufacturing"
+    },
+    "अनेक": {
+      "translation": "many"
+    },
+    "नक्शा": {
+      "translation": "map"
+    },
+    "हाशिया": {
+      "translation": "margin"
+    },
+    "निशान": {
+      "translation": "trail"
+    },
+    "बाजार": {
+      "translation": "market"
+    },
+    "विपणन": {
+      "translation": "marketing"
+    },
+    "शादी": {
+      "translation": "wedding"
+    },
+    "विवाहित": {
+      "translation": "married"
+    },
+    "शादी कर": {
+      "translation": "marry"
+    },
+    "मुखौटा": {
+      "translation": "mask"
+    },
+    "द्रव्यमान": {
+      "translation": "mass"
+    },
+    "गुरुजी": {
+      "translation": "master"
+    },
+    "मेल खाते हैं": {
+      "translation": "match"
+    },
+    "गणित": {
+      "translation": "math"
+    },
+    "हो सकता है": {
+      "translation": "might"
+    },
+    "शायद": {
+      "translation": "probably"
+    },
+    "महापौर": {
+      "translation": "mayor"
+    },
+    "मुझे": {
+      "translation": "me"
+    },
+    "अर्थ": {
+      "translation": "meaning"
+    },
+    "इस दौरान": {
+      "translation": "meanwhile"
+    },
+    "उपाय": {
+      "translation": "measure"
+    },
+    "माप": {
+      "translation": "measurement"
+    },
+    "तंत्र": {
+      "translation": "mechanism"
+    },
+    "मीडिया": {
+      "translation": "media"
+    },
+    "मेडिकल": {
+      "translation": "medical"
+    },
+    "दवा": {
+      "translation": "medicine"
+    },
+    "मध्यम": {
+      "translation": "medium"
+    },
+    "मिलना": {
+      "translation": "meet"
+    },
+    "मुलाकात": {
+      "translation": "meeting"
+    },
+    "सदस्य": {
+      "translation": "member"
+    },
+    "सदस्यता": {
+      "translation": "membership"
+    },
+    "याद": {
+      "translation": "recall"
+    },
+    "मानसिक": {
+      "translation": "mental"
+    },
+    "उल्लेख": {
+      "translation": "refer"
+    },
+    "मेन्यू": {
+      "translation": "menu"
+    },
+    "मात्र": {
+      "translation": "mere"
+    },
+    "गड़बड़": {
+      "translation": "mess"
+    },
+    "संदेश": {
+      "translation": "message"
+    },
+    "धातु": {
+      "translation": "metal"
+    },
+    "मीटर": {
+      "translation": "meter"
+    },
+    "तरीका": {
+      "translation": "method"
+    },
+    "मैक्सिकन": {
+      "translation": "Mexican"
+    },
+    "मध्य": {
+      "translation": "middle"
+    },
+    "सैन्य": {
+      "translation": "military"
+    },
+    "दूध": {
+      "translation": "milk"
+    },
+    "दस लाख": {
+      "translation": "million"
+    },
+    "मन": {
+      "translation": "mind"
+    },
+    "मेरी": {
+      "translation": "mine"
+    },
+    "मंत्री": {
+      "translation": "minister"
+    },
+    "नाबालिग": {
+      "translation": "minor"
+    },
+    "अल्पसंख्यक": {
+      "translation": "minority"
+    },
+    "मिनट": {
+      "translation": "minute"
+    },
+    "चमत्कार": {
+      "translation": "miracle"
+    },
+    "आईना": {
+      "translation": "mirror"
+    },
+    "कुमारी": {
+      "translation": "miss"
+    },
+    "मिसाइल": {
+      "translation": "missile"
+    },
+    "मिशन": {
+      "translation": "mission"
+    },
+    "ग़लती": {
+      "translation": "mistake"
+    },
+    "मिश्रण": {
+      "translation": "mixture"
+    },
+    "मिमी-हम्म": {
+      "translation": "mm-hmm"
+    },
+    "मोड": {
+      "translation": "mode"
+    },
+    "नमूना": {
+      "translation": "sample"
+    },
+    "उदारवादी": {
+      "translation": "moderate"
+    },
+    "आधुनिक": {
+      "translation": "modern"
+    },
+    "मामूली": {
+      "translation": "modest"
+    },
+    "माँ": {
+      "translation": "mom"
+    },
+    "पल": {
+      "translation": "moment"
+    },
+    "पैसे": {
+      "translation": "money"
+    },
+    "मॉनिटर": {
+      "translation": "monitor"
+    },
+    "महीना": {
+      "translation": "month"
+    },
+    "मनोदशा": {
+      "translation": "mood"
+    },
+    "चांद": {
+      "translation": "moon"
+    },
+    "नैतिक": {
+      "translation": "moral"
+    },
+    "अधिक": {
+      "translation": "more"
+    },
+    "सुबह": {
+      "translation": "morning"
+    },
+    "बंधक": {
+      "translation": "mortgage"
+    },
+    "अधिकांश": {
+      "translation": "most"
+    },
+    "अधिकतर": {
+      "translation": "mostly"
+    },
+    "मां": {
+      "translation": "mother"
+    },
+    "प्रस्ताव": {
+      "translation": "propose"
+    },
+    "प्रेरणा": {
+      "translation": "motivation"
+    },
+    "मोटर": {
+      "translation": "motor"
+    },
+    "पर्वत": {
+      "translation": "mountain"
+    },
+    "चूहा": {
+      "translation": "mouse"
+    },
+    "मुंह": {
+      "translation": "mouth"
+    },
+    "चाल": {
+      "translation": "move"
+    },
+    "आंदोलन": {
+      "translation": "movement"
+    },
+    "चलचित्र": {
+      "translation": "movie"
+    },
+    "श्री": {
+      "translation": "Mr"
+    },
+    "श्रीमती": {
+      "translation": "Mrs"
+    },
+    "एमएस": {
+      "translation": "Ms"
+    },
+    "मांसपेशी": {
+      "translation": "muscle"
+    },
+    "संग्रहालय": {
+      "translation": "museum"
+    },
+    "संगीत": {
+      "translation": "musical"
+    },
+    "संगीतकार": {
+      "translation": "musician"
+    },
+    "मुसलमान": {
+      "translation": "Muslim"
+    },
+    "जरूर": {
+      "translation": "must"
+    },
+    "आपसी": {
+      "translation": "mutual"
+    },
+    "मेरे": {
+      "translation": "my"
+    },
+    "खुद": {
+      "translation": "myself"
+    },
+    "रहस्य": {
+      "translation": "mystery"
+    },
+    "कल्पित कथा": {
+      "translation": "myth"
+    },
+    "नंगा": {
+      "translation": "naked"
+    },
+    "नाम": {
+      "translation": "name"
+    },
+    "कथा": {
+      "translation": "narrative"
+    },
+    "संकीर्ण": {
+      "translation": "narrow"
+    },
+    "राष्ट्र": {
+      "translation": "nation"
+    },
+    "राष्ट्रीय": {
+      "translation": "national"
+    },
+    "देशी": {
+      "translation": "native"
+    },
+    "प्राकृतिक": {
+      "translation": "natural"
+    },
+    "सहज रूप में": {
+      "translation": "naturally"
+    },
+    "प्रकृति": {
+      "translation": "nature"
+    },
+    "पास में": {
+      "translation": "near"
+    },
+    "पास ही": {
+      "translation": "nearby"
+    },
+    "ज़रूरी": {
+      "translation": "necessary"
+    },
+    "गरदन": {
+      "translation": "neck"
+    },
+    "जरुरत": {
+      "translation": "need"
+    },
+    "नकारात्मक": {
+      "translation": "negative"
+    },
+    "खरीद फरोख्त": {
+      "translation": "purchase"
+    },
+    "मोल भाव": {
+      "translation": "negotiation"
+    },
+    "पड़ोसी": {
+      "translation": "neighbor"
+    },
+    "अड़ोस - पड़ोस": {
+      "translation": "neighborhood"
+    },
+    "न": {
+      "translation": "nor"
+    },
+    "नस": {
+      "translation": "nerve"
+    },
+    "बेचैन": {
+      "translation": "nervous"
+    },
+    "जाल": {
+      "translation": "net"
+    },
+    "नेटवर्क": {
+      "translation": "network"
+    },
+    "कभी नहीँ": {
+      "translation": "never"
+    },
+    "फिर भी": {
+      "translation": "still"
+    },
+    "नया": {
+      "translation": "new"
+    },
+    "नए नए": {
+      "translation": "newly"
+    },
+    "समाचार": {
+      "translation": "news"
+    },
+    "अखबार": {
+      "translation": "newspaper"
+    },
+    "रात": {
+      "translation": "night"
+    },
+    "नौ": {
+      "translation": "nine"
+    },
+    "नहीं": {
+      "translation": "n't"
+    },
+    "कोई भी नहीं": {
+      "translation": "nobody"
+    },
+    "सिर का इशारा": {
+      "translation": "nod"
+    },
+    "शोर": {
+      "translation": "noise"
+    },
+    "नामांकन": {
+      "translation": "nomination"
+    },
+    "कोई नहीं": {
+      "translation": "none"
+    },
+    "साधारण": {
+      "translation": "ordinary"
+    },
+    "सामान्य रूप से": {
+      "translation": "normally"
+    },
+    "उत्तरी": {
+      "translation": "northern"
+    },
+    "नाक": {
+      "translation": "nose"
+    },
+    "ध्यान दें": {
+      "translation": "note"
+    },
+    "कुछ भी तो नहीं": {
+      "translation": "nothing"
+    },
+    "नोटिस": {
+      "translation": "notice"
+    },
+    "अभी": {
+      "translation": "now"
+    },
+    "कहीं भी नहीं": {
+      "translation": "nowhere"
+    },
+    "नाभिकीय": {
+      "translation": "nuclear"
+    },
+    "संख्या": {
+      "translation": "number"
+    },
+    "नर्स": {
+      "translation": "nurse"
+    },
+    "अखरोट": {
+      "translation": "nut"
+    },
+    "वस्तु": {
+      "translation": "object"
+    },
+    "उद्देश्य": {
+      "translation": "purpose"
+    },
+    "अवलोकन": {
+      "translation": "observation"
+    },
+    "निरीक्षण": {
+      "translation": "observe"
+    },
+    "देखने वाला": {
+      "translation": "observer"
+    },
+    "ज़ाहिर": {
+      "translation": "obvious"
+    },
+    "जाहिर है": {
+      "translation": "obviously"
+    },
+    "अवसर": {
+      "translation": "opportunity"
+    },
+    "कभी कभी": {
+      "translation": "sometimes"
+    },
+    "कब्जे": {
+      "translation": "occupation"
+    },
+    "पर कब्जा": {
+      "translation": "occupy"
+    },
+    "पाए जाते हैं": {
+      "translation": "occur"
+    },
+    "सागर": {
+      "translation": "ocean"
+    },
+    "अजीब": {
+      "translation": "strange"
+    },
+    "का": {
+      "translation": "of"
+    },
+    "बंद": {
+      "translation": "shut"
+    },
+    "अपमान": {
+      "translation": "offense"
+    },
+    "अपमानजनक": {
+      "translation": "offensive"
+    },
+    "कार्यालय": {
+      "translation": "office"
+    },
+    "अफ़सर": {
+      "translation": "officer"
+    },
+    "आधिकारिक": {
+      "translation": "official"
+    },
+    "अक्सर": {
+      "translation": "often"
+    },
+    "ओह": {
+      "translation": "oh"
+    },
+    "तेल": {
+      "translation": "oil"
+    },
+    "ठीक है": {
+      "translation": "okay"
+    },
+    "पुराना": {
+      "translation": "old"
+    },
+    "ओलिंपिक": {
+      "translation": "Olympic"
+    },
+    "एक बार": {
+      "translation": "once"
+    },
+    "एक": {
+      "translation": "single"
+    },
+    "चल रही है": {
+      "translation": "ongoing"
+    },
+    "प्याज": {
+      "translation": "onion"
+    },
+    "ऑनलाइन": {
+      "translation": "online"
+    },
+    "खुला हुआ": {
+      "translation": "open"
+    },
+    "संचालित": {
+      "translation": "operate"
+    },
+    "ऑपरेटिंग": {
+      "translation": "operating"
+    },
+    "ऑपरेशन": {
+      "translation": "operation"
+    },
+    "ऑपरेटर": {
+      "translation": "operator"
+    },
+    "राय": {
+      "translation": "view"
+    },
+    "प्रतिद्वंद्वी": {
+      "translation": "opponent"
+    },
+    "का विरोध": {
+      "translation": "oppose"
+    },
+    "विरोध": {
+      "translation": "resist"
+    },
+    "या": {
+      "translation": "or"
+    },
+    "संतरा": {
+      "translation": "orange"
+    },
+    "गण": {
+      "translation": "order"
+    },
+    "संगठन": {
+      "translation": "organization"
+    },
+    "व्यवस्थित": {
+      "translation": "organize"
+    },
+    "उन्मुखीकरण": {
+      "translation": "orientation"
+    },
+    "मूल": {
+      "translation": "original"
+    },
+    "मौलिक रूप से": {
+      "translation": "originally"
+    },
+    "अन्यथा": {
+      "translation": "otherwise"
+    },
+    "चाहिए": {
+      "translation": "should"
+    },
+    "हमारी": {
+      "translation": "our"
+    },
+    "हम": {
+      "translation": "we"
+    },
+    "बाहर": {
+      "translation": "outside"
+    },
+    "ओवन": {
+      "translation": "oven"
+    },
+    "पर काबू पाने": {
+      "translation": "overcome"
+    },
+    "ओवरलुक": {
+      "translation": "overlook"
+    },
+    "आभारी होना": {
+      "translation": "owe"
+    },
+    "अपना": {
+      "translation": "own"
+    },
+    "गति": {
+      "translation": "speed"
+    },
+    "पैक": {
+      "translation": "pack"
+    },
+    "पैकेज": {
+      "translation": "package"
+    },
+    "पृष्ठ": {
+      "translation": "page"
+    },
+    "दर्द": {
+      "translation": "pain"
+    },
+    "दर्दनाक": {
+      "translation": "painful"
+    },
+    "चित्रकार": {
+      "translation": "painter"
+    },
+    "चित्र": {
+      "translation": "portrait"
+    },
+    "पीला": {
+      "translation": "yellow"
+    },
+    "फिलिस्तीनी": {
+      "translation": "Palestinian"
+    },
+    "हथेली": {
+      "translation": "palm"
+    },
+    "कड़ाही": {
+      "translation": "pan"
+    },
+    "पैनल": {
+      "translation": "panel"
+    },
+    "पैंट": {
+      "translation": "pant"
+    },
+    "कागज़": {
+      "translation": "paper"
+    },
+    "माता-पिता": {
+      "translation": "parent"
+    },
+    "पार्क": {
+      "translation": "park"
+    },
+    "पार्किंग": {
+      "translation": "parking"
+    },
+    "अंश": {
+      "translation": "part"
+    },
+    "प्रतिभागी": {
+      "translation": "participant"
+    },
+    "भाग लेना": {
+      "translation": "participation"
+    },
+    "विशेष": {
+      "translation": "special"
+    },
+    "आंशिक रूप में": {
+      "translation": "partly"
+    },
+    "साझेदारी": {
+      "translation": "partnership"
+    },
+    "पार्टी": {
+      "translation": "party"
+    },
+    "उत्तीर्ण करना": {
+      "translation": "pass"
+    },
+    "मार्ग": {
+      "translation": "way"
+    },
+    "यात्री": {
+      "translation": "passenger"
+    },
+    "जुनून": {
+      "translation": "passion"
+    },
+    "अतीत": {
+      "translation": "past"
+    },
+    "पैच": {
+      "translation": "patch"
+    },
+    "पथ": {
+      "translation": "path"
+    },
+    "मरीज़": {
+      "translation": "patient"
+    },
+    "पैटर्न": {
+      "translation": "pattern"
+    },
+    "ठहराव": {
+      "translation": "pause"
+    },
+    "वेतन": {
+      "translation": "wage"
+    },
+    "भुगतान": {
+      "translation": "payment"
+    },
+    "पीसी": {
+      "translation": "PC"
+    },
+    "शांति": {
+      "translation": "silence"
+    },
+    "शिखर": {
+      "translation": "peak"
+    },
+    "सहकर्मी": {
+      "translation": "peer"
+    },
+    "दंड": {
+      "translation": "penalty"
+    },
+    "लोग": {
+      "translation": "people"
+    },
+    "मिर्च": {
+      "translation": "pepper"
+    },
+    "प्रति": {
+      "translation": "per"
+    },
+    "समझना": {
+      "translation": "understand"
+    },
+    "प्रतिशत": {
+      "translation": "percentage"
+    },
+    "उत्तम": {
+      "translation": "super"
+    },
+    "अवधि": {
+      "translation": "term"
+    },
+    "स्थायी": {
+      "translation": "permanent"
+    },
+    "परमिट": {
+      "translation": "permit"
+    },
+    "निजी": {
+      "translation": "private"
+    },
+    "व्यक्तित्व": {
+      "translation": "personality"
+    },
+    "व्यक्तिगत रूप से": {
+      "translation": "personally"
+    },
+    "कर्मियों": {
+      "translation": "personnel"
+    },
+    "परिप्रेक्ष्य": {
+      "translation": "perspective"
+    },
+    "राज़ी करना": {
+      "translation": "persuade"
+    },
+    "पालतू": {
+      "translation": "pet"
+    },
+    "चरण": {
+      "translation": "phase"
+    },
+    "दर्शन": {
+      "translation": "philosophy"
+    },
+    "फ़ोन": {
+      "translation": "phone"
+    },
+    "तस्वीर": {
+      "translation": "photo"
+    },
+    "फोटो": {
+      "translation": "photograph"
+    },
+    "फोटोग्राफर": {
+      "translation": "photographer"
+    },
+    "मुहावरा": {
+      "translation": "phrase"
+    },
+    "शारीरिक": {
+      "translation": "physical"
+    },
+    "शारीरिक रूप से": {
+      "translation": "physically"
+    },
+    "पियानो": {
+      "translation": "piano"
+    },
+    "चुनना": {
+      "translation": "pick"
+    },
+    "पाई": {
+      "translation": "pie"
+    },
+    "ढेर": {
+      "translation": "pile"
+    },
+    "पायलट": {
+      "translation": "pilot"
+    },
+    "देवदार": {
+      "translation": "pine"
+    },
+    "गुलाबी": {
+      "translation": "pink"
+    },
+    "पाइप": {
+      "translation": "pipe"
+    },
+    "पिच": {
+      "translation": "pitch"
+    },
+    "जगह": {
+      "translation": "place"
+    },
+    "योजना": {
+      "translation": "scheme"
+    },
+    "विमान": {
+      "translation": "plane"
+    },
+    "ग्रह": {
+      "translation": "planet"
+    },
+    "पौधा": {
+      "translation": "plant"
+    },
+    "प्लास्टिक": {
+      "translation": "plastic"
+    },
+    "प्लेट": {
+      "translation": "plate"
+    },
+    "मंच": {
+      "translation": "stage"
+    },
+    "खिलाड़ी": {
+      "translation": "player"
+    },
+    "कृप्या": {
+      "translation": "please"
+    },
+    "अभिराम": {
+      "translation": "pleasure"
+    },
+    "खूब": {
+      "translation": "plenty"
+    },
+    "भूखंड": {
+      "translation": "plot"
+    },
+    "प्लस": {
+      "translation": "plus"
+    },
+    "PM": {
+      "translation": "PM"
+    },
+    "जेब": {
+      "translation": "pocket"
+    },
+    "कविता": {
+      "translation": "poetry"
+    },
+    "कवि": {
+      "translation": "poet"
+    },
+    "बिंदु": {
+      "translation": "point"
+    },
+    "खंभा": {
+      "translation": "pole"
+    },
+    "नीति": {
+      "translation": "policy"
+    },
+    "राजनीतिक": {
+      "translation": "political"
+    },
+    "राजनीतिक रूप से": {
+      "translation": "politically"
+    },
+    "राजनीतिज्ञ": {
+      "translation": "politician"
+    },
+    "राजनीति": {
+      "translation": "politics"
+    },
+    "मतदान": {
+      "translation": "poll"
+    },
+    "प्रदूषण": {
+      "translation": "pollution"
+    },
+    "पूल": {
+      "translation": "pool"
+    },
+    "गरीब": {
+      "translation": "poor"
+    },
+    "पॉप": {
+      "translation": "pop"
+    },
+    "लोकप्रिय": {
+      "translation": "popular"
+    },
+    "आबादी": {
+      "translation": "population"
+    },
+    "बरामदा": {
+      "translation": "porch"
+    },
+    "बंदरगाह": {
+      "translation": "port"
+    },
+    "हिस्से": {
+      "translation": "portion"
+    },
+    "चित्रकला": {
+      "translation": "portray"
+    },
+    "मुद्रा": {
+      "translation": "pose"
+    },
+    "सकारात्मक": {
+      "translation": "positive"
+    },
+    "अधिकारी": {
+      "translation": "possess"
+    },
+    "संभावना": {
+      "translation": "possibility"
+    },
+    "मुमकिन": {
+      "translation": "possible"
+    },
+    "संभवतः": {
+      "translation": "possibly"
+    },
+    "पद": {
+      "translation": "rank"
+    },
+    "मटका": {
+      "translation": "pot"
+    },
+    "आलू": {
+      "translation": "potato"
+    },
+    "संभावित": {
+      "translation": "potentially"
+    },
+    "पौंड": {
+      "translation": "pound"
+    },
+    "बहना": {
+      "translation": "pour"
+    },
+    "दरिद्रता": {
+      "translation": "poverty"
+    },
+    "पाउडर": {
+      "translation": "powder"
+    },
+    "शक्ति": {
+      "translation": "strength"
+    },
+    "शक्तिशाली": {
+      "translation": "powerful"
+    },
+    "व्यावहारिक": {
+      "translation": "practical"
+    },
+    "अभ्यास": {
+      "translation": "practice"
+    },
+    "प्रार्थना करना": {
+      "translation": "pray"
+    },
+    "प्रार्थना": {
+      "translation": "prayer"
+    },
+    "यकीनन": {
+      "translation": "precisely"
+    },
+    "भविष्यवाणी": {
+      "translation": "predict"
+    },
+    "पसंद करते हैं": {
+      "translation": "prefer"
+    },
+    "गर्भावस्था": {
+      "translation": "pregnancy"
+    },
+    "गर्भवती": {
+      "translation": "pregnant"
+    },
+    "तैयारी": {
+      "translation": "preparation"
+    },
+    "तैयार": {
+      "translation": "willing"
+    },
+    "पर्चे": {
+      "translation": "prescription"
+    },
+    "उपस्थिति": {
+      "translation": "presence"
+    },
+    "प्रस्तुतीकरण": {
+      "translation": "presentation"
+    },
+    "रक्षित": {
+      "translation": "preserve"
+    },
+    "अध्यक्षीय": {
+      "translation": "presidential"
+    },
+    "दबाएँ": {
+      "translation": "press"
+    },
+    "दबाव": {
+      "translation": "pressure"
+    },
+    "रोकें": {
+      "translation": "prevent"
+    },
+    "पिछला": {
+      "translation": "previous"
+    },
+    "कीमत": {
+      "translation": "price"
+    },
+    "गौरव": {
+      "translation": "pride"
+    },
+    "पुजारी": {
+      "translation": "priest"
+    },
+    "मुख्य रूप से": {
+      "translation": "primarily"
+    },
+    "प्रधान": {
+      "translation": "prime"
+    },
+    "प्रधान अध्यापक": {
+      "translation": "principal"
+    },
+    "सिद्धांत": {
+      "translation": "theory"
+    },
+    "प्रिंट": {
+      "translation": "print"
+    },
+    "प्राथमिकता": {
+      "translation": "priority"
+    },
+    "जेल व": {
+      "translation": "prison"
+    },
+    "बंदी": {
+      "translation": "prisoner"
+    },
+    "एकांत": {
+      "translation": "privacy"
+    },
+    "मुसीबत": {
+      "translation": "trouble"
+    },
+    "प्रक्रिया": {
+      "translation": "process"
+    },
+    "उत्पादित करें": {
+      "translation": "produce"
+    },
+    "उत्पाद": {
+      "translation": "product"
+    },
+    "उत्पादन": {
+      "translation": "production"
+    },
+    "पेशेवर": {
+      "translation": "professional"
+    },
+    "प्रोफ़ेसर": {
+      "translation": "professor"
+    },
+    "प्रोफ़ाइल": {
+      "translation": "profile"
+    },
+    "कार्यक्रम": {
+      "translation": "program"
+    },
+    "प्रगति": {
+      "translation": "progress"
+    },
+    "परियोजना": {
+      "translation": "project"
+    },
+    "वादा": {
+      "translation": "promise"
+    },
+    "को बढ़ावा देना": {
+      "translation": "promote"
+    },
+    "प्रेरित करना": {
+      "translation": "prompt"
+    },
+    "ठीक से": {
+      "translation": "properly"
+    },
+    "अनुपात": {
+      "translation": "ratio"
+    },
+    "प्रस्तावित": {
+      "translation": "proposed"
+    },
+    "अभियोक्ता": {
+      "translation": "prosecutor"
+    },
+    "रक्षा करना": {
+      "translation": "protect"
+    },
+    "सुरक्षा": {
+      "translation": "security"
+    },
+    "प्रोटीन": {
+      "translation": "protein"
+    },
+    "गर्व": {
+      "translation": "proud"
+    },
+    "साबित करना": {
+      "translation": "prove"
+    },
+    "प्रदान करें": {
+      "translation": "provide"
+    },
+    "प्रदाता": {
+      "translation": "provider"
+    },
+    "प्रांत": {
+      "translation": "province"
+    },
+    "प्रावधान": {
+      "translation": "provision"
+    },
+    "मनोवैज्ञानिक": {
+      "translation": "psychological"
+    },
+    "मनोविज्ञानी": {
+      "translation": "psychologist"
+    },
+    "मनोविज्ञान": {
+      "translation": "psychology"
+    },
+    "जनता": {
+      "translation": "public"
+    },
+    "प्रकाशन": {
+      "translation": "publication"
+    },
+    "सार्वजनिक रूप से": {
+      "translation": "publicly"
+    },
+    "प्रकाशित करना": {
+      "translation": "publish"
+    },
+    "प्रकाशक": {
+      "translation": "publisher"
+    },
+    "खींचें": {
+      "translation": "pull"
+    },
+    "सज़ा": {
+      "translation": "punishment"
+    },
+    "शुद्ध": {
+      "translation": "pure"
+    },
+    "आगे बढ़ाने": {
+      "translation": "pursue"
+    },
+    "धक्का दें": {
+      "translation": "push"
+    },
+    "डाल": {
+      "translation": "put"
+    },
+    "अर्हता": {
+      "translation": "qualify"
+    },
+    "गुणवत्ता": {
+      "translation": "quality"
+    },
+    "त्रिमास": {
+      "translation": "quarter"
+    },
+    "क्वार्टरबैक": {
+      "translation": "quarterback"
+    },
+    "सवाल": {
+      "translation": "question"
+    },
+    "शीघ्र": {
+      "translation": "quick"
+    },
+    "जल्दी से": {
+      "translation": "quickly"
+    },
+    "चुप": {
+      "translation": "quiet"
+    },
+    "चुपचाप": {
+      "translation": "quietly"
+    },
+    "उद्धरण": {
+      "translation": "quote"
+    },
+    "दौड़": {
+      "translation": "race"
+    },
+    "जातीय": {
+      "translation": "racial"
+    },
+    "उग्र": {
+      "translation": "radical"
+    },
+    "रेडियो": {
+      "translation": "radio"
+    },
+    "रेल": {
+      "translation": "rail"
+    },
+    "बारिश": {
+      "translation": "rain"
+    },
+    "रेंज": {
+      "translation": "range"
+    },
+    "दुर्लभ": {
+      "translation": "rare"
+    },
+    "शायद ही कभी": {
+      "translation": "rarely"
+    },
+    "मूल्यांकन करें": {
+      "translation": "rate"
+    },
+    "बल्कि": {
+      "translation": "rather"
+    },
+    "रेटिंग": {
+      "translation": "rating"
+    },
+    "कच्चा": {
+      "translation": "raw"
+    },
+    "प्रतिक्रिया": {
+      "translation": "response"
+    },
+    "पढ़ना": {
+      "translation": "reading"
+    },
+    "पाठक": {
+      "translation": "reader"
+    },
+    "असली": {
+      "translation": "real"
+    },
+    "वास्तविकता": {
+      "translation": "reality"
+    },
+    "एहसास": {
+      "translation": "realize"
+    },
+    "प्राप्त करना": {
+      "translation": "receive"
+    },
+    "हाल का": {
+      "translation": "recent"
+    },
+    "हाल ही में": {
+      "translation": "recently"
+    },
+    "विधि": {
+      "translation": "recipe"
+    },
+    "मान्यता": {
+      "translation": "recognition"
+    },
+    "पहचानना": {
+      "translation": "recognize"
+    },
+    "की सिफारिश": {
+      "translation": "recommend"
+    },
+    "सिफ़ारिश करना": {
+      "translation": "recommendation"
+    },
+    "अभिलेख": {
+      "translation": "record"
+    },
+    "रिकॉर्डिंग": {
+      "translation": "recording"
+    },
+    "की वसूली": {
+      "translation": "recover"
+    },
+    "स्वास्थ्य लाभ": {
+      "translation": "recovery"
+    },
+    "रंगरूट": {
+      "translation": "recruit"
+    },
+    "लाल": {
+      "translation": "red"
+    },
+    "कम करना": {
+      "translation": "reduce"
+    },
+    "संदर्भ": {
+      "translation": "reference"
+    },
+    "प्रतिबिंबित": {
+      "translation": "reflect"
+    },
+    "प्रतिबिंब": {
+      "translation": "reflection"
+    },
+    "सुधार": {
+      "translation": "reform"
+    },
+    "शरणार्थी": {
+      "translation": "refugee"
+    },
+    "इनकार": {
+      "translation": "refuse"
+    },
+    "सम्मान": {
+      "translation": "regard"
+    },
+    "के बारे में": {
+      "translation": "regarding"
+    },
+    "परवाह किए बिना": {
+      "translation": "regardless"
+    },
+    "शासन": {
+      "translation": "regime"
+    },
+    "क्षेत्रीय": {
+      "translation": "regional"
+    },
+    "रजिस्टर करें": {
+      "translation": "register"
+    },
+    "नियमित": {
+      "translation": "steady"
+    },
+    "नियमित तौर पर": {
+      "translation": "regularly"
+    },
+    "विनियमित": {
+      "translation": "regulate"
+    },
+    "विनियमन": {
+      "translation": "regulation"
+    },
+    "सुदृढ़": {
+      "translation": "reinforce"
+    },
+    "अस्वीकार": {
+      "translation": "reject"
+    },
+    "रिश्ता": {
+      "translation": "relation"
+    },
+    "सापेक्ष": {
+      "translation": "relative"
+    },
+    "अपेक्षाकृत": {
+      "translation": "relatively"
+    },
+    "आराम करें": {
+      "translation": "relax"
+    },
+    "रिहाई": {
+      "translation": "release"
+    },
+    "से मिलता जुलता": {
+      "translation": "relevant"
+    },
+    "राहत": {
+      "translation": "relief"
+    },
+    "धर्म": {
+      "translation": "religion"
+    },
+    "धार्मिक": {
+      "translation": "sacred"
+    },
+    "भरोसा करना": {
+      "translation": "rely"
+    },
+    "रहना": {
+      "translation": "stay"
+    },
+    "शेष": {
+      "translation": "remaining"
+    },
+    "याद है": {
+      "translation": "remember"
+    },
+    "ध्यान दिलाना": {
+      "translation": "remind"
+    },
+    "दूरस्थ": {
+      "translation": "remote"
+    },
+    "हटाना": {
+      "translation": "remove"
+    },
+    "दोहराना": {
+      "translation": "repeat"
+    },
+    "बार-बार": {
+      "translation": "repeatedly"
+    },
+    "बदलने के": {
+      "translation": "replace"
+    },
+    "जवाब दे दो": {
+      "translation": "reply"
+    },
+    "रिपोर्ट good": {
+      "translation": "report"
+    },
+    "रिपोर्टर": {
+      "translation": "reporter"
+    },
+    "का प्रतिनिधित्व": {
+      "translation": "represent"
+    },
+    "प्रतिनिधित्व": {
+      "translation": "representation"
+    },
+    "रिपब्लिकन": {
+      "translation": "Republican"
+    },
+    "प्रतिष्ठा": {
+      "translation": "reputation"
+    },
+    "निवेदन": {
+      "translation": "request"
+    },
+    "की आवश्यकता होती है": {
+      "translation": "require"
+    },
+    "आवश्यकता": {
+      "translation": "requirement"
+    },
+    "अनुसंधान": {
+      "translation": "research"
+    },
+    "शोधकर्ता": {
+      "translation": "researcher"
+    },
+    "जैसे लगते हैं": {
+      "translation": "resemble"
+    },
+    "आरक्षण": {
+      "translation": "reservation"
+    },
+    "निवासी": {
+      "translation": "resident"
+    },
+    "प्रतिरोध": {
+      "translation": "resistance"
+    },
+    "संकल्प": {
+      "translation": "resolve"
+    },
+    "सहारा": {
+      "translation": "resort"
+    },
+    "संसाधन": {
+      "translation": "resource"
+    },
+    "आदर करना": {
+      "translation": "respect"
+    },
+    "जवाब": {
+      "translation": "respond"
+    },
+    "ज़िम्मेदारी": {
+      "translation": "responsibility"
+    },
+    "उत्तरदायी": {
+      "translation": "responsible"
+    },
+    "खाने की दुकान": {
+      "translation": "restaurant"
+    },
+    "बहाल": {
+      "translation": "restore"
+    },
+    "रिटायर": {
+      "translation": "retire"
+    },
+    "निवृत्ति": {
+      "translation": "retirement"
+    },
+    "वापसी": {
+      "translation": "return"
+    },
+    "पता चलता है": {
+      "translation": "reveal"
+    },
+    "राजस्व": {
+      "translation": "revenue"
+    },
+    "समीक्षा": {
+      "translation": "review"
+    },
+    "क्रांति": {
+      "translation": "revolution"
+    },
+    "ताल": {
+      "translation": "rhythm"
+    },
+    "चावल": {
+      "translation": "rice"
+    },
+    "धनी": {
+      "translation": "wealthy"
+    },
+    "छुटकारा": {
+      "translation": "rid"
+    },
+    "सवारी": {
+      "translation": "ride"
+    },
+    "राइफल": {
+      "translation": "rifle"
+    },
+    "अंगूठी": {
+      "translation": "ring"
+    },
+    "वृद्धि": {
+      "translation": "rise"
+    },
+    "जोखिम": {
+      "translation": "risk"
+    },
+    "नदी": {
+      "translation": "river"
+    },
+    "सड़क": {
+      "translation": "street"
+    },
+    "चट्टान": {
+      "translation": "rock"
+    },
+    "भूमिका": {
+      "translation": "role"
+    },
+    "घूमना": {
+      "translation": "roll"
+    },
+    "प्रेम प्रसंगयुक्त": {
+      "translation": "romantic"
+    },
+    "छत": {
+      "translation": "roof"
+    },
+    "जड़": {
+      "translation": "root"
+    },
+    "रस्सी": {
+      "translation": "rope"
+    },
+    "गुलाब का फूल": {
+      "translation": "rose"
+    },
+    "असभ्य": {
+      "translation": "rough"
+    },
+    "मोटे तौर पर": {
+      "translation": "roughly"
+    },
+    "गोल": {
+      "translation": "round"
+    },
+    "पंक्ति": {
+      "translation": "row"
+    },
+    "रगड़": {
+      "translation": "rub"
+    },
+    "नियम": {
+      "translation": "rule"
+    },
+    "Daud": {
+      "translation": "run"
+    },
+    "चल रहा है": {
+      "translation": "running"
+    },
+    "ग्रामीण": {
+      "translation": "rural"
+    },
+    "रूसी": {
+      "translation": "Russian"
+    },
+    "उदास": {
+      "translation": "sad"
+    },
+    "सुरक्षित": {
+      "translation": "secure"
+    },
+    "खातिर": {
+      "translation": "sake"
+    },
+    "सलाद": {
+      "translation": "salad"
+    },
+    "बिक्री": {
+      "translation": "sales"
+    },
+    "नमक": {
+      "translation": "salt"
+    },
+    "वही": {
+      "translation": "same"
+    },
+    "रेत": {
+      "translation": "sand"
+    },
+    "उपग्रह": {
+      "translation": "satellite"
+    },
+    "संतुष्टि": {
+      "translation": "satisfaction"
+    },
+    "बदला देना": {
+      "translation": "satisfy"
+    },
+    "चटनी": {
+      "translation": "sauce"
+    },
+    "सहेजें": {
+      "translation": "save"
+    },
+    "बचत": {
+      "translation": "saving"
+    },
+    "कहते हैं": {
+      "translation": "say"
+    },
+    "स्केल": {
+      "translation": "scale"
+    },
+    "कांड": {
+      "translation": "scandal"
+    },
+    "डरा हुआ": {
+      "translation": "scared"
+    },
+    "स्थल": {
+      "translation": "scene"
+    },
+    "अनुसूची": {
+      "translation": "schedule"
+    },
+    "पंडित": {
+      "translation": "scholar"
+    },
+    "छात्रवृत्ति": {
+      "translation": "scholarship"
+    },
+    "स्कूल": {
+      "translation": "school"
+    },
+    "विज्ञान": {
+      "translation": "science"
+    },
+    "वैज्ञानिक": {
+      "translation": "scientist"
+    },
+    "स्कोर": {
+      "translation": "score"
+    },
+    "चीख": {
+      "translation": "scream"
+    },
+    "स्क्रीन": {
+      "translation": "screen"
+    },
+    "लिपि": {
+      "translation": "script"
+    },
+    "समुद्र": {
+      "translation": "sea"
+    },
+    "मौसम": {
+      "translation": "weather"
+    },
+    "सीट": {
+      "translation": "seat"
+    },
+    "दूसरा": {
+      "translation": "second"
+    },
+    "गुप्त": {
+      "translation": "secret"
+    },
+    "सचिव": {
+      "translation": "secretary"
+    },
+    "अनुभाग": {
+      "translation": "section"
+    },
+    "देख": {
+      "translation": "see"
+    },
+    "बीज": {
+      "translation": "seed"
+    },
+    "मांगना": {
+      "translation": "seek"
+    },
+    "लगता है": {
+      "translation": "seem"
+    },
+    "खंड": {
+      "translation": "segment"
+    },
+    "को जब्त": {
+      "translation": "seize"
+    },
+    "चुनते हैं": {
+      "translation": "select"
+    },
+    "चयन": {
+      "translation": "selection"
+    },
+    "बेचना": {
+      "translation": "sell"
+    },
+    "प्रबंधकारिणी समिति": {
+      "translation": "Senate"
+    },
+    "सीनेटर": {
+      "translation": "senator"
+    },
+    "भेजने": {
+      "translation": "send"
+    },
+    "वरिष्ठ": {
+      "translation": "senior"
+    },
+    "समझ": {
+      "translation": "understanding"
+    },
+    "संवेदनशील": {
+      "translation": "sensitive"
+    },
+    "वाक्य": {
+      "translation": "sentence"
+    },
+    "अनुक्रम": {
+      "translation": "sequence"
+    },
+    "श्रृंखला": {
+      "translation": "series"
+    },
+    "गंभीरता से": {
+      "translation": "seriously"
+    },
+    "सेवा कर": {
+      "translation": "serve"
+    },
+    "सर्विस": {
+      "translation": "service"
+    },
+    "अधिवेशन": {
+      "translation": "session"
+    },
+    "सेट": {
+      "translation": "set"
+    },
+    "रुकना": {
+      "translation": "settle"
+    },
+    "सात": {
+      "translation": "seven"
+    },
+    "कई": {
+      "translation": "several"
+    },
+    "यौन": {
+      "translation": "sexual"
+    },
+    "छाया": {
+      "translation": "shade"
+    },
+    "साया": {
+      "translation": "shadow"
+    },
+    "शेक": {
+      "translation": "shake"
+    },
+    "करेगा": {
+      "translation": "shall"
+    },
+    "आकार": {
+      "translation": "size"
+    },
+    "शेयर": {
+      "translation": "share"
+    },
+    "तेज़": {
+      "translation": "sharp"
+    },
+    "चादर": {
+      "translation": "wrap"
+    },
+    "शेल्फ": {
+      "translation": "shelf"
+    },
+    "खोल": {
+      "translation": "shell"
+    },
+    "आश्रय": {
+      "translation": "shelter"
+    },
+    "खिसक जाना": {
+      "translation": "shift"
+    },
+    "चमक": {
+      "translation": "shine"
+    },
+    "समुंद्री जहाज": {
+      "translation": "ship"
+    },
+    "कमीज": {
+      "translation": "shirt"
+    },
+    "मल": {
+      "translation": "shit"
+    },
+    "झटका": {
+      "translation": "shock"
+    },
+    "जूता": {
+      "translation": "shoe"
+    },
+    "गोली मार": {
+      "translation": "shoot"
+    },
+    "शूटिंग": {
+      "translation": "shooting"
+    },
+    "दुकान": {
+      "translation": "store"
+    },
+    "खरीदारी": {
+      "translation": "shopping"
+    },
+    "किनारा": {
+      "translation": "shore"
+    },
+    "कुछ ही देर में": {
+      "translation": "shortly"
+    },
+    "शॉट": {
+      "translation": "shot"
+    },
+    "कंधा": {
+      "translation": "shoulder"
+    },
+    "चिल्लाना": {
+      "translation": "shout"
+    },
+    "शावर": {
+      "translation": "shower"
+    },
+    "कंधे उचकाने की क्रिया": {
+      "translation": "shrug"
+    },
+    "पक्ष": {
+      "translation": "side"
+    },
+    "दृष्टि": {
+      "translation": "vision"
+    },
+    "महत्व": {
+      "translation": "significance"
+    },
+    "मूक": {
+      "translation": "silent"
+    },
+    "चांदी": {
+      "translation": "silver"
+    },
+    "समान": {
+      "translation": "similar"
+    },
+    "उसी प्रकार": {
+      "translation": "similarly"
+    },
+    "सरल": {
+      "translation": "simple"
+    },
+    "पाप": {
+      "translation": "sin"
+    },
+    "जबसे": {
+      "translation": "since"
+    },
+    "गाओ": {
+      "translation": "sing"
+    },
+    "गायक": {
+      "translation": "singer"
+    },
+    "सिंक": {
+      "translation": "sink"
+    },
+    "महोदय": {
+      "translation": "sir"
+    },
+    "बहन": {
+      "translation": "sister"
+    },
+    "बैठिये": {
+      "translation": "sit"
+    },
+    "साइट": {
+      "translation": "site"
+    },
+    "छह": {
+      "translation": "six"
+    },
+    "स्की": {
+      "translation": "ski"
+    },
+    "कौशल": {
+      "translation": "skill"
+    },
+    "त्वचा": {
+      "translation": "skin"
+    },
+    "आकाश": {
+      "translation": "sky"
+    },
+    "दास": {
+      "translation": "slave"
+    },
+    "नींद": {
+      "translation": "sleep"
+    },
+    "फिसल पट्टी": {
+      "translation": "slide"
+    },
+    "पर्ची": {
+      "translation": "slip"
+    },
+    "धीमा": {
+      "translation": "slow"
+    },
+    "धीरे से": {
+      "translation": "slowly"
+    },
+    "छोटा": {
+      "translation": "small"
+    },
+    "होशियार": {
+      "translation": "smart"
+    },
+    "गंध": {
+      "translation": "smell"
+    },
+    "मुस्कुराओ": {
+      "translation": "smile"
+    },
+    "धुआं": {
+      "translation": "smoke"
+    },
+    "चिकनी": {
+      "translation": "smooth"
+    },
+    "स्नैप": {
+      "translation": "snap"
+    },
+    "हिमपात": {
+      "translation": "snow"
+    },
+    "इसलिए": {
+      "translation": "so"
+    },
+    "तथाकथित": {
+      "translation": "so-called"
+    },
+    "फुटबॉल": {
+      "translation": "soccer"
+    },
+    "सामाजिक": {
+      "translation": "social"
+    },
+    "समाज": {
+      "translation": "society"
+    },
+    "मुलायम": {
+      "translation": "soft"
+    },
+    "सॉफ्टवेयर": {
+      "translation": "software"
+    },
+    "मिट्टी": {
+      "translation": "soil"
+    },
+    "सौर": {
+      "translation": "solar"
+    },
+    "फोजी": {
+      "translation": "soldier"
+    },
+    "समाधान": {
+      "translation": "solution"
+    },
+    "का समाधान": {
+      "translation": "solve"
+    },
+    "किसी न किसी तरह": {
+      "translation": "somehow"
+    },
+    "कोई व्यक्ति": {
+      "translation": "someone"
+    },
+    "कुछ कुछ": {
+      "translation": "something"
+    },
+    "कुछ हद तक": {
+      "translation": "somewhat"
+    },
+    "कहीं": {
+      "translation": "somewhere"
+    },
+    "बेटा": {
+      "translation": "son"
+    },
+    "गीत": {
+      "translation": "song"
+    },
+    "जल्द ही": {
+      "translation": "soon"
+    },
+    "माफ़ करना": {
+      "translation": "sorry"
+    },
+    "तरह": {
+      "translation": "sort"
+    },
+    "अन्त: मन": {
+      "translation": "soul"
+    },
+    "ध्वनि": {
+      "translation": "sound"
+    },
+    "सूप": {
+      "translation": "soup"
+    },
+    "स्रोत": {
+      "translation": "source"
+    },
+    "दक्षिण": {
+      "translation": "southern"
+    },
+    "सोवियत": {
+      "translation": "Soviet"
+    },
+    "अंतरिक्ष": {
+      "translation": "space"
+    },
+    "स्पेनिश": {
+      "translation": "Spanish"
+    },
+    "बोले": {
+      "translation": "speak"
+    },
+    "वक्ता": {
+      "translation": "speaker"
+    },
+    "जाति": {
+      "translation": "species"
+    },
+    "विशिष्ट": {
+      "translation": "specific"
+    },
+    "भाषण": {
+      "translation": "speech"
+    },
+    "बिताना": {
+      "translation": "spend"
+    },
+    "खर्च": {
+      "translation": "spending"
+    },
+    "स्पिन": {
+      "translation": "spin"
+    },
+    "आत्मा": {
+      "translation": "spirit"
+    },
+    "आध्यात्मिक": {
+      "translation": "spiritual"
+    },
+    "विभाजित करें": {
+      "translation": "split"
+    },
+    "प्रवक्ता": {
+      "translation": "spokesman"
+    },
+    "फैलाव": {
+      "translation": "spread"
+    },
+    "वसंत": {
+      "translation": "spring"
+    },
+    "निचोड़": {
+      "translation": "squeeze"
+    },
+    "स्थिरता": {
+      "translation": "stability"
+    },
+    "स्थिर": {
+      "translation": "stable"
+    },
+    "सीढ़ी": {
+      "translation": "stair"
+    },
+    "दाँव": {
+      "translation": "stake"
+    },
+    "खड़ा": {
+      "translation": "stand"
+    },
+    "मानक": {
+      "translation": "standard"
+    },
+    "खड़ा है": {
+      "translation": "standing"
+    },
+    "सितारा": {
+      "translation": "star"
+    },
+    "एकटक देखना": {
+      "translation": "stare"
+    },
+    "राज्य": {
+      "translation": "state"
+    },
+    "बयान": {
+      "translation": "statement"
+    },
+    "स्टेशन": {
+      "translation": "station"
+    },
+    "आंकड़े": {
+      "translation": "statistics"
+    },
+    "चुराना": {
+      "translation": "steal"
+    },
+    "इस्पात": {
+      "translation": "steel"
+    },
+    "कदम": {
+      "translation": "step"
+    },
+    "छड़ी": {
+      "translation": "stick"
+    },
+    "हलचल": {
+      "translation": "stir"
+    },
+    "भण्डार": {
+      "translation": "stock"
+    },
+    "पेट": {
+      "translation": "stomach"
+    },
+    "पथरी": {
+      "translation": "stone"
+    },
+    "रुकें": {
+      "translation": "stop"
+    },
+    "भंडारण": {
+      "translation": "storage"
+    },
+    "आंधी": {
+      "translation": "storm"
+    },
+    "कहानी": {
+      "translation": "tale"
+    },
+    "अजनबी": {
+      "translation": "stranger"
+    },
+    "सामरिक": {
+      "translation": "strategic"
+    },
+    "रणनीति": {
+      "translation": "strategy"
+    },
+    "धारा": {
+      "translation": "stream"
+    },
+    "मजबूत बनाना": {
+      "translation": "strengthen"
+    },
+    "तनाव": {
+      "translation": "tension"
+    },
+    "खिंचाव": {
+      "translation": "stretch"
+    },
+    "हड़ताल": {
+      "translation": "strike"
+    },
+    "तार": {
+      "translation": "wire"
+    },
+    "पट्टी": {
+      "translation": "strip"
+    },
+    "आघात": {
+      "translation": "stroke"
+    },
+    "बलवान": {
+      "translation": "strong"
+    },
+    "दृढ़ता से": {
+      "translation": "strongly"
+    },
+    "संरचना": {
+      "translation": "structure"
+    },
+    "छात्र": {
+      "translation": "student"
+    },
+    "स्टूडियो": {
+      "translation": "studio"
+    },
+    "अध्ययन": {
+      "translation": "study"
+    },
+    "बेवकूफ": {
+      "translation": "stupid"
+    },
+    "अंदाज": {
+      "translation": "style"
+    },
+    "विषय": {
+      "translation": "topic"
+    },
+    "प्रस्तुत": {
+      "translation": "submit"
+    },
+    "आगामी": {
+      "translation": "subsequent"
+    },
+    "पदार्थ": {
+      "translation": "substance"
+    },
+    "सफल होने के": {
+      "translation": "succeed"
+    },
+    "सफलता": {
+      "translation": "success"
+    },
+    "सफल": {
+      "translation": "successful"
+    },
+    "सफलतापूर्वक": {
+      "translation": "successfully"
+    },
+    "ऐसा": {
+      "translation": "such"
+    },
+    "अचानक": {
+      "translation": "sudden"
+    },
+    "अचानक से": {
+      "translation": "suddenly"
+    },
+    "मुक़दमा चलाना": {
+      "translation": "sue"
+    },
+    "भुगतना": {
+      "translation": "suffer"
+    },
+    "सुझाना": {
+      "translation": "suggest"
+    },
+    "सुझाव": {
+      "translation": "suggestion"
+    },
+    "आत्महत्या": {
+      "translation": "suicide"
+    },
+    "सूट": {
+      "translation": "suit"
+    },
+    "गर्मी": {
+      "translation": "summer"
+    },
+    "शिखर सम्मेलन": {
+      "translation": "summit"
+    },
+    "रवि": {
+      "translation": "sun"
+    },
+    "आपूर्ति": {
+      "translation": "supply"
+    },
+    "समर्थक": {
+      "translation": "supporter"
+    },
+    "मान लीजिए": {
+      "translation": "suppose"
+    },
+    "माना": {
+      "translation": "supposed"
+    },
+    "सुप्रीम": {
+      "translation": "Supreme"
+    },
+    "ज़रूर": {
+      "translation": "sure"
+    },
+    "सतह": {
+      "translation": "surface"
+    },
+    "शल्य चिकित्सा": {
+      "translation": "surgery"
+    },
+    "आश्चर्य": {
+      "translation": "wonder"
+    },
+    "आश्चर्य चकित": {
+      "translation": "surprised"
+    },
+    "चौंका देने वाला": {
+      "translation": "surprising"
+    },
+    "हैरानी की बात है": {
+      "translation": "surprisingly"
+    },
+    "चारों ओर से घेरना": {
+      "translation": "surround"
+    },
+    "सर्वेक्षण": {
+      "translation": "survey"
+    },
+    "उत्तरजीविता": {
+      "translation": "survival"
+    },
+    "बना रहना": {
+      "translation": "survive"
+    },
+    "उत्तरजीवी": {
+      "translation": "survivor"
+    },
+    "संदिग्ध": {
+      "translation": "suspect"
+    },
+    "बनाए रखना": {
+      "translation": "sustain"
+    },
+    "कसम खाता": {
+      "translation": "swear"
+    },
+    "झाड़ू लगा दो": {
+      "translation": "sweep"
+    },
+    "मिठाई": {
+      "translation": "sweet"
+    },
+    "तैरना": {
+      "translation": "swim"
+    },
+    "झूला": {
+      "translation": "swing"
+    },
+    "स्विच": {
+      "translation": "switch"
+    },
+    "प्रतीक": {
+      "translation": "symbol"
+    },
+    "लक्षण": {
+      "translation": "symptom"
+    },
+    "प्रणाली": {
+      "translation": "system"
+    },
+    "तालिका": {
+      "translation": "table"
+    },
+    "बड़ा चमचा": {
+      "translation": "tablespoon"
+    },
+    "पूंछ": {
+      "translation": "tail"
+    },
+    "लेना": {
+      "translation": "take"
+    },
+    "प्रतिभा": {
+      "translation": "talent"
+    },
+    "टैंक": {
+      "translation": "tank"
+    },
+    "नल टोटी": {
+      "translation": "tap"
+    },
+    "फीता": {
+      "translation": "tape"
+    },
+    "कर": {
+      "translation": "tax"
+    },
+    "करदाता": {
+      "translation": "taxpayer"
+    },
+    "चाय": {
+      "translation": "tea"
+    },
+    "सिखाने": {
+      "translation": "teach"
+    },
+    "अध्यापक": {
+      "translation": "teacher"
+    },
+    "शिक्षण": {
+      "translation": "teaching"
+    },
+    "टीम": {
+      "translation": "team"
+    },
+    "आँसू": {
+      "translation": "tear"
+    },
+    "छोटी चम्मच": {
+      "translation": "teaspoon"
+    },
+    "तकनीकी": {
+      "translation": "technical"
+    },
+    "तकनीक": {
+      "translation": "technique"
+    },
+    "प्रौद्योगिकी": {
+      "translation": "technology"
+    },
+    "टेलीफोन": {
+      "translation": "telephone"
+    },
+    "दूरबीन": {
+      "translation": "telescope"
+    },
+    "टेलीविजन": {
+      "translation": "television"
+    },
+    "कहना": {
+      "translation": "tell"
+    },
+    "तापमान": {
+      "translation": "temperature"
+    },
+    "अस्थायी": {
+      "translation": "temporary"
+    },
+    "दस": {
+      "translation": "ten"
+    },
+    "देते हैं": {
+      "translation": "tend"
+    },
+    "प्रवृत्ति": {
+      "translation": "trend"
+    },
+    "टेनिस": {
+      "translation": "tennis"
+    },
+    "तंबू": {
+      "translation": "tent"
+    },
+    "मामले": {
+      "translation": "terms"
+    },
+    "भयानक": {
+      "translation": "tremendous"
+    },
+    "आतंक": {
+      "translation": "terrorism"
+    },
+    "आतंकवादी": {
+      "translation": "terrorist"
+    },
+    "परीक्षा": {
+      "translation": "test"
+    },
+    "गवाही देना": {
+      "translation": "testify"
+    },
+    "गवाही": {
+      "translation": "testimony"
+    },
+    "परिक्षण": {
+      "translation": "testing"
+    },
+    "टेक्स्ट": {
+      "translation": "text"
+    },
+    "धन्यवाद": {
+      "translation": "thanks"
+    },
+    "उस": {
+      "translation": "that"
+    },
+    "थिएटर": {
+      "translation": "theater"
+    },
+    "जो अपने": {
+      "translation": "their"
+    },
+    "उन्हें": {
+      "translation": "them"
+    },
+    "अपने": {
+      "translation": "themselves"
+    },
+    "चिकित्सा": {
+      "translation": "therapy"
+    },
+    "वहाँ": {
+      "translation": "there"
+    },
+    "इसलिये": {
+      "translation": "therefore"
+    },
+    "इन": {
+      "translation": "these"
+    },
+    "वे": {
+      "translation": "they"
+    },
+    "मोटा": {
+      "translation": "thick"
+    },
+    "पतला": {
+      "translation": "thin"
+    },
+    "चीज़": {
+      "translation": "thing"
+    },
+    "सोच": {
+      "translation": "think"
+    },
+    "विचारधारा": {
+      "translation": "thinking"
+    },
+    "तीसरा": {
+      "translation": "third"
+    },
+    "तीस": {
+      "translation": "thirty"
+    },
+    "इस": {
+      "translation": "this"
+    },
+    "उन": {
+      "translation": "those"
+    },
+    "हज़ार": {
+      "translation": "thousand"
+    },
+    "धमकी": {
+      "translation": "threat"
+    },
+    "धमकाना": {
+      "translation": "threaten"
+    },
+    "तीन": {
+      "translation": "three"
+    },
+    "गला": {
+      "translation": "throat"
+    },
+    "के माध्यम से": {
+      "translation": "through"
+    },
+    "भर": {
+      "translation": "throughout"
+    },
+    "फेंकना": {
+      "translation": "throw"
+    },
+    "इस प्रकार": {
+      "translation": "thus"
+    },
+    "टिकट": {
+      "translation": "ticket"
+    },
+    "गुलोबन्द": {
+      "translation": "tie"
+    },
+    "तंग": {
+      "translation": "tight"
+    },
+    "समय": {
+      "translation": "time"
+    },
+    "छोटे": {
+      "translation": "tiny"
+    },
+    "टिप": {
+      "translation": "tip"
+    },
+    "टायर": {
+      "translation": "tire"
+    },
+    "थका हुआ": {
+      "translation": "tired"
+    },
+    "ऊतक": {
+      "translation": "tissue"
+    },
+    "सेवा": {
+      "translation": "to"
+    },
+    "तंबाकू": {
+      "translation": "tobacco"
+    },
+    "आज": {
+      "translation": "today"
+    },
+    "पैर की अंगुली": {
+      "translation": "toe"
+    },
+    "टमाटर": {
+      "translation": "tomato"
+    },
+    "आने वाला कल": {
+      "translation": "tomorrow"
+    },
+    "सुर": {
+      "translation": "tone"
+    },
+    "जुबान": {
+      "translation": "tongue"
+    },
+    "आज रात": {
+      "translation": "tonight"
+    },
+    "दांत": {
+      "translation": "tooth"
+    },
+    "टॉस": {
+      "translation": "toss"
+    },
+    "स्पर्श": {
+      "translation": "touch"
+    },
+    "कठोर": {
+      "translation": "tough"
+    },
+    "पर्यटक": {
+      "translation": "tourist"
+    },
+    "टूर्नामेंट": {
+      "translation": "tournament"
+    },
+    "की ओर": {
+      "translation": "towards"
+    },
+    "मीनार": {
+      "translation": "tower"
+    },
+    "नगर": {
+      "translation": "town"
+    },
+    "खिलौना": {
+      "translation": "toy"
+    },
+    "धावन पथ": {
+      "translation": "track"
+    },
+    "परंपरा": {
+      "translation": "tradition"
+    },
+    "परंपरागत": {
+      "translation": "traditional"
+    },
+    "यातायात": {
+      "translation": "traffic"
+    },
+    "शोकपूर्ण घटना": {
+      "translation": "tragedy"
+    },
+    "रेल गाडी": {
+      "translation": "train"
+    },
+    "प्रशिक्षण": {
+      "translation": "training"
+    },
+    "स्थानांतरण": {
+      "translation": "transfer"
+    },
+    "अनुवाद करना": {
+      "translation": "translate"
+    },
+    "परिवहन": {
+      "translation": "transportation"
+    },
+    "इलाज": {
+      "translation": "treatment"
+    },
+    "पेड़": {
+      "translation": "tree"
+    },
+    "परीक्षण": {
+      "translation": "trial"
+    },
+    "जनजाति": {
+      "translation": "tribe"
+    },
+    "छल": {
+      "translation": "trick"
+    },
+    "ट्रक": {
+      "translation": "truck"
+    },
+    "सच": {
+      "translation": true
+    },
+    "सही मायने में": {
+      "translation": "truly"
+    },
+    "विश्वास": {
+      "translation": "trust"
+    },
+    "सत्य": {
+      "translation": "truth"
+    },
+    "प्रयत्न": {
+      "translation": "try"
+    },
+    "ट्यूब": {
+      "translation": "tube"
+    },
+    "सुरंग": {
+      "translation": "tunnel"
+    },
+    "मोड़": {
+      "translation": "turn"
+    },
+    "टीवी": {
+      "translation": "TV"
+    },
+    "बारह": {
+      "translation": "twelve"
+    },
+    "बीस": {
+      "translation": "twenty"
+    },
+    "दो बार": {
+      "translation": "twice"
+    },
+    "जुड़वां": {
+      "translation": "twin"
+    },
+    "दो": {
+      "translation": "two"
+    },
+    "प्रकार": {
+      "translation": "type"
+    },
+    "ठेठ": {
+      "translation": "typical"
+    },
+    "कुरूप": {
+      "translation": "ugly"
+    },
+    "परम": {
+      "translation": "ultimate"
+    },
+    "असमर्थ": {
+      "translation": "unable"
+    },
+    "चाचा": {
+      "translation": "uncle"
+    },
+    "के अंतर्गत": {
+      "translation": "under"
+    },
+    "गुज़रना": {
+      "translation": "undergo"
+    },
+    "दुर्भाग्य से": {
+      "translation": "unfortunately"
+    },
+    "वर्दी": {
+      "translation": "uniform"
+    },
+    "अद्वितीय": {
+      "translation": "unique"
+    },
+    "इकाई": {
+      "translation": "unit"
+    },
+    "यूनाइटेड": {
+      "translation": "United"
+    },
+    "सार्वभौमिक": {
+      "translation": "universal"
+    },
+    "ब्रम्हांड": {
+      "translation": "universe"
+    },
+    "विश्वविद्यालय": {
+      "translation": "university"
+    },
+    "अनजान": {
+      "translation": "unknown"
+    },
+    "जब तक": {
+      "translation": "until"
+    },
+    "भिन्न": {
+      "translation": "unlike"
+    },
+    "संभावना नहीं": {
+      "translation": "unlikely"
+    },
+    "असामान्य": {
+      "translation": "unusual"
+    },
+    "यूपी": {
+      "translation": "up"
+    },
+    "के ऊपर": {
+      "translation": "upon"
+    },
+    "ऊपरी": {
+      "translation": "upper"
+    },
+    "शहरी": {
+      "translation": "urban"
+    },
+    "आग्रह करता हूं": {
+      "translation": "urge"
+    },
+    "हमें": {
+      "translation": "us"
+    },
+    "उपयोग": {
+      "translation": "use"
+    },
+    "उपयोग किया गया": {
+      "translation": "used"
+    },
+    "उपयोगकर्ता": {
+      "translation": "user"
+    },
+    "आमतौर पर": {
+      "translation": "usually"
+    },
+    "उपयोगिता": {
+      "translation": "utility"
+    },
+    "छुट्टी": {
+      "translation": "vacation"
+    },
+    "घाटी": {
+      "translation": "valley"
+    },
+    "मूल्यवान": {
+      "translation": "valuable"
+    },
+    "मूल्य": {
+      "translation": "value"
+    },
+    "परिवर्तनशील": {
+      "translation": "variable"
+    },
+    "अलग-अलग": {
+      "translation": "vary"
+    },
+    "सबजी": {
+      "translation": "vegetable"
+    },
+    "वाहन": {
+      "translation": "vehicle"
+    },
+    "बनाम": {
+      "translation": "vs"
+    },
+    "पतीला": {
+      "translation": "vessel"
+    },
+    "अनुभवी": {
+      "translation": "veteran"
+    },
+    "के जरिए": {
+      "translation": "via"
+    },
+    "शिकार": {
+      "translation": "victim"
+    },
+    "विजय": {
+      "translation": "victory"
+    },
+    "वीडियो": {
+      "translation": "video"
+    },
+    "गाँव": {
+      "translation": "village"
+    },
+    "का उल्लंघन": {
+      "translation": "violate"
+    },
+    "उल्लंघन": {
+      "translation": "violation"
+    },
+    "हिंसा": {
+      "translation": "violence"
+    },
+    "हिंसा करनेवाला": {
+      "translation": "violent"
+    },
+    "वाइरस": {
+      "translation": "virus"
+    },
+    "आगंतुक": {
+      "translation": "visitor"
+    },
+    "दृश्य": {
+      "translation": "visual"
+    },
+    "आवाज़": {
+      "translation": "voice"
+    },
+    "आयतन": {
+      "translation": "volume"
+    },
+    "स्वयंसेवक": {
+      "translation": "volunteer"
+    },
+    "वोट": {
+      "translation": "vote"
+    },
+    "मतदाता": {
+      "translation": "voter"
+    },
+    "चपेट में": {
+      "translation": "vulnerable"
+    },
+    "रुको": {
+      "translation": "wait"
+    },
+    "जाग": {
+      "translation": "wake"
+    },
+    "टहल लो": {
+      "translation": "walk"
+    },
+    "दीवार": {
+      "translation": "wall"
+    },
+    "विचलन": {
+      "translation": "wander"
+    },
+    "चाहते हैं": {
+      "translation": "want"
+    },
+    "युद्ध": {
+      "translation": "war"
+    },
+    "चेतावनी देना": {
+      "translation": "warn"
+    },
+    "चेतावनी": {
+      "translation": "warning"
+    },
+    "धुलाई": {
+      "translation": "wash"
+    },
+    "बेकार": {
+      "translation": "waste"
+    },
+    "पानी": {
+      "translation": "water"
+    },
+    "लहर": {
+      "translation": "wave"
+    },
+    "कमज़ोर": {
+      "translation": "weak"
+    },
+    "धन": {
+      "translation": "wealth"
+    },
+    "हथियार": {
+      "translation": "weapon"
+    },
+    "पहन लेना": {
+      "translation": "wear"
+    },
+    "सप्ताह": {
+      "translation": "week"
+    },
+    "सप्ताहांत": {
+      "translation": "weekend"
+    },
+    "साप्ताहिक": {
+      "translation": "weekly"
+    },
+    "तौलना": {
+      "translation": "weigh"
+    },
+    "वजन": {
+      "translation": "weight"
+    },
+    "स्वागत हे": {
+      "translation": "welcome"
+    },
+    "कल्याण": {
+      "translation": "welfare"
+    },
+    "कुंआ": {
+      "translation": "well"
+    },
+    "पश्चिम": {
+      "translation": "west"
+    },
+    "पश्चिमी": {
+      "translation": "western"
+    },
+    "भीगा हुआ": {
+      "translation": "wet"
+    },
+    "क्या": {
+      "translation": "what"
+    },
+    "जो कुछ": {
+      "translation": "whatever"
+    },
+    "पहिया": {
+      "translation": "wheel"
+    },
+    "कब": {
+      "translation": "when"
+    },
+    "जब कभी": {
+      "translation": "whenever"
+    },
+    "कहाँ पे": {
+      "translation": "where"
+    },
+    "जहाँ तक": {
+      "translation": "whereas"
+    },
+    "कि क्या": {
+      "translation": "whether"
+    },
+    "कौन कौन से": {
+      "translation": "which"
+    },
+    "जबकि": {
+      "translation": "while"
+    },
+    "फुसफुसाना": {
+      "translation": "whisper"
+    },
+    "सफेद": {
+      "translation": "white"
+    },
+    "who": {
+      "translation": "who"
+    },
+    "पूरा का पूरा": {
+      "translation": "whole"
+    },
+    "किसको": {
+      "translation": "whom"
+    },
+    "किसका": {
+      "translation": "whose"
+    },
+    "क्यों": {
+      "translation": "why"
+    },
+    "चौड़ा": {
+      "translation": "wide"
+    },
+    "व्यापक रूप से": {
+      "translation": "widely"
+    },
+    "बड़े पैमाने पर": {
+      "translation": "widespread"
+    },
+    "पत्नी": {
+      "translation": "wife"
+    },
+    "जंगली": {
+      "translation": "wild"
+    },
+    "मर्जी": {
+      "translation": "will"
+    },
+    "जीत": {
+      "translation": "win"
+    },
+    "हवा": {
+      "translation": "wind"
+    },
+    "खिड़की": {
+      "translation": "window"
+    },
+    "वाइन": {
+      "translation": "wine"
+    },
+    "विंग": {
+      "translation": "wing"
+    },
+    "विजेता": {
+      "translation": "winner"
+    },
+    "पोंछ": {
+      "translation": "wipe"
+    },
+    "बुद्धिमत्ता": {
+      "translation": "wisdom"
+    },
+    "बुद्धिमान": {
+      "translation": "wise"
+    },
+    "तमन्ना": {
+      "translation": "wish"
+    },
+    "निकालना": {
+      "translation": "withdraw"
+    },
+    "अंदर": {
+      "translation": "within"
+    },
+    "के बिना": {
+      "translation": "without"
+    },
+    "गवाह": {
+      "translation": "witness"
+    },
+    "आश्चर्यजनक": {
+      "translation": "wonderful"
+    },
+    "लकड़ी": {
+      "translation": "wood"
+    },
+    "लकड़ी का": {
+      "translation": "wooden"
+    },
+    "शब्द": {
+      "translation": "word"
+    },
+    "मज़दूर": {
+      "translation": "worker"
+    },
+    "काम कर रहे": {
+      "translation": "working"
+    },
+    "काम करता है": {
+      "translation": "works"
+    },
+    "कार्यशाला": {
+      "translation": "workshop"
+    },
+    "विश्व": {
+      "translation": "world"
+    },
+    "चाहेंगे": {
+      "translation": "would"
+    },
+    "घाव": {
+      "translation": "wound"
+    },
+    "लिखो": {
+      "translation": "write"
+    },
+    "लिख रहे हैं": {
+      "translation": "writing"
+    },
+    "गलत": {
+      "translation": "wrong"
+    },
+    "यार्ड": {
+      "translation": "yard"
+    },
+    "हाँ": {
+      "translation": "yes"
+    },
+    "साल": {
+      "translation": "year"
+    },
+    "Yell": {
+      "translation": "yell"
+    },
+    "बिता कल": {
+      "translation": "yesterday"
+    },
+    "अभी तक": {
+      "translation": "yet"
+    },
+    "प्राप्ति": {
+      "translation": "yield"
+    },
+    "आप": {
+      "translation": "you"
+    },
+    "युवा": {
+      "translation": "young"
+    },
+    "तुम्हारी": {
+      "translation": "your"
+    },
+    "आपका अपना": {
+      "translation": "yours"
+    },
+    "जवानी": {
+      "translation": "youth"
+    }
+  }
+]
