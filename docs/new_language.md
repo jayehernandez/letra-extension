@@ -50,8 +50,9 @@ To make this process easier, we'll use Google Sheets. I made a [reference sheet]
   `Add-ons -> Get Add-ons -> Search for "Export Sheet Data: -> Install`
 4. Open options for the Export Sheet Data.
   `Add-ons -> Export Sheet Data -> Open Sidebar`
-5. Go down to the **Advanced JSON** menu and tick the *Export contents as array* checkbox.
-6. Click on export and copy the code in the `server/data/words/{language}.json` file.
+5. Go down to the **JSON** menu and tick the *Export sheet arrays* checkbox.
+6. Go down to the **Advanced JSON** menu and tick the *Export contents as array* checkbox.
+7. Click on export and copy the code in the `server/data/words/{language}.json` file.
 
 **Please remove words with the same translation or no direct translation and note them in your Pull Request.**
 
