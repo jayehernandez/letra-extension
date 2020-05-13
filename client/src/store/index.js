@@ -4,7 +4,7 @@ import axios from 'axios';
 
 Vue.use(Vuex);
 
-const currentLanguagesCount = 5;
+const currentLanguagesCount = 6;
 
 const state = {
   dailyData: {
