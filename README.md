@@ -83,7 +83,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://about.me/vaibhav_khulbe"><img src="https://avatars0.githubusercontent.com/u/11731837?v=4" width="100px;" alt=""/><br /><sub><b>Vaibhav Khulbe</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=Kvaibhav01" title="Code">💻</a></td>
+    <td align="center"><a href="https://about.me/vaibhav_khulbe"><img src="https://avatars0.githubusercontent.com/u/11731837?v=4" width="100px;" alt=""/><br /><sub><b>Vaibhav Khulbe</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=Kvaibhav01" title="Code">💻</a> <a href="#content-Kvaibhav01" title="Content">🖋</a></td>
   </tr>
 </table>
 
