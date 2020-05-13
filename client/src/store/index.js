@@ -30,12 +30,16 @@ export default new Vuex.Store({
           selectedLanguages = ['german'];
         }
         dispatch('saveSelectedLanguages', selectedLanguages);
-        commit('setSelectedLanguages', selectedLanguages);
         dispatch('getDailyData');
       });
     },
-    saveSelectedLanguages({}, selectedLanguages) {
+    saveSelectedLanguages({ commit }, selectedLanguages) {
       chrome.storage.sync.set({ selectedLanguages });
+      commit('setSelectedLanguages', selectedLanguages);
+    },
+    resetSelectedLanguages({ dispatch }, selectedLanguages) {
+      dispatch('saveSelectedLanguages', selectedLanguages);
+      dispatch('retrieveDailyData');
     },
     getDailyData({ commit, dispatch }) {
       chrome.storage.sync.get("dailyData", (response) => {
