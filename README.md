@@ -37,6 +37,7 @@
 - 🇪🇸 Spanish
 - 🇯🇵 Japanese
 - 🇰🇷 Korean
+- 🇮🇳 Hindi
 
 ## 🛠 Built With
 
