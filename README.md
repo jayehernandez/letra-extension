@@ -1,4 +1,4 @@
-![Title](docs/title.png)
+![Title](docs/screenshots/title.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
@@ -24,7 +24,7 @@
 
 ### [Download Chrome Extension](https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio)
 
-![Main Screenshot](docs/main_screenshot.png)
+![Main Screenshot](docs/screenshots/main_screenshot.png)
 
 ## ✨ Features
 - New word everyday
@@ -47,15 +47,17 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br /> Feel free to check the [issues page](https://github.com/jayehernandez/letra-extension/issues) for any open issues.
+Contributions, issues and feature requests are welcome!<br />
+
+Feel free to check the [issues page](https://github.com/jayehernandez/letra-extension/issues) for any open issues. If this is your first time contributing to Open Source, check out the [Contributing Guidelines](https://github.com/jayehernandez/letra-extension/blob/improved-docs/docs/how_to_contribute.md).
 
 You can also suggest a new feature by creating an Issue. Please wait for confirmation before working on it.
 
 ### Good for First Timers
 
+- [Add a learning quote](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_quote.md) (Easiest way to contribute! 🚀)
 - [Add a new language](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md)
 - Edit translations from existing languages - guide 🔜
-- Add a learning quote - guide 🔜
 
 ## 🙏🏻 Acknowledgements
 
@@ -88,7 +90,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
 
 ## 📝 License
 
