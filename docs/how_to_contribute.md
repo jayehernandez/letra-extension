@@ -14,7 +14,8 @@ You can contribute in two ways, whichever is more convinient for you:
 2. You'll need to have a copy of the repository. Click on **Fork** on the upper right hand of the screen.
 3. Once the repo is forked, you'll be redirected to the newly created repository. The name of the repository should be: `{{ yourUserName }} / letra-extension` **NOT** `jayehernandez / letra-extension`.
 4. You can now make changes to this repo by adding or editing files, depending on what your chosen issue asks you to do.
-5. When you're finished which the changes, you can create a **Pull Request** pointing to this repository. 
+5. When you're finished which the changes, you can create a **Pull Request (PR)** pointing to this repository. 
+6. Make sure you create the PR to the **develop** branch.
 
 ## 2️⃣ Via Local Machine
  
