@@ -1,5 +1,33 @@
 [
   {
+    "sentence": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "author": "Martin Fowler"
+  },
+  {
+    "sentence": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson"
+  },
+  {
+    "sentence": "Code is like humor. When you have to explain it, it’s bad.",
+    "author": "Cory House"
+  },
+  {
+    "sentence": "Fix the cause, not the symptom.",
+    "author": "Steve Maguire"
+  },
+  {
+    "sentence": "Simplicity is the soul of efficiency.",
+    "author": "Austin Freeman"
+  },
+  {
+    "sentence": "Before software can be reusable it first has to be usable.",
+    "author": "Ralph Johnson"
+  },
+  {
+    "sentence": "Make it work, make it right, make it fast.",
+    "author": "Kent Beck"
+  },
+  {
     "sentence": "Do you know what a foreign accent is? It’s a sign of bravery.",
     "author": "Amy Chua"
   },
