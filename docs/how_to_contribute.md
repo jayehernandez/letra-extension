@@ -10,12 +10,20 @@ You can contribute in two ways, whichever is more convinient for you:
 2. Via Local Machine
 
 ## 1️⃣ Via Github Website
-1. Check the Issues page to choose what you want to contribute on!
+1. Check the **Issues page** to choose what you want to contribute on!
 2. You'll need to have a copy of the repository. Click on **Fork** on the upper right hand of the screen.
+![Fork Repo](docs/screenshots/fork.png)
+
 3. Once the repo is forked, you'll be redirected to the newly created repository. The name of the repository should be: `{{ yourUserName }} / letra-extension` **NOT** `jayehernandez / letra-extension`.
 4. You can now make changes to this repo by adding or editing files, depending on what your chosen issue asks you to do.
-5. When you're finished which the changes, you can create a **Pull Request (PR)** pointing to this repository. 
-6. Make sure you create the PR to the **develop** branch.
+5. When you're finished which the changes, you'll see that your commit is ahead of the main repository. Like so:
+
+6. Click on **Pull Request** to create a pull request (PR) pointing to this repository. This will allow maintainers of the project to review your code and merge it to the main repository afterwards.
+7. You'll be able to choose which branch you'd like to compare with. Make sure you choose the **develop** branch.
+
+‼️ Pull requests pointing to master will not be accepted.
+8. 
+
 
 ## 2️⃣ Via Local Machine
  
