@@ -1,4 +1,4 @@
-![Title](docs/title.png)
+![Title](docs/screenshots/title.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
@@ -24,7 +24,7 @@
 
 ### [Download Chrome Extension](https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio)
 
-![Main Screenshot](docs/main_screenshot.png)
+![Main Screenshot](docs/screenshots/main_screenshot.png)
 
 ## ✨ Features
 - New word everyday
