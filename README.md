@@ -1,7 +1,7 @@
 ![Title](docs/screenshots/title.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p>
@@ -86,6 +86,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/paulzay"><img src="https://avatars3.githubusercontent.com/u/29974825?v=4" width="100px;" alt=""/><br /><sub><b>Paul Ogolla</b></sub></a><br /><a href="#content-paulzay" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/imanishbarnwal/"><img src="https://avatars0.githubusercontent.com/u/46371923?v=4" width="100px;" alt=""/><br /><sub><b>Manish Kumar Barnwal</b></sub></a><br /><a href="#content-imanishbarnwal" title="Content">🖋</a></td>
     <td align="center"><a href="http://jemgaleon.github.io"><img src="https://avatars0.githubusercontent.com/u/10969278?v=4" width="100px;" alt=""/><br /><sub><b>Jem Galeon</b></sub></a><br /><a href="#content-jemgaleon" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/RaymondLZhou"><img src="https://avatars2.githubusercontent.com/u/59544754?v=4" width="100px;" alt=""/><br /><sub><b>Raymond Zhou</b></sub></a><br /><a href="#content-RaymondLZhou" title="Content">🖋</a></td>
   </tr>
 </table>
 
