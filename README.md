@@ -84,7 +84,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/michieriffic"><img src="https://avatars1.githubusercontent.com/u/12575688?v=4" width="100px;" alt=""/><br /><sub><b>michieriffic</b></sub></a><br /><a href="#content-michieriffic" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/fluorspar20"><img src="https://avatars0.githubusercontent.com/u/59736770?v=4" width="100px;" alt=""/><br /><sub><b>Amogh Dixit</b></sub></a><br /><a href="#content-fluorspar20" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/paulzay"><img src="https://avatars3.githubusercontent.com/u/29974825?v=4" width="100px;" alt=""/><br /><sub><b>Paul Ogolla</b></sub></a><br /><a href="#content-paulzay" title="Content">🖋</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/imanishbarnwal/"><img src="https://avatars0.githubusercontent.com/u/46371923?v=4" width="100px;" alt=""/><br /><sub><b>Manish Kumar Barnwal</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=imanishbarnwal" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/imanishbarnwal/"><img src="https://avatars0.githubusercontent.com/u/46371923?v=4" width="100px;" alt=""/><br /><sub><b>Manish Kumar Barnwal</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=imanishbarnwal" title="Content">🖋</a></td>
   </tr>
 </table>
 
