@@ -1,31 +1,47 @@
 [
   {
-    "sentence": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
-    "author": "Martin Fowler"
+    "sentence": "Language comes first. It’s not that language grows out of consciousness, if you haven’t got language, you can’t be conscious.",
+    "author": "Alan Moore"
   },
   {
-    "sentence": "First, solve the problem. Then, write the code.",
-    "author": "John Johnson"
+    "sentence": "Learn a language, and you’ll avoid a war.",
+    "author": "Arab Proverb"
   },
   {
-    "sentence": "Code is like humor. When you have to explain it, it’s bad.",
-    "author": "Cory House"
+    "sentence": "I love commuting between languages just like I love commuting between cultures and cities.",
+    "author": "Elif Safak"
   },
   {
-    "sentence": "Fix the cause, not the symptom.",
-    "author": "Steve Maguire"
+    "sentence": "A man who knows two languages is worth two men.",
+    "author": "French Proverb"
   },
   {
-    "sentence": "Simplicity is the soul of efficiency.",
-    "author": "Austin Freeman"
+    "sentence": "A language is an exact reflection of the character and growth of its speakers.",
+    "author": "Cesar Chavez"
   },
   {
-    "sentence": "Before software can be reusable it first has to be usable.",
-    "author": "Ralph Johnson"
+    "sentence": "Language is the road map of a culture. It tells you where its people come from and where they are going.",
+    "author": "Rita Mae Brown"
   },
   {
-    "sentence": "Make it work, make it right, make it fast.",
-    "author": "Kent Beck"
+    "sentence": "Those who know nothing of foreign languages know nothing of their own.",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "sentence": "If you talk to a man in a language he understands, that goes to his head. If you talk to him in his language, that goes to his heart.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "sentence": "The more languages you know, the more you are human.",
+    "author": "Tomáš Garrigue Masaryk"
+  },
+  {
+    "sentence": "Language exerts hidden power, like a moon on the tides.",
+    "author": "Rita Mae Brown"
+  },
+  {
+    "sentence": "Knowledge of languages is the doorway to wisdom.",
+    "author": "Roger Bacon"
   },
   {
     "sentence": "Do you know what a foreign accent is? It’s a sign of bravery.",
@@ -190,5 +206,9 @@
   {
     "sentence": "For last year's words belong to last year's language. And next year's words await another voice.",
     "author": "T.S. Eliot, Four Quartets"
+  },
+  {
+    "sentence": "The more languages you know, the more you are human.", 
+    "author": " Tomáš Garrigue Masaryk"
   }
 ]
