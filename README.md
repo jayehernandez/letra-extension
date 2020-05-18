@@ -1,7 +1,7 @@
 ![Title](docs/screenshots/title.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p>
@@ -80,8 +80,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://about.me/vaibhav_khulbe"><img src="https://avatars0.githubusercontent.com/u/11731837?v=4" width="100px;" alt=""/><br /><sub><b>Vaibhav Khulbe</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=Kvaibhav01" title="Code">💻</a><a href="#content-Kvaibhav01" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/michieriffic"><img src="https://avatars1.githubusercontent.com/u/12575688?v=4" width="100px;" alt=""/><br /><sub><b>michieriffic</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=michieriffic" title="Content">🖋</a></td>
+    <td align="center"><a href="https://about.me/vaibhav_khulbe"><img src="https://avatars0.githubusercontent.com/u/11731837?v=4" width="100px;" alt=""/><br /><sub><b>Vaibhav Khulbe</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=Kvaibhav01" title="Code">💻</a> <a href="#content-Kvaibhav01" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/michieriffic"><img src="https://avatars1.githubusercontent.com/u/12575688?v=4" width="100px;" alt=""/><br /><sub><b>michieriffic</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=michieriffic" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/paulzay"><img src="https://avatars3.githubusercontent.com/u/29974825?v=4" width="100px;" alt=""/><br /><sub><b>Paul Ogolla</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=paulzay" title="Code">💻</a></td>
   </tr>
 </table>
 
