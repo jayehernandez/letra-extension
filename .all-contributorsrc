@@ -77,6 +77,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "joelhart",
+      "name": "Joel Hartman",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/65033855?v=4",
+      "profile": "http://joelh.art",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
