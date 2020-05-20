@@ -1,7 +1,7 @@
 ![Title](docs/screenshots/title.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p>
@@ -91,6 +91,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http:// https://saurav-jaat.github.io/Website/"><img src="https://avatars2.githubusercontent.com/u/55060238?v=4" width="100px;" alt=""/><br /><sub><b>saurav chaudhary</b></sub></a><br /><a href="#content-saurav-jaat" title="Content">🖋</a></td>
     <td align="center"><a href="http://joelh.art"><img src="https://avatars0.githubusercontent.com/u/65033855?v=4" width="100px;" alt=""/><br /><sub><b>Joel Hartman</b></sub></a><br /><a href="#content-joelhart" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/xiefiona"><img src="https://avatars3.githubusercontent.com/u/25620518?v=4" width="100px;" alt=""/><br /><sub><b>Fiona Xie</b></sub></a><br /><a href="#content-xiefiona" title="Content">🖋</a></td>
   </tr>
 </table>
 
