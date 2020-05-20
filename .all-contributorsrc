@@ -95,6 +95,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "charsides",
+      "name": "Charlotte Sides",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/59448807?v=4",
+      "profile": "https://github.com/charsides",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
