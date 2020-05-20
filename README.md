@@ -1,7 +1,7 @@
 ![Title](docs/screenshots/title.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p>
@@ -93,6 +93,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://joelh.art"><img src="https://avatars0.githubusercontent.com/u/65033855?v=4" width="100px;" alt=""/><br /><sub><b>Joel Hartman</b></sub></a><br /><a href="#content-joelhart" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/xiefiona"><img src="https://avatars3.githubusercontent.com/u/25620518?v=4" width="100px;" alt=""/><br /><sub><b>Fiona Xie</b></sub></a><br /><a href="#content-xiefiona" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/charsides"><img src="https://avatars1.githubusercontent.com/u/59448807?v=4" width="100px;" alt=""/><br /><sub><b>Charlotte Sides</b></sub></a><br /><a href="#content-charsides" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/BadaroThiago"><img src="https://avatars2.githubusercontent.com/u/65410275?v=4" width="100px;" alt=""/><br /><sub><b>BadaroThiago</b></sub></a><br /><a href="#content-BadaroThiago" title="Content">🖋</a></td>
   </tr>
 </table>
 
