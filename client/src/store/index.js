@@ -73,7 +73,7 @@ export default new Vuex.Store({
         else dispatch('retrieveLanguageOptions');
       });
     },
-    retrieveLanguageOptions({ dispatch }) {
+    retrieveLanguageOptions({ commit, dispatch }) {
       axios.get(`${process.env.VUE_APP_API_URL}/languages`)
         .then(response => {
           const options = Object.keys(response.data.languages);
