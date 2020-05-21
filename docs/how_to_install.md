@@ -11,7 +11,7 @@
 > - Unsplash (so you won't get to see a background image 😢)
 > - ResponsiveVoice (no text-to-speech for the chosen word!)
 
-- Make sure you have the repository in your local machine! You can go to the [Contributing Guidelines](https://github.com/jayehernandez/letra-extension/blob/improved-docs/docs/how_to_contribute.md) for steps on how to fork this repo.
+- Make sure you have the repository in your local machine! You can go to the [Contributing Guidelines](https://github.com/jayehernandez/letra-extension/blob/master/docs/how_to_contribute.md) for steps on how to fork this repo.
 
 ## 1️⃣ Setup Node.js server
 
