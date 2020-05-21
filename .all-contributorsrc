@@ -123,6 +123,15 @@
         "projectManagement",
         "content"
       ]
+    },
+    {
+      "login": "claire-thompson",
+      "name": "Claire Thompson",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60275489?v=4",
+      "profile": "https://github.com/claire-thompson",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
