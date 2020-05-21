@@ -94,7 +94,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/xiefiona"><img src="https://avatars3.githubusercontent.com/u/25620518?v=4" width="100px;" alt=""/><br /><sub><b>Fiona Xie</b></sub></a><br /><a href="#content-xiefiona" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/charsides"><img src="https://avatars1.githubusercontent.com/u/59448807?v=4" width="100px;" alt=""/><br /><sub><b>Charlotte Sides</b></sub></a><br /><a href="#content-charsides" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/BadaroThiago"><img src="https://avatars2.githubusercontent.com/u/65410275?v=4" width="100px;" alt=""/><br /><sub><b>BadaroThiago</b></sub></a><br /><a href="#content-BadaroThiago" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/tbarland77"><img src="https://avatars2.githubusercontent.com/u/15313520?v=4" width="100px;" alt=""/><br /><sub><b>Timothy Barland</b></sub></a><br /><a href="#projectManagement-tbarland77" title="Project Management">📆</a> <a href="#content-tbarland77" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/tbarland77"><img src="https://avatars2.githubusercontent.com/u/15313520?v=4" width="100px;" alt=""/><br /><sub><b>Timothy Barland</b></sub></a><br /><a href="#content-tbarland77" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/claire-thompson"><img src="https://avatars3.githubusercontent.com/u/60275489?v=4" width="100px;" alt=""/><br /><sub><b>Claire Thompson</b></sub></a><br /><a href="#content-claire-thompson" title="Content">🖋</a></td>
   </tr>
 </table>
