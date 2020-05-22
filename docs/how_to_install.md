@@ -2,7 +2,7 @@
 
 > A simple guide on how to install this project on your local machine!
 
-## ⚠️ Prerequites, heads up, and all that Jazz
+## ⚠️ Some things to take note of
 - You will need to have [Google Chrome](https://google.com/chrome/) installed (it's a Chrome extension 🤣)
 
 - Also, make sure that you have **Node.js** and **npm** installed. [Here's a handy guide from the npm site!](https://www.npmjs.com/get-npm)
@@ -24,7 +24,7 @@ cd server
 
 2. Create a `.env` file so that we can set the port to `3100`.
 ```
-echo "PORT=3100" >> .env
+echo PORT=3100 >> .env
 ```
 
 3. Install dependencies needed for this project.
@@ -54,7 +54,7 @@ cd client
 
 2. Create a `.env` file and set the API url to `http://localhost:3100`. This will enable us to connect our Vue app to the NodeJS server.
 ```
-echo "VUE_APP_API_URL=http://localhost:3100" >> .env
+echo VUE_APP_API_URL=http://localhost:3100 >> .env
 ```
 
 3. Same as in the first part, we'll need to install dependencies.
