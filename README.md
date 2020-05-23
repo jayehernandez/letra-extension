@@ -1,7 +1,7 @@
 ![Title](docs/screenshots/title.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <p>
@@ -102,6 +102,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/BadaroThiago"><img src="https://avatars2.githubusercontent.com/u/65410275?v=4" width="100px;" alt=""/><br /><sub><b>BadaroThiago</b></sub></a><br /><a href="#content-BadaroThiago" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/tbarland77"><img src="https://avatars2.githubusercontent.com/u/15313520?v=4" width="100px;" alt=""/><br /><sub><b>Timothy Barland</b></sub></a><br /><a href="#content-tbarland77" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/claire-thompson"><img src="https://avatars3.githubusercontent.com/u/60275489?v=4" width="100px;" alt=""/><br /><sub><b>Claire Thompson</b></sub></a><br /><a href="#content-claire-thompson" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/brianxfury"><img src="https://avatars1.githubusercontent.com/u/46956022?v=4" width="100px;" alt=""/><br /><sub><b>Bryan Dimabayao</b></sub></a><br /><a href="#content-brianxfury" title="Content">🖋</a></td>
   </tr>
 </table>
 
