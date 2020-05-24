@@ -1162,5 +1162,405 @@
     {
         "word": "harangan",
         "translation": "block"
+    },
+    {
+        "word": "huli",
+        "translation": "catch"
+    },
+    {
+        "word": "kategorya",
+        "translation": "category"
+    },
+    {
+        "word": "Katoliko",
+        "translation": "Catholic"
+    },
+    {
+        "word": "dahilan",
+        "translation": "cause"
+    },
+    {
+        "word": "kisame",
+        "translation": "ceiling"
+    },
+    {
+        "word": "ipagdiwang",
+        "translation": "celebrate"
+    },
+    {
+        "word": "pagdiriwang",
+        "translation": "celebration"
+    },
+    {
+        "word": "artista",
+        "translation": "celebrity"
+    },
+    {
+        "word": "selda",
+        "translation": "cell"
+    },
+    {
+        "word": "gitna",
+        "translation": "center"
+    },
+    {
+        "word": "sentral",
+        "translation": "central"
+    },
+    {
+        "word": "siglo",
+        "translation": "century"
+    },
+    {
+        "word": "CEO",
+        "translation": "CEO"
+    },
+    {
+        "word": "seremonya",
+        "translation": "ceremony"
+    },
+    {
+        "word": "tiyak",
+        "translation": "certain"
+    },
+    {
+        "word": "tiyak",
+        "translation": "certainly"
+    },
+    {
+        "word": "kadena",
+        "translation": "chain"
+    },
+    {
+        "word": "upuan",
+        "translation": "chair"
+    },
+    {
+        "word": "tagapangulo",
+        "translation": "chairman"
+    },
+    {
+        "word": "hamon",
+        "translation": "challenge"
+    },
+    {
+        "word": "kamara",
+        "translation": "chamber"
+    },
+    {
+        "word": "kampeon",
+        "translation": "champion"
+    },
+    {
+        "word": "kampeonato",
+        "translation": "championship"
+    },
+    {
+        "word": "pagkakataon",
+        "translation": "chance"
+    },
+    {
+        "word": "pagbabago",
+        "translation": "change"
+    },
+    {
+        "word": "nagbabago",
+        "translation": "changing"
+    },
+    {
+        "word": "channel",
+        "translation": "channel"
+    },
+    {
+        "word": "kabanata",
+        "translation": "chapter"
+    },
+    {
+        "word": "pagkatao",
+        "translation": "character"
+    },
+    {
+        "word": "katangian",
+        "translation": "characteristic"
+    },
+    {
+        "word": "magpakilala",
+        "translation": "characterize"
+    },
+    {
+        "word": "bayad",
+        "translation": "charge"
+    },
+    {
+        "word": "kawanggawa",
+        "translation": "charity"
+    },
+    {
+        "word": "tsart",
+        "translation": "chart"
+    },
+    {
+        "word": "habulin",
+        "translation": "chase"
+    },
+    {
+        "word": "mura",
+        "translation": "cheap"
+    },
+    {
+        "word": "tignan",
+        "translation": "check"
+    },
+    {
+        "word": "pisngi",
+        "translation": "cheek"
+    },
+    {
+        "word": "keso",
+        "translation": "cheese"
+    },
+    {
+        "word": "tagaluto",
+        "translation": "chef"
+    },
+    {
+        "word": "kemikal",
+        "translation": "chemical"
+    },
+    {
+        "word": "dibdib",
+        "translation": "chest"
+    },
+    {
+        "word": "manok",
+        "translation": "chicken"
+    },
+    {
+        "word": "hepe",
+        "translation": "chief"
+    },
+    {
+        "word": "bata",
+        "translation": "child"
+    },
+    {
+        "word": "pagkabata",
+        "translation": "childhood"
+    },
+    {
+        "word": "Tsino",
+        "translation": "Chinese"
+    },
+    {
+        "word": "pingas",
+        "translation": "chip"
+    },
+    {
+        "word": "tsokolate",
+        "translation": "chocolate"
+    },
+    {
+        "word": "pagpili",
+        "translation": "choice"
+    },
+    {
+        "word": "kolesterol",
+        "translation": "cholesterol"
+    },
+    {
+        "word": "pumili",
+        "translation": "choose"
+    },
+    {
+        "word": "Kristyano",
+        "translation": "Christian"
+    },
+    {
+        "word": "Pasko",
+        "translation": "Christmas"
+    },
+    {
+        "word": "simbahan",
+        "translation": "church"
+    },
+    {
+        "word": "sigarilyo",
+        "translation": "cigarette"
+    },
+    {
+        "word": "bilog",
+        "translation": "circle"
+    },
+    {
+        "word": "pangyayari",
+        "translation": "circumstance"
+    },
+    {
+        "word": "banggitin",
+        "translation": "cite"
+    },
+    {
+        "word": "mamamayan",
+        "translation": "citizen"
+    },
+    {
+        "word": "lungsod",
+        "translation": "city"
+    },
+    {
+        "word": "sibil",
+        "translation": "civil"
+    },
+    {
+        "word": "sibilyan",
+        "translation": "civilian"
+    },
+    {
+        "word": "paghahabol",
+        "translation": "claim"
+    },
+    {
+        "word": "klase",
+        "translation": "class"
+    },
+    {
+        "word": "klasiko",
+        "translation": "classic"
+    },
+    {
+        "word": "silid-aralan",
+        "translation": "classroom"
+    },
+    {
+        "word": "malinis",
+        "translation": "clean"
+    },
+    {
+        "word": "malinaw",
+        "translation": "clear"
+    },
+    {
+        "word": "malinaw",
+        "translation": "clearly"
+    },
+    {
+        "word": "kliente",
+        "translation": "client"
+    },
+    {
+        "word": "klima",
+        "translation": "climate"
+    },
+    {
+        "word": "umakyat",
+        "translation": "climb"
+    },
+    {
+        "word": "klinika",
+        "translation": "clinic"
+    },
+    {
+        "word": "klinikal",
+        "translation": "clinical"
+    },
+    {
+        "word": "orasan",
+        "translation": "clock"
+    },
+    {
+        "word": "malapit",
+        "translation": "close"
+    },
+    {
+        "word": "malapit",
+        "translation": "closely"
+    },
+    {
+        "word": "mas malapit",
+        "translation": "closer"
+    },
+    {
+        "word": "mga damit",
+        "translation": "clothes"
+    },
+    {
+        "word": "damit",
+        "translation": "clothing"
+    },
+    {
+        "word": "ulap",
+        "translation": "cloud"
+    },
+    {
+        "word": "samahan",
+        "translation": "club"
+    },
+    {
+        "word": "pahiwatig",
+        "translation": "clue"
+    },
+    {
+        "word": "kumpol",
+        "translation": "cluster"
+    },
+    {
+        "word": "tagapagsanay",
+        "translation": "coach"
+    },
+    {
+        "word": "uling",
+        "translation": "coal"
+    },
+    {
+        "word": "koalisyon",
+        "translation": "coalition"
+    },
+    {
+        "word": "baybayin",
+        "translation": "coast"
+    },
+    {
+        "word": "pahid",
+        "translation": "coat"
+    },
+    {
+        "word": "kodigo",
+        "translation": "code"
+    },
+    {
+        "word": "kape",
+        "translation": "coffee"
+    },
+    {
+        "word": "nagbibigay-malay",
+        "translation": "cognitive"
+    },
+    {
+        "word": "malamig",
+        "translation": "cold"
+    },
+    {
+        "word": "pagbagsak",
+        "translation": "collapse"
+    },
+    {
+        "word": "kasamahan",
+        "translation": "colleague"
+    },
+    {
+        "word": "kolektahin",
+        "translation": "collect"
+    },
+    {
+        "word": "koleksyon",
+        "translation": "collection"
+    },
+    {
+        "word": "sama-sama",
+        "translation": "collective"
+    },
+    {
+        "word": "kolehiyo",
+        "translation": "college"
     }
 ]
