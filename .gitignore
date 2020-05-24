@@ -5,3 +5,6 @@ client/.env
 
 server/node_modules
 server/.env
+
+.DS_Store
+client/.DS_Store

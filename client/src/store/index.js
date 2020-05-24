@@ -4,7 +4,7 @@ import axios from 'axios';
 
 Vue.use(Vuex);
 
-const currentLanguagesCount = 5;
+const currentLanguagesCount = 6;
 
 const state = {
   dailyData: {
@@ -30,12 +30,16 @@ export default new Vuex.Store({
           selectedLanguages = ['german'];
         }
         dispatch('saveSelectedLanguages', selectedLanguages);
-        commit('setSelectedLanguages', selectedLanguages);
         dispatch('getDailyData');
       });
     },
-    saveSelectedLanguages({}, selectedLanguages) {
+    saveSelectedLanguages({ commit }, selectedLanguages) {
       chrome.storage.sync.set({ selectedLanguages });
+      commit('setSelectedLanguages', selectedLanguages);
+    },
+    resetSelectedLanguages({ dispatch }, selectedLanguages) {
+      dispatch('saveSelectedLanguages', selectedLanguages);
+      dispatch('retrieveDailyData');
     },
     getDailyData({ commit, dispatch }) {
       chrome.storage.sync.get("dailyData", (response) => {
@@ -69,7 +73,7 @@ export default new Vuex.Store({
         else dispatch('retrieveLanguageOptions');
       });
     },
-    retrieveLanguageOptions({ dispatch }) {
+    retrieveLanguageOptions({ commit, dispatch }) {
       axios.get(`${process.env.VUE_APP_API_URL}/languages`)
         .then(response => {
           const options = Object.keys(response.data.languages);
