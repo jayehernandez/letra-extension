@@ -7,7 +7,7 @@
 /* <---------------- DAILY WORD ----------------> */
 
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin: 0;
   font-size: 10vw;
   color: $primary-color;
@@ -20,6 +20,13 @@ h2 {
   font-size: 2.5vw;
   margin-top: -10px;
   color: $secondary-color;
+}
+
+h3 {
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  letter-spacing: $spacing-xs;
+  color: $primary-color;
 }
 
 .center-container {
@@ -38,12 +45,12 @@ h2 {
   margin-top: 80px;
   padding: 1.5vw 2.5vw;
   border-radius: 10px;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   max-width: 50vw;
 }
 
 .sentence {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-style: italic;
   font-size: $fs-xl;
   font-weight: 400;
@@ -56,7 +63,7 @@ h2 {
 /* <---------------- DATE AND TIME ----------------> */
 .time {
   font-size: 7vw;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 .date {
