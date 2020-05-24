@@ -22,7 +22,7 @@ div
       ) Save
       .has-text-centered.is-text-primary.mt1.message {{ message }}
       .has-text-centered 
-        a.contribute-link(
+        a.noWrap(
           :href="contributeLink"
         ) {{ contributeLinkText }}
 </template>
