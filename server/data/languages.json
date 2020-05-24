@@ -18,5 +18,9 @@
   "korean": {
     "flag": "twa-korea-south-south-korea-flag",
     "voice": "Korean Female"
+  },
+  "hindi": {
+    "flag": "twa-india-flag",
+    "voice": "Hindi Female"
   }
 }

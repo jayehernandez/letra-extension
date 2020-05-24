@@ -56,7 +56,7 @@ export default {
     this.getOptions();
   },
   methods: {
-    ...mapActions(['getLanguageOptions', 'saveSelectedLanguages', 'retrieveDailyData']),
+    ...mapActions(['getLanguageOptions', 'resetSelectedLanguages', 'retrieveDailyData']),
 
     getOptions() {
       this.getLanguageOptions();
@@ -65,7 +65,7 @@ export default {
       this.showOptions = !this.showOptions;
     },
     save() {
-      this.saveSelectedLanguages(this.selectedLanguages);
+      this.resetSelectedLanguages(this.selectedLanguages);
       this.message = 'Saved changes!';
     },
     resetMessage() {

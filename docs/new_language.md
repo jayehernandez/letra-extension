@@ -5,7 +5,7 @@
 ## 📝 Guidelines
 
 ### Adding Language Details
-You'll need to add the new language in the `server/data/languages.json` file.  
+You'll need to add the new language in the `server/data/languages.json` file.
 
 Format:
 ```sh
@@ -33,7 +33,7 @@ Example:
 ### Adding Words
 This is based on Education First's [list](https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/) of the 3000 most common words.
 
-You'll need to add a new file in the `server/data/words` folder called `{language}.json`. 
+You'll need to add a new file in the `server/data/words` folder called `{language}.json`.
 Here's the [`french.json`](https://github.com/jayehernandez/letra-extension/blob/master/server/data/words/french.json) for the French language for your reference. This file contains an array of JSON objects with the format:
 ```sh
 {
@@ -42,16 +42,25 @@ Here's the [`french.json`](https://github.com/jayehernandez/letra-extension/blob
 }
 ```
 
-To make this process easier, we'll use Google Sheets. I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-XL_EFGZ2BUTII0Gr3ovoKPrjfEi-a14) of the 3000 words. To generate the JSON file, you can do the following steps:
+To make this process easier, we'll use Google Sheets. _(You get to contribute and learn about sheets, what a great combination!)_
+
+I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-XL_EFGZ2BUTII0Gr3ovoKPrjfEi-a14) of the 3000 words. To generate the JSON file, you can do the following steps:
 
 1. Make a copy of the reference sheet above. `File -> Make a copy`
 2. Fill in the **words** column.
+* 💁🏻‍♀️ Tip: Since this may take quite some time, I suggest translating the words using Google Translate first and refine the translations afterwards. Google sheets has a handy formula for this. You can read more about it [here](https://support.google.com/docs/answer/3093331?hl=en)!
+```
+= GOOGLETRANSLATE("Hello World","en","es")
+= GOOGLETRANSLATE(word, source_language, target_language)
+```
+
 3. Install an Export JSON add-on.
   `Add-ons -> Get Add-ons -> Search for "Export Sheet Data: -> Install`
 4. Open options for the Export Sheet Data.
   `Add-ons -> Export Sheet Data -> Open Sidebar`
-5. Go down to the **Advanced JSON** menu and tick the *Export contents as array* checkbox.
-6. Click on export and copy the code in the `server/data/words/{language}.json` file.
+5. Go down to the **JSON** menu and tick the *Export sheet arrays* checkbox.
+6. Go down to the **Advanced JSON** menu and tick the *Export contents as array* checkbox.
+7. Click on export and copy the code in the `server/data/words/{language}.json` file.
 
 **Please remove words with the same translation or no direct translation and note them in your Pull Request.**
 
