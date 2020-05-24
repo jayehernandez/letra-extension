@@ -21,6 +21,10 @@ div
         @click="save"
       ) Save
       .has-text-centered.is-text-primary.mt1.message {{ message }}
+      .has-text-centered 
+        a.contribute-link(
+          :href="contributeLink"
+        ) {{ contributeLinkText }}
 </template>
 
 <script>
@@ -50,6 +54,8 @@ export default {
     return {
       showOptions: false,
       message: '',
+      contributeLink: 'https://github.com/jayehernandez/letra-extension', 
+      contributeLinkText: 'Contribute on Github'
     };
   },
   mounted() {
