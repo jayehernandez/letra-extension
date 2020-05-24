@@ -22,5 +22,9 @@
   "hindi": {
     "flag": "twa-india-flag",
     "voice": "Hindi Female"
+  },
+  "filipino": {
+    "flag": "twa-philippines-flag",
+    "voice": "Filipino Female"
   }
 }
