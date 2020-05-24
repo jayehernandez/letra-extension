@@ -366,5 +366,405 @@
   {
     "word": "kapanig",
     "translation": "ally"
-  }
+  },
+   {
+        "word": "kapanig",
+        "translation": "ally"
+    },
+    {
+        "word": "halos",
+        "translation": "almost"
+    },
+    {
+        "word": "nag-iisa",
+        "translation": "alone"
+    },
+    {
+        "word": "sa tabi",
+        "translation": "along"
+    },
+    {
+        "word": "na",
+        "translation": "already"
+    },
+    {
+        "word": "din",
+        "translation": "also"
+    },
+    {
+        "word": "alter",
+        "translation": "alter"
+    },
+    {
+        "word": "alternatibo",
+        "translation": "alternative"
+    },
+    {
+        "word": "bagaman",
+        "translation": "although"
+    },
+    {
+        "word": "palagi",
+        "translation": "always"
+    },
+    {
+        "word": "AM",
+        "translation": "AM"
+    },
+    {
+        "word": "kagulat-gulat",
+        "translation": "amazing"
+    },
+    {
+        "word": "Amerikano",
+        "translation": "American"
+    },
+    {
+        "word": "sa gitna ng",
+        "translation": "among"
+    },
+    {
+        "word": "dami",
+        "translation": "amount"
+    },
+    {
+        "word": "pagsusuri",
+        "translation": "analysis"
+    },
+    {
+        "word": "analyst",
+        "translation": "analyst"
+    },
+    {
+        "word": "suriin",
+        "translation": "analyze"
+    },
+    {
+        "word": "sinauna",
+        "translation": "ancient"
+    },
+    {
+        "word": "at",
+        "translation": "and"
+    },
+    {
+        "word": "galit",
+        "translation": "anger"
+    },
+    {
+        "word": "anggulo",
+        "translation": "angle"
+    },
+    {
+        "word": "galit",
+        "translation": "angry"
+    },
+    {
+        "word": "hayop",
+        "translation": "animal"
+    },
+    {
+        "word": "anibersaryo",
+        "translation": "anniversary"
+    },
+    {
+        "word": "ipahayag",
+        "translation": "announce"
+    },
+    {
+        "word": "taunan",
+        "translation": "annual"
+    },
+    {
+        "word": "isa pa",
+        "translation": "another"
+    },
+    {
+        "word": "sagot",
+        "translation": "answer"
+    },
+    {
+        "word": "umasa",
+        "translation": "anticipate"
+    },
+    {
+        "word": "pagkabahala",
+        "translation": "anxiety"
+    },
+    {
+        "word": "anuman",
+        "translation": "any"
+    },
+    {
+        "word": "sinuman",
+        "translation": "anybody"
+    },
+    {
+        "word": "anymore",
+        "translation": "anymore"
+    },
+    {
+        "word": "sinuman",
+        "translation": "anyone"
+    },
+    {
+        "word": "anumang bagay",
+        "translation": "anything"
+    },
+    {
+        "word": "gayon pa man",
+        "translation": "anyway"
+    },
+    {
+        "word": "kahit saan",
+        "translation": "anywhere"
+    },
+    {
+        "word": "bukod",
+        "translation": "apart"
+    },
+    {
+        "word": "apartment",
+        "translation": "apartment"
+    },
+    {
+        "word": "malinaw",
+        "translation": "apparent"
+    },
+    {
+        "word": "tila",
+        "translation": "apparently"
+    },
+    {
+        "word": "panawagan",
+        "translation": "appeal"
+    },
+    {
+        "word": "lumitaw",
+        "translation": "appear"
+    },
+    {
+        "word": "anyo",
+        "translation": "appearance"
+    },
+    {
+        "word": "mansanas",
+        "translation": "apple"
+    },
+    {
+        "word": "aplikasyon",
+        "translation": "application"
+    },
+    {
+        "word": "gamitin",
+        "translation": "apply"
+    },
+    {
+        "word": "humirang",
+        "translation": "appoint"
+    },
+    {
+        "word": "appointment",
+        "translation": "appointment"
+    },
+    {
+        "word": "pahalagahan",
+        "translation": "appreciate"
+    },
+    {
+        "word": "lapitan",
+        "translation": "approach"
+    },
+    {
+        "word": "angkop",
+        "translation": "appropriate"
+    },
+    {
+        "word": "pagsang-ayon",
+        "translation": "approval"
+    },
+    {
+        "word": "pagpayag",
+        "translation": "approve"
+    },
+    {
+        "word": "halos",
+        "translation": "approximately"
+    },
+    {
+        "word": "Arab",
+        "translation": "Arab"
+    },
+    {
+        "word": "arkitekto",
+        "translation": "architect"
+    },
+    {
+        "word": "lugar",
+        "translation": "area"
+    },
+    {
+        "word": "magtalo",
+        "translation": "argue"
+    },
+    {
+        "word": "pagtatalo",
+        "translation": "argument"
+    },
+    {
+        "word": "tumindig",
+        "translation": "arise"
+    },
+    {
+        "word": "braso",
+        "translation": "arm"
+    },
+    {
+        "word": "armado",
+        "translation": "armed"
+    },
+    {
+        "word": "hukbo",
+        "translation": "army"
+    },
+    {
+        "word": "sa paligid",
+        "translation": "around"
+    },
+    {
+        "word": "mag-ayos",
+        "translation": "arrange"
+    },
+    {
+        "word": "pagsasaayos",
+        "translation": "arrangement"
+    },
+    {
+        "word": "arestuhin",
+        "translation": "arrest"
+    },
+    {
+        "word": "pagdating",
+        "translation": "arrival"
+    },
+    {
+        "word": "dumating",
+        "translation": "arrive"
+    },
+    {
+        "word": "sining",
+        "translation": "art"
+    },
+    {
+        "word": "artikulo",
+        "translation": "article"
+    },
+    {
+        "word": "pintor",
+        "translation": "artist"
+    },
+    {
+        "word": "masining",
+        "translation": "artistic"
+    },
+    {
+        "word": "gaya ng",
+        "translation": "as"
+    },
+    {
+        "word": "Asyano",
+        "translation": "Asian"
+    },
+    {
+        "word": "bukod",
+        "translation": "aside"
+    },
+    {
+        "word": "itanong",
+        "translation": "ask"
+    },
+    {
+        "word": "natutulog",
+        "translation": "asleep"
+    },
+    {
+        "word": "aspeto",
+        "translation": "aspect"
+    },
+    {
+        "word": "pag-atake",
+        "translation": "assault"
+    },
+    {
+        "word": "igiit",
+        "translation": "assert"
+    },
+    {
+        "word": "masuri",
+        "translation": "assess"
+    },
+    {
+        "word": "pagtatasa",
+        "translation": "assessment"
+    },
+    {
+        "word": "pag-aari",
+        "translation": "asset"
+    },
+    {
+        "word": "magtalaga",
+        "translation": "assign"
+    },
+    {
+        "word": "takdang-aralin",
+        "translation": "assignment"
+    },
+    {
+        "word": "tumulong",
+        "translation": "assist"
+    },
+    {
+        "word": "tulong",
+        "translation": "assistance"
+    },
+    {
+        "word": "katulong",
+        "translation": "assistant"
+    },
+    {
+        "word": "makisama",
+        "translation": "associate"
+    },
+    {
+        "word": "samahan",
+        "translation": "association"
+    },
+    {
+        "word": "ipalagay",
+        "translation": "assume"
+    },
+    {
+        "word": "palagay",
+        "translation": "assumption"
+    },
+    {
+        "word": "tiyakin, siguruhin",
+        "translation": "assure"
+    },
+    {
+        "word": "sa",
+        "translation": "at"
+    },
+    {
+        "word": "atleta",
+        "translation": "athlete"
+    },
+    {
+        "word": "malakas",
+        "translation": "athletic"
+    },
+    {
+        "word": "atmospera",
+        "translation": "atmosphere"
+    }
 ]
