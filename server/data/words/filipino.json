@@ -766,5 +766,401 @@
     {
         "word": "atmospera",
         "translation": "atmosphere"
+    },
+    {
+        "word": "atake",
+        "translation": "attack"
+    },
+    {
+        "word": "tangka",
+        "translation": "attempt"
+    },
+    {
+        "word": "dalo",
+        "translation": "attend"
+    },
+    {
+        "word": "pansin",
+        "translation": "attention"
+    },
+    {
+        "word": "ugali",
+        "translation": "attitude"
+    },
+    {
+        "word": "abogado",
+        "translation": "attorney"
+    },
+    {
+        "word": "akit",
+        "translation": "attract"
+    },
+    {
+        "word": "kaakit-akit",
+        "translation": "attractive"
+    },
+    {
+        "word": "katangian",
+        "translation": "attribute"
+    },
+    {
+        "word": "madla",
+        "translation": "audience"
+    },
+    {
+        "word": "may akda",
+        "translation": "author"
+    },
+    {
+        "word": "awtoridad",
+        "translation": "authority"
+    },
+    {
+        "word": "awtomatiko",
+        "translation": "auto"
+    },
+    {
+        "word": "magagamit",
+        "translation": "available"
+    },
+    {
+        "word": "pangkaraniwan",
+        "translation": "average"
+    },
+    {
+        "word": "iwas",
+        "translation": "avoid"
+    },
+    {
+        "word": "parangal",
+        "translation": "award"
+    },
+    {
+        "word": "may kamalayan",
+        "translation": "aware"
+    },
+    {
+        "word": "kamalayan",
+        "translation": "awareness"
+    },
+    {
+        "word": "malayo",
+        "translation": "away"
+    },
+    {
+        "word": "kakila-kilabot",
+        "translation": "awful"
+    },
+    {
+        "word": "sanggol",
+        "translation": "baby"
+    },
+    {
+        "word": "likod",
+        "translation": "back"
+    },
+    {
+        "word": "background",
+        "translation": "background"
+    },
+    {
+        "word": "masama",
+        "translation": "bad"
+    },
+    {
+        "word": "kinasasama",
+        "translation": "badly"
+    },
+    {
+        "word": "bag",
+        "translation": "bag"
+    },
+    {
+        "word": "maghurno",
+        "translation": "bake"
+    },
+    {
+        "word": "balanse",
+        "translation": "balance"
+    },
+    {
+        "word": "bola",
+        "translation": "ball"
+    },
+    {
+        "word": "pagbabawal",
+        "translation": "ban"
+    },
+    {
+        "word": "banda",
+        "translation": "band"
+    },
+    {
+        "word": "bangko",
+        "translation": "bank"
+    },
+    {
+        "word": "inuman",
+        "translation": "bar"
+    },
+    {
+        "word": "bahagya",
+        "translation": "barely"
+    },
+    {
+        "word": "bariles",
+        "translation": "barrel"
+    },
+    {
+        "word": "harang",
+        "translation": "barrier"
+    },
+    {
+        "word": "base",
+        "translation": "base"
+    },
+    {
+        "word": "pangunahing",
+        "translation": "basic"
+    },
+    {
+        "word": "talaga",
+        "translation": "basically"
+    },
+    {
+        "word": "batayan",
+        "translation": "basis"
+    },
+    {
+        "word": "buslo",
+        "translation": "basket"
+    },
+    {
+        "word": "basketbol",
+        "translation": "basketball"
+    },
+    {
+        "word": "banyo",
+        "translation": "bathroom"
+    },
+    {
+        "word": "baterya",
+        "translation": "battery"
+    },
+    {
+        "word": "labanan",
+        "translation": "battle"
+    },
+    {
+        "word": "maging",
+        "translation": "be"
+    },
+    {
+        "word": "dalampasigan",
+        "translation": "beach"
+    },
+    {
+        "word": "buto",
+        "translation": "bean"
+    },
+    {
+        "word": "oso",
+        "translation": "bear"
+    },
+    {
+        "word": "talunin",
+        "translation": "beat"
+    },
+    {
+        "word": "maganda",
+        "translation": "beautiful"
+    },
+    {
+        "word": "kagandahan",
+        "translation": "beauty"
+    },
+    {
+        "word": "dahil",
+        "translation": "because"
+    },
+    {
+        "word": "maging",
+        "translation": "become"
+    },
+    {
+        "word": "kama",
+        "translation": "bed"
+    },
+    {
+        "word": "silid-tulugan",
+        "translation": "bedroom"
+    },
+    {
+        "word": "serbesa",
+        "translation": "beer"
+    },
+    {
+        "word": "bago",
+        "translation": "before"
+    },
+    {
+        "word": "magsimula",
+        "translation": "begin"
+    },
+    {
+        "word": "simula",
+        "translation": "beginning"
+    },
+    {
+        "word": "pag-uugali",
+        "translation": "behavior"
+    },
+    {
+        "word": "sa likuran",
+        "translation": "behind"
+    },
+    {
+        "word": "pagiging",
+        "translation": "being"
+    },
+    {
+        "word": "paniniwala",
+        "translation": "belief"
+    },
+    {
+        "word": "maniwala",
+        "translation": "believe"
+    },
+    {
+        "word": "kampana",
+        "translation": "bell"
+    },
+    {
+        "word": "nabibilang",
+        "translation": "belong"
+    },
+    {
+        "word": "sa ibaba",
+        "translation": "below"
+    },
+    {
+        "word": "sinturon",
+        "translation": "belt"
+    },
+    {
+        "word": "bangko",
+        "translation": "bench"
+    },
+    {
+        "word": "yuko",
+        "translation": "bend"
+    },
+    {
+        "word": "sa ilalim",
+        "translation": "beneath"
+    },
+    {
+        "word": "benepisyo",
+        "translation": "benefit"
+    },
+    {
+        "word": "sa tabi",
+        "translation": "beside"
+    },
+    {
+        "word": "Bukod sa",
+        "translation": "besides"
+    },
+    {
+        "word": "pinakamahusay",
+        "translation": "best"
+    },
+    {
+        "word": "pusta",
+        "translation": "bet"
+    },
+    {
+        "word": "mas mabuti",
+        "translation": "better"
+    },
+    {
+        "word": "sa pagitan",
+        "translation": "between"
+    },
+    {
+        "word": "lampas",
+        "translation": "beyond"
+    },
+    {
+        "word": "Bibliya",
+        "translation": "Bible"
+    },
+    {
+        "word": "malaki",
+        "translation": "big"
+    },
+    {
+        "word": "bisikleta",
+        "translation": "bike"
+    },
+    {
+        "word": "bayarin",
+        "translation": "bill"
+    },
+    {
+        "word": "bilyon",
+        "translation": "billion"
+    },
+    {
+        "word": "magbigkis",
+        "translation": "bind"
+    },
+    {
+        "word": "Biyolohikal",
+        "translation": "biological"
+    },
+    {
+        "word": "ibon",
+        "translation": "bird"
+    },
+    {
+        "word": "kapanganakan",
+        "translation": "birth"
+    },
+    {
+        "word": "kaarawan",
+        "translation": "birthday"
+    },
+    {
+        "word": "kaunti",
+        "translation": "bit"
+    },
+    {
+        "word": "kagat",
+        "translation": "bite"
+    },
+    {
+        "word": "itim",
+        "translation": "black"
+    },
+    {
+        "word": "talim",
+        "translation": "blade"
+    },
+    {
+        "word": "sisihin",
+        "translation": "blame"
+    },
+    {
+        "word": "kumot",
+        "translation": "blanket"
+    },
+    {
+        "word": "bulag",
+        "translation": "blind"
+    },
+    {
+        "word": "harangan",
+        "translation": "block"
     }
 ]
