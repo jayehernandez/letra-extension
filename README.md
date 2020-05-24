@@ -35,6 +35,7 @@
 - 🇯🇵 Japanese
 - 🇰🇷 Korean
 - 🇮🇳 Hindi
+- 🇵🇭 Filipino
 
 ## 🛠 Built With
 
