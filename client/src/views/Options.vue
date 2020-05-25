@@ -16,12 +16,12 @@ div
             @click="resetMessage"
           )
           span.checkmark
+      .has-text-centered.is-text-primary.my1.message {{ message }}
       button.save-button(
         :disabled="selectedLanguages.length === 0"
         @click="save"
       ) Save
-      .has-text-centered.is-text-primary.mt1.message {{ message }}
-      .has-text-centered 
+      .has-text-centered.mt1
         a.nowrap(
           :href="contributeLink"
         ) {{ contributeLinkText }}
@@ -54,7 +54,7 @@ export default {
     return {
       showOptions: false,
       message: '',
-      contributeLink: 'https://github.com/jayehernandez/letra-extension', 
+      contributeLink: 'https://github.com/jayehernandez/letra-extension',
       contributeLinkText: 'Contribute on Github'
     };
   },
