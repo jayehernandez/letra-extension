@@ -80,7 +80,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -111,12 +111,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/sai-chervi"><img src="https://avatars2.githubusercontent.com/u/26706838?v=4" width="100px;" alt=""/><br /><sub><b>Sai Tanmayee Chervi</b></sub></a><br /><a href="#content-sai-chervi" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/emespique"><img src="https://avatars2.githubusercontent.com/u/64101384?v=4" width="100px;" alt=""/><br /><sub><b>emespique</b></sub></a><br /><a href="#content-emespique" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/shreesh5"><img src="https://avatars2.githubusercontent.com/u/31484465?v=4" width="100px;" alt=""/><br /><sub><b>Shreesh Nayak</b></sub></a><br /><a href="#content-shreesh5" title="Content">🖋</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/dexter-dacanay-028a0249/"><img src="https://avatars2.githubusercontent.com/u/6574725?v=4" width="100px;" alt=""/><br /><sub><b>Dexter L. Dacanay</b></sub></a><br /> <a href="#translation-dacster13" title="Translation">🌍</a></td>
-    <td align="center"><a href="http://linkedin.com/in/danaredena"><img src="https://avatars3.githubusercontent.com/u/25056256?v=4" width="100px;" alt=""/><br /><sub><b>Dana Kathleen Redeña</b></sub></a><br /> <a href="#translation-danaredena" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/dexter-dacanay-028a0249/"><img src="https://avatars2.githubusercontent.com/u/6574725?v=4" width="100px;" alt=""/><br /><sub><b>Dexter L. Dacanay</b></sub></a><br /><a href="#translation-dacster13" title="Translation">🌍</a></td>
+    <td align="center"><a href="http://linkedin.com/in/danaredena"><img src="https://avatars3.githubusercontent.com/u/25056256?v=4" width="100px;" alt=""/><br /><sub><b>Dana Kathleen Redeña</b></sub></a><br /><a href="#translation-danaredena" title="Translation">🌍</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/aynfrancesco06"><img src="https://avatars1.githubusercontent.com/u/56792014?v=4" width="100px;" alt=""/><br /><sub><b>Saint King Alm</b></sub></a><br /> <a href="#translation-aynfrancesco06" title="Translation">🌍</a></td>
-    <td align="center"><a href="http://kimberrypi.me"><img src="https://avatars2.githubusercontent.com/u/20434382?v=4" width="100px;" alt=""/><br /><sub><b>Kim Santos Morano</b></sub></a><br /> <a href="#translation-kimberrypi" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/aynfrancesco06"><img src="https://avatars1.githubusercontent.com/u/56792014?v=4" width="100px;" alt=""/><br /><sub><b>Saint King Alm</b></sub></a><br /><a href="#translation-aynfrancesco06" title="Translation">🌍</a></td>
+    <td align="center"><a href="http://kimberrypi.me"><img src="https://avatars2.githubusercontent.com/u/20434382?v=4" width="100px;" alt=""/><br /><sub><b>Kim Santos Morano</b></sub></a><br /><a href="#translation-kimberrypi" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/TaniaMalhotra"><img src="https://avatars2.githubusercontent.com/u/62426189?v=4" width="100px;" alt=""/><br /><sub><b>TaniaMalhotra</b></sub></a><br /><a href="#content-TaniaMalhotra" title="Content">🖋</a></td>
   </tr>
 </table>
 
