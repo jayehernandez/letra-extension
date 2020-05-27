@@ -2,7 +2,8 @@ client/node_modules
 client/dist
 client/dist-zip
 client/.env
-
+client/coverage
+client/.jshintrc
 server/node_modules
 server/.env
 
