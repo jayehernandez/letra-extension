@@ -80,7 +80,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -118,6 +118,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/aynfrancesco06"><img src="https://avatars1.githubusercontent.com/u/56792014?v=4" width="100px;" alt=""/><br /><sub><b>Saint King Alm</b></sub></a><br /><a href="#translation-aynfrancesco06" title="Translation">🌍</a></td>
     <td align="center"><a href="http://kimberrypi.me"><img src="https://avatars2.githubusercontent.com/u/20434382?v=4" width="100px;" alt=""/><br /><sub><b>Kim Santos Morano</b></sub></a><br /><a href="#translation-kimberrypi" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/TaniaMalhotra"><img src="https://avatars2.githubusercontent.com/u/62426189?v=4" width="100px;" alt=""/><br /><sub><b>TaniaMalhotra</b></sub></a><br /><a href="#content-TaniaMalhotra" title="Content">🖋</a></td>
+    <td align="center"><a href="http://neerajsamtani.me"><img src="https://avatars1.githubusercontent.com/u/39165106?v=4" width="100px;" alt=""/><br /><sub><b>Neeraj Samtani</b></sub></a><br /><a href="#content-neerajsamtani" title="Content">🖋</a></td>
   </tr>
 </table>
 
