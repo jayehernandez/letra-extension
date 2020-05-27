@@ -225,6 +225,24 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "neerajsamtani",
+      "name": "Neeraj Samtani",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39165106?v=4",
+      "profile": "http://neerajsamtani.me",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "SeemsRocky",
+      "name": "Rocky Liao",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36709334?v=4",
+      "profile": "https://github.com/SeemsRocky",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
