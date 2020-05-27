@@ -10,7 +10,9 @@
 This is seen below the word of the day. This is randomized so that you'll get a different quote each day! It's meant to serve as an inspiration for language learning.
 
 ### Adding Quote
-You'll need to add the new quote in the `server/data/quotes.json` file.  
+You'll need to add the new quote in the `server/data/quotes.json` file.
+
+Tip: Try to add the quote in a random line (not the end of a file), to avoid merge conflicts!
 
 Example:
 ```sh
