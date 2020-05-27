@@ -80,7 +80,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -120,6 +120,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/TaniaMalhotra"><img src="https://avatars2.githubusercontent.com/u/62426189?v=4" width="100px;" alt=""/><br /><sub><b>TaniaMalhotra</b></sub></a><br /><a href="#content-TaniaMalhotra" title="Content">🖋</a></td>
     <td align="center"><a href="http://neerajsamtani.me"><img src="https://avatars1.githubusercontent.com/u/39165106?v=4" width="100px;" alt=""/><br /><sub><b>Neeraj Samtani</b></sub></a><br /><a href="#content-neerajsamtani" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/SeemsRocky"><img src="https://avatars2.githubusercontent.com/u/36709334?v=4" width="100px;" alt=""/><br /><sub><b>Rocky Liao</b></sub></a><br /><a href="#content-SeemsRocky" title="Content">🖋</a></td>
+    <td align="center"><a href="http://closing-duration.000webhostapp.com/"><img src="https://avatars2.githubusercontent.com/u/42830166?v=4" width="100px;" alt=""/><br /><sub><b>Sonu Raghuwanshi</b></sub></a><br /><a href="#content-sonuraghuwanshi" title="Content">🖋</a></td>
   </tr>
 </table>
 
