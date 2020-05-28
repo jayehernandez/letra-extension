@@ -6,6 +6,7 @@ client/coverage
 client/.jshintrc
 server/node_modules
 server/.env
+server/coverage
 
 .DS_Store
 client/.DS_Store
