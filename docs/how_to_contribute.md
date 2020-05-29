@@ -28,21 +28,17 @@ You can contribute in two ways, whichever is more convinient for you:
 
 > ☁️ Pull Requests allow maintainers of a project to review your code and merge it to the main repository afterwards.
 
-6. You'll be able to choose which branch you'd like to compare with. Make sure you choose the **develop** branch.
-
-![Choose Correct Branch](screenshots/choose_branch.png)
-
-> ☁️ Pull Requests pointing to master will not be accepted. The master branch is all the code that is currently published in the Chrome Web Store.
-
-7. After selecting the correct branch, you'll be able to click on **Create pull request**.
+6. You'll be able to choose which branch you'd like to compare with. Make sure you choose the **master** branch. After this, you can click on **Create pull request**.
 
 ![Correct Branch](screenshots/correct_branch.png)
 
-8. You'll be able to edit the title and description of your pull request before actually creating the pull request. If you are referencing an open issue, please reference it here. 
+7. You'll be able to edit the title and description of your pull request before actually creating the pull request. If you are referencing an open issue, please reference it here. 
+
+> ☁️ Reference an issue: Typing out the pound sign (#) will search through issues and PRs in the repository. You can write something like: "This PR references #14" and it will automatically be linked to issue number 14!
 
 ![Create PR](screenshots/create_pr.png)
 
-9. Hooray! You successfully created a PR for Letra! I'll be reviewing the changes you created and if everything is okay, your changes will be merged. 🥳
+8. Hooray! You successfully created a PR for Letra! I'll be reviewing the changes you created and if everything is okay, your changes will be merged. 🥳
 
 ![Created PR](screenshots/created_pr.png)
 
