@@ -6,6 +6,7 @@
     v-if="!loading"
   )
     .daily-word-container
+      h3 {{ dailyData.word.romanization || '' }}
       .is-flex.is-justify-centered
         h1 {{ dailyData.word.word || '' }}
         TranslateButton(@click="speak")
@@ -22,21 +23,24 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
-import TranslateButton from './../components/TranslateButton';
+import { mapState } from "vuex";
+import TranslateButton from "./../components/TranslateButton";
 
 export default {
-  name: 'Word',
+  name: "Word",
   components: {
-    TranslateButton,
+    TranslateButton
   },
   computed: {
-    ...mapState(['dailyData', 'loading']),
+    ...mapState(["dailyData", "loading"])
   },
   methods: {
     speak() {
-      responsiveVoice.speak(this.dailyData.word.word, this.dailyData.language.voice);
+      responsiveVoice.speak(
+        this.dailyData.word.word,
+        this.dailyData.language.voice
+      );
     }
-  },
-}
+  }
+};
 </script>
