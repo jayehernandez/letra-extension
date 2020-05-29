@@ -289,6 +289,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Stacy-Riley",
+      "name": "Stacy Riley",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/63427576?v=4",
+      "profile": "http://stacy-riley.com",
+      "contributions": [
+        "projectManagement",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
