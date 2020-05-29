@@ -2,9 +2,11 @@ client/node_modules
 client/dist
 client/dist-zip
 client/.env
-
+client/coverage
+client/.jshintrc
 server/node_modules
 server/.env
+server/coverage
 
 .DS_Store
 client/.DS_Store
