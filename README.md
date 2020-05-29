@@ -80,7 +80,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -125,6 +125,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/abhinavdubeyad9"><img src="https://avatars2.githubusercontent.com/u/49772834?v=4" width="100px;" alt=""/><br /><sub><b>Abhinav Dubey</b></sub></a><br /><a href="#content-abhinavdubeyad9" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/barbarinaa"><img src="https://avatars2.githubusercontent.com/u/41013205?v=4" width="100px;" alt=""/><br /><sub><b>barbarinaa</b></sub></a><br /><a href="#content-barbarinaa" title="Content">🖋</a></td>
   </tr>
 </table>
 
