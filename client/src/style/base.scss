@@ -25,6 +25,7 @@ body {
 .is-text-primary { color: $primary-color; }
 .is-text-secondary { color: $secondary-color; }
 
+.mb0 { margin-bottom: 0; }
 .mb1 { margin-bottom: $spacing-xs; }
 .mt1 { margin-top: $spacing-xs; }
 .my1 { margin-top: $spacing-xs; margin-bottom: $spacing-xs; }

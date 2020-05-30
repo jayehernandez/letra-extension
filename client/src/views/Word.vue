@@ -6,7 +6,7 @@
     v-if="!loading"
   )
     .daily-word-container
-      h3 {{ dailyData.word.romanization || '' }}
+      h3.mb0 {{ dailyData.word.romanization || '' }}
       .is-flex.is-justify-centered
         h1 {{ dailyData.word.word || '' }}
         TranslateButton(@click="speak")
