@@ -42,7 +42,7 @@ You can contribute in two ways, whichever is more convinient for you:
 
 ![Created PR](screenshots/created_pr.png)
 
-10. Extra step: Please click on the ⭐️ **Star** button if you like this repository and it helped you in any way!
+9. Extra step: Please click on the ⭐️ **Star** button if you like this repository and it helped you in any way!
 
 ## 2️⃣ Via Local Machine
  
