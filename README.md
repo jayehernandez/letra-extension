@@ -131,7 +131,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://stacy-riley.com"><img src="https://avatars3.githubusercontent.com/u/63427576?v=4" width="100px;" alt=""/><br /><sub><b>Stacy Riley</b></sub></a><br /><a href="#content-Stacy-Riley" title="Content">🖋</a></td>
     <td align="center"><a href="http://bengovernali.com"><img src="https://avatars3.githubusercontent.com/u/39890388?v=4" width="100px;" alt=""/><br /><sub><b>bengovernali</b></sub></a><br /><a href="#content-bengovernali" title="Content">🖋</a></td>
     <td align="center"><a href="https://twitter.com/tiresandplanes"><img src="https://avatars3.githubusercontent.com/u/25542712?v=4" width="100px;" alt=""/><br /><sub><b>Gary Beardsley</b></sub></a><br /><a href="#content-tiresc" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/jkfliu"><img src="https://avatars0.githubusercontent.com/u/38794392?v=4" width="100px;" alt=""/><br /><sub><b>Jason Liu</b></sub></a><br /><a href="#translation-jkfliu" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/jkfliu"><img src="https://avatars0.githubusercontent.com/u/38794392?v=4" width="100px;" alt=""/><br /><sub><b>Jason Liu</b></sub></a><br /><a href="#translation-jkfliu" title="Translation">🌍</a> <a href="#content-jkfliu" title="Content">🖋</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jcfudotan"><img src="https://avatars3.githubusercontent.com/u/60477749?v=4" width="100px;" alt=""/><br /><sub><b>John Christian Fudotan</b></sub></a><br /><a href="#content-jcfudotan" title="Content">🖋</a></td>
