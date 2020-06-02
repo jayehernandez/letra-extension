@@ -3596,8 +3596,8 @@
     "translation": "fall"
   },
   {
-    "word": "FAUX",
-    "translation": false
+    "word": "faux",
+    "translation": "false"
   },
   {
     "word": "familier",
@@ -9920,8 +9920,8 @@
     "translation": "truck"
   },
   {
-    "word": "VRAI",
-    "translation": true
+    "word": "vrai",
+    "translation": "true"
   },
   {
     "word": "vraiment",
