@@ -80,7 +80,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-33-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -128,6 +128,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/barbarinaa"><img src="https://avatars2.githubusercontent.com/u/41013205?v=4" width="100px;" alt=""/><br /><sub><b>barbarinaa</b></sub></a><br /><a href="#content-barbarinaa" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Btwonu"><img src="https://avatars0.githubusercontent.com/u/58858490?v=4" width="100px;" alt=""/><br /><sub><b>Val Delchev</b></sub></a><br /><a href="#content-Btwonu" title="Content">🖋</a></td>
     <td align="center"><a href="http://stacy-riley.com"><img src="https://avatars3.githubusercontent.com/u/63427576?v=4" width="100px;" alt=""/><br /><sub><b>Stacy Riley</b></sub></a><br /><a href="#content-Stacy-Riley" title="Content">🖋</a></td>
+    <td align="center"><a href="http://bengovernali.com"><img src="https://avatars3.githubusercontent.com/u/39890388?v=4" width="100px;" alt=""/><br /><sub><b>bengovernali</b></sub></a><br /><a href="#content-bengovernali" title="Content">🖋</a></td>
   </tr>
 </table>
 

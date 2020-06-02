@@ -19,13 +19,15 @@ Format:
 
 - **voice** attribute: Choose voice in the supported [ResponsiveVoice API voices](https://github.com/jayehernandez/letra-extension/blob/master/docs/supported_voices.md)
 - **flag** attribute: Choose the flag emoji from twemoji-awesome's [list of CSS classes](https://github.com/jayehernandez/letra-extension/blob/master/client/src/style/twemoji-awesome.scss)
+- [**romanization**](https://en.wikipedia.org/wiki/Romanization) attribute: For selected languages only
 
 Example:
 ```sh
 {
   "german": {
-    voice: "Deutsch Female",
-    flag: "german"
+    "voice": "Deutsch Female",
+    "flag": "german",
+    "romanization": ""
   }
 }
 ```
@@ -69,5 +71,6 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 - [ ] ➕ Added a new JSON object in the `server/data/languages.json` file.
 - [ ] Added the **voice** 🎤 attribute supported by ResponsiveVoice API.
 - [ ] Added the **flag** 🏳 atrribute in the format of the twemoji-awesome CSS syntax.
+- [ ] Added the **romanization** atrribute for appropriate languages.
 - [ ] ➕ Created the `{language.json}` file inside the `server/data/words` folder containing the list of the 3000 words.
 - [ ] Removed duplicates and noted 🗒 them in the Pull Request.
