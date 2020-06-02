@@ -37,6 +37,7 @@
 - 🇮🇳 Hindi
 - 🇵🇭 Filipino
 - 🇮🇩 Indonesian
+- 🇨🇳 Chinese (Simplified)
 
 ## 🛠 Built With
 
