@@ -80,7 +80,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -134,6 +134,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jcfudotan"><img src="https://avatars3.githubusercontent.com/u/60477749?v=4" width="100px;" alt=""/><br /><sub><b>John Christian Fudotan</b></sub></a><br /><a href="#content-jcfudotan" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/alexanfr"><img src="https://avatars0.githubusercontent.com/u/40047582?v=4" width="100px;" alt=""/><br /><sub><b>Alex Sadang</b></sub></a><br /><a href="#content-alexanfr" title="Content">🖋</a></td>
   </tr>
 </table>
 
