@@ -308,6 +308,33 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "tiresc",
+      "name": "Gary Beardsley",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25542712?v=4",
+      "profile": "https://twitter.com/tiresandplanes",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "jkfliu",
+      "name": "Jason Liu",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/38794392?v=4",
+      "profile": "https://github.com/jkfliu",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "jcfudotan",
+      "name": "John Christian Fudotan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60477749?v=4",
+      "profile": "https://github.com/jcfudotan",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
