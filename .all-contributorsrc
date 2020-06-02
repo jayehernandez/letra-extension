@@ -308,6 +308,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "tiresc",
+      "name": "Gary Beardsley",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25542712?v=4",
+      "profile": "https://twitter.com/tiresandplanes",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
