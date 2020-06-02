@@ -22,7 +22,7 @@ Vue.use(VueAnalytics, {
 Vue.filter('titleize', ((str) => {
   if (typeof str !== 'string') return '';
 
-  const frags = str.split('_');
+  const frags = str.split('-');
   return frags.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 }));
 
