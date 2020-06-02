@@ -3792,8 +3792,8 @@
     "translation": "fall"
   },
   {
-    "word": "FALSCH",
-    "translation": false
+    "word": "falsch",
+    "translation": "false"
   },
   {
     "word": "familiär",
@@ -10237,7 +10237,7 @@
   },
   {
     "word": "WAHR",
-    "translation": true
+    "translation": "true"
   },
   {
     "word": "wirklich",

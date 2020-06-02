@@ -3976,8 +3976,8 @@
         "translation": "fall"
     },
     {
-        "word": "SALAH",
-        "translation": false
+        "word": "salah",
+        "translation": "false"
     },
     {
         "word": "akrab",
@@ -10800,8 +10800,8 @@
         "translation": "truck"
     },
     {
-        "word": "BENAR",
-        "translation": true
+        "word": "benar",
+        "translation": "true"
     },
     {
         "word": "benar-benar",
