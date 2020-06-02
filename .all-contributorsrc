@@ -326,6 +326,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "jcfudotan",
+      "name": "John Christian Fudotan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/60477749?v=4",
+      "profile": "https://github.com/jcfudotan",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
