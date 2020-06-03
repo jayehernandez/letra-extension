@@ -8,7 +8,9 @@
     .daily-word-container
       h3.mb0 {{ dailyData.word.romanization || '' }}
       .is-flex.is-justify-centered
-        h1 {{ dailyData.word.word || '' }}
+        h1(
+          v-bind:style="{ 'font-size': calcualteFontSizeForDailyWord }"
+        ) {{ dailyData.word.word || '' }}
         TranslateButton(@click="speak")
       h2 {{ dailyData.word.translation || '' }}
     .quote-container
@@ -25,14 +27,24 @@
 <script>
 import { mapState } from "vuex";
 import TranslateButton from "./../components/TranslateButton";
-
 export default {
   name: "Word",
   components: {
     TranslateButton
   },
   computed: {
-    ...mapState(["dailyData", "loading"])
+    ...mapState(["dailyData", "loading"]),
+    calcualteFontSizeForDailyWord() {
+      if (this.dailyData && this.dailyData.word && this.dailyData.word.word && this.dailyData.word.word.length >= 20) {
+        return '7vw'
+      } else if (this.dailyData && this.dailyData.word && this.dailyData.word.word && this.dailyData.word.word.length >= 15) {
+        return '8vw';
+      } else if (this.dailyData && this.dailyData.word && this.dailyData.word.word && this.dailyData.word.word.length >= 13) {
+        return '9vw'
+      } else {
+        return '10vw'
+      }
+    }
   },
   methods: {
     speak() {
