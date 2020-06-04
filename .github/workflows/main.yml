@@ -12,9 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies on Node.js
+      - name: Install dependencies for Node.js
         run: npm install
         working-directory: server
       - name: Run tests on Node.js
-        run: npm run test
+        run: npm test
         working-directory: server
+      - name: Install dependencies for Vue.js
+        run: npm install
+        working-directory: client
+      - name: Run tests for Vue.js
+        run: npm test
+        working-directory: client
