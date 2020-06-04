@@ -36,7 +36,7 @@ export default {
     ...mapState(["dailyData", "loading"]),
     calcualteFontSizeForDailyWord() {
       if (!!this.dailyData.word.word) {
-        switch (this.dailyData.word.word.length) {
+        switch (true) {
           case this.dailyData.word.word.length >= 20:
             return '7vw';
             break;
