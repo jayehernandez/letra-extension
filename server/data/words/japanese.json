@@ -5060,9 +5060,9 @@
     "translation": "fall"
   },
   {
-    "word": "FALSE",
+    "word": "偽",
     "romanization": "",
-    "translation": false
+    "translation": "false"
   },
   {
     "word": "よく知られています",
@@ -13925,9 +13925,9 @@
     "translation": "truck"
   },
   {
-    "word": "TRUE",
+    "word": "本当",
     "romanization": "",
-    "translation": true
+    "translation": "true"
   },
   {
     "word": "真に",
