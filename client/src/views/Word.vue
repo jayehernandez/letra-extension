@@ -35,14 +35,21 @@ export default {
   computed: {
     ...mapState(["dailyData", "loading"]),
     calcualteFontSizeForDailyWord() {
-      if (this.dailyData && this.dailyData.word && this.dailyData.word.word && this.dailyData.word.word.length >= 20) {
-        return '7vw'
-      } else if (this.dailyData && this.dailyData.word && this.dailyData.word.word && this.dailyData.word.word.length >= 15) {
-        return '8vw';
-      } else if (this.dailyData && this.dailyData.word && this.dailyData.word.word && this.dailyData.word.word.length >= 13) {
-        return '9vw'
-      } else {
-        return '10vw'
+      if (!!this.dailyData.word.word) {
+        switch (this.dailyData.word.word.length) {
+          case this.dailyData.word.word.length >= 20:
+            return '7vw';
+            break;
+          case this.dailyData.word.word.length >= 15:
+            return '8vw';
+            break;
+          case this.dailyData.word.word.length >= 13:
+            return '9vw';
+            break;
+          default:
+            return '10vw';
+            break;
+        }
       }
     }
   },
