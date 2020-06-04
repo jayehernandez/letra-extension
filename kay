@@ -1,0 +1,9 @@
+def intern(name):
+   print("hello world")
+   
+   print(name)
+   
+intern("id:HNG-04374")
+
+
+intern("language: python")
