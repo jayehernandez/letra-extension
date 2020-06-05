@@ -34,5 +34,9 @@
   "chinese-simplified": {
     "flag": "twa-china-flag",
     "voice": "Chinese Female"
+  },
+    "arabic": {
+    "flag": "twa-iraq-flag",
+    "voice": "Arabic Female"
   }
 }
