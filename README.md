@@ -1,7 +1,7 @@
 ![Title](docs/screenshots/title.png)
 
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.6-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.8-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/jayehernandez/letra#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -38,11 +38,14 @@
 - 🇵🇭 Filipino
 - 🇮🇩 Indonesian
 - 🇨🇳 Chinese (Simplified)
+- 🇧🇷 Brazilian Portuguese
 
 ## 🛠 Built With
 
-* [Vue.js](https://vuejs.org/)
-* [Node.js](https://nodejs.org/en/)
+* [Vue.js](https://vuejs.org/) - Frontend
+* [Node.js](https://nodejs.org/en/) - Backend
+* [Pug](https://pugjs.org/api/getting-started.html) - Template Engine
+* [Jest](https://jestjs.io/) - Testing Framework
 
 ## 🤝 Contributing
 
@@ -57,6 +60,7 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 - [Add a learning quote](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_quote.md) (Easiest way to contribute! 🚀)
 - [Add a new language](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md)
 - Edit translations from existing languages - guide 🔜
+- [Help in getting 100% test coverage](https://github.com/jayehernandez/letra-extension/blob/master/docs/testing_guidelines.md)
 
 ### Installation
 
@@ -81,7 +85,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -136,6 +140,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/jcfudotan"><img src="https://avatars3.githubusercontent.com/u/60477749?v=4" width="100px;" alt=""/><br /><sub><b>John Christian Fudotan</b></sub></a><br /><a href="#content-jcfudotan" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/alexanfr"><img src="https://avatars0.githubusercontent.com/u/40047582?v=4" width="100px;" alt=""/><br /><sub><b>Alex Sadang</b></sub></a><br /><a href="#content-alexanfr" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/nicolas-alv3"><img src="https://avatars2.githubusercontent.com/u/42628386?v=4" width="100px;" alt=""/><br /><sub><b>NicoAlvarez</b></sub></a><br /><a href="#content-nicolas-alv3" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Alka-git12"><img src="https://avatars3.githubusercontent.com/u/58396306?v=4" width="100px;" alt=""/><br /><sub><b>Alka-git12</b></sub></a><br /><a href="#content-Alka-git12" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/tobias1012"><img src="https://avatars2.githubusercontent.com/u/29657183?v=4" width="100px;" alt=""/><br /><sub><b>Tobias Jensen</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=tobias1012" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/pollyj"><img src="https://avatars1.githubusercontent.com/u/55009539?v=4" width="100px;" alt=""/><br /><sub><b>Polly Sutcliffe</b></sub></a><br /><a href="#content-pollyj" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/singhaditya28"><img src="https://avatars3.githubusercontent.com/u/66196917?v=4" width="100px;" alt=""/><br /><sub><b>singhaditya28</b></sub></a><br /><a href="#translation-singhaditya28" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/kaycmendes"><img src="https://avatars1.githubusercontent.com/u/38755587?v=4" width="100px;" alt=""/><br /><sub><b>Kayc</b></sub></a><br /><a href="#translation-kaycmendes" title="Translation">🌍</a></td>
   </tr>
 </table>
 

@@ -22,7 +22,7 @@
   "indonesian": {
     "flag": "twa-indonesia-flag",
     "voice": "Indonesian Female"
-  },  
+  },
   "hindi": {
     "flag": "twa-india-flag",
     "voice": "Hindi Female"
@@ -34,5 +34,9 @@
   "chinese-simplified": {
     "flag": "twa-china-flag",
     "voice": "Chinese Female"
+  },
+  "brazilian-portuguese": {
+    "flag": "twa-brazil-flag",
+    "voice": "Brazilian Portuguese Female"
   }
 }

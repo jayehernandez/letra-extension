@@ -345,6 +345,60 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "nicolas-alv3",
+      "name": "NicoAlvarez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42628386?v=4",
+      "profile": "https://github.com/nicolas-alv3",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Alka-git12",
+      "name": "Alka-git12",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/58396306?v=4",
+      "profile": "https://github.com/Alka-git12",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "tobias1012",
+      "name": "Tobias Jensen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29657183?v=4",
+      "profile": "https://github.com/tobias1012",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "pollyj",
+      "name": "Polly Sutcliffe",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55009539?v=4",
+      "profile": "https://github.com/pollyj",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "singhaditya28",
+      "name": "singhaditya28",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/66196917?v=4",
+      "profile": "https://github.com/singhaditya28",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "kaycmendes",
+      "name": "Kayc",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38755587?v=4",
+      "profile": "https://github.com/kaycmendes",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,

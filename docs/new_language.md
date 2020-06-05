@@ -57,12 +57,14 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 ```
 
 3. Install an Export JSON add-on.
-  `Add-ons -> Get Add-ons -> Search for "Export Sheet Data: -> Install`
+  `Add-ons -> Get Add-ons -> Search for "Export Sheet Data" -> Install`
 4. Open options for the Export Sheet Data.
   `Add-ons -> Export Sheet Data -> Open Sidebar`
 5. Go down to the **JSON** menu and tick the *Export sheet arrays* checkbox.
 6. Go down to the **Advanced JSON** menu and tick the *Export contents as array* checkbox.
 7. Click on export and copy the code in the `server/data/words/{language}.json` file.
+8. Increment the `currentLanguagesCount` variable in the `client/src/store/index.js` by 1. This is used to check if the `client` code has the correct number of languages, if it does, it's one less call to the server every time a new tab is opened!
+9. Add the new language in the Supported Languages of `README.md`.
 
 **Please remove words with the same translation or no direct translation and note them in your Pull Request.**
 
@@ -74,3 +76,5 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 - [ ] Added the **romanization** atrribute for appropriate languages.
 - [ ] ➕ Created the `{language.json}` file inside the `server/data/words` folder containing the list of the 3000 words.
 - [ ] Removed duplicates and noted 🗒 them in the Pull Request.
+- [ ] Increment `currentLanguagesCount` in `client/src/store/index.js`
+- [ ] Add new language in `README.md`
