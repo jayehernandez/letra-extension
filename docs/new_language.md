@@ -57,7 +57,7 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 ```
 
 3. Install an Export JSON add-on.
-  `Add-ons -> Get Add-ons -> Search for "Export Sheet Data: -> Install`
+  `Add-ons -> Get Add-ons -> Search for "Export Sheet Data" -> Install`
 4. Open options for the Export Sheet Data.
   `Add-ons -> Export Sheet Data -> Open Sidebar`
 5. Go down to the **JSON** menu and tick the *Export sheet arrays* checkbox.
