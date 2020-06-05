@@ -41,8 +41,10 @@
 
 ## 🛠 Built With
 
-* [Vue.js](https://vuejs.org/)
-* [Node.js](https://nodejs.org/en/)
+* [Vue.js](https://vuejs.org/) - Frontend
+* [Node.js](https://nodejs.org/en/) - Backend
+* [Pug](https://pugjs.org/api/getting-started.html) - Template Engine
+* [Jest](https://jestjs.io/) - Testing Framework
 
 ## 🤝 Contributing
 
@@ -57,6 +59,7 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 - [Add a learning quote](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_quote.md) (Easiest way to contribute! 🚀)
 - [Add a new language](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md)
 - Edit translations from existing languages - guide 🔜
+- [Help in getting 100% test coverage](https://github.com/jayehernandez/letra-extension/blob/master/docs/testing_guidelines.md)
 
 ### Installation
 

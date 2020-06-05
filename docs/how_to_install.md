@@ -8,8 +8,8 @@
 - Also, make sure that you have **Node.js** and **npm** installed. [Here's a handy guide from the npm site!](https://www.npmjs.com/get-npm)
 
 - These external APIs will **not** work on your local machine, since I can't possible share the production API keys 🔑 with everyone:
-> - Unsplash (so you won't get to see a background image 😢)
-> - ResponsiveVoice (no text-to-speech for the chosen word!)
+  - Unsplash (so you won't get to see a background image 😢)
+  - ResponsiveVoice (no text-to-speech for the chosen word!)
 
 - Make sure you have the repository in your local machine! You can go to the [Contributing Guidelines](https://github.com/jayehernandez/letra-extension/blob/master/docs/how_to_contribute.md) for steps on how to fork this repo.
 
