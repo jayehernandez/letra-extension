@@ -363,6 +363,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "tobias1012",
+      "name": "Tobias Jensen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29657183?v=4",
+      "profile": "https://github.com/tobias1012",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
