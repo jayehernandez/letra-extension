@@ -38,6 +38,7 @@
 - 🇵🇭 Filipino
 - 🇮🇩 Indonesian
 - 🇨🇳 Chinese (Simplified)
+- 🇧🇷 Brazilian Portuguese
 
 ## 🛠 Built With
 
