@@ -63,6 +63,8 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 5. Go down to the **JSON** menu and tick the *Export sheet arrays* checkbox.
 6. Go down to the **Advanced JSON** menu and tick the *Export contents as array* checkbox.
 7. Click on export and copy the code in the `server/data/words/{language}.json` file.
+8. Increment the `currentLanguagesCount` variable in the `client/src/store/index.js` by 1. This is used to check if the `client` code has the correct number of languages, if it does, it's one less call to the server every time a new tab is opened!
+9. Add the new language in the Supported Languages of `README.md`.
 
 **Please remove words with the same translation or no direct translation and note them in your Pull Request.**
 
