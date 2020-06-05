@@ -345,6 +345,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "nicolas-alv3",
+      "name": "NicoAlvarez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42628386?v=4",
+      "profile": "https://github.com/nicolas-alv3",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
