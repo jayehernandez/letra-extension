@@ -76,3 +76,5 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 - [ ] Added the **romanization** atrribute for appropriate languages.
 - [ ] ➕ Created the `{language.json}` file inside the `server/data/words` folder containing the list of the 3000 words.
 - [ ] Removed duplicates and noted 🗒 them in the Pull Request.
+- [ ] Increment `currentLanguagesCount` in `client/src/store/index.js`
+- [ ] Add new language in `README.md`
