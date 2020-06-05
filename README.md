@@ -84,7 +84,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -142,6 +142,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/nicolas-alv3"><img src="https://avatars2.githubusercontent.com/u/42628386?v=4" width="100px;" alt=""/><br /><sub><b>NicoAlvarez</b></sub></a><br /><a href="#content-nicolas-alv3" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Alka-git12"><img src="https://avatars3.githubusercontent.com/u/58396306?v=4" width="100px;" alt=""/><br /><sub><b>Alka-git12</b></sub></a><br /><a href="#content-Alka-git12" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/tobias1012"><img src="https://avatars2.githubusercontent.com/u/29657183?v=4" width="100px;" alt=""/><br /><sub><b>Tobias Jensen</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=tobias1012" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/pollyj"><img src="https://avatars1.githubusercontent.com/u/55009539?v=4" width="100px;" alt=""/><br /><sub><b>Polly Sutcliffe</b></sub></a><br /><a href="#content-pollyj" title="Content">🖋</a></td>
   </tr>
 </table>
 
