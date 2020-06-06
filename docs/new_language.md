@@ -19,15 +19,13 @@ Format:
 
 - **voice** attribute: Choose voice in the supported [ResponsiveVoice API voices](https://github.com/jayehernandez/letra-extension/blob/master/docs/supported_voices.md)
 - **flag** attribute: Choose the flag emoji from twemoji-awesome's [list of CSS classes](https://github.com/jayehernandez/letra-extension/blob/master/client/src/style/twemoji-awesome.scss)
-- [**romanization**](https://en.wikipedia.org/wiki/Romanization) attribute: For selected languages only
 
 Example:
 ```sh
 {
   "german": {
     "voice": "Deutsch Female",
-    "flag": "german",
-    "romanization": ""
+    "flag": "german"
   }
 }
 ```
@@ -43,6 +41,8 @@ Here's the [`french.json`](https://github.com/jayehernandez/letra-extension/blob
   translation: "reach"
 }
 ```
+
+Some languages also have the [**romanization**](https://en.wikipedia.org/wiki/Romanization) attribute.
 
 To make this process easier, we'll use Google Sheets. _(You get to contribute and learn about sheets, what a great combination!)_
 
