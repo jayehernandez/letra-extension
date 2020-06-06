@@ -21,3 +21,4 @@ describe('OptionsButton', () => {
         expect(wrapper.emitted().click.length).toBe(1);
     });
   });
+  
