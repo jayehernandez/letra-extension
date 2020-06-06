@@ -21,8 +21,6 @@ describe('/languages', () => {
     });
     it('returns languages as the response body', async () => {
       const res = await request(app).get('/languages');
-      console.log(res);
-      console.log(languages);
       expect(res.body.languages).toEqual(languages);
     });
   });
