@@ -85,7 +85,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-46-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -150,6 +150,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/kaycmendes"><img src="https://avatars1.githubusercontent.com/u/38755587?v=4" width="100px;" alt=""/><br /><sub><b>Kayc</b></sub></a><br /><a href="#translation-kaycmendes" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/samanthapg"><img src="https://avatars1.githubusercontent.com/u/47875003?v=4" width="100px;" alt=""/><br /><sub><b>samanthapg</b></sub></a><br /><a href="#content-samanthapg" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/penninkn"><img src="https://avatars2.githubusercontent.com/u/57964968?v=4" width="100px;" alt=""/><br /><sub><b>penninkn</b></sub></a><br /><a href="#content-penninkn" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Raghav-byte"><img src="https://avatars2.githubusercontent.com/u/55020567?v=4" width="100px;" alt=""/><br /><sub><b>Raghav </b></sub></a><br /><a href="#content-Raghav-byte" title="Content">🖋</a></td>
   </tr>
 </table>
 
