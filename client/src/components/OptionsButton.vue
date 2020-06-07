@@ -8,5 +8,5 @@ button#options-button.icon(@click="$emit('click')")
 <script>
 export default {
   name: 'OptionsButton',
-}
+};
 </script>

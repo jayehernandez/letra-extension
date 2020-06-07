@@ -6,7 +6,6 @@
   a(href="https://unsplash.com/?utm_source=letra&utm_medium=referral")  Unsplash
   |  | Text to Speech provided by
   a(href="https://responsivevoice.org/")  responsivevoice.org
-</div>
 </template>
 
 <script>
@@ -25,5 +24,5 @@ export default {
       return `https://unsplash.com/@${this.photographerData.username}?utm_source=letra&utm_medium=referral`;
     },
   },
-}
+};
 </script>

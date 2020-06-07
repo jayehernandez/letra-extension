@@ -1,7 +1,6 @@
 <template lang="pug">
 .top-left.icon.fadeIn(v-wow data-wow-duration="2s" :key="flagClass")
   i(:class="flagClass")
-</div>
 </template>
 
 <script>
@@ -16,5 +15,5 @@ export default {
       return `twa twa-4x ${this.dailyData.language.flag}`;
     },
   },
-}
+};
 </script>

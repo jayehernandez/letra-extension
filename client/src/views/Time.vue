@@ -6,11 +6,11 @@
 
 <script>
 export default {
-  name: "Time",
+  name: 'Time',
   data() {
     return {
-      computedTime: "",
-      computedDate: ""
+      computedTime: '',
+      computedDate: '',
     };
   },
   created() {
@@ -24,23 +24,23 @@ export default {
 
           // Calculate time in 12-hour format
           var time = today.toLocaleTimeString([], {
-            hour: "2-digit",
-            minute: "2-digit"
+            hour: '2-digit',
+            minute: '2-digit',
           });
           this.computedTime = time;
 
           // Compute date according to the current locale
-          today.toLocaleString("default", { month: "long" });
+          today.toLocaleString('default', { month: 'long' });
           const date = today.toLocaleDateString([], {
-            year: "numeric",
-            month: "long",
-            day: "numeric"
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
           });
           this.computedDate = date;
         }.bind(this),
         1000
       );
-    }
-  }
+    },
+  },
 };
 </script>

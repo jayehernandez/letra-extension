@@ -8,5 +8,5 @@ button.is-flex-end.mb3.is-text-primary.icon(@click="$emit('click')")
 <script>
 export default {
   name: 'TranslateButton',
-}
+};
 </script>

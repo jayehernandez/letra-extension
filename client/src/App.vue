@@ -52,5 +52,5 @@ export default {
       this.showOptions = !this.showOptions;
     },
   },
-}
+};
 </script>

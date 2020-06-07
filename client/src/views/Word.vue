@@ -25,15 +25,15 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
-import TranslateButton from "./../components/TranslateButton";
+import { mapState } from 'vuex';
+import TranslateButton from './../components/TranslateButton';
 export default {
-  name: "Word",
+  name: 'Word',
   components: {
-    TranslateButton
+    TranslateButton,
   },
   computed: {
-    ...mapState(["dailyData", "loading"]),
+    ...mapState(['dailyData', 'loading']),
     calcualteFontSizeForDailyWord() {
       if (!!this.dailyData.word.word) {
         switch (true) {
@@ -51,7 +51,7 @@ export default {
             break;
         }
       }
-    }
+    },
   },
   methods: {
     speak() {
@@ -59,7 +59,7 @@ export default {
         this.dailyData.word.word,
         this.dailyData.language.voice
       );
-    }
-  }
+    },
+  },
 };
 </script>

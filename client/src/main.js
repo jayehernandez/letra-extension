@@ -14,17 +14,17 @@ Vue.use(VueAnalytics, {
   id: process.env.VUE_APP_GOOGLE_ANALYTICS_ID,
   router,
   debug: { enabled: true },
-  set: [
-    { field: 'checkProtocolTask', value: null },
-  ]
+  set: [{ field: 'checkProtocolTask', value: null }],
 });
 
-Vue.filter('titleize', ((str) => {
+Vue.filter('titleize', str => {
   if (typeof str !== 'string') return '';
 
   const frags = str.split('-');
-  return frags.map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-}));
+  return frags
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+});
 
 new Vue({
   el: '#app',
