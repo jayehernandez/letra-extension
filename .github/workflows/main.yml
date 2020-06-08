@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies for Vue.js
         run: npm install
         working-directory: client
-      - name: Run tests for Vue.js
-        run: npm test
+      - name: Run prettier for Vue.js
+        run: npm run prettier
+        working-directory: client
+      - name: Run ES Lint for Vue.js
+        run: npm run lint
         working-directory: client
