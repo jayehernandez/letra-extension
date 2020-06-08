@@ -29,8 +29,8 @@ div
 
 <script>
 import { mapActions, mapState } from 'vuex';
-import RandomButton from './../components/RandomButton';
-import OptionsButton from './../components/OptionsButton';
+import RandomButton from '../components/RandomButton';
+import OptionsButton from '../components/OptionsButton';
 
 export default {
   name: 'Options',

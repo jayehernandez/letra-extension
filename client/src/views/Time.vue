@@ -19,11 +19,11 @@ export default {
   methods: {
     getNow() {
       setInterval(
-        function() {
-          var today = new Date();
+        () => {
+          const today = new Date();
 
           // Calculate time in 12-hour format
-          var time = today.toLocaleTimeString([], {
+          const time = today.toLocaleTimeString([], {
             hour: '2-digit',
             minute: '2-digit',
           });
@@ -37,8 +37,8 @@ export default {
             day: 'numeric',
           });
           this.computedDate = date;
-        }.bind(this),
-        1000
+        },
+        1000,
       );
     },
   },

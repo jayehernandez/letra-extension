@@ -34,7 +34,7 @@ export default {
     ...mapState(['dailyData', 'hasError']),
 
     imageUrl() {
-      if (!!this.dailyData.photo.urls) return this.dailyData.photo.urls.full;
+      if (this.dailyData.photo.urls) return this.dailyData.photo.urls.full;
       return '';
     },
   },
