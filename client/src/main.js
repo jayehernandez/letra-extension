@@ -13,7 +13,7 @@ Vue.loadScript(process.env.VUE_APP_VOICE_URL);
 Vue.use(VueAnalytics, {
   id: process.env.VUE_APP_GOOGLE_ANALYTICS_ID,
   router,
-  debug: { enabled: true },
+  debug: { enabled: process.env.NODE_ENV == 'development' },
   set: [{ field: 'checkProtocolTask', value: null }],
 });
 

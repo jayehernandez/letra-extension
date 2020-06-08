@@ -10,3 +10,5 @@ server/coverage
 
 .DS_Store
 client/.DS_Store
+
+client/.env.production
