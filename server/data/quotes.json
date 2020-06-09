@@ -35,6 +35,10 @@
     "sentence": "Language is a weapon to know the knowledge of a person",
     "author": "Abhinav Dubey"
   },
+ {
+  "sentence": "Knowledge of languages is the doorway to wisdom",
+  "author": "Raghav Shukla"
+ },
   {
     "sentence": "A man who knows two languages is worth two men.",
     "author": "French Proverb"
@@ -90,6 +94,10 @@
   {
     "sentence": "Language is the road map of a culture. It tells you where its people come from and where they are going.",
     "author": "Rita Mae Brown"
+  },
+  { 
+    "sentence": "A language is not just words. t’s a culture, a tradition, a unification of a community, a whole history that creates what a community is. It’s all embodied in a language.",
+    "author": "Noam Chomsky"
   },
   {
     "sentence": "Learning another language is not only learning different words for the same things, but learning another way to think about things.",
@@ -354,6 +362,11 @@
   {
     "sentence": "Think like a wise man but communicate in the language of the people.",
     "author": "William Butler Yeats"
+  },
+  {
+
+    "sentence": "Language makes infinite use of finite media.",
+    "author": "Wilhelm von Humboldt" 
   },
   {
     "sentence": "If you want to know what's important to a culture, learn their language",

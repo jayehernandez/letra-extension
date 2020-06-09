@@ -19,15 +19,13 @@ Format:
 
 - **voice** attribute: Choose voice in the supported [ResponsiveVoice API voices](https://github.com/jayehernandez/letra-extension/blob/master/docs/supported_voices.md)
 - **flag** attribute: Choose the flag emoji from twemoji-awesome's [list of CSS classes](https://github.com/jayehernandez/letra-extension/blob/master/client/src/style/twemoji-awesome.scss)
-- [**romanization**](https://en.wikipedia.org/wiki/Romanization) attribute: For selected languages only
 
 Example:
 ```sh
 {
   "german": {
     "voice": "Deutsch Female",
-    "flag": "german",
-    "romanization": ""
+    "flag": "german"
   }
 }
 ```
@@ -43,6 +41,8 @@ Here's the [`french.json`](https://github.com/jayehernandez/letra-extension/blob
   translation: "reach"
 }
 ```
+
+Some languages also have the [**romanization**](https://en.wikipedia.org/wiki/Romanization) attribute.
 
 To make this process easier, we'll use Google Sheets. _(You get to contribute and learn about sheets, what a great combination!)_
 
@@ -63,6 +63,8 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 5. Go down to the **JSON** menu and tick the *Export sheet arrays* checkbox.
 6. Go down to the **Advanced JSON** menu and tick the *Export contents as array* checkbox.
 7. Click on export and copy the code in the `server/data/words/{language}.json` file.
+8. Increment the `currentLanguagesCount` variable in the `client/src/store/index.js` by 1. This is used to check if the `client` code has the correct number of languages, if it does, it's one less call to the server every time a new tab is opened!
+9. Add the new language in the Supported Languages of `README.md`.
 
 **Please remove words with the same translation or no direct translation and note them in your Pull Request.**
 
@@ -74,3 +76,5 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 - [ ] Added the **romanization** atrribute for appropriate languages.
 - [ ] ➕ Created the `{language.json}` file inside the `server/data/words` folder containing the list of the 3000 words.
 - [ ] Removed duplicates and noted 🗒 them in the Pull Request.
+- [ ] Increment `currentLanguagesCount` in `client/src/store/index.js`
+- [ ] Add new language in `README.md`
