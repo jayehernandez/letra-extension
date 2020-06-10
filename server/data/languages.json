@@ -42,5 +42,13 @@
   "brazilian-portuguese": {
     "flag": "twa-brazil-flag",
     "voice": "Brazilian Portuguese Female"
+  },
+  "russian": {
+    "flag": "twa-russia-flag",
+    "voice": "Russian Female"
+  },
+  "ukrainian": {
+    "flag": "twa-ukraine-flag",
+    "voice": ""
   }
 }
