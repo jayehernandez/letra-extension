@@ -1,6 +1,7 @@
 const request = require('supertest');
 const app = require('../app');
-const languages = require(`../data/languages`);
+
+const languages = require('../data/languages');
 
 describe('/', () => {
   it('returns a 200 response', async () => {
@@ -15,12 +16,12 @@ describe('/', () => {
 });
 
 describe('/languages', () => {
-    it('returns a 200 response', async () => {
-      const res = await request(app).get('/languages');
-      expect(res.statusCode).toEqual(200);
-    });
-    it('returns languages as the response body', async () => {
-      const res = await request(app).get('/languages');
-      expect(res.body.languages).toEqual(languages);
-    });
+  it('returns a 200 response', async () => {
+    const res = await request(app).get('/languages');
+    expect(res.statusCode).toEqual(200);
   });
+  it('returns languages as the response body', async () => {
+    const res = await request(app).get('/languages');
+    expect(res.body.languages).toEqual(languages);
+  });
+});
