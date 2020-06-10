@@ -18,9 +18,10 @@ const getLanguage = (languages) => {
   } else getRandomChoice(languages.split(','));
 };
 
-const getPhoto = async () => await unsplash.photos.getRandomPhoto({ collections: [9836658] })
-  .then(toJson)
-  .then((json) => json);
+const getPhoto = async () => await unsplash.photos
+    .getRandomPhoto({ collections: [9836658] })
+    .then(toJson)
+    .then((json) => json);
 
 const getRandomChoice = (options) => {
   const randomIndex = Math.floor(Math.random() * options.length);
@@ -31,7 +32,9 @@ router.get('/', async (req, res, next) => {
   res.writeHead(200, {
     'Content-Type': 'text/plain',
   });
-  res.write('Hi There! Nothing much here, just a server for the letra extension!');
+  res.write(
+    'Hi There! Nothing much here, just a server for the letra extension!',
+  );
   res.end();
 });
 
