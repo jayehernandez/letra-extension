@@ -17,12 +17,10 @@ jobs:
       - name: Run tests on Node.js
         run: npm test
         working-directory: server
-      - name: Install dependencies for Vue.js
-        run: npm install
-        working-directory: client
-      - name: Run prettier for Vue.js
-        run: npm run prettier
-        working-directory: client
-      - name: Run ES Lint for Vue.js
-        run: npm run lint
-        working-directory: client
+      - name: Run linters
+        uses: samuelmeuli/lint-action@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          eslint: true
+          prettier: true
+
