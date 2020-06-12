@@ -426,6 +426,24 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "n3twk",
+      "name": "n3twk",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13373399?v=4",
+      "profile": "https://github.com/n3twk",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "Philippians-4-13",
+      "name": "Pablo Park",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/66440894?v=4",
+      "profile": "https://github.com/Philippians-4-13",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
