@@ -36,7 +36,7 @@ export default {
     imageUrl() {
       if (this.dailyData.photo.urls) return this.dailyData.photo.urls.full;
       return '';
-    }
+    },
   },
   mounted() {
     this.loadDailyData();

@@ -12,22 +12,22 @@ const defaultLanguage = 'german';
 const quotes = require('../data/quotes');
 const languages = require('../data/languages');
 
-const getLanguage = (languages) => {
-  if (languages === undefined) {
-    defaultLanguage;
-  } else getRandomChoice(languages.split(','));
-};
-
-const getPhoto = async () => await unsplash.photos
-    .getRandomPhoto({ collections: [9836658] })
-    .then(toJson)
-    .then((json) => json);
-
 const getRandomChoice = (options) => {
   const randomIndex = Math.floor(Math.random() * options.length);
   return options[randomIndex];
 };
 
+const getLanguage = (selectedLanguages) => {
+  if (selectedLanguages === undefined) return defaultLanguage;
+  return getRandomChoice(selectedLanguages.split(','));
+};
+
+const getPhoto = async () => unsplash.photos
+  .getRandomPhoto({ collections: [9836658] })
+  .then(toJson)
+  .then((json) => json);
+
+// eslint-disable-next-line no-unused-vars
 router.get('/', async (req, res, next) => {
   res.writeHead(200, {
     'Content-Type': 'text/plain',
@@ -38,8 +38,10 @@ router.get('/', async (req, res, next) => {
   res.end();
 });
 
+// eslint-disable-next-line no-unused-vars
 router.get('/daily', async (req, res, next) => {
   const selectedLanguage = getLanguage(req.query.languages);
+  // eslint-disable-next-line global-require, import/no-dynamic-require
   const words = require(`./../data/words/${selectedLanguage}`);
 
   const language = languages[selectedLanguage];
@@ -55,6 +57,7 @@ router.get('/daily', async (req, res, next) => {
   });
 });
 
+// eslint-disable-next-line no-unused-vars
 router.get('/languages', async (req, res, next) => {
   res.status(200).json({ languages });
 });

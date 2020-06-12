@@ -18,6 +18,7 @@ app.use((req, res, next) => {
     return res.status(200).json({});
   }
   next();
+  return null;
 });
 
 const letraRoutes = require('./routes/letra');
