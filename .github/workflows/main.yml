@@ -11,13 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies for Node.js
+      - name: Install dependencies for server
         run: npm install
         working-directory: server
-      - name: Run tests on Node.js
-        run: npm test
-        working-directory: server
-      - name: Run linters
+      - name: Run linters on server
         uses: samuelmeuli/lint-action@v1
         with:
           eslint_dir: server/
@@ -27,4 +24,22 @@ jobs:
           prettier: true
           auto_fix: true
           git_email: letra.extension@gmail.com
-
+      - name: Run tests on server
+        run: npm test
+        working-directory: server
+      - name: Install dependencies for client
+        run: npm install
+        working-directory: client
+      - name: Run linters on client
+        uses: samuelmeuli/lint-action@v1
+        with:
+          eslint_dir: client/
+          prettier_dir: client/
+          github_token: ${{ secrets.github_token }}
+          eslint: true
+          prettier: true
+          auto_fix: true
+          git_email: letra.extension@gmail.com
+      - name: Run tests on client
+        run: npm test
+        working-directory: client
