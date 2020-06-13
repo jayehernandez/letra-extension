@@ -7,37 +7,11 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  eslint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Node.JS 10.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: "10.x"
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: server/node_modules
-          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.OS }}-build-${{ env.cache-name }}-
-            ${{ runner.OS }}-build-
-            ${{ runner.OS }}-
-      - name: Install Node Dependencies
-        run: npm install
-        working-directory: server
-      - name: Run Jest on server
-        working-directory: server
-        run: npm run test
-      - name: Install Node Dependencies
-        run: npm install
-        working-directory: client
-      - name: Lint
-        uses: hallee/eslint-action@1.0.3
+      - uses: hallee/eslint-action@1.0.3
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
           source-root: client
-      - name: Run Jest on client
-        working-directory: client
-        run: npm run test
