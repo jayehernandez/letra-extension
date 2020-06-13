@@ -47,12 +47,6 @@ jobs:
       - name: Install Node Dependencies
         run: npm install
         working-directory: client
-        env:
-          CI: TRUE
-      - name: Test Code Linting
-        working-directory: client
-        run: npm run lint
-        continue-on-error: true
       - name: Save Code Linting Report JSON
         working-directory: client
         run: npm run lint:report
