@@ -14,7 +14,7 @@ const languages = require('../data/languages');
 
 const getRandomChoice = (options) => {
   const randomIndex = Math.floor(Math.random() * options.length);
-  return options[randomIndex];
+  return options[randomIndex]
 };
 
 const getLanguage = (selectedLanguages) => {
