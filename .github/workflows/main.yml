@@ -27,9 +27,6 @@ jobs:
       - name: Install Node Dependencies
         working-directory: server
         run: npm install
-      - name: Test Code Linting
-        working-directory: server
-        run: npm run lint
       - name: Save Code Linting Report JSON
         working-directory: server
         run: npm run lint:report
@@ -51,11 +48,6 @@ jobs:
       - name: Install Node Dependencies
         run: npm install
         working-directory: client
-        env:
-          CI: TRUE
-      - name: Test Code Linting
-        working-directory: client
-        run: npm run lint
       - name: Save Code Linting Report JSON
         working-directory: client
         run: npm run lint:report
