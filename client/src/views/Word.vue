@@ -26,7 +26,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import TranslateButton from '../components/TranslateButton';
+import TranslateButton from '../components/TranslateButton'
 
 export default {
   name: 'Word',

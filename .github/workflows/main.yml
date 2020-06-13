@@ -46,6 +46,9 @@ jobs:
         with:
           name: eslint_report_server.json
           path: server/eslint_report.json
+      - name: Run Jest on server
+        working-directory: server
+        run: npm run test
       - name: Install Node Dependencies
         run: npm install
         working-directory: client
@@ -68,3 +71,6 @@ jobs:
         with:
           name: eslint_report_client.json
           path: client/eslint_report.json
+      - name: Run Jest on client
+        working-directory: client
+        run: npm run test
