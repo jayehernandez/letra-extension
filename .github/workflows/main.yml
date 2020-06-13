@@ -44,5 +44,5 @@ jobs:
       - name: Upload ESLint report
         uses: actions/upload-artifact@v1
         with:
-          name: eslint_report.json
-          path: eslint_report.json
+          name: server/eslint_report.json
+          path: server/eslint_report.json
