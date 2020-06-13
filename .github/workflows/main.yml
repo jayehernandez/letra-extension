@@ -27,8 +27,49 @@ jobs:
       - name: Install Node Dependencies
         working-directory: server
         run: npm install
-      - uses: a-b-r-o-w-n/eslint-action@v1
+      - name: Test Code Linting
+        working-directory: server
+        run: npm run lint
+      - name: Save Code Linting Report JSON
+        working-directory: server
+        run: npm run lint:report
+        continue-on-error: true
+      - name: Annotate Code Linting Results
+        uses: JonnyBurger/eslint-annotate-action@1.0.8
+        if: always()
         with:
-          working-directory: server
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          extensions: ".js"
+          report-json: "server/eslint_report.json"
+      - name: Upload ESLint report
+        uses: actions/upload-artifact@v1
+        with:
+          name: eslint_report_server.json
+          path: server/eslint_report.json
+      - name: Run Jest on server
+        working-directory: server
+        run: npm run test
+      - name: Install Node Dependencies
+        run: npm install
+        working-directory: client
+        env:
+          CI: TRUE
+      - name: Test Code Linting
+        working-directory: client
+        run: npm run lint
+      - name: Save Code Linting Report JSON
+        working-directory: client
+        run: npm run lint:report
+        continue-on-error: true
+      - name: Annotate Code Linting Results
+        uses: ataylorme/eslint-annotate-action@1.0.4
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          report-json: "client/eslint_report.json"
+      - name: Upload ESLint report
+        uses: actions/upload-artifact@v1
+        with:
+          name: eslint_report_client.json
+          path: client/eslint_report.json
+      - name: Run Jest on client
+        working-directory: client
+        run: npm run test
