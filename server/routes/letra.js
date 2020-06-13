@@ -34,7 +34,7 @@ router.get('/', async (req, res, next) => {
     'Content-Type': 'text/plain',
   });
   res.write(
-    'Hi There! Nothing much here, just a server for the letra extension!'
+    'Hi There! Nothing much here, just a server for the letra extension!',
   );
   res.end();
 });

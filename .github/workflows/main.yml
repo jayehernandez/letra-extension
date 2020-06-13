@@ -21,7 +21,6 @@ jobs:
           prettier_dir: server/
           github_token: ${{ secrets.github_token }}
           eslint: true
-          prettier: true
           auto_fix: true
           git_email: letra.extension@gmail.com
       - name: Run tests on server
