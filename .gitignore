@@ -4,6 +4,7 @@ client/dist-zip
 client/.env
 client/coverage
 client/.jshintrc
+client/eslint_report.json
 
 server/node_modules
 server/.env
