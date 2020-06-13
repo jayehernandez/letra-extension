@@ -9,8 +9,7 @@ describe('/', () => {
     expect(res.statusCode).toEqual(200);
   });
   it('returns a message', async () => {
-    const expectedMessage =
-      'Hi There! Nothing much here, just a server for the letra extension!';
+    const expectedMessage = 'Hi There! Nothing much here, just a server for the letra extension!';
     const res = await request(app).get('/');
     expect(res.text).toEqual(expectedMessage);
   });
