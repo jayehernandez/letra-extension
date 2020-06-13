@@ -32,7 +32,7 @@ jobs:
         run: npm run lint:report
         continue-on-error: true
       - name: Annotate Code Linting Results
-        uses: JonnyBurger/eslint-annotate-action@1.0.8
+        uses: ataylorme/eslint-annotate-action@1.0.8
         if: always()
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
