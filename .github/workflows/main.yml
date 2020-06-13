@@ -44,5 +44,27 @@ jobs:
       - name: Upload ESLint report
         uses: actions/upload-artifact@v1
         with:
-          name: server/eslint_report.json
+          name: eslint_report_server.json
           path: server/eslint_report.json
+      - name: Install Node Dependencies
+        run: npm install
+        working-directory: client
+        env:
+          CI: TRUE
+      - name: Test Code Linting
+        working-directory: client
+        run: npm run lint
+      - name: Save Code Linting Report JSON
+        working-directory: client
+        run: npm run lint:report
+        continue-on-error: true
+      - name: Annotate Code Linting Results
+        uses: ataylorme/eslint-annotate-action@1.0.4
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          report-json: "client/eslint_report.json"
+      - name: Upload ESLint report
+        uses: actions/upload-artifact@v1
+        with:
+          name: eslint_report_client.json
+          path: client/eslint_report.json
