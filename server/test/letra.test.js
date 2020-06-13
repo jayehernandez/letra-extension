@@ -12,7 +12,7 @@ describe('/', () => {
     const expectedMessage =
       'Hi There! Nothing much here, just a server for the letra extension!';
     const res = await request(app).get('/');
-    expect(res.text).toEqual(expectedMessage)
+    expect(res.text).toEqual(expectedMessage);
   });
 });
 
