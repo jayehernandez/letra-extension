@@ -47,7 +47,8 @@ export default {
           default:
             return '10vw';
         }
-      } return '10vw';
+      }
+      return '10vw';
     },
   },
   methods: {

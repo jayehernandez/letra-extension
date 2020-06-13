@@ -17,19 +17,19 @@ Vue.use(VueAnalytics, {
   set: [{ field: 'checkProtocolTask', value: null }],
 });
 
-Vue.filter('titleize', (str) => {
+Vue.filter('titleize', str => {
   if (typeof str !== 'string') return '';
 
   const frags = str.split('-');
   return frags
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 });
 
-
-(() => new Vue({
-  el: '#app',
-  render: (h) => h(App),
-  store,
-  router,
-}))();
+(() =>
+  new Vue({
+    el: '#app',
+    render: h => h(App),
+    store,
+    router,
+  }))();

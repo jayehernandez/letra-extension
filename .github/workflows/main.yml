@@ -18,7 +18,6 @@ jobs:
         uses: samuelmeuli/lint-action@v1
         with:
           eslint_dir: server/
-          prettier_dir: server/
           github_token: ${{ secrets.github_token }}
           eslint: true
           auto_fix: true
@@ -33,10 +32,8 @@ jobs:
         uses: samuelmeuli/lint-action@v1
         with:
           eslint_dir: client/
-          prettier_dir: client/
           github_token: ${{ secrets.github_token }}
           eslint: true
-          prettier: true
           auto_fix: true
           git_email: letra.extension@gmail.com
       - name: Run tests on client

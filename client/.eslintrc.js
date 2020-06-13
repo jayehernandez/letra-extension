@@ -11,7 +11,8 @@ module.exports = {
     webextensions: true,
   },
   plugins: [
-    'vue'
+    'vue',
+    'prettier',
   ],
   globals: {
     Atomics: 'readonly',
@@ -20,6 +21,7 @@ module.exports = {
   extends: [
     'plugin:vue/essential',
     'airbnb-base',
+    'prettier',
   ],
   rules: {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
@@ -35,7 +37,8 @@ module.exports = {
           'state'
         ]
       }
-    ]
+    ],
+    'prettier/prettier': ['error']
   },
   settings: {
     'import/resolver': {

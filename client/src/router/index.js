@@ -9,7 +9,6 @@ const router = new Router({
       path: '/',
       name: 'Home',
       component: () => import('../App'),
-
     },
   ],
 });
