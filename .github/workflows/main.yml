@@ -14,11 +14,11 @@ jobs:
       - name: Install dependencies for server
         run: npm install
         working-directory: server
-      - name: Run tests on server
-        run: npm run test
-        working-directory: server
       - name: Run lint on server
         run: npm run lint
+        working-directory: server
+      - name: Run tests on server
+        run: npm run test
         working-directory: server
       - name: Install dependencies for client
         run: npm install
