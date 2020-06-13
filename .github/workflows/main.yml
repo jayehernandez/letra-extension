@@ -1,4 +1,4 @@
-name: CI
+name: 🚥 Test
 
 on:
   push:
@@ -11,15 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies for Node.js
+      - name: Install dependencies for server
         run: npm install
         working-directory: server
-      - name: Run tests on Node.js
-        run: npm test
+      - name: Run lint on server
+        run: npm run lint
         working-directory: server
-      - name: Install dependencies for Vue.js
+      - name: Run tests on server
+        run: npm run test
+        working-directory: server
+      - name: Install dependencies for client
         run: npm install
         working-directory: client
-      - name: Run tests for Vue.js
-        run: npm test
+      - name: Run lint on client
+        run: npm run lint
+        working-directory: client
+      - name: Run tests for client
+        run: npm run test
         working-directory: client

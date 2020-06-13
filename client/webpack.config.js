@@ -6,15 +6,21 @@ const Dotenv = require('dotenv-webpack');
 const { VueLoaderPlugin } = require('vue-loader');
 const { version } = require('./package.json');
 
+function transformHtml(content) {
+  return ejs.render(content.toString(), {
+    ...process.env,
+  });
+}
+
 const config = {
   mode: process.env.NODE_ENV,
-  context: __dirname + '/src',
+  context: `${__dirname}/src`,
   entry: {
-    'background': './background.js',
-    'main': './main.js'
+    background: './background.js',
+    main: './main.js',
   },
   output: {
-    path: __dirname + '/dist',
+    path: `${__dirname}/dist`,
     filename: '[name].js',
   },
   resolve: {
@@ -28,7 +34,7 @@ const config = {
       },
       {
         test: /\.pug$/,
-        loader: 'pug-plain-loader'
+        loader: 'pug-plain-loader',
       },
       {
         test: /\.js$/,
@@ -77,7 +83,7 @@ const config = {
       {
         from: 'manifest.json',
         to: 'manifest.json',
-        transform: (content) => {
+        transform: content => {
           const jsonContent = JSON.parse(content);
           jsonContent.version = version;
 
@@ -101,15 +107,9 @@ if (config.mode === 'production') {
 if (process.env.HMR === 'true') {
   config.plugins = (config.plugins || []).concat([
     new ExtensionReloader({
-      manifest: __dirname + '/src/manifest.json',
+      manifest: `${__dirname}/src/manifest.json`,
     }),
   ]);
-}
-
-function transformHtml(content) {
-  return ejs.render(content.toString(), {
-    ...process.env,
-  });
 }
 
 module.exports = config;
