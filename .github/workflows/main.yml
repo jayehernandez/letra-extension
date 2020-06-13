@@ -32,6 +32,7 @@ jobs:
       - name: Test Code Linting
         working-directory: server
         run: npm run lint
+        continue-on-error: true
       - name: Save Code Linting Report JSON
         working-directory: server
         run: npm run lint:report
@@ -57,6 +58,7 @@ jobs:
       - name: Test Code Linting
         working-directory: client
         run: npm run lint
+        continue-on-error: true
       - name: Save Code Linting Report JSON
         working-directory: client
         run: npm run lint:report
