@@ -1,4 +1,4 @@
-name: CI
+name: 🚥 Test
 
 on:
   push:
@@ -34,7 +34,7 @@ jobs:
         run: npm install
         working-directory: client
       - name: Lint
-      - uses: hallee/eslint-action@1.0.3
+        uses: hallee/eslint-action@1.0.3
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
           source-root: client
