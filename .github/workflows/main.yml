@@ -20,12 +20,14 @@ jobs:
       - name: Run lint on server
         run: npm run lint
         working-directory: server
+        continue-on-error: true
       - name: Install dependencies for client
         run: npm install
         working-directory: client
       - name: Run lint on client
         run: npm run lint
         working-directory: client
+        continue-on-error: true
       - name: Run tests for client
         run: npm run test
         working-directory: client
