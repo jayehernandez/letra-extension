@@ -11,31 +11,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies for server
+      - name: Node.JS 10.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.x"
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: server/node_modules
+          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-build-${{ env.cache-name }}-
+            ${{ runner.OS }}-build-
+            ${{ runner.OS }}-
+      - name: Install Node Dependencies
         run: npm install
         working-directory: server
-      - name: Run linters on server
-        uses: samuelmeuli/lint-action@v1
-        with:
-          eslint_dir: server/
-          github_token: ${{ secrets.github_token }}
-          eslint: true
-          auto_fix: true
-          git_email: letra.extension@gmail.com
-      - name: Run tests on server
-        run: npm test
+        env:
+          CI: TRUE
+      - name: Test Code Linting
         working-directory: server
-      - name: Install dependencies for client
-        run: npm install
-        working-directory: client
-      - name: Run linters on client
-        uses: samuelmeuli/lint-action@v1
+        run: npm run lint
+      - name: Save Code Linting Report JSON
+        working-directory: server
+        run: npm run lint:report
+        continue-on-error: true
+      - name: Annotate Code Linting Results
+        uses: ataylorme/eslint-annotate-action@1.0.4
         with:
-          eslint_dir: client/
-          github_token: ${{ secrets.github_token }}
-          eslint: true
-          auto_fix: true
-          git_email: letra.extension@gmail.com
-      - name: Run tests on client
-        run: npm test
-        working-directory: client
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          report-json: "server/eslint_report.json"
+      - name: Upload ESLint report
+        uses: actions/upload-artifact@v1
+        with:
+          name: eslint_report.json
+          path: eslint_report.json

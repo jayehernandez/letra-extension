@@ -4,9 +4,11 @@ client/dist-zip
 client/.env
 client/coverage
 client/.jshintrc
+
 server/node_modules
 server/.env
 server/coverage
+server/eslint_report.json
 
 .DS_Store
 client/.DS_Store
