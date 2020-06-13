@@ -25,14 +25,11 @@ jobs:
             ${{ runner.OS }}-build-
             ${{ runner.OS }}-
       - name: Install Node Dependencies
-        run: npm install
         working-directory: server
-        env:
-          CI: TRUE
+        run: npm install
       - name: Test Code Linting
         working-directory: server
         run: npm run lint
-        continue-on-error: true
       - name: Save Code Linting Report JSON
         working-directory: server
         run: npm run lint:report
@@ -58,7 +55,6 @@ jobs:
       - name: Test Code Linting
         working-directory: client
         run: npm run lint
-        continue-on-error: true
       - name: Save Code Linting Report JSON
         working-directory: client
         run: npm run lint:report

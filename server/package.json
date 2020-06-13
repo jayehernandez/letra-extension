@@ -8,7 +8,7 @@
     "test": "jest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "lint:report": "eslint --output-file eslint_report.json --format json ."
+    "lint:report": "eslint -o eslint_report.json -f json ."
   },
   "repository": {
     "type": "git",
