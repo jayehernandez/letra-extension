@@ -1,18 +1,18 @@
 import { mount } from '@vue/test-utils';
-import OptionsButton from '../../../src/components/OptionsButton';
+import TranslateButton from '../../../src/components/TranslateButton';
 
-describe('OptionsButton', () => {
+describe('RandomButton', () => {
   it('is a Vue instance', () => {
-    const wrapper = mount(OptionsButton);
+    const wrapper = mount(TranslateButton);
     expect(wrapper).toBeTruthy();
   });
   it('has the icon class', () => {
-    const wrapper = mount(OptionsButton);
+    const wrapper = mount(TranslateButton);
     expect(wrapper.find('.icon').exists()).toBeTruthy();
   });
   it('calls the emit event on button click', () => {
-    const wrapper = mount(OptionsButton);
-    wrapper.find('#options-button').trigger('click');
+    const wrapper = mount(TranslateButton);
+    wrapper.find('.icon').trigger('click');
     expect(wrapper.emitted().click).toBeTruthy();
     expect(wrapper.emitted().click.length).toBe(1);
   });
