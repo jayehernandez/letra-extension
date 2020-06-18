@@ -462,6 +462,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "notorious-sobriety",
+      "name": "Kate",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/990640?v=4",
+      "profile": "https://github.com/notorious-sobriety",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
