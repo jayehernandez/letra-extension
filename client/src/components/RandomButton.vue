@@ -8,5 +8,5 @@ button#random-button.icon(@click="$emit('click')")
 <script>
 export default {
   name: 'RandomButton',
-}
+};
 </script>

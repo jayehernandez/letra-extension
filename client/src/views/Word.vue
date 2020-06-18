@@ -25,41 +25,40 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
-import TranslateButton from "./../components/TranslateButton";
+import { mapState } from 'vuex';
+import TranslateButton from '../components/TranslateButton';
+
 export default {
-  name: "Word",
+  name: 'Word',
   components: {
-    TranslateButton
+    TranslateButton,
   },
   computed: {
-    ...mapState(["dailyData", "loading"]),
+    ...mapState(['dailyData', 'loading']),
     calcualteFontSizeForDailyWord() {
-      if (!!this.dailyData.word.word) {
+      if (this.dailyData.word.word) {
         switch (true) {
           case this.dailyData.word.word.length >= 20:
             return '7vw';
-            break;
           case this.dailyData.word.word.length >= 15:
             return '8vw';
-            break;
           case this.dailyData.word.word.length >= 13:
             return '9vw';
-            break;
           default:
             return '10vw';
-            break;
         }
       }
-    }
+      return '10vw';
+    },
   },
   methods: {
     speak() {
+      // eslint-disable-next-line
       responsiveVoice.speak(
         this.dailyData.word.word,
-        this.dailyData.language.voice
+        this.dailyData.language.voice,
       );
-    }
-  }
+    },
+  },
 };
 </script>

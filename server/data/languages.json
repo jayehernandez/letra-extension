@@ -39,6 +39,10 @@
     "flag": "twa-china-flag",
     "voice": "Chinese Female"
   },
+  "arabic": {
+    "flag": "twa-saudi-arabia-flag",
+    "voice": "Arabic Female"
+  },
   "brazilian-portuguese": {
     "flag": "twa-brazil-flag",
     "voice": "Brazilian Portuguese Female"

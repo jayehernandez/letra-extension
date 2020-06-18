@@ -1,3 +1,5 @@
+/* eslint no-shadow: ["error", { "allow": ["state"] }] */
+
 import Vue from 'vue';
 import Vuex from 'vuex';
 import axios from 'axios';
@@ -11,7 +13,7 @@ const state = {
     word: {},
     language: {},
     quote: {},
-    photo: { user: {}},
+    photo: { user: {} },
   },
   hasError: false,
   languageOptions: [],
@@ -24,7 +26,7 @@ export default new Vuex.Store({
   actions: {
     getSelectedLanguages({ commit, dispatch }) {
       commit('setLoading', true);
-      chrome.storage.sync.get("selectedLanguages", (response) => {
+      chrome.storage.sync.get('selectedLanguages', response => {
         let { selectedLanguages } = response;
         if (selectedLanguages === undefined || selectedLanguages.length === 0) {
           selectedLanguages = ['german'];
@@ -42,9 +44,9 @@ export default new Vuex.Store({
       dispatch('retrieveDailyData');
     },
     getDailyData({ commit, dispatch }) {
-      chrome.storage.sync.get("dailyData", (response) => {
+      chrome.storage.sync.get('dailyData', response => {
         const data = response.dailyData;
-        if (!!data && data.created_at == new Date().toDateString()) {
+        if (!!data && data.created_at === new Date().toDateString()) {
           dispatch('saveDailyData', data);
           commit('setLoading', false);
         } else dispatch('retrieveDailyData');
@@ -52,8 +54,9 @@ export default new Vuex.Store({
     },
     retrieveDailyData({ commit, dispatch }) {
       commit('setLoading', true);
-      const languages = state.selectedLanguages.join(",");
-      axios.get(`${process.env.VUE_APP_API_URL}/daily?languages=${languages}`)
+      const languages = state.selectedLanguages.join(',');
+      axios
+        .get(`${process.env.VUE_APP_API_URL}/daily?languages=${languages}`)
         .then(response => {
           const { data } = response;
           data.created_at = new Date().toDateString();
@@ -61,26 +64,28 @@ export default new Vuex.Store({
           dispatch('saveDailyData', data);
           commit('setLoading', false);
         })
-        .catch(error => commit('setHasError', true));
+        .catch(() => commit('setHasError', true));
     },
     saveDailyData({ commit }, data) {
       commit('setDailyData', data);
     },
     getLanguageOptions({ dispatch }) {
-      chrome.storage.sync.get("languageOptions", (response) => {
+      chrome.storage.sync.get('languageOptions', response => {
         const data = response.languageOptions;
-        if (!!data && data.length === currentLanguagesCount) dispatch('saveLanguageOptions', data);
+        if (!!data && data.length === currentLanguagesCount)
+          dispatch('saveLanguageOptions', data);
         else dispatch('retrieveLanguageOptions');
       });
     },
     retrieveLanguageOptions({ commit, dispatch }) {
-      axios.get(`${process.env.VUE_APP_API_URL}/languages`)
+      axios
+        .get(`${process.env.VUE_APP_API_URL}/languages`)
         .then(response => {
           const options = Object.keys(response.data.languages);
           chrome.storage.sync.set({ languageOptions: options });
           dispatch('saveLanguageOptions', options);
         })
-        .catch(error => commit('setHasError', true));
+        .catch(() => commit('setHasError', true));
     },
     saveLanguageOptions({ commit }, options) {
       commit('setLanguageOptions', options);
@@ -102,5 +107,5 @@ export default new Vuex.Store({
     setLoading(state, loading) {
       state.loading = loading;
     },
-  }
-})
+  },
+});

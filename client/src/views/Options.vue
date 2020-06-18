@@ -29,8 +29,8 @@ div
 
 <script>
 import { mapActions, mapState } from 'vuex';
-import RandomButton from './../components/RandomButton';
-import OptionsButton from './../components/OptionsButton';
+import RandomButton from '../components/RandomButton';
+import OptionsButton from '../components/OptionsButton';
 
 export default {
   name: 'Options',
@@ -42,12 +42,12 @@ export default {
     ...mapState(['languageOptions']),
 
     selectedLanguages: {
-      get () {
+      get() {
         return this.$store.state.selectedLanguages;
       },
-      set (value) {
+      set(value) {
         this.$store.commit('setSelectedLanguages', value);
-      }
+      },
     },
   },
   data() {
@@ -55,14 +55,18 @@ export default {
       showOptions: false,
       message: '',
       contributeLink: 'https://github.com/jayehernandez/letra-extension',
-      contributeLinkText: 'Contribute on Github'
+      contributeLinkText: 'Contribute on Github',
     };
   },
   mounted() {
     this.getOptions();
   },
   methods: {
-    ...mapActions(['getLanguageOptions', 'resetSelectedLanguages', 'retrieveDailyData']),
+    ...mapActions([
+      'getLanguageOptions',
+      'resetSelectedLanguages',
+      'retrieveDailyData',
+    ]),
 
     getOptions() {
       this.getLanguageOptions();
@@ -78,5 +82,5 @@ export default {
       this.message = '';
     },
   },
-}
+};
 </script>
