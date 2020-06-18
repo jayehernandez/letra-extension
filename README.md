@@ -39,6 +39,7 @@
 - 🇮🇩 Indonesian
 - 🇨🇳 Chinese (Simplified)
 - 🇧🇷 Brazilian Portuguese
+- 🇷🇺 Russian
 - 🇸🇦 Arabic
 
 ## 🛠 Built With

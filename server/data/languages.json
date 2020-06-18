@@ -15,6 +15,10 @@
     "flag": "twa-japan-flag",
     "voice": "Japanese Female"
   },
+  "russian": {
+    "flag": "twa-russia-flag",
+    "voice": "Russian Female"
+  },
   "korean": {
     "flag": "twa-korea-south-south-korea-flag",
     "voice": "Korean Female"
