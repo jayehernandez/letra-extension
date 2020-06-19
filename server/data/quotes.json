@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "sentence": "As a hawk cannot fly high with one wing , similarly a man cannot reach excellence with one tongue.",
     "author": "Roger Ascham"
@@ -74,6 +74,10 @@
   {
     "sentence": "Language shapes the way we think, and determines what we can think about.",
     "author": "Benjamin Lee Whorf"
+  },
+  {
+  "sentence": "We pass at once into the magnificent edifice which bears the name of Panini as its architect and which justly commands the wonder and admiration of everyone who enters, and which, by the very fact of its sufficing for all the phenomenon which language presents, bespeaks at once the marvelous ingenuity of its inventor and his profound penetration of the entire material of the language.",
+  "author": "Albrecht Weber"
   },
   {
     "sentence": "To have another language is to possess a second soul.",
@@ -386,5 +390,5 @@
   {
     "sentence": "If you want to know what's important to a culture, learn their language",
     "author": "Joanne Harris"
-  }
+  } 
 ]
