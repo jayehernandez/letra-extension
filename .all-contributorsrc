@@ -471,6 +471,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "thePrankster",
+      "name": "Vanshaj Bhatnagar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/63310123?v=4",
+      "profile": "https://github.com/thePrankster",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
