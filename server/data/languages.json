@@ -46,9 +46,5 @@
   "brazilian-portuguese": {
     "flag": "twa-brazil-flag",
     "voice": "Brazilian Portuguese Female"
-  },
-  "kannada" : {
-    "flag" : "twa-india-flag",
-    "voice" : "Hindi Male"
   }
 }
