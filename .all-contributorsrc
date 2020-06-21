@@ -507,6 +507,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "gauthamdn",
+      "name": "Gautham D N",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6588002?v=4",
+      "profile": "https://medium.com/@gautham",
+      "contributions": [
+        "content",
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
