@@ -76,7 +76,8 @@ export default {
     },
     save() {
       this.resetSelectedLanguages(this.selectedLanguages);
-      this.message = 'Saved changes!';
+      this.toggleOptionsMenu();
+      this.$snack.success({ text: 'Changes saved!', button: 'OK' });
     },
     resetMessage() {
       this.message = '';

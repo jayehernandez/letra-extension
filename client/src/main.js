@@ -2,6 +2,8 @@ import Vue from 'vue';
 import VueAnalytics from 'vue-analytics';
 import vWow from 'v-wow';
 import LoadScript from 'vue-plugin-load-script';
+import VueSnackbar from 'vue-snack';
+import 'vue-snack/dist/vue-snack.min.css';
 import App from './App';
 import store from './store/index';
 import router from './router/index';
@@ -16,6 +18,8 @@ Vue.use(VueAnalytics, {
   debug: { enabled: process.env.NODE_ENV === 'development' },
   set: [{ field: 'checkProtocolTask', value: null }],
 });
+
+Vue.use(VueSnackbar);
 
 Vue.filter('titleize', str => {
   if (typeof str !== 'string') return '';
