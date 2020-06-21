@@ -44,8 +44,6 @@ export const actions = {
   getDailyData({ commit, dispatch }) {
     chrome.storage.sync.get('dailyData', response => {
       const data = response.dailyData;
-      console.log(new Date());
-      console.log(data.created_at === new Date().toDateString());
       if (!!data && data.created_at === new Date().toDateString()) {
         dispatch('saveDailyData', data);
         commit('setLoading', false);

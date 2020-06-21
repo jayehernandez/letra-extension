@@ -1,5 +1,7 @@
-import store from '../../../src/store/index';
+import store, { state } from '../../../src/store/index';
 import { actions, mutations } from '../../../src/store/index';
+import axios from 'axios';
+jest.mock('axios');
 
 const get = jest.fn();
 const set = jest.fn();
@@ -41,6 +43,7 @@ describe('store', () => {
   describe('actions', () => {
     let commit, dispatch;
     beforeEach(() => {
+      jest.clearAllMocks();
       commit = jest.fn();
       dispatch = jest.fn();
     });
@@ -130,24 +133,74 @@ describe('store', () => {
     });
     describe('getDailyData', () => {
       let data;
-      beforeEach( () => {
+      const mockDate = new Date(1466424490000);
+      beforeEach(() => {
         data = {
-          dailyData: [],
-          created_at: new Date().toDateString()
+          dailyData: {
+            created_at: mockDate.toDateString(),
+          },
         };
       });
       it('calls dispatch save daily data', () => {
         jest
-        .spyOn(chrome.storage.sync, 'get')
-        .mockImplementation((language, callback) => {
-          return callback(data);
-        });
+          .spyOn(chrome.storage.sync, 'get')
+          .mockImplementation((language, callback) => {
+            return callback(data);
+          });
+        jest.spyOn(global, 'Date').mockImplementation(() => mockDate);
+        actions.getDailyData({ commit, dispatch });
+        expect(dispatch).toHaveBeenCalledWith('saveDailyData', data.dailyData);
+      });
+      it('calls commit set loading false', () => {
         jest
-        .spyOn(global, 'Date')
-        .mockImplementationOnce(() => new Date('2019-05-14T11:01:58.135Z'));
-        // global.Date.now = jest.fn(() => new Date('2019-04-07T10:20:30Z').getTime())
-        actions.getDailyData({commit, dispatch});
+          .spyOn(chrome.storage.sync, 'get')
+          .mockImplementation((language, callback) => {
+            return callback(data);
+          });
+        jest.spyOn(global, 'Date').mockImplementation(() => mockDate);
+        actions.getDailyData({ commit, dispatch });
+        expect(commit).toHaveBeenCalledWith('setLoading', false);
+      });
+      it('calls dispatch retrieve daily data if created_at is not equal to new date', () => {
+        jest
+          .spyOn(chrome.storage.sync, 'get')
+          .mockImplementation((language, callback) => {
+            return callback(data);
+          });
+        actions.getDailyData({ commit, dispatch });
+        expect(commit).toHaveBeenCalledWith('setLoading', false);
+      });
+    });
+    describe('retrieveDailyData', () => {
+      let data;
+      beforeEach( () => {
+        process.env.VUE_APP_API_URL = 'app-api-url';
+        state.selectedLanguages = ['japanese', 'korean'];
+        data = {
+          created_at: new Date(),
+          dailyData: [],
+        };
+      });
+      it('calls the get endpoint for the selected languages', () => {
+        axios.get.mockResolvedValue({ data });
+        actions.retrieveDailyData({ commit, dispatch });
+        expect(axios.get).toHaveBeenCalledWith('app-api-url/daily?languages=japanese,korean');
+      });
+      // TODO: not sure why these are faiiing... they should be being called
+      it('calls chrome storage set', () => {
+        axios.get.mockResolvedValue({ data });
+        actions.retrieveDailyData({ commit, dispatch });
+        expect(set).toHaveBeenCalledWith({ dailyData: data });
+      });
+      it('calls dispatch save daily data', () => {
+        axios.get.mockResolvedValue({ data });
+        actions.retrieveDailyData({ commit, dispatch });
         expect(dispatch).toHaveBeenCalledWith('saveDailyData', data);
+      });
+      it('calls commit set loading', () => {
+        axios.get.mockResolvedValue({ data });
+        actions.retrieveDailyData({ commit, dispatch });
+        expect(commit).toHaveBeenCalledWith('setLoading', false);
       });
     });
   });
