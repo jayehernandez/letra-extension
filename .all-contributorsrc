@@ -480,6 +480,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "AragonCodes",
+      "name": "Kevin Aragon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/49354167?v=4",
+      "profile": "http://aragoncodes.com",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
