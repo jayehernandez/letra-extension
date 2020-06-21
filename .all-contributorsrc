@@ -517,6 +517,15 @@
         "content",
         "translation"
       ]
+    },
+    {
+      "login": "RazoraDE",
+      "name": "Jan",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/67172324?v=4",
+      "profile": "https://github.com/RazoraDE",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
