@@ -62,7 +62,10 @@ export const actions = {
         dispatch('saveDailyData', data);
         commit('setLoading', false);
       })
-      .catch(() => commit('setHasError', true));
+      .catch(() => {
+        console.log('cool');
+        commit('setHasError', true);
+      }); 
   },
   saveDailyData({ commit }, data) {
     commit('setDailyData', data);

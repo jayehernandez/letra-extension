@@ -186,21 +186,52 @@ describe('store', () => {
         actions.retrieveDailyData({ commit, dispatch });
         expect(axios.get).toHaveBeenCalledWith('app-api-url/daily?languages=japanese,korean');
       });
-      // TODO: not sure why these are faiiing... they should be being called
-      it('calls chrome storage set', () => {
+      it('calls chrome storage set', (done) => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveDailyData({ commit, dispatch });
-        expect(set).toHaveBeenCalledWith({ dailyData: data });
+        axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
+          expect(set).toHaveBeenCalledWith({ dailyData: data });
+          done();
+        });
       });
-      it('calls dispatch save daily data', () => {
+      it('calls dispatch save daily data', (done) => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveDailyData({ commit, dispatch });
-        expect(dispatch).toHaveBeenCalledWith('saveDailyData', data);
+        axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
+          expect(dispatch).toHaveBeenCalledWith('saveDailyData', data);
+          done();
+        });
       });
-      it('calls commit set loading', () => {
+      it('calls commit set loading', (done) => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveDailyData({ commit, dispatch });
-        expect(commit).toHaveBeenCalledWith('setLoading', false);
+        axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
+          expect(commit).toHaveBeenCalledWith('setLoading', false);
+          done();
+        });
+      });
+      it('calls set has error if the call fails', (done) => {
+        axios.get.mockRejectedValueOnce(new Error('test'));
+        // axios.get.mockResolvedValue({ data });
+        actions.retrieveDailyData({ commit, dispatch });
+        // expect(commit).toHaveBeenCalledWith('setHasError', true);
+        return axios.get('app-api-url/daily?languages=japanese,korean').catch(error => {
+          expect(commit).toHaveBeenCalledWith('setHasError', true);
+          done();
+        });
+      });
+    });
+    describe('saveDailyData', () => {
+      let data;
+      beforeEach( () => {
+        data = {
+          created_at: new Date(),
+          dailyData: [],
+        };
+      });
+      it('commits set daily data', () => {
+        actions.saveDailyData({ commit }, data);
+        expect(commit).toHaveBeenCalledWith('setDailyData', data);
       });
     });
   });
