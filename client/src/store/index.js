@@ -63,7 +63,6 @@ export const actions = {
         commit('setLoading', false);
       })
       .catch(() => {
-        console.log('cool');
         commit('setHasError', true);
       }); 
   },

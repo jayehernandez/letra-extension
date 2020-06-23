@@ -161,14 +161,19 @@ describe('store', () => {
         actions.getDailyData({ commit, dispatch });
         expect(commit).toHaveBeenCalledWith('setLoading', false);
       });
-      it('calls dispatch retrieve daily data if created_at is not equal to new date', () => {
+      it('calls dispatch retrieve daily data if created at date does not match new date to date string', () => {
+        data.created_at = new Date();
         jest
           .spyOn(chrome.storage.sync, 'get')
           .mockImplementation((language, callback) => {
-            return callback(data);
+            return callback({
+              dailyData: {
+                created_at: new Date(),
+              },
+            });
           });
         actions.getDailyData({ commit, dispatch });
-        expect(commit).toHaveBeenCalledWith('setLoading', false);
+        expect(dispatch).toHaveBeenCalledWith('retrieveDailyData');
       });
     });
     describe('retrieveDailyData', () => {
@@ -211,11 +216,12 @@ describe('store', () => {
         });
       });
       it('calls set has error if the call fails', (done) => {
-        axios.get.mockRejectedValueOnce(new Error('test'));
-        // axios.get.mockResolvedValue({ data });
+        const fetchPromise = Promise.reject(new Error('something failed'));
+        axios.get.mockRejectedValue(fetchPromise);
         actions.retrieveDailyData({ commit, dispatch });
-        // expect(commit).toHaveBeenCalledWith('setHasError', true);
-        return axios.get('app-api-url/daily?languages=japanese,korean').catch(error => {
+        return axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
+          // empty then with catch tagged on to test the code inside the catch block
+        }).catch(error => {
           expect(commit).toHaveBeenCalledWith('setHasError', true);
           done();
         });
@@ -234,18 +240,127 @@ describe('store', () => {
         expect(commit).toHaveBeenCalledWith('setDailyData', data);
       });
     });
+    describe('getLanguageOptions', () => {
+      let languageOptions;
+      beforeEach( () => {
+        languageOptions = ['japanese', 'japanese', 'japanese', 'japanese','japanese','japanese',
+        'japanese','japanese','japanese','japanese','japanese'];
+      });
+      it('calls dispatch save language options', () => {
+        jest
+        .spyOn(chrome.storage.sync, 'get')
+        .mockImplementation((language, callback) => {
+          return callback({
+            languageOptions,
+          });
+        });
+        actions.getLanguageOptions({ dispatch });
+        expect(dispatch).toHaveBeenCalledWith('saveLanguageOptions', languageOptions);
+      });
+      it('calls dispatch retrieve language options', () => {
+        jest
+        .spyOn(chrome.storage.sync, 'get')
+        .mockImplementation((language, callback) => {
+          return callback({
+            languageOptions: [],
+          });
+        });
+        actions.getLanguageOptions({ dispatch });
+        expect(dispatch).toHaveBeenCalledWith('retrieveLanguageOptions');
+      });
+    });
+    describe('retrieveLanguageOptions', () => {
+      let data;
+      beforeEach( () => {
+        process.env.VUE_APP_API_URL = 'app-api-url';
+        data = {
+          languages: []
+        };
+      });
+      it('calls the get endpoint for the language options', () => {
+        axios.get.mockResolvedValue({ data });
+        actions.retrieveLanguageOptions({ commit, dispatch });
+        expect(axios.get).toHaveBeenCalledWith('app-api-url/languages');
+      });
+      it('calls chrome storage set', (done) => {
+        axios.get.mockResolvedValue({ data });
+        actions.retrieveLanguageOptions({ commit, dispatch });
+        axios.get('app-api-url/languages').then(response => {
+          expect(set).toHaveBeenCalledWith({ languageOptions: [] });
+          done();
+        });
+      });
+      it('calls dispatch save language options', (done) => {
+        axios.get.mockResolvedValue({ data });
+        actions.retrieveLanguageOptions({ commit, dispatch });
+        axios.get('app-api-url/languages').then(response => {
+          expect(dispatch).toHaveBeenCalledWith('saveLanguageOptions', []);
+          done();
+        });
+      });
+      it('calls set has error if the call fails', (done) => {
+        const fetchPromise = Promise.reject(new Error('something failed'));
+        axios.get.mockRejectedValue(fetchPromise);
+        actions.retrieveLanguageOptions({ commit, dispatch });
+        return axios.get('app-api-url/languages').then(response => {
+          // empty then with catch tagged on to test the code inside the catch block
+        }).catch(error => {
+          expect(commit).toHaveBeenCalledWith('setHasError', true);
+          done();
+        });
+      });
+    });
+    describe('saveLanguageOptions', () => {
+      it('calls commit set language options', () => {
+        actions.saveLanguageOptions({ commit }, []);
+        expect(commit).toHaveBeenCalledWith('setLanguageOptions', []);
+      });
+    });
   });
-  // describe('mutations', () => {
-  //   it('sets the daily data', () => {
-  //     const state = {
-  //       dailyData: {}
-  //     };
-  //     const data = {
-  //       items: []
-  //     };
-  //     console.log(store.mutations);
-  //     store._mutations.setDailyData();
-  //     expect(state.dailyData).toEqual(data);
-  //   });
-  // });
+  describe('mutations', () => {
+    it('sets the daily data', () => {
+      const state = {
+        dailyData: {}
+      };
+      const data = {
+        items: []
+      };
+      mutations.setDailyData(state, data);
+      expect(state.dailyData).toEqual(data);
+    });
+    it('sets the language options', () => {
+      const state = {
+        dailyData: {}
+      };
+      let languageOptions = ['korean'];
+      mutations.setLanguageOptions(state, languageOptions);
+      expect(state.languageOptions).toEqual(languageOptions);
+    });
+    it('sets the selected languages', () => {
+      const state = {
+        dailyData: {}
+      };
+      let selectedLanguages = ['korean'];
+      mutations.setSelectedLanguages(state, selectedLanguages);
+      expect(state.selectedLanguages).toEqual(selectedLanguages);
+    });
+    
+    it('sets has error', () => {
+      const state = {
+        dailyData: {}
+      };
+      let hasError = true;
+      mutations.setHasError(state, hasError);
+      expect(state.hasError).toEqual(hasError);
+    });
+    
+    it('sets loading', () => {
+      const state = {
+        dailyData: {}
+      };
+      let loading = true;
+      mutations.setLoading(state, loading);
+      expect(state.loading).toEqual(loading);
+    });
+  });
 });
