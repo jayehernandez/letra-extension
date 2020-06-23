@@ -227,7 +227,7 @@ describe('store', () => {
         const fetchPromise = Promise.reject(new Error('something failed'));
         axios.get.mockRejectedValue(fetchPromise);
         actions.retrieveDailyData({ commit, dispatch });
-        return axios
+        axios
           .get('app-api-url/daily?languages=japanese,korean')
           .then(response => {
             // empty then with catch tagged on to test the code inside the catch block
@@ -327,7 +327,7 @@ describe('store', () => {
         const fetchPromise = Promise.reject(new Error('something failed'));
         axios.get.mockRejectedValue(fetchPromise);
         actions.retrieveLanguageOptions({ commit, dispatch });
-        return axios
+        axios
           .get('app-api-url/languages')
           .then(response => {
             // empty then with catch tagged on to test the code inside the catch block
