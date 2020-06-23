@@ -87,7 +87,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-57-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-58-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -168,6 +168,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/RazoraDE"><img src="https://avatars3.githubusercontent.com/u/67172324?v=4" width="100px;" alt=""/><br /><sub><b>Jan</b></sub></a><br /><a href="#content-RazoraDE" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ptsimon"><img src="https://avatars2.githubusercontent.com/u/13947592?v=4" width="100px;" alt=""/><br /><sub><b>ptsimon</b></sub></a><br /><a href="#content-ptsimon" title="Content">🖋</a></td>
   </tr>
 </table>
 
