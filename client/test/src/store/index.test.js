@@ -178,7 +178,7 @@ describe('store', () => {
     });
     describe('retrieveDailyData', () => {
       let data;
-      beforeEach( () => {
+      beforeEach(() => {
         process.env.VUE_APP_API_URL = 'app-api-url';
         state.selectedLanguages = ['japanese', 'korean'];
         data = {
@@ -189,47 +189,58 @@ describe('store', () => {
       it('calls the get endpoint for the selected languages', () => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveDailyData({ commit, dispatch });
-        expect(axios.get).toHaveBeenCalledWith('app-api-url/daily?languages=japanese,korean');
+        expect(axios.get).toHaveBeenCalledWith(
+          'app-api-url/daily?languages=japanese,korean',
+        );
       });
-      it('calls chrome storage set', (done) => {
+      it('calls chrome storage set', done => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveDailyData({ commit, dispatch });
-        axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
-          expect(set).toHaveBeenCalledWith({ dailyData: data });
-          done();
-        });
+        axios
+          .get('app-api-url/daily?languages=japanese,korean')
+          .then(response => {
+            expect(set).toHaveBeenCalledWith({ dailyData: data });
+            done();
+          });
       });
-      it('calls dispatch save daily data', (done) => {
+      it('calls dispatch save daily data', done => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveDailyData({ commit, dispatch });
-        axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
-          expect(dispatch).toHaveBeenCalledWith('saveDailyData', data);
-          done();
-        });
+        axios
+          .get('app-api-url/daily?languages=japanese,korean')
+          .then(response => {
+            expect(dispatch).toHaveBeenCalledWith('saveDailyData', data);
+            done();
+          });
       });
-      it('calls commit set loading', (done) => {
+      it('calls commit set loading', done => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveDailyData({ commit, dispatch });
-        axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
-          expect(commit).toHaveBeenCalledWith('setLoading', false);
-          done();
-        });
+        axios
+          .get('app-api-url/daily?languages=japanese,korean')
+          .then(response => {
+            expect(commit).toHaveBeenCalledWith('setLoading', false);
+            done();
+          });
       });
-      it('calls set has error if the call fails', (done) => {
+      it('calls set has error if the call fails', done => {
         const fetchPromise = Promise.reject(new Error('something failed'));
         axios.get.mockRejectedValue(fetchPromise);
         actions.retrieveDailyData({ commit, dispatch });
-        return axios.get('app-api-url/daily?languages=japanese,korean').then(response => {
-          // empty then with catch tagged on to test the code inside the catch block
-        }).catch(error => {
-          expect(commit).toHaveBeenCalledWith('setHasError', true);
-          done();
-        });
+        return axios
+          .get('app-api-url/daily?languages=japanese,korean')
+          .then(response => {
+            // empty then with catch tagged on to test the code inside the catch block
+          })
+          .catch(error => {
+            expect(commit).toHaveBeenCalledWith('setHasError', true);
+            done();
+          });
       });
     });
     describe('saveDailyData', () => {
       let data;
-      beforeEach( () => {
+      beforeEach(() => {
         data = {
           created_at: new Date(),
           dailyData: [],
@@ -242,39 +253,53 @@ describe('store', () => {
     });
     describe('getLanguageOptions', () => {
       let languageOptions;
-      beforeEach( () => {
-        languageOptions = ['japanese', 'japanese', 'japanese', 'japanese','japanese','japanese',
-        'japanese','japanese','japanese','japanese','japanese'];
+      beforeEach(() => {
+        languageOptions = [
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+          'japanese',
+        ];
       });
       it('calls dispatch save language options', () => {
         jest
-        .spyOn(chrome.storage.sync, 'get')
-        .mockImplementation((language, callback) => {
-          return callback({
-            languageOptions,
+          .spyOn(chrome.storage.sync, 'get')
+          .mockImplementation((language, callback) => {
+            return callback({
+              languageOptions,
+            });
           });
-        });
         actions.getLanguageOptions({ dispatch });
-        expect(dispatch).toHaveBeenCalledWith('saveLanguageOptions', languageOptions);
+        expect(dispatch).toHaveBeenCalledWith(
+          'saveLanguageOptions',
+          languageOptions,
+        );
       });
       it('calls dispatch retrieve language options', () => {
         jest
-        .spyOn(chrome.storage.sync, 'get')
-        .mockImplementation((language, callback) => {
-          return callback({
-            languageOptions: [],
+          .spyOn(chrome.storage.sync, 'get')
+          .mockImplementation((language, callback) => {
+            return callback({
+              languageOptions: [],
+            });
           });
-        });
         actions.getLanguageOptions({ dispatch });
         expect(dispatch).toHaveBeenCalledWith('retrieveLanguageOptions');
       });
     });
     describe('retrieveLanguageOptions', () => {
       let data;
-      beforeEach( () => {
+      beforeEach(() => {
         process.env.VUE_APP_API_URL = 'app-api-url';
         data = {
-          languages: []
+          languages: [],
         };
       });
       it('calls the get endpoint for the language options', () => {
@@ -282,7 +307,7 @@ describe('store', () => {
         actions.retrieveLanguageOptions({ commit, dispatch });
         expect(axios.get).toHaveBeenCalledWith('app-api-url/languages');
       });
-      it('calls chrome storage set', (done) => {
+      it('calls chrome storage set', done => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveLanguageOptions({ commit, dispatch });
         axios.get('app-api-url/languages').then(response => {
@@ -290,7 +315,7 @@ describe('store', () => {
           done();
         });
       });
-      it('calls dispatch save language options', (done) => {
+      it('calls dispatch save language options', done => {
         axios.get.mockResolvedValue({ data });
         actions.retrieveLanguageOptions({ commit, dispatch });
         axios.get('app-api-url/languages').then(response => {
@@ -298,16 +323,19 @@ describe('store', () => {
           done();
         });
       });
-      it('calls set has error if the call fails', (done) => {
+      it('calls set has error if the call fails', done => {
         const fetchPromise = Promise.reject(new Error('something failed'));
         axios.get.mockRejectedValue(fetchPromise);
         actions.retrieveLanguageOptions({ commit, dispatch });
-        return axios.get('app-api-url/languages').then(response => {
-          // empty then with catch tagged on to test the code inside the catch block
-        }).catch(error => {
-          expect(commit).toHaveBeenCalledWith('setHasError', true);
-          done();
-        });
+        return axios
+          .get('app-api-url/languages')
+          .then(response => {
+            // empty then with catch tagged on to test the code inside the catch block
+          })
+          .catch(error => {
+            expect(commit).toHaveBeenCalledWith('setHasError', true);
+            done();
+          });
       });
     });
     describe('saveLanguageOptions', () => {
@@ -320,17 +348,17 @@ describe('store', () => {
   describe('mutations', () => {
     it('sets the daily data', () => {
       const state = {
-        dailyData: {}
+        dailyData: {},
       };
       const data = {
-        items: []
+        items: [],
       };
       mutations.setDailyData(state, data);
       expect(state.dailyData).toEqual(data);
     });
     it('sets the language options', () => {
       const state = {
-        dailyData: {}
+        dailyData: {},
       };
       let languageOptions = ['korean'];
       mutations.setLanguageOptions(state, languageOptions);
@@ -338,25 +366,25 @@ describe('store', () => {
     });
     it('sets the selected languages', () => {
       const state = {
-        dailyData: {}
+        dailyData: {},
       };
       let selectedLanguages = ['korean'];
       mutations.setSelectedLanguages(state, selectedLanguages);
       expect(state.selectedLanguages).toEqual(selectedLanguages);
     });
-    
+
     it('sets has error', () => {
       const state = {
-        dailyData: {}
+        dailyData: {},
       };
       let hasError = true;
       mutations.setHasError(state, hasError);
       expect(state.hasError).toEqual(hasError);
     });
-    
+
     it('sets loading', () => {
       const state = {
-        dailyData: {}
+        dailyData: {},
       };
       let loading = true;
       mutations.setLoading(state, loading);
