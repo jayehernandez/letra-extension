@@ -1,4 +1,8 @@
-﻿[
+[
+  {
+    "sentence": "As a hawk cannot fly high with one wing , similarly a man cannot reach excellence with one tongue.",
+    "author": "Roger Ascham"
+  },
   {
     "sentence": "A different language is a different vision of life.",
     "author": "Federico Fellini"
@@ -28,8 +32,16 @@
     "author": "Alan Moore"
   },
   {
+    "sentence": "Language is where the tongue fails itself over & over again.",
+    "author": "Christopher Soto"
+  },
+  {
     "sentence": "Learn a language, and you’ll avoid a war.",
     "author": "Arab Proverb"
+  },
+  {
+    "sentence": "Learn a language, to have one more perspective to take a peek from.",
+    "author": "Vanshaj Bhatnagar"
   },
   {
     "sentence": "Study a foreign language if you have an opportunity to do so. You may never be called to a land where that language is spoken, but the study will have given you a better understanding of your own tongue or of another tongue you may be asked to acquire.",
@@ -68,6 +80,10 @@
     "author": "Benjamin Lee Whorf"
   },
   {
+  "sentence": "Every language is a magnificent edifice which is built word by word, cemented by the rules of grammer and painted by colorful poetry.",
+  "author": "Gautham D N"
+  },
+  {
     "sentence": "To have another language is to possess a second soul.",
     "author": "Charlemagne"
   },
@@ -82,6 +98,10 @@
   {
     "sentence": "Learn a new language and get a new soul.",
     "author": "Czech Proverb"
+  },
+  {
+    "sentence": "I worked as hard as I could. I'm not fluent but I felt like I made real headway. The language is beautiful.",
+    "author": "Lisa Williams"
   },
   {
     "sentence": "A few words in a stranger’s language reminds us of our shared humanity.",
@@ -151,6 +171,10 @@
     "sentence": "Change your language and you change your thoughts.",
     "author": "Karl Albrecht"
   },
+    {
+    "sentence": "The joy of knowing a foreign language is inexpressible. I find it really difficult to express such joy in my mother tongue.",
+    "author": "Munia Khan"
+  },
   {
     "sentence": "The limits of my language mean the limits of my world.",
     "author": "Ludwig Wittgenstein"
@@ -174,6 +198,18 @@
   {
     "sentence": "It is literally the case that learning languages makes you smarter. The neural networks in the brain strengthen as a result of language learning.",
     "author": "Michael Gove"
+  },
+  {
+    "sentence": "Learning a foreign language, and the culture that goes with it, is one of the most useful things we can do to broaden the empathy and imaginative sympathy and cultural outlook of children.",
+    "author": "Michael Gove"
+  },
+   {
+    "sentence": "Learning a foreign language not only reveals how other societies think and feel, what they have experienced and value, and how they express themselves, it also provides a cultural mirror in which we can more clearly see our own society.",
+    "author": "Chancellor Edward Lee Gorsuch"
+  },
+   {
+    "sentence": "What the survival of threatened languages means, perhaps, is the endurance of dozens, hundreds, thousands of subtly different notions of truth.",
+    "author": "Mark Abley"
   },
   {
     "sentence": "If you talk to a man in a language he understands, that goes to his head. If you talk to him in his own language, that goes to his heart.",
@@ -340,6 +376,10 @@
     "author": "Rumi"
   },
   {
+    "sentence": "To handle a language skillfully is to practice a kind of evocative sorcery.",
+    "author": "Charles Baudelaire"
+  },
+  {
     "sentence": "Every language is a world. Without translation, we would inhabit parishes bordering on silence.",
     "author": "Francis George Steiner"
   },
@@ -368,6 +408,50 @@
     "author": "Pearl Zhu"
   },
   {
+    "sentence": "You’ve got to know your language to understand your culture.",
+    "author": "Beatrice Taylor, Ojibwe"
+  },
+  {
+    "sentence": "When you lose a language and a language goes extinct, it’s like dropping a bomb on the Louvre.",
+    "author": "Michael Krauss"
+  },
+  {
+    "sentence": "As long as we keep our native language on our tongue, we will penetrate so much more deeply the distinctiveness of each language.",
+    "author": "Johann Gottfried Herder"
+  },
+  {
+    "sentence": "Whoever masters the entire scope of one language surveys a field full of thoughts, and whoever learns to express himself precisely in it thereby gathers for himself a treasure of clear concepts.",
+    "author": "Johann Gottfried Herder"
+  },
+  {
+    "sentence": "Among my most prized possessions are words that I have never spoken.",
+    "author": "Orson Scott Card"
+  },
+  {
+    "sentence": "The central hypothesis of the theory is that language acquisition occurs in only one way: by understanding messages.",
+    "author": "Stephen D. Krashen"
+  },
+  {
+    "sentence": "Learning new languages, acquiring new vocabulary, keeping yourself in various forms of constant logocentric discipline is one of the best things you can do.",
+    "author": "Douglas Wilson"
+  },
+  {
+    "sentence": "Spend time tinkering with the language every day. If time is short, try at least to produce a 10-minute monologue.",
+    "author": "Kató Lomb"
+  },
+  {
+    "sentence": "To speak a foreign language is a matter of practice, and mistakes will be made.",
+    "author": "Kató Lomb"
+  },
+  {
+    "sentence": "It's not sufficient to love a language. That language should love you too.",
+    "author": "Safir Kassim Boudjelal"
+  },
+  {
+    "sentence": "The great enemy of foreign language learning is a sense of shame, an inability or unwillingness to become like a child again and let one's inadequacies show.",
+    "author": "herbert a simon"
+  },
+  {
     "sentence": "Think like a wise man but communicate in the language of the people.",
     "author": "William Butler Yeats"
   },
@@ -376,7 +460,7 @@
     "author": "Wilhelm von Humboldt"
   },
   {
-    "sentence": "If you want to know what's important to a culture, learn their language",
+    "sentence": "If you want to know what's important to a culture, learn their language.",
     "author": "Joanne Harris"
-  }
+  } 
 ]

@@ -39,6 +39,7 @@
 - 🇮🇩 Indonesian
 - 🇨🇳 Chinese (Simplified)
 - 🇧🇷 Brazilian Portuguese
+- 🇷🇺 Russian
 - 🇸🇦 Arabic
 
 ## 🛠 Built With
@@ -86,7 +87,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-58-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -155,6 +156,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/n3twk"><img src="https://avatars3.githubusercontent.com/u/13373399?v=4" width="100px;" alt=""/><br /><sub><b>n3twk</b></sub></a><br /><a href="#translation-n3twk" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/Philippians-4-13"><img src="https://avatars2.githubusercontent.com/u/66440894?v=4" width="100px;" alt=""/><br /><sub><b>Pablo Park</b></sub></a><br /><a href="#translation-Philippians-4-13" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/jsundai"><img src="https://avatars0.githubusercontent.com/u/36107423?v=4" width="100px;" alt=""/><br /><sub><b>Jwahir</b></sub></a><br /><a href="#content-jsundai" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/AARYAN-MAHENDRA"><img src="https://avatars1.githubusercontent.com/u/64866670?v=4" width="100px;" alt=""/><br /><sub><b>AARYAN-MAHENDRA</b></sub></a><br /><a href="#content-AARYAN-MAHENDRA" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/notorious-sobriety"><img src="https://avatars2.githubusercontent.com/u/990640?v=4" width="100px;" alt=""/><br /><sub><b>Kate</b></sub></a><br /><a href="#translation-notorious-sobriety" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/thePrankster"><img src="https://avatars2.githubusercontent.com/u/63310123?v=4" width="100px;" alt=""/><br /><sub><b>Vanshaj Bhatnagar</b></sub></a><br /><a href="#content-thePrankster" title="Content">🖋</a></td>
+    <td align="center"><a href="http://aragoncodes.com"><img src="https://avatars1.githubusercontent.com/u/49354167?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Aragon</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=AragonCodes" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/aileenrzhang"><img src="https://avatars1.githubusercontent.com/u/61919893?v=4" width="100px;" alt=""/><br /><sub><b>aileenrzhang</b></sub></a><br /><a href="#content-aileenrzhang" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Huynheddie"><img src="https://avatars0.githubusercontent.com/u/30208265?v=4" width="100px;" alt=""/><br /><sub><b>Huynheddie</b></sub></a><br /><a href="#content-Huynheddie" title="Content">🖋</a></td>
+    <td align="center"><a href="https://medium.com/@gautham"><img src="https://avatars1.githubusercontent.com/u/6588002?v=4" width="100px;" alt=""/><br /><sub><b>Gautham D N</b></sub></a><br /><a href="#content-gauthamdn" title="Content">🖋</a> <a href="#translation-gauthamdn" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/RazoraDE"><img src="https://avatars3.githubusercontent.com/u/67172324?v=4" width="100px;" alt=""/><br /><sub><b>Jan</b></sub></a><br /><a href="#content-RazoraDE" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ptsimon"><img src="https://avatars2.githubusercontent.com/u/13947592?v=4" width="100px;" alt=""/><br /><sub><b>ptsimon</b></sub></a><br /><a href="#content-ptsimon" title="Content">🖋</a></td>
   </tr>
 </table>
 
