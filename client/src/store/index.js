@@ -64,7 +64,7 @@ export const actions = {
       })
       .catch(() => {
         commit('setHasError', true);
-      }); 
+      });
   },
   saveDailyData({ commit }, data) {
     commit('setDailyData', data);
@@ -113,5 +113,5 @@ export const mutations = {
 export default new Vuex.Store({
   state,
   actions,
-  mutations
+  mutations,
 });
