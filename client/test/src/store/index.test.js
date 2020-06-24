@@ -224,8 +224,7 @@ describe('store', () => {
           });
       });
       it('calls set has error if the call fails', done => {
-        const fetchPromise = Promise.reject(new Error('something failed'));
-        axios.get.mockRejectedValue(fetchPromise);
+        axios.get.mockRejectedValue(new Error('Something bad happened!'));
         actions.retrieveDailyData({ commit, dispatch });
         axios
           .get('app-api-url/daily?languages=japanese,korean')
@@ -324,8 +323,7 @@ describe('store', () => {
         });
       });
       it('calls set has error if the call fails', done => {
-        const fetchPromise = Promise.reject(new Error('something failed'));
-        axios.get.mockRejectedValue(fetchPromise);
+        axios.get.mockRejectedValue(new Error('Something bad happened!'));
         actions.retrieveLanguageOptions({ commit, dispatch });
         axios
           .get('app-api-url/languages')
