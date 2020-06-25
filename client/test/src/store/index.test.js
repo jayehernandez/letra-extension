@@ -1,6 +1,11 @@
-import store, { state } from '../../../src/store/index';
-import { actions, mutations } from '../../../src/store/index';
 import axios from 'axios';
+import store, {
+  state,
+  actions,
+  mutations,
+  currentLanguagesCount,
+} from '../../../src/store/index';
+
 jest.mock('axios');
 
 const get = jest.fn();
@@ -21,22 +26,22 @@ describe('store', () => {
 
   describe('initial state', () => {
     it('has the initial values for dailyData', () => {
-      expect(store.state.dailyData.word).toEqual({});
-      expect(store.state.dailyData.language).toEqual({});
-      expect(store.state.dailyData.quote).toEqual({});
-      expect(store.state.dailyData.photo).toEqual({ user: {} });
+      expect(state.dailyData.word).toEqual({});
+      expect(state.dailyData.language).toEqual({});
+      expect(state.dailyData.quote).toEqual({});
+      expect(state.dailyData.photo).toEqual({ user: {} });
     });
     it('has the initial value for hasError', () => {
-      expect(store.state.hasError).toBe(false);
+      expect(state.hasError).toBe(false);
     });
     it('has the initial value for languageOptions', () => {
-      expect(store.state.languageOptions).toEqual([]);
+      expect(state.languageOptions).toEqual([]);
     });
     it('has the initial value for selectedLanguages', () => {
-      expect(store.state.selectedLanguages).toEqual([]);
+      expect(state.selectedLanguages).toEqual([]);
     });
     it('has the initial value for loading', () => {
-      expect(store.state.loading).toBe(false);
+      expect(state.loading).toBe(false);
     });
   });
 
@@ -253,21 +258,10 @@ describe('store', () => {
     describe('getLanguageOptions', () => {
       let languageOptions;
       beforeEach(() => {
-        languageOptions = [
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-          'japanese',
-        ];
+        languageOptions = ['japanese'];
       });
       it('calls dispatch save language options', () => {
+        languageOptions.length = currentLanguagesCount;
         jest
           .spyOn(chrome.storage.sync, 'get')
           .mockImplementation((language, callback) => {
