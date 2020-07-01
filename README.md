@@ -169,6 +169,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/RazoraDE"><img src="https://avatars3.githubusercontent.com/u/67172324?v=4" width="100px;" alt=""/><br /><sub><b>Jan</b></sub></a><br /><a href="#content-RazoraDE" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ptsimon"><img src="https://avatars2.githubusercontent.com/u/13947592?v=4" width="100px;" alt=""/><br /><sub><b>ptsimon</b></sub></a><br /><a href="#content-ptsimon" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Mrskillful"><img src="https://avatars1.githubusercontent.com/u/59685332?v=4" width="100px;" alt=""/><br /><sub><b>Emmet Allen</b></sub></a><br /><a href="#content-Mrskillful" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/harsh-patel-270698/"><img src="https://avatars0.githubusercontent.com/u/32677465?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Patel</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/pulls?q=is%3Apr+reviewed-by%3AHarshPatel270698" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
