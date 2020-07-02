@@ -1,5 +1,4 @@
-<!--Please select specific checklist(Quote/Language) according to PR and make sure to check the following boxes by putting x in the [ ] (Example: [x]).
-Remove other checklist if you are not using it. Thank you for your contribution-->
+<!--Please select specific checklist(Quote/Language) according to PR and make sure to check the following boxes by putting x in the [ ] (Example: [x]). Remove the checklists that are NOT related to your PR. Thank you for your contribution-->
 
 ## ✅ New Quote Checklist
 - [ ] The quote(s) added are in alphabetical order and not ❌ duplicates.
