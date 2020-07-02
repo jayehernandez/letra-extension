@@ -11,8 +11,8 @@ Format:
 ```sh
 {
   languageName: {
-    voice: "",
-    flag: ""
+    flag: "",
+    voice: ""
   }
 }
 ```
@@ -23,10 +23,10 @@ Format:
 Example:
 ```sh
 {
-  "german": {
-    "voice": "Deutsch Female",
-    "flag": "german"
-  }
+"german": {
+        "flag": "twa-germany-flag",
+        "voice": "Deutsch Female"
+    },
 }
 ```
 
