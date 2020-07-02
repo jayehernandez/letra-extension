@@ -554,6 +554,15 @@
         "review",
         "doc"
       ]
+    },
+    {
+      "login": "ming-tsai",
+      "name": "Ming Tsai",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/37890026?v=4",
+      "profile": "https://sourcerer.io/ming-tsai",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
