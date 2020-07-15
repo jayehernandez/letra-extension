@@ -87,7 +87,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-61-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -172,6 +172,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Mrskillful"><img src="https://avatars1.githubusercontent.com/u/59685332?v=4" width="100px;" alt=""/><br /><sub><b>Emmet Allen</b></sub></a><br /><a href="#content-Mrskillful" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/harsh-patel-270698/"><img src="https://avatars0.githubusercontent.com/u/32677465?v=4" width="100px;" alt=""/><br /><sub><b>Harsh Patel</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/pulls?q=is%3Apr+reviewed-by%3AHarshPatel270698" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/jayehernandez/letra-extension/commits?author=HarshPatel270698" title="Documentation">📖</a></td>
     <td align="center"><a href="https://sourcerer.io/ming-tsai"><img src="https://avatars3.githubusercontent.com/u/37890026?v=4" width="100px;" alt=""/><br /><sub><b>Ming Tsai</b></sub></a><br /><a href="#content-ming-tsai" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/AlacritousCreature"><img src="https://avatars3.githubusercontent.com/u/58398802?v=4" width="100px;" alt=""/><br /><sub><b>Sampada Kathar</b></sub></a><br /><a href="#content-AlacritousCreature" title="Content">🖋</a></td>
   </tr>
 </table>
 
