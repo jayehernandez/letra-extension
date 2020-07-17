@@ -572,6 +572,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Jebble",
+      "name": "Jeffrey von Grumbkow",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1397260?v=4",
+      "profile": "https://www.jebble.nl",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
