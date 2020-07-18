@@ -46,7 +46,10 @@ router.get('/daily', async (req, res, next) => {
   const words = require(`./../data/words/${selectedLanguage}`);
 
   const language = languages[selectedLanguage];
-  const word = getRandomChoice(words);
+  const word = {
+    ...getRandomChoice(words),
+    language: selectedLanguage,
+  };
   const quote = getRandomChoice(quotes);
   const photo = await getPhoto();
 
