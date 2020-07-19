@@ -1,5 +1,5 @@
 <template lang="pug">
-div(v-click-outside="toggleOptionsMenu")
+div(v-click-outside="closeOptionsMenu")
   .top-right.corner-elements
     RandomButton(@click="retrieveDailyData")
     OptionsButton(@click="toggleOptionsMenu")
@@ -73,6 +73,9 @@ export default {
     },
     toggleOptionsMenu() {
       this.showOptions = !this.showOptions;
+    },
+    closeOptionsMenu() {
+      this.showOptions = false;
     },
     save() {
       this.resetSelectedLanguages(this.selectedLanguages);
