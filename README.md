@@ -29,18 +29,18 @@
 - Dark Interface
 
 ## 🌎 Supported Languages
-- 🇩🇪 German
+- 🇸🇦 Arabic
+- 🇧🇷 Brazilian Portuguese
+- 🇨🇳 Chinese (Simplified)
+- 🇵🇭 Filipino
 - 🇫🇷 French
-- 🇪🇸 Spanish
+- 🇩🇪 German
+- 🇮🇳 Hindi
+- 🇮🇩 Indonesian
 - 🇯🇵 Japanese
 - 🇰🇷 Korean
-- 🇮🇳 Hindi
-- 🇵🇭 Filipino
-- 🇮🇩 Indonesian
-- 🇨🇳 Chinese (Simplified)
-- 🇧🇷 Brazilian Portuguese
 - 🇷🇺 Russian
-- 🇸🇦 Arabic
+- 🇪🇸 Spanish
 
 ## 🛠 Built With
 
