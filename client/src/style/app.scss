@@ -3,6 +3,7 @@
 @import "base";
 @import "loading";
 @import "options";
+@import "flag";
 
 /* <---------------- DAILY WORD ----------------> */
 
@@ -76,8 +77,8 @@ h3 {
 /* <---------------- CORNER ELEMENTS ----------------> */
 .top-left {
   position: absolute;
-  top: $spacing;
-  left: $spacing;
+  cursor: default;
+  text-align: center;
 }
 
 .top-right {
