@@ -581,6 +581,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "RathiRohit",
+      "name": "Rohit Rathi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22729516?v=4",
+      "profile": "https://rathirohit.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
