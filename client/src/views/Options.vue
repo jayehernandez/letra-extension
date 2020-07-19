@@ -1,5 +1,5 @@
 <template lang="pug">
-div
+div(v-click-outside="toggleOptionsMenu")
   .top-right.corner-elements
     RandomButton(@click="retrieveDailyData")
     OptionsButton(@click="toggleOptionsMenu")
