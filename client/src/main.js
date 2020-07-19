@@ -32,11 +32,12 @@ Vue.filter('titleize', str => {
 
 Vue.directive('click-outside', {
   bind(el, binding, vnode) {
-    var vm = vnode.context;
-    var callback = binding.value;
+    const vm = vnode.context;
+    const callback = binding.value;
 
-    el.clickOutsideEvent = function (event) {
-      if (!(el == event.target || el.contains(event.target))) {
+    // eslint-disable-next-line
+    el.clickOutsideEvent = function(event) {
+      if (!(el === event.target || el.contains(event.target))) {
         return callback.call(vm, event);
       }
     };
@@ -44,7 +45,7 @@ Vue.directive('click-outside', {
   },
   unbind(el) {
     document.body.removeEventListener('click', el.clickOutsideEvent);
-  }
+  },
 });
 
 (() =>
