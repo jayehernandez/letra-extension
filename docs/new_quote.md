@@ -17,15 +17,15 @@ Tip: Try to add the quote in a random line (not the end of a file), to avoid mer
 Example:
 ```sh
 {
-  "sentence": "Languages, just like people, are worlds within themselves. They have the incredible ability to provide us with a clearer, more profound and detailed perspective of a culture and its views on life, nature, and death.",
-  "author": "Orge Castellano"
+  "author": "Orge Castellano",
+  "sentence": "Languages, just like people, are worlds within themselves. They have the incredible ability to provide us with a clearer, more profound and detailed perspective of a culture and its views on life, nature, and death."
 }
 ```
 
 Here's a small checklist to make sure your Pull Request is accepted!
 
 ## ✅ Checklist
-- [ ] The quote(s) added are not ❌ duplicates.
+- [ ] The quote(s) added are in alphabetical order and not ❌ duplicates.
 - [ ] The quote(s) added are about **learning a foreign language**.
 - [ ] The sentence attribute does not have inner quotation marks, and is ended with a period.
 - [ ] Copy pasted the raw JSON `quotes.json` file to [JSONLint](https://jsonlint.com/) and made sure that the modified JSON file is valid.

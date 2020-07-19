@@ -1,0 +1,10 @@
+.flag {
+  margin-top: $spacing;
+  margin-left: $spacing;
+  margin-right: calc(#{$spacing} + 0.2em);
+}
+
+.language-name {
+  max-width: calc(56px + 2 * #{$spacing});
+  margin: 0 auto;
+}

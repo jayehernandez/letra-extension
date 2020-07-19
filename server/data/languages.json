@@ -1,46 +1,50 @@
 {
-  "german": {
-    "flag": "twa-germany-flag",
-    "voice": "Deutsch Female"
-  },
-  "french": {
-    "flag": "twa-france-flag",
-    "voice": "French Female"
-  },
-  "spanish": {
-    "flag": "twa-spain-flag",
-    "voice": "Spanish Female"
-  },
-  "japanese": {
-    "flag": "twa-japan-flag",
-    "voice": "Japanese Female"
-  },
-  "korean": {
-    "flag": "twa-korea-south-south-korea-flag",
-    "voice": "Korean Female"
-  },
-  "indonesian": {
-    "flag": "twa-indonesia-flag",
-    "voice": "Indonesian Female"
-  },
-  "hindi": {
-    "flag": "twa-india-flag",
-    "voice": "Hindi Female"
-  },
-  "filipino": {
-    "flag": "twa-philippines-flag",
-    "voice": "Filipino Female"
-  },
-  "chinese-simplified": {
-    "flag": "twa-china-flag",
-    "voice": "Chinese Female"
-  },
-  "arabic": {
-    "flag": "twa-saudi-arabia-flag",
-    "voice": "Arabic Female"
-  },
-  "brazilian-portuguese": {
-    "flag": "twa-brazil-flag",
-    "voice": "Brazilian Portuguese Female"
-  }
+    "arabic": {
+        "flag": "twa-saudi-arabia-flag",
+        "voice": "Arabic Female"
+    },
+    "brazilian-portuguese": {
+        "flag": "twa-brazil-flag",
+        "voice": "Brazilian Portuguese Female"
+    },
+    "chinese-simplified": {
+        "flag": "twa-china-flag",
+        "voice": "Chinese Female"
+    },
+    "filipino": {
+        "flag": "twa-philippines-flag",
+        "voice": "Filipino Female"
+    },
+    "french": {
+        "flag": "twa-france-flag",
+        "voice": "French Female"
+    },
+    "german": {
+        "flag": "twa-germany-flag",
+        "voice": "Deutsch Female"
+    },
+    "hindi": {
+        "flag": "twa-india-flag",
+        "voice": "Hindi Female"
+    },
+    "indonesian": {
+        "flag": "twa-indonesia-flag",
+        "voice": "Indonesian Female"
+    },
+    "japanese": {
+        "flag": "twa-japan-flag",
+        "voice": "Japanese Female"
+    },
+    "korean": {
+        "flag": "twa-korea-south-south-korea-flag",
+        "voice": "Korean Female"
+    },
+    "russian": {
+        "flag": "twa-russia-flag",
+        "voice": "Russian Female"
+    },
+    "spanish": {
+        "flag": "twa-spain-flag",
+        "voice": "Spanish Female"
+    }
 }
