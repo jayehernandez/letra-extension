@@ -608,6 +608,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Wanrick",
+      "name": "Wanrick Willemse",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48117432?v=4",
+      "profile": "https://github.com/Wanrick",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
