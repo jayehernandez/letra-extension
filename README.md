@@ -29,6 +29,7 @@
 - Dark Interface
 
 ## 🌎 Supported Languages
+- 🇦🇫 Afrikaans
 - 🇸🇦 Arabic
 - 🇧🇷 Brazilian Portuguese
 - 🇨🇳 Chinese (Simplified)

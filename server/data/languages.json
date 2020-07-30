@@ -1,4 +1,8 @@
 {
+    "afrikaans": {
+        "flag": "twa-south-south-africa-flag",
+        "voice": "Afrikaans Male"
+    },
     "arabic": {
         "flag": "twa-saudi-arabia-flag",
         "voice": "Arabic Female"
