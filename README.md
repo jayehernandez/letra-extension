@@ -88,7 +88,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-67-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-68-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -181,6 +181,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/praaatik"><img src="https://avatars0.githubusercontent.com/u/45352266?v=4" width="100px;" alt=""/><br /><sub><b>Pratik Kulkarni</b></sub></a><br /><a href="#content-praaatik" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/karthik-nayak24"><img src="https://avatars3.githubusercontent.com/u/39642646?v=4" width="100px;" alt=""/><br /><sub><b>Karthik-Nayak</b></sub></a><br /><a href="#content-KarthikNayak024" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Wanrick"><img src="https://avatars3.githubusercontent.com/u/48117432?v=4" width="100px;" alt=""/><br /><sub><b>Wanrick Willemse</b></sub></a><br /><a href="#translation-Wanrick" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Visenna88"><img src="https://avatars3.githubusercontent.com/u/64923253?v=4" width="100px;" alt=""/><br /><sub><b>Nadiia Sikarova</b></sub></a><br /><a href="#content-Visenna88" title="Content">🖋</a></td>
   </tr>
 </table>
 
