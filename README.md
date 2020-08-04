@@ -42,6 +42,7 @@
 - 🇰🇷 Korean
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
+- 🇧🇳 Bangla
 
 ## 🛠 Built With
 
