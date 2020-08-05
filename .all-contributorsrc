@@ -635,6 +635,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "meghsohor",
+      "name": "Shafiqul Islam",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13042947?v=4",
+      "profile": "http://www.meghsohor.com",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
