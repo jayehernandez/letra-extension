@@ -29,6 +29,7 @@
 - Dark Interface
 
 ## 🌎 Supported Languages
+- 🇦🇫 Afrikaans
 - 🇸🇦 Arabic
 - 🇧🇷 Brazilian Portuguese
 - 🇨🇳 Chinese (Simplified)
@@ -41,6 +42,7 @@
 - 🇰🇷 Korean
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
+- 🇧🇳 Bangla
 
 ## 🛠 Built With
 
@@ -87,7 +89,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-66-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-70-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -179,6 +181,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://rathirohit.github.io"><img src="https://avatars0.githubusercontent.com/u/22729516?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Rathi</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=RathiRohit" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/praaatik"><img src="https://avatars0.githubusercontent.com/u/45352266?v=4" width="100px;" alt=""/><br /><sub><b>Pratik Kulkarni</b></sub></a><br /><a href="#content-praaatik" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/karthik-nayak24"><img src="https://avatars3.githubusercontent.com/u/39642646?v=4" width="100px;" alt=""/><br /><sub><b>Karthik-Nayak</b></sub></a><br /><a href="#content-KarthikNayak024" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Wanrick"><img src="https://avatars3.githubusercontent.com/u/48117432?v=4" width="100px;" alt=""/><br /><sub><b>Wanrick Willemse</b></sub></a><br /><a href="#translation-Wanrick" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Visenna88"><img src="https://avatars3.githubusercontent.com/u/64923253?v=4" width="100px;" alt=""/><br /><sub><b>Nadiia Sikarova</b></sub></a><br /><a href="#content-Visenna88" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Arsenic-ATG"><img src="https://avatars1.githubusercontent.com/u/54987647?v=4" width="100px;" alt=""/><br /><sub><b>Arsenic</b></sub></a><br /><a href="#content-Arsenic-ATG" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.meghsohor.com"><img src="https://avatars2.githubusercontent.com/u/13042947?v=4" width="100px;" alt=""/><br /><sub><b>Shafiqul Islam</b></sub></a><br /><a href="#translation-meghsohor" title="Translation">🌍</a></td>
   </tr>
 </table>
 

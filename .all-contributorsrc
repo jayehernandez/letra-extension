@@ -608,6 +608,42 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Wanrick",
+      "name": "Wanrick Willemse",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48117432?v=4",
+      "profile": "https://github.com/Wanrick",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "Visenna88",
+      "name": "Nadiia Sikarova",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/64923253?v=4",
+      "profile": "https://github.com/Visenna88",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Arsenic-ATG",
+      "name": "Arsenic",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54987647?v=4",
+      "profile": "https://github.com/Arsenic-ATG",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "meghsohor",
+      "name": "Shafiqul Islam",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13042947?v=4",
+      "profile": "http://www.meghsohor.com",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -85,3 +85,4 @@ Thai Female
 Vietnamese Male  
 Vietnamese Female  
 Welsh Male  
+Bangla Bangladesh Male
