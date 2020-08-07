@@ -91,7 +91,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-71-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-72-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -190,6 +190,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/dchio"><img src="https://avatars0.githubusercontent.com/u/69310186?v=4" width="100px;" alt=""/><br /><sub><b>Dari C</b></sub></a><br /><a href="#content-dchio" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/FireFoxHD"><img src="https://avatars3.githubusercontent.com/u/26662802?v=4" width="100px;" alt=""/><br /><sub><b>Playerx</b></sub></a><br /><a href="#content-FireFoxHD" title="Content">🖋</a></td>
   </tr>
 </table>
 
