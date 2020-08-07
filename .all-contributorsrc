@@ -644,6 +644,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "dchio",
+      "name": "Dari C",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/69310186?v=4",
+      "profile": "https://github.com/dchio",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
