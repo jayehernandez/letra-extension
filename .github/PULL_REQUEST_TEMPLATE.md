@@ -11,8 +11,8 @@
 - [ ] There is ❌ no assigned issue or pull request for this new language.
 - [ ] ➕ Added a new JSON object in the `server/data/languages.json` file.
 - [ ] Added the **voice** 🎤 attribute supported by ResponsiveVoice API.
-- [ ] Added the **flag** 🏳 atrribute in the format of the twemoji-awesome CSS syntax.
-- [ ] Added the **romanization** atrribute for appropriate languages.
+- [ ] Added the **flag** 🏳 attribute in the format of the twemoji-awesome CSS syntax.
+- [ ] Added the **romanization** attribute for appropriate languages.
 - [ ] ➕ Created the `{language.json}` file inside the `server/data/words` folder containing the list of the 3000 words.
 - [ ] Removed duplicates and noted 🗒 them in the Pull Request.
 - [ ] Increment `currentLanguagesCount` in `client/src/store/index.js`
