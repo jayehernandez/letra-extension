@@ -18,6 +18,8 @@
 
 > Passively learn a new language every time you open a new tab.
 
+<a href="https://www.producthunt.com/posts/letra-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-letra-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=196571&theme=light" alt="Letra - Passively learn a new language every time you open a new tab | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+
 ### [Download Chrome Extension](https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio)
 
 ![Main Screenshot](docs/screenshots/main_screenshot.png)
