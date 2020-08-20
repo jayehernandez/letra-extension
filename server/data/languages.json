@@ -7,6 +7,10 @@
         "flag": "twa-saudi-arabia-flag",
         "voice": "Arabic Female"
     },
+    "bangla": {
+        "flag": "twa-bangladesh-flag",
+        "voice": "Bangla Bangladesh Male"
+    },
     "brazilian-portuguese": {
         "flag": "twa-brazil-flag",
         "voice": "Brazilian Portuguese Female"
@@ -50,9 +54,5 @@
     "spanish": {
         "flag": "twa-spain-flag",
         "voice": "Spanish Female"
-    },
-    "bangla": {
-        "flag": "twa-bangladesh-flag",
-        "voice": "Bangla Bangladesh Male"
     }
 }
