@@ -1,6 +1,6 @@
 {
   "name": "letra-extension",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Passively learn a new language every time you open a new tab.",
   "author": "Jaye Hernandez <hernandez.jaye@gmail.com>",
   "engines": {
