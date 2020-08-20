@@ -33,6 +33,7 @@
 ## 🌎 Supported Languages
 - 🇦🇫 Afrikaans
 - 🇸🇦 Arabic
+- 🇧🇳 Bangla
 - 🇧🇷 Brazilian Portuguese
 - 🇨🇳 Chinese (Simplified)
 - 🇵🇭 Filipino
@@ -44,7 +45,6 @@
 - 🇰🇷 Korean
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
-- 🇧🇳 Bangla
 
 ## 🛠 Built With
 
