@@ -191,7 +191,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/dchio"><img src="https://avatars0.githubusercontent.com/u/69310186?v=4" width="100px;" alt=""/><br /><sub><b>Dari C</b></sub></a><br /><a href="#content-dchio" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/FireFoxHD"><img src="https://avatars3.githubusercontent.com/u/26662802?v=4" width="100px;" alt=""/><br /><sub><b>Playerx</b></sub></a><br /><a href="#content-FireFoxHD" title="Content">🖋</a></td>
-    <td align="center"><a href="http://adamsroka.io"><img src="https://avatars2.githubusercontent.com/u/45038919?v=4" width="100px;" alt=""/><br /><sub><b>Adam Sroka</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=adam-sroka" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://adamsroka.io"><img src="https://avatars2.githubusercontent.com/u/45038919?v=4" width="100px;" alt=""/><br /><sub><b>Adam Sroka</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=adam-sroka" title="Documentation">📖</a> <a href="#content-adam-sroka" title="Content">🖋</a></td>
   </tr>
 </table>
 
