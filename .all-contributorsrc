@@ -662,6 +662,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "adam-sroka",
+      "name": "Adam Sroka",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/45038919?v=4",
+      "profile": "http://adamsroka.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
