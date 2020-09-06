@@ -681,6 +681,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "ariel-weiss",
+      "name": "Ariel Weiss",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11735943?v=4",
+      "profile": "https://www.linkedin.com/in/ariel-weiss/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
