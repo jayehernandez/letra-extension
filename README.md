@@ -31,7 +31,7 @@
 - Dark Interface
 
 ## 🌎 Supported Languages
-- 🇦🇫 Afrikaans
+- 🇿🇦 Afrikaans
 - 🇸🇦 Arabic
 - 🇧🇳 Bangla
 - 🇧🇷 Brazilian Portuguese
