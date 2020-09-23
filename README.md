@@ -91,7 +91,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-78-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-79-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -199,6 +199,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://kentonma.ca"><img src="https://avatars3.githubusercontent.com/u/14211998?v=4" width="100px;" alt=""/><br /><sub><b>Kenton Ma</b></sub></a><br /><a href="#content-KentonMa" title="Content">🖋</a></td>
+    <td align="center"><a href="https://ciaran.co.za"><img src="https://avatars0.githubusercontent.com/u/51886151?v=4" width="100px;" alt=""/><br /><sub><b>Ciaran</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=knightspore" title="Documentation">📖</a></td>
   </tr>
 </table>
 
