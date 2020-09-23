@@ -708,6 +708,15 @@
       "contributions": [
         "test"
       ]
+    },
+    {
+      "login": "KentonMa",
+      "name": "Kenton Ma",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14211998?v=4",
+      "profile": "https://kentonma.ca",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
