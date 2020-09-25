@@ -16,6 +16,14 @@ div(v-click-outside="closeOptionsMenu")
             @click="resetMessage"
           )
           span.checkmark
+      .mb1 Style {{ styleOptions }}
+        .choices
+          label.option Show background image
+            input.checkbox(
+              type="checkbox"
+              v-model="styleOptions"
+            )
+            span.checkmark
       .has-text-centered.is-text-primary.my1.message {{ message }}
       button.save-button(
         :disabled="selectedLanguages.length === 0"
@@ -47,6 +55,14 @@ export default {
       },
       set(value) {
         this.$store.commit('setSelectedLanguages', value);
+      },
+    },
+    styleOptions: {
+      get() {
+        return this.$store.state.styleOptions;
+      },
+      set(value) {
+        this.$store.commit('setStyleOptions', value);
       },
     },
   },

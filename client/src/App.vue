@@ -3,7 +3,9 @@
     div(v-if="hasError")
       ErrorPage
     div(v-else)
-      #background(:style="{ backgroundImage: `url('${imageUrl}')` }")
+      p {{styleOptions}}
+      #background(:style="{ backgroundImage: `url('${imageUrl}')` }" v-if="styleOptions")
+      #background(:style="{ backgroundColor: `#000` }" v-else)
       Credit
       Flag
       Word
@@ -36,6 +38,11 @@ export default {
     imageUrl() {
       if (this.dailyData.photo.urls) return this.dailyData.photo.urls.full;
       return '';
+    },
+    styleOptions: {
+      get() {
+        return this.$store.state.styleOptions;
+      },
     },
   },
   mounted() {

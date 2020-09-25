@@ -19,6 +19,7 @@ export const state = {
   languageOptions: [],
   selectedLanguages: [],
   loading: false,
+  styleOptions: true,
 };
 
 export const actions = {
@@ -107,6 +108,9 @@ export const mutations = {
   },
   setLoading(state, loading) {
     state.loading = loading;
+  },
+  setStyleOptions(state, styleOptions) {
+    state.styleOptions = styleOptions;
   },
 };
 
