@@ -16,7 +16,7 @@ div(v-click-outside="closeOptionsMenu")
             @click="resetMessage"
           )
           span.checkmark
-      .mb1 Style {{ styleOptions }}
+      .mb1 Style
         .choices
           label.option Show background image
             input.checkbox(

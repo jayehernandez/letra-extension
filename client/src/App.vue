@@ -3,7 +3,6 @@
     div(v-if="hasError")
       ErrorPage
     div(v-else)
-      p {{styleOptions}}
       #background(:style="{ backgroundImage: `url('${imageUrl}')` }" v-if="styleOptions")
       #background(:style="{ backgroundColor: `#000` }" v-else)
       Credit
