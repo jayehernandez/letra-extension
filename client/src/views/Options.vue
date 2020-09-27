@@ -18,7 +18,7 @@ div(v-click-outside="closeOptionsMenu")
           span.checkmark
       .mb1 Style
         .choices
-          label.option Show background image
+          label.option Remove background image
             input.checkbox(
               type="checkbox"
               v-model="styleOptions"
