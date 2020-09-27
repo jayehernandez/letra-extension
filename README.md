@@ -33,7 +33,7 @@
 ## 🌎 Supported Languages
 - 🇿🇦 Afrikaans
 - 🇸🇦 Arabic
-- 🇧🇳 Bangla
+- 🇧🇩 Bangla
 - 🇧🇷 Brazilian Portuguese
 - 🇨🇳 Chinese (Simplified)
 - 🇵🇭 Filipino
