@@ -43,6 +43,9 @@ describe('store', () => {
     it('has the initial value for loading', () => {
       expect(state.loading).toBe(false);
     });
+    it('has the initial value for styleOptions', () => {
+      expect(state.styleOptions).toBe(false);
+    });
   });
 
   describe('actions', () => {
@@ -381,6 +384,15 @@ describe('store', () => {
       let loading = true;
       mutations.setLoading(state, loading);
       expect(state.loading).toEqual(loading);
+    });
+
+    it('sets styleOptions', () => {
+      const state = {
+        styleOptions: false,
+      };
+      let styleOptions = true;
+      mutations.setStyleOptions(state, styleOptions);
+      expect(state.styleOptions).toEqual(styleOptions);
     });
   });
 });

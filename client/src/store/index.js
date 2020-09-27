@@ -19,7 +19,7 @@ export const state = {
   languageOptions: [],
   selectedLanguages: [],
   loading: false,
-  styleOptions: true,
+  styleOptions: false,
 };
 
 export const actions = {
