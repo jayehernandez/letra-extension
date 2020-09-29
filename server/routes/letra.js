@@ -22,6 +22,11 @@ const getLanguage = (selectedLanguages) => {
   return getRandomChoice(selectedLanguages.split(','));
 };
 
+const getOtherLanguages = (selectedLanguages, selected) => {
+  if (selectedLanguages === undefined) return null;
+  return selectedLanguages.split(',').filter(o => o != selected);
+};
+
 const getPhoto = async () =>
   unsplash.photos
     .getRandomPhoto({ collections: [9836658] })
@@ -42,14 +47,31 @@ router.get('/', async (req, res, next) => {
 // eslint-disable-next-line no-unused-vars
 router.get('/daily', async (req, res, next) => {
   const selectedLanguage = getLanguage(req.query.languages);
+  const others = getOtherLanguages(req.query.languages, selectedLanguage);
   // eslint-disable-next-line global-require, import/no-dynamic-require
   const words = require(`./../data/words/${selectedLanguage}`);
-
+  
   const language = languages[selectedLanguage];
+  let translations = {};
+
   const word = {
     ...getRandomChoice(words),
     language: selectedLanguage,
   };
+  
+  if (others) {
+    const otherWords = others.map(language => {
+      return {
+        name: language,
+        words: require(`./../data/words/${language}`)
+      };
+    });
+    otherWords.forEach(translation => {
+      let thisWord = translation.words.filter(o => o.translation == word.translation);
+      translations[translation.name] = thisWord.length === 0 ? null : thisWord;
+    });
+  }
+  
   const quote = getRandomChoice(quotes);
   const photo = await getPhoto();
 
@@ -58,8 +80,31 @@ router.get('/daily', async (req, res, next) => {
     quote,
     language,
     photo,
+    translations
   });
 });
+
+// eslint-disable-next-line no-unused-vars
+// router.get('/daily', async (req, res, next) => {
+//   const selectedLanguage = getLanguage(req.query.languages);
+//   // eslint-disable-next-line global-require, import/no-dynamic-require
+//   const words = require(`./../data/words/${selectedLanguage}`);
+
+//   const language = languages[selectedLanguage];
+//   const word = {
+//     ...getRandomChoice(words),
+//     language: selectedLanguage,
+//   };
+//   const quote = getRandomChoice(quotes);
+//   const photo = await getPhoto();
+
+//   res.status(200).json({
+//     word,
+//     quote,
+//     language,
+//     photo,
+//   });
+// });
 
 // eslint-disable-next-line no-unused-vars
 router.get('/languages', async (req, res, next) => {
