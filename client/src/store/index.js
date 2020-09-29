@@ -92,6 +92,7 @@ export const actions = {
         data.created_at = new Date().toDateString();
         chrome.storage.sync.set({ dailyData: data });
         dispatch('saveDailyData', data);
+        dispatch('getSelectedLanguagesWithFlags');
         commit('setLoading', false);
       })
       .catch(() => {
