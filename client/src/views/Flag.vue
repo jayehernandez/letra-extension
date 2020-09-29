@@ -23,6 +23,7 @@
           i(
             :class="language.flag"
             class="twa twa-4x"
+            @click="toggleActiveLanguage(language.language)"
           )
 </template>
 
@@ -55,7 +56,7 @@ export default {
   methods: {
     ...mapActions([
       'getSelectedLanguagesWithFlags',
-      'resetSelectedLanguages',
+      'saveDailyData'
     ]),
     getOptions() {
       this.getSelectedLanguagesWithFlags();
@@ -63,16 +64,43 @@ export default {
     toggleFlagDropdown() {
       this.showLanguageDropdown = !this.showLanguageDropdown
     },
-    save() {
-      // this.resetSelectedLanguages(this.selectedLanguages);
-      this.toggleFlagDropdown();
-      this.$snack.success({ text: 'Changes saved!', button: 'OK' });
-    },
+    toggleActiveLanguage(name) {
+      const other = this.dailyData.translations[name];
+      let { flag, voice, translation } = other;
+      let { word, romanization } = translation;
+
+      let thisTranslation = {
+        flag: this.dailyData.language.flag,
+        voice: this.dailyData.language.voice,
+        translation: {
+          translation: this.dailyData.word.translation,
+          word: this.dailyData.word.word,
+          romanization: this.dailyData.word.romanization ?
+            this.dailyData.word.romanization :
+            null
+        }
+      };
+      
+      let toggledDailyData = {
+        ...this.dailyData,
+        language: {
+          flag: flag,
+          voice: voice
+        },
+        word: {
+          language: name,
+          translation: translation.translation,
+          word: word
+        }
+      }
+      toggledDailyData.translations[this.dailyData.word.language] = thisTranslation;
+
+      this.saveDailyData(toggledDailyData);
+      this.showLanguageDropdown = false;
+    }
   },
   mounted() {
     this.getOptions();
-
-    console.log(this);
   }
 };
 </script>

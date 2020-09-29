@@ -60,6 +60,12 @@ router.get('/daily', async (req, res, next) => {
   };
   
   if (others) {
+    const otherLanguages = others.map(language => {
+      return {
+        name: language,
+        language: languages[language]
+      };
+    });
     const otherWords = others.map(language => {
       return {
         name: language,
@@ -68,7 +74,13 @@ router.get('/daily', async (req, res, next) => {
     });
     otherWords.forEach(translation => {
       let thisWord = translation.words.filter(o => o.translation == word.translation);
-      translations[translation.name] = thisWord.length === 0 ? null : thisWord;
+      let other = otherLanguages.filter(o => o.name == translation.name)[0];
+      let languageData = {
+        flag: other.language.flag,
+        voice: other.language.voice
+      };
+      languageData.translation = thisWord.length === 0 ? null : thisWord[0];
+      translations[translation.name] = languageData;
     });
   }
   
@@ -83,28 +95,6 @@ router.get('/daily', async (req, res, next) => {
     translations
   });
 });
-
-// eslint-disable-next-line no-unused-vars
-// router.get('/daily', async (req, res, next) => {
-//   const selectedLanguage = getLanguage(req.query.languages);
-//   // eslint-disable-next-line global-require, import/no-dynamic-require
-//   const words = require(`./../data/words/${selectedLanguage}`);
-
-//   const language = languages[selectedLanguage];
-//   const word = {
-//     ...getRandomChoice(words),
-//     language: selectedLanguage,
-//   };
-//   const quote = getRandomChoice(quotes);
-//   const photo = await getPhoto();
-
-//   res.status(200).json({
-//     word,
-//     quote,
-//     language,
-//     photo,
-//   });
-// });
 
 // eslint-disable-next-line no-unused-vars
 router.get('/languages', async (req, res, next) => {
