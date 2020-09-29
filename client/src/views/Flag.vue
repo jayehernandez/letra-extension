@@ -18,7 +18,7 @@
   ) {{ flagLanguage | titleize }}
   transition(name="fade")
     div(v-if="showLanguageDropdown")
-      .flag-list(v-for="language in selectedLanguagesWithFlags")
+      .flag-list(v-for="language in otherLanguages")
         .flag.fadeIn(v-wow data-wow-duration="2s" :key="language.flag")
           i(
             :class="language.flag"
@@ -42,11 +42,8 @@ export default {
     flagLanguage() {
       return this.dailyData.word.language;
     },
-    selectedLanguages() {
-      let selected = this.selectedLanguagesWithFlags.map(o => {
-        return o.language;
-      });
-      return selected;
+    otherLanguages() {
+      return this.selectedLanguagesWithFlags.filter(o => o.language !== this.dailyData.word.language);
     }
   },
   data() {
