@@ -17,22 +17,13 @@
     v-if="showLanguage !== null"
   ) {{ flagLanguage | titleize }}
   transition(name="fade")
-    .options-menu(v-if="showLanguageDropdown")
-      .mb1 I'm learning:
-      .choices
-        label.option(v-for="languageOption in languageOptions")
-          | {{ languageOption | titleize }}
-          input.checkbox(
-            type="checkbox"
-            :value="languageOption"
-            v-model="selectedLanguages"
+    div(v-if="showLanguageDropdown")
+      .flag-list(v-for="language in selectedLanguagesWithFlags")
+        .flag.fadeIn(v-wow data-wow-duration="2s" :key="language.flag")
+          i(
+            :class="language.flag"
+            class="twa twa-4x"
           )
-          span.checkmark
-      button.save-button(
-        :disabled="selectedLanguages.length === 0"
-        @click="save"
-      ) Save
-
 </template>
 
 <script>
@@ -43,22 +34,20 @@ export default {
   computed: {
     ...mapState([
       'dailyData',
-      'languageOptions'
+      'selectedLanguagesWithFlags'
     ]),
-    selectedLanguages: {
-      get() {
-        return this.$store.state.selectedLanguages;
-      },
-      set(value) {
-        this.$store.commit('setSelectedLanguages', value);
-      },
-    },
     flagClass() {
       return `twa twa-4x ${this.dailyData.language.flag}`;
     },
     flagLanguage() {
       return this.dailyData.word.language;
     },
+    selectedLanguages() {
+      let selected = this.selectedLanguagesWithFlags.map(o => {
+        return o.language;
+      });
+      return selected;
+    }
   },
   data() {
     return {
@@ -68,23 +57,25 @@ export default {
   },
   methods: {
     ...mapActions([
-      'getLanguageOptions',
+      'getSelectedLanguagesWithFlags',
       'resetSelectedLanguages',
     ]),
     getOptions() {
-      this.getLanguageOptions();
+      this.getSelectedLanguagesWithFlags();
     },
     toggleFlagDropdown() {
       this.showLanguageDropdown = !this.showLanguageDropdown
     },
     save() {
-      this.resetSelectedLanguages(this.selectedLanguages);
+      // this.resetSelectedLanguages(this.selectedLanguages);
       this.toggleFlagDropdown();
       this.$snack.success({ text: 'Changes saved!', button: 'OK' });
     },
   },
   mounted() {
     this.getOptions();
+
+    console.log(this);
   }
 };
 </script>

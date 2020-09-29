@@ -18,6 +18,7 @@ export const state = {
   hasError: false,
   languageOptions: [],
   selectedLanguages: [],
+  selectedLanguagesWithFlags: [],
   loading: false,
 };
 
@@ -33,9 +34,40 @@ export const actions = {
       dispatch('getDailyData');
     });
   },
+  getSelectedLanguagesWithFlags({ commit, dispatch }) {
+    commit('setLoading', true);
+    axios
+      .get(`${process.env.VUE_APP_API_URL}/languages`)
+      .then(result => {
+        chrome.storage.sync.get('selectedLanguages', response => {
+          let { selectedLanguages } = response;
+          let selectedLanguagesWithFlags = [];
+          if (selectedLanguages === undefined || selectedLanguages.length === 0) {
+            selectedLanguagesWithFlags = [{
+              'language': 'german',
+              'flag': 'twa-germany-flag'
+            }];
+          } else {
+            selectedLanguagesWithFlags = selectedLanguages.map(o => {
+              return {
+                'language': o,
+                'flag': result.data.languages[o].flag
+              }
+            });
+          }
+          dispatch('saveSelectedLanguagesWithFlags', selectedLanguagesWithFlags);
+          dispatch('getDailyData');
+        });
+      })
+      .catch(() => commit('setHasError', true));
+  },
   saveSelectedLanguages({ commit }, selectedLanguages) {
     chrome.storage.sync.set({ selectedLanguages });
     commit('setSelectedLanguages', selectedLanguages);
+  },
+  saveSelectedLanguagesWithFlags({ commit }, selectedLanguagesWithFlags) {
+    chrome.storage.sync.set({ selectedLanguagesWithFlags });
+    commit('setSelectedLanguagesWithFlags', selectedLanguagesWithFlags);
   },
   resetSelectedLanguages({ dispatch }, selectedLanguages) {
     dispatch('saveSelectedLanguages', selectedLanguages);
@@ -101,6 +133,9 @@ export const mutations = {
   },
   setSelectedLanguages(state, selectedLanguages) {
     state.selectedLanguages = selectedLanguages;
+  },
+  setSelectedLanguagesWithFlags(state, selectedLanguagesWithFlags) {
+    state.selectedLanguagesWithFlags = selectedLanguagesWithFlags;
   },
   setHasError(state, hasError) {
     state.hasError = hasError;
