@@ -40,19 +40,19 @@ export const actions = {
       .get(`${process.env.VUE_APP_API_URL}/languages`)
       .then(result => {
         chrome.storage.sync.get('selectedLanguages', response => {
-          let { selectedLanguages } = response;
+          const { selectedLanguages } = response;
           let selectedLanguagesWithFlags = [];
           if (selectedLanguages === undefined || selectedLanguages.length === 0) {
             selectedLanguagesWithFlags = [{
               'language': 'german',
-              'flag': 'twa-germany-flag'
+              'flag': 'twa-germany-flag',
             }];
           } else {
             selectedLanguagesWithFlags = selectedLanguages.map(o => {
               return {
                 'language': o,
                 'flag': result.data.languages[o].flag
-              }
+              };
             });
           }
           dispatch('saveSelectedLanguagesWithFlags', selectedLanguagesWithFlags);

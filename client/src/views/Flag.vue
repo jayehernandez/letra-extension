@@ -35,7 +35,7 @@ export default {
   computed: {
     ...mapState([
       'dailyData',
-      'selectedLanguagesWithFlags'
+      'selectedLanguagesWithFlags',
     ]),
     flagClass() {
       return `twa twa-4x ${this.dailyData.language.flag}`;
@@ -44,63 +44,61 @@ export default {
       return this.dailyData.word.language;
     },
     otherLanguages() {
-      return this.selectedLanguagesWithFlags.filter(o => o.language !== this.dailyData.word.language);
-    }
+      return this.selectedLanguagesWithFlags.filter((o) => o.language !== this.dailyData.word.language);
+    },
   },
   data() {
     return {
       showLanguage: null,
-      showLanguageDropdown: false
+      showLanguageDropdown: false,
     };
   },
   methods: {
     ...mapActions([
       'getSelectedLanguagesWithFlags',
-      'saveDailyData'
+      'saveDailyData',
     ]),
     getOptions() {
       this.getSelectedLanguagesWithFlags();
     },
     toggleFlagDropdown() {
-      this.showLanguageDropdown = !this.showLanguageDropdown
+      this.showLanguageDropdown = !this.showLanguageDropdown;
     },
     toggleActiveLanguage(name) {
       const other = this.dailyData.translations[name];
-      let { flag, voice, translation } = other;
-      let { word, romanization } = translation;
+      const { flag, voice, translation } = other;
+      const { word, romanization } = translation;
 
-      let thisTranslation = {
+      const thisTranslation = {
         flag: this.dailyData.language.flag,
         voice: this.dailyData.language.voice,
         translation: {
           translation: this.dailyData.word.translation,
           word: this.dailyData.word.word,
-          romanization: this.dailyData.word.romanization ?
-            this.dailyData.word.romanization :
-            null
-        }
+          romanization: this.dailyData.word.romanization ? this.dailyData.word.romanization : null,
+        },
       };
-      
-      let toggledDailyData = {
+
+      const toggledDailyData = {
         ...this.dailyData,
         language: {
           flag: flag,
-          voice: voice
+          voice: voice,
         },
         word: {
           language: name,
           translation: translation.translation,
-          word: word
-        }
-      }
+          word: word,
+        },
+      };
       toggledDailyData.translations[this.dailyData.word.language] = thisTranslation;
 
       this.saveDailyData(toggledDailyData);
       this.showLanguageDropdown = false;
-    }
+    },
   },
   mounted() {
     this.getOptions();
-  }
+  },
 };
 </script>

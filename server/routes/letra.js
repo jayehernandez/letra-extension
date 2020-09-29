@@ -24,7 +24,7 @@ const getLanguage = (selectedLanguages) => {
 
 const getOtherLanguages = (selectedLanguages, selected) => {
   if (selectedLanguages === undefined) return null;
-  return selectedLanguages.split(',').filter(o => o != selected);
+  return selectedLanguages.split(',').filter((o) => o !== selected);
 };
 
 const getPhoto = async () =>
@@ -50,9 +50,9 @@ router.get('/daily', async (req, res, next) => {
   const others = getOtherLanguages(req.query.languages, selectedLanguage);
   // eslint-disable-next-line global-require, import/no-dynamic-require
   const words = require(`./../data/words/${selectedLanguage}`);
-  
+
   const language = languages[selectedLanguage];
-  let translations = {};
+  const translations = {};
 
   const word = {
     ...getRandomChoice(words),
@@ -60,30 +60,30 @@ router.get('/daily', async (req, res, next) => {
   };
   
   if (others) {
-    const otherLanguages = others.map(language => {
+    const otherLanguages = others.map((lang) => {
       return {
-        name: language,
-        language: languages[language]
+        name: lang,
+        language: languages[lang],
       };
     });
-    const otherWords = others.map(language => {
+    const otherWords = others.map((lang) => {
       return {
-        name: language,
-        words: require(`./../data/words/${language}`)
+        name: lang,
+        words: require(`./../data/words/${lang}`),
       };
     });
-    otherWords.forEach(translation => {
-      let thisWord = translation.words.filter(o => o.translation == word.translation);
-      let other = otherLanguages.filter(o => o.name == translation.name)[0];
-      let languageData = {
+    otherWords.forEach((translation) => {
+      const thisWord = translation.words.filter((o) => o.translation === word.translation);
+      const other = otherLanguages.filter((o) => o.name === translation.name)[0];
+      const languageData = {
         flag: other.language.flag,
-        voice: other.language.voice
+        voice: other.language.voice,
       };
       languageData.translation = thisWord.length === 0 ? null : thisWord[0];
       translations[translation.name] = languageData;
     });
   }
-  
+
   const quote = getRandomChoice(quotes);
   const photo = await getPhoto();
 
@@ -92,7 +92,7 @@ router.get('/daily', async (req, res, next) => {
     quote,
     language,
     photo,
-    translations
+    translations,
   });
 });
 
