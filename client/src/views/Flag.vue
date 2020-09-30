@@ -33,10 +33,7 @@ import { mapActions, mapState } from 'vuex';
 export default {
   name: 'Flag',
   computed: {
-    ...mapState([
-      'dailyData',
-      'selectedLanguagesWithFlags',
-    ]),
+    ...mapState(['dailyData', 'selectedLanguagesWithFlags']),
     flagClass() {
       return `twa twa-4x ${this.dailyData.language.flag}`;
     },
@@ -44,7 +41,9 @@ export default {
       return this.dailyData.word.language;
     },
     otherLanguages() {
-      return this.selectedLanguagesWithFlags.filter((o) => o.language !== this.dailyData.word.language);
+      return this.selectedLanguagesWithFlags.filter(
+        o => o.language !== this.dailyData.word.language,
+      );
     },
   },
   data() {
@@ -54,10 +53,7 @@ export default {
     };
   },
   methods: {
-    ...mapActions([
-      'getSelectedLanguagesWithFlags',
-      'saveDailyData',
-    ]),
+    ...mapActions(['getSelectedLanguagesWithFlags', 'saveDailyData']),
     getOptions() {
       this.getSelectedLanguagesWithFlags();
     },
@@ -75,20 +71,23 @@ export default {
         translation: {
           translation: this.dailyData.word.translation,
           word: this.dailyData.word.word,
-          romanization: this.dailyData.word.romanization ? this.dailyData.word.romanization : null,
+          romanization: this.dailyData.word.romanization
+            ? this.dailyData.word.romanization
+            : null,
         },
       };
 
       const toggledDailyData = {
         ...this.dailyData,
         language: {
-          flag: flag,
-          voice: voice,
+          flag,
+          voice,
         },
         word: {
           language: name,
           translation: translation.translation,
-          word: word,
+          word,
+          romanization,
         },
       };
       toggledDailyData.translations[this.dailyData.word.language] = thisTranslation;

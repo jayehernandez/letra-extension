@@ -58,7 +58,7 @@ router.get('/daily', async (req, res, next) => {
     ...getRandomChoice(words),
     language: selectedLanguage,
   };
-  
+
   if (others) {
     const otherLanguages = others.map((lang) => {
       return {
@@ -69,12 +69,17 @@ router.get('/daily', async (req, res, next) => {
     const otherWords = others.map((lang) => {
       return {
         name: lang,
+        // eslint-disable-next-line global-require, import/no-dynamic-require
         words: require(`./../data/words/${lang}`),
       };
     });
     otherWords.forEach((translation) => {
-      const thisWord = translation.words.filter((o) => o.translation === word.translation);
-      const other = otherLanguages.filter((o) => o.name === translation.name)[0];
+      const thisWord = translation.words.filter(
+        (o) => o.translation === word.translation,
+      );
+      const other = otherLanguages.filter(
+        (o) => o.name === translation.name,
+      )[0];
       const languageData = {
         flag: other.language.flag,
         voice: other.language.voice,

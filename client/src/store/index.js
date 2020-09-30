@@ -43,15 +43,17 @@ export const actions = {
           const { selectedLanguages } = response;
           let selectedLanguagesWithFlags = [];
           if (selectedLanguages === undefined || selectedLanguages.length === 0) {
-            selectedLanguagesWithFlags = [{
-              'language': 'german',
-              'flag': 'twa-germany-flag',
-            }];
+            selectedLanguagesWithFlags = [
+              {
+                language: 'german',
+                flag: 'twa-germany-flag',
+              },
+            ];
           } else {
             selectedLanguagesWithFlags = selectedLanguages.map(o => {
               return {
-                'language': o,
-                'flag': result.data.languages[o].flag
+                language: o,
+                flag: result.data.languages[o].flag,
               };
             });
           }
