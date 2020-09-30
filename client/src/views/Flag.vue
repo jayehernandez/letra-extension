@@ -90,7 +90,8 @@ export default {
           romanization,
         },
       };
-      toggledDailyData.translations[this.dailyData.word.language] = thisTranslation;
+      const oldLanguage = this.dailyData.word.language;
+      toggledDailyData.translations[oldLanguage] = thisTranslation;
 
       this.saveDailyData(toggledDailyData);
       this.showLanguageDropdown = false;

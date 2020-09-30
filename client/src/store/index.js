@@ -42,7 +42,10 @@ export const actions = {
         chrome.storage.sync.get('selectedLanguages', response => {
           const { selectedLanguages } = response;
           let selectedLanguagesWithFlags = [];
-          if (selectedLanguages === undefined || selectedLanguages.length === 0) {
+          if (
+            selectedLanguages === undefined ||
+            selectedLanguages.length === 0
+          ) {
             selectedLanguagesWithFlags = [
               {
                 language: 'german',
@@ -57,7 +60,10 @@ export const actions = {
               };
             });
           }
-          dispatch('saveSelectedLanguagesWithFlags', selectedLanguagesWithFlags);
+          dispatch(
+            'saveSelectedLanguagesWithFlags',
+            selectedLanguagesWithFlags,
+          );
           dispatch('getDailyData');
         });
       })
