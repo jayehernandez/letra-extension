@@ -1,8 +1,9 @@
 const request = require('supertest');
-const app = require('../app');
 const rewire = require('rewire');
+const app = require('../app');
 
 const languages = require('../data/languages');
+
 const letra = rewire('../routes/letra.js');
 
 describe('/', () => {
@@ -30,6 +31,7 @@ describe('/languages', () => {
 });
 
 describe('#getLanguage', () => {
+  /* eslint no-underscore-dangle: ["error", { "allow": ["__get__"] }] */
   const getLanguage = letra.__get__('getLanguage');
   it('returns german when selectedLanguages is undefined', () => {
     const defaultLanguage = getLanguage(undefined);
