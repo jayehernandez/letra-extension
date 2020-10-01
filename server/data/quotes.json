@@ -60,6 +60,10 @@
     "sentence": "Language shapes the way we think, and determines what we can think about."
   },
   {
+    "author": "Bob Dylan",
+    "sentence": "A mistake is to commit a misunderstanding."
+  },
+  {
     "author": "Carl Theodor Körner",
     "sentence": "With foreign words on our tongue comes also the foreign spirit into our world."
   },
@@ -546,9 +550,5 @@
   {
     "author": "William Shakespeare",
     "sentence": "My words fly up, my thoughts remain below. Words without thoughts never to heaven go."
-  }
-  {
-    "author": "Nelson Mandela",
-    "sentence": "If you talk to a man in a language he understands, that goes to his head. If you talk to him in his own language, that goes to his heart."
   }
 ]
