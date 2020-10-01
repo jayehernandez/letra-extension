@@ -31,11 +31,11 @@ describe('/languages', () => {
 
 describe('#getLanguage', () => {
   const getLanguage = letra.__get__('getLanguage');
-  it('returns german when selectedLanguages is undefined', async () => {
+  it('returns german when selectedLanguages is undefined', () => {
     const defaultLanguage = getLanguage(undefined);
     expect(defaultLanguage).toEqual('german');
   });
-  it('returns the language on list when there is only 1 language in selectedLanguages', async () => {
+  it('returns the language on list when there is only 1 language in selectedLanguages', () => {
     const languageQuery = 'indonesian';
     const language = getLanguage(languageQuery);
     expect(language).toEqual('indonesian');
