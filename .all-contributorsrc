@@ -698,7 +698,8 @@
       "profile": "https://github.com/justinhhorner",
       "contributions": [
         "content",
-        "doc"
+        "doc",
+        "test"
       ]
     },
     {
@@ -745,6 +746,33 @@
       "profile": "https://github.com/Harshalszz",
       "contributions": [
         "content"
+      ]
+    },
+    {
+      "login": "aniketrb-github",
+      "name": "Aniket Bharsakale",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25100972?v=4",
+      "profile": "https://stackoverflow.com/users/2788547/aniket",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "ViivekUV",
+      "name": "ViivekUV",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/46867694?v=4",
+      "profile": "https://github.com/ViivekUV",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "singleparadox",
+      "name": "singleparadox",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29853589?v=4",
+      "profile": "https://github.com/singleparadox",
+      "contributions": [
+        "code"
       ]
     }
   ],
