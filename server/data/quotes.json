@@ -132,10 +132,6 @@
     "sentence": "The more that you read, the more things you will know. The more that you learn, the more places you'll go."
   },
   {
-    "author": "Johann Wolfgang von Goethe",
-    "sentence": "Those who know nothing of foreign languages know nothing of their own."
-  },
-  {
     "author": "Edmund De Waal",
     "sentence": "With languages, you can move from one social situation to another. With languages, you are at home anywhere."
   },
@@ -256,6 +252,10 @@
     "sentence": "A foreign language is like a frail, delicate muscle. If you don't use it, it weakens."
   },
   {
+    "author": "Johann Wolfgang von Goethe",
+    "sentence": "Those who know nothing of foreign languages know nothing of their own."
+  },
+  {
     "author": "Joanne Harris",
     "sentence": "If you want to know what's important to a culture, learn their language."
   },
@@ -338,6 +338,10 @@
   {
     "author": "Mark Amidon",
     "sentence": "Language is the means of getting an idea from my brain into yours without surgery."
+  },
+  {
+    "author": "Melissa Flaherty",
+    "sentence": "We have a right to respect in language, as well as everything else."
   },
   {
     "author": "Michael Gove",
