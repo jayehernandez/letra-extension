@@ -22,7 +22,7 @@ You can contribute in two ways, whichever is more convinient for you:
 
 4. You can now make changes to this repository, depending on what issues you chose to take on. 👩🏻‍💻👨🏻‍💻
 
-5. When you're finished which the changes, you'll see that your repository is ahead of some commits from the main repository. Click on **Pull Request** to start creating a pull request (PR).
+5. When you're finished with the changes, you'll see that your repository is ahead of some commits from the main repository. Click on **Pull Request** to start creating a pull request (PR).
 
 ![Branch Ahead](screenshots/branch_ahead.png)
 
