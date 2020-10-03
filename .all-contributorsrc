@@ -774,6 +774,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vanestorz",
+      "name": "Andhika Haeruman Santoso",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22366158?v=4",
+      "profile": "https://github.com/vanestorz",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
