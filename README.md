@@ -91,7 +91,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-82-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-83-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -203,6 +203,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ponickkhan"><img src="https://avatars2.githubusercontent.com/u/6341503?v=4" width="100px;" alt=""/><br /><sub><b>Md.Rafiuzzaman Khan</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=ponickkhan" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Harshalszz"><img src="https://avatars3.githubusercontent.com/u/61976596?v=4" width="100px;" alt=""/><br /><sub><b>Harshal S Zodape </b></sub></a><br /><a href="#content-Harshalszz" title="Content">🖋</a></td>
     <td align="center"><a href="https://stackoverflow.com/users/2788547/aniket"><img src="https://avatars0.githubusercontent.com/u/25100972?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Bharsakale</b></sub></a><br /><a href="#content-aniketrb-github" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ViivekUV"><img src="https://avatars1.githubusercontent.com/u/46867694?v=4" width="100px;" alt=""/><br /><sub><b>ViivekUV</b></sub></a><br /><a href="#content-ViivekUV" title="Content">🖋</a></td>
   </tr>
 </table>
 
