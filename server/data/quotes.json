@@ -24,10 +24,6 @@
     "sentence": "Do you know what a foreign accent is? It’s a sign of bravery."
   },
   {
-    "author": "Johann Wolfgang von Goethe",
-    "sentence": "Those who know nothing of foreign languages know nothing of their own."
-  },
-  {
     "author": "Angela Carter",
     "sentence": "Language is power, life and the instrument of culture, the instrument of domination and liberation."
   },
@@ -58,10 +54,6 @@
   {
     "author": "Beatrice Taylor, Ojibwe",
     "sentence": "You’ve got to know your language to understand your culture."
-  },
-  {
-    "author": "Czech proverb",
-    "sentence": "You live a new life for every new language you speak.  If you know only one language, you live only once."
   },
   {
     "author": "Benjamin Lee Whorf",
@@ -138,6 +130,10 @@
   {
     "author": "Dr. Seuss",
     "sentence": "The more that you read, the more things you will know. The more that you learn, the more places you'll go."
+  },
+  {
+    "author": "Johann Wolfgang von Goethe",
+    "sentence": "Those who know nothing of foreign languages know nothing of their own."
   },
   {
     "author": "Edmund De Waal",
