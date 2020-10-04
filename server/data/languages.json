@@ -59,6 +59,10 @@
     "flag": "twa-sweden-flag",
     "voice": "Swedish Male"
   },
+  "tamil": {
+    "flag": "twa-india-flag",
+    "voice": "Tamil Male"
+  },
   "thai": {
     "flag": "twa-thailand-flag",
     "voice": "Thai Female"

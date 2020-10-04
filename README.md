@@ -48,6 +48,7 @@
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
+- 🇮🇳 Tamil
 - ᴛʜ Thai
 
 ## 🛠 Built With
