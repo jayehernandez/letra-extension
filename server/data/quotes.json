@@ -516,6 +516,10 @@
     "sentence": "Speak a new language so that the world will be a new world."
   },
   {
+    "author": "Rumi",
+    "sentence": "silence is the language of god, all else is poor translation"
+  },
+  {
     "author": "Safir Kassim Boudjelal",
     "sentence": "It's not sufficient to love a language. That language should love you too."
   },
@@ -662,9 +666,5 @@
   {
     "author": "Yehuda Amichai",
     "sentence": "The soul inside me is the last foreign language I'm learning."
-  },
-  {
-    "author": "George Orwell",
-    "sentence": "But if thought corrupts language, language can also corrupt thought"
   }
 ]
