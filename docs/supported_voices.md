@@ -55,7 +55,7 @@ Arabic Male
 Arabic Female  
 Armenian Male  
 Czech Female  
-Czeck Male  
+Czech Male  
 Danish Female  
 Danish Male  
 Esperanto Male  
@@ -85,3 +85,4 @@ Thai Female
 Vietnamese Male  
 Vietnamese Female  
 Welsh Male  
+Bangla Bangladesh Male

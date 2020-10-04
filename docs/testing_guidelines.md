@@ -20,8 +20,6 @@
   - [Javascript ES6 - write less, do more](https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2) by [freecodecamp.org](https://www.freecodecamp.org/)
   - [ES6 Syntax and Feature Overview](https://www.taniarascia.com/es6-syntax-and-feature-overview/) by [Tania Rascia](https://www.taniarascia.com/)
 
-- Some sample tests are provided in the file `example.test.js`. Thanks [@tbarland77](https://github.com/tbarland77) for this. You can look at this (and the other files inside `test`) if you are just starting out with Jest.
-
 - Please create **tests with value**. A test like the one below, while good as an example, is not really something we *need* to test out since it's obvious.
   ```
   describe('example', () => {
@@ -48,7 +46,7 @@
 - You can run a **single** file with:
   ```
   npm test {{ filename }}
-  npm test example.test.js
+  npm test OptionsButton.test.js
   ```
 
 ### Seeing Test Coverage
@@ -71,7 +69,7 @@ If you click on one file, this actually highlights the **untested code**. You ca
 ```
 > jest
 
- FAIL  test/example.test.js
+ FAIL  test/src/components/OptionsButton.test.js
   ● Test suite failed to run
 
     TypeError: (0 , _vm(...).compileFunction) is not a function

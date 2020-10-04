@@ -1,18 +1,18 @@
 import { mount } from '@vue/test-utils';
-import OptionsButton from '../../../src/components/OptionsButton';
+import RandomButton from '../../../src/components/RandomButton';
 
-describe('OptionsButton', () => {
+describe('RandomButton', () => {
   it('is a Vue instance', () => {
-    const wrapper = mount(OptionsButton);
+    const wrapper = mount(RandomButton);
     expect(wrapper).toBeTruthy();
   });
   it('has the icon class', () => {
-    const wrapper = mount(OptionsButton);
+    const wrapper = mount(RandomButton);
     expect(wrapper.find('.icon').exists()).toBeTruthy();
   });
   it('calls the emit event on button click', () => {
-    const wrapper = mount(OptionsButton);
-    wrapper.find('#options-button').trigger('click');
+    const wrapper = mount(RandomButton);
+    wrapper.find('#random-button').trigger('click');
     expect(wrapper.emitted().click).toBeTruthy();
     expect(wrapper.emitted().click.length).toBe(1);
   });

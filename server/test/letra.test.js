@@ -1,7 +1,10 @@
 const request = require('supertest');
+const rewire = require('rewire');
 const app = require('../app');
 
 const languages = require('../data/languages');
+
+const letra = rewire('../routes/letra.js');
 
 describe('/', () => {
   it('returns a 200 response', async () => {
@@ -24,5 +27,19 @@ describe('/languages', () => {
   it('returns languages as the response body', async () => {
     const res = await request(app).get('/languages');
     expect(res.body.languages).toEqual(languages);
+  });
+});
+
+describe('#getLanguage', () => {
+  /* eslint no-underscore-dangle: ["error", { "allow": ["__get__"] }] */
+  const getLanguage = letra.__get__('getLanguage');
+  it('returns german when selectedLanguages is undefined', () => {
+    const defaultLanguage = getLanguage(undefined);
+    expect(defaultLanguage).toEqual('german');
+  });
+  it('returns the language on list when there is only 1 language in selectedLanguages', () => {
+    const languageQuery = 'indonesian';
+    const language = getLanguage(languageQuery);
+    expect(language).toEqual('indonesian');
   });
 });

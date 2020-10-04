@@ -1,6 +1,6 @@
 {
   "name": "letra-extension",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "Passively learn a new language every time you open a new tab.",
   "author": "Jaye Hernandez <hernandez.jaye@gmail.com>",
   "engines": {
@@ -22,12 +22,14 @@
   "dependencies": {
     "archiver": "^3.0.0",
     "axios": "^0.19.0",
+    "v-wow": "git+https://github.com/guisoares2011/vue-wow.git",
     "vue": "^2.6.10",
     "vue-analytics": "^5.22.1",
+    "vue-plugin-load-script": "^1.2.0",
     "vue-router": "^3.1.6",
     "vuex": "^3.1.3",
-    "v-wow": "git+https://github.com/guisoares2011/vue-wow.git",
-    "vue-plugin-load-script": "^1.2.0"
+    "vue-snack": "^0.1.4",
+    "lodash": ">=4.17.19"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
