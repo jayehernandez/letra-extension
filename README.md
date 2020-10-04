@@ -45,6 +45,7 @@
 - 🇰🇷 Korean
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
+- 🇮🇳 Tamil
 
 ## 🛠 Built With
 

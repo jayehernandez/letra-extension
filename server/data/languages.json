@@ -54,5 +54,9 @@
     "spanish": {
         "flag": "twa-spain-flag",
         "voice": "Spanish Female"
+    },
+    "tamil": {
+        "flag": "twa-india-flag",
+        "voice": "Tamil Male"
     }
 }
