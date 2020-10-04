@@ -14,7 +14,8 @@ export default {
   name: 'ErrorPage',
   data() {
     return {
-      webstoreLink: 'https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio',
+      webstoreLink:
+        'https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio',
       webstoreText: 'support tab',
     };
   },
