@@ -66,5 +66,9 @@
   "thai": {
     "flag": "twa-thailand-flag",
     "voice": "Thai Female"
+  },
+  "vietnamese": {
+    "flag": "twa-viet-nam-vietnam-flag",
+    "voice": "Vietnamese Male"
   }
 }
