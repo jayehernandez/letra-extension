@@ -805,6 +805,15 @@
         "translation",
         "review"
       ]
+    },
+    {
+      "login": "itzmeowww",
+      "name": "Thanasan Kumdee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28824919?v=4",
+      "profile": "https://github.com/itzmeowww",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
