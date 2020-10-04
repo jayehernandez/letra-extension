@@ -25,12 +25,14 @@
 ![Main Screenshot](docs/screenshots/main_screenshot.png)
 
 ## ✨ Features
+
 - New word everyday
 - Listen to the word in the chosen language
 - New inspirational quote about learning
 - Dark Interface
 
 ## 🌎 Supported Languages
+
 - 🇿🇦 Afrikaans
 - 🇸🇦 Arabic
 - 🇧🇩 Bangla
@@ -46,13 +48,14 @@
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
+- ᴛʜ Thai
 
 ## 🛠 Built With
 
-* [Vue.js](https://vuejs.org/) - Frontend
-* [Node.js](https://nodejs.org/en/) - Backend
-* [Pug](https://pugjs.org/api/getting-started.html) - Template Engine
-* [Jest](https://jestjs.io/) - Testing Framework
+- [Vue.js](https://vuejs.org/) - Frontend
+- [Node.js](https://nodejs.org/en/) - Backend
+- [Pug](https://pugjs.org/api/getting-started.html) - Template Engine
+- [Jest](https://jestjs.io/) - Testing Framework
 
 ## 🤝 Contributing
 
@@ -77,13 +80,13 @@ Here's a [guide](https://github.com/jayehernandez/letra-extension/blob/master/do
 
 ## 🙏🏻 Acknowledgements
 
-* Boilerplate Vue Extension from [Kocal's vue-web-extension](https://github.com/Kocal/vue-web-extension)
-* Text to Speech API from [ResponsiveVoice API](https://responsivevoice.org/api/)
-* Background Image API from [Unsplash](https://unsplash.com/developers)
-* Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
-* Icons from [Raj Dev](https://freeicons.io/profile/714)
-* [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
-* README generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
+- Boilerplate Vue Extension from [Kocal's vue-web-extension](https://github.com/Kocal/vue-web-extension)
+- Text to Speech API from [ResponsiveVoice API](https://responsivevoice.org/api/)
+- Background Image API from [Unsplash](https://unsplash.com/developers)
+- Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
+- Icons from [Raj Dev](https://freeicons.io/profile/714)
+- [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
+- README generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 
 Give a ⭐️ if this project helped you!
 
@@ -92,7 +95,9 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-87-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -216,6 +221,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
