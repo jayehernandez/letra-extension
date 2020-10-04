@@ -765,6 +765,24 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "singleparadox",
+      "name": "singleparadox",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29853589?v=4",
+      "profile": "https://github.com/singleparadox",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vanestorz",
+      "name": "Andhika Haeruman Santoso",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22366158?v=4",
+      "profile": "https://github.com/vanestorz",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
