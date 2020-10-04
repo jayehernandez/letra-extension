@@ -64,6 +64,10 @@
     "sentence": "You are as many a person as languages you know."
   },
   {
+    "author": "Avril Lavigne",
+    "sentence": "As humans we speak one language."
+  },
+  {
     "author": "Basil Lanneau Gildersleeve",
     "sentence": "It is astonishing how much enjoyment one can get out of a language that one understands imperfectly."
   },
@@ -190,6 +194,10 @@
   {
     "author": "Francis George Steiner",
     "sentence": "Every language is a world. Without translation, we would inhabit parishes bordering on silence."
+  },
+  {
+    "author": "Francis George Steiner",
+    "sentence": "Language can only deal meaningfully with a special, restricted segment of reality. The rest, and it is presumably the much larger part, is silence."
   },
   {
     "author": "Frank Smith",
@@ -572,6 +580,10 @@
     "sentence": "We cannot control the way people interpret our ideas or thoughts, but we can control the words and tones we choose to convey them."
   },
   {
+    "author": "Swami Vivekananda",
+    "sentence": "Language is the vehicle of ideas."
+  },
+  {
     "author": "T.S. Eliot, Four Quartets",
     "sentence": "For last year's words belong to last year's language. And next year's words await another voice."
   },
@@ -612,6 +624,10 @@
     "sentence": "The man who does not know other languages, unless he is a man of genius, necessarily has deficiencies in his ideas."
   },
   {
+    "author": "Victor Hugo",
+    "sentence": "To rescue from oblivion even a fragment of a language which men have used and which is in danger of being lost—that is to say, one of the elements, whether good or bad, which have shaped and complicated civilization—is to extend the scope of social observation and to serve civilization."
+  },
+  {
     "author": "Virginia Woolf",
     "sentence": "Language is wine upon the lips."
   },
@@ -642,5 +658,9 @@
   {
     "author": "William Shakespeare",
     "sentence": "My words fly up, my thoughts remain below. Words without thoughts never to heaven go."
+  },
+  {
+    "author": "Yehuda Amichai",
+    "sentence": "The soul inside me is the last foreign language I'm learning."
   }
 ]

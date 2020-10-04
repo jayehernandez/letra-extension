@@ -47,6 +47,7 @@
 - 🇰🇷 Korean
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
+- 🇸🇪 Swedish
 - ᴛʜ Thai
 
 ## 🛠 Built With
@@ -95,7 +96,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-85-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-87-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -213,6 +214,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/vanestorz"><img src="https://avatars2.githubusercontent.com/u/22366158?v=4" width="100px;" alt=""/><br /><sub><b>Andhika Haeruman Santoso</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=vanestorz" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/hjades"><img src="https://avatars2.githubusercontent.com/u/9104658?v=4" width="100px;" alt=""/><br /><sub><b>Jade 宋玉美</b></sub></a><br /><a href="#projectManagement-hjades" title="Project Management">📆</a> <a href="https://github.com/jayehernandez/letra-extension/commits?author=hjades" title="Tests">⚠️</a> <a href="https://github.com/jayehernandez/letra-extension/pulls?q=is%3Apr+reviewed-by%3Ahjades" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/Lundbyit"><img src="https://avatars1.githubusercontent.com/u/12132166?v=4" width="100px;" alt=""/><br /><sub><b>Lundbyit</b></sub></a><br /><a href="#projectManagement-Lundbyit" title="Project Management">📆</a> <a href="#translation-Lundbyit" title="Translation">🌍</a> <a href="https://github.com/jayehernandez/letra-extension/pulls?q=is%3Apr+reviewed-by%3ALundbyit" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
