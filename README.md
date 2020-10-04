@@ -25,12 +25,14 @@
 ![Main Screenshot](docs/screenshots/main_screenshot.png)
 
 ## ✨ Features
+
 - New word everyday
 - Listen to the word in the chosen language
 - New inspirational quote about learning
 - Dark Interface
 
 ## 🌎 Supported Languages
+
 - 🇿🇦 Afrikaans
 - 🇸🇦 Arabic
 - 🇧🇩 Bangla
@@ -47,13 +49,14 @@
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
+- ᴛʜ Thai
 
 ## 🛠 Built With
 
-* [Vue.js](https://vuejs.org/) - Frontend
-* [Node.js](https://nodejs.org/en/) - Backend
-* [Pug](https://pugjs.org/api/getting-started.html) - Template Engine
-* [Jest](https://jestjs.io/) - Testing Framework
+- [Vue.js](https://vuejs.org/) - Frontend
+- [Node.js](https://nodejs.org/en/) - Backend
+- [Pug](https://pugjs.org/api/getting-started.html) - Template Engine
+- [Jest](https://jestjs.io/) - Testing Framework
 
 ## 🤝 Contributing
 
@@ -78,13 +81,13 @@ Here's a [guide](https://github.com/jayehernandez/letra-extension/blob/master/do
 
 ## 🙏🏻 Acknowledgements
 
-* Boilerplate Vue Extension from [Kocal's vue-web-extension](https://github.com/Kocal/vue-web-extension)
-* Text to Speech API from [ResponsiveVoice API](https://responsivevoice.org/api/)
-* Background Image API from [Unsplash](https://unsplash.com/developers)
-* Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
-* Icons from [Raj Dev](https://freeicons.io/profile/714)
-* [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
-* README generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
+- Boilerplate Vue Extension from [Kocal's vue-web-extension](https://github.com/Kocal/vue-web-extension)
+- Text to Speech API from [ResponsiveVoice API](https://responsivevoice.org/api/)
+- Background Image API from [Unsplash](https://unsplash.com/developers)
+- Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
+- Icons from [Raj Dev](https://freeicons.io/profile/714)
+- [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
+- README generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 
 Give a ⭐️ if this project helped you!
 
@@ -93,7 +96,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-87-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-88-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -212,6 +215,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/vanestorz"><img src="https://avatars2.githubusercontent.com/u/22366158?v=4" width="100px;" alt=""/><br /><sub><b>Andhika Haeruman Santoso</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=vanestorz" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/hjades"><img src="https://avatars2.githubusercontent.com/u/9104658?v=4" width="100px;" alt=""/><br /><sub><b>Jade 宋玉美</b></sub></a><br /><a href="#projectManagement-hjades" title="Project Management">📆</a> <a href="https://github.com/jayehernandez/letra-extension/commits?author=hjades" title="Tests">⚠️</a> <a href="https://github.com/jayehernandez/letra-extension/pulls?q=is%3Apr+reviewed-by%3Ahjades" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/Lundbyit"><img src="https://avatars1.githubusercontent.com/u/12132166?v=4" width="100px;" alt=""/><br /><sub><b>Lundbyit</b></sub></a><br /><a href="#projectManagement-Lundbyit" title="Project Management">📆</a> <a href="#translation-Lundbyit" title="Translation">🌍</a> <a href="https://github.com/jayehernandez/letra-extension/pulls?q=is%3Apr+reviewed-by%3ALundbyit" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/itzmeowww"><img src="https://avatars1.githubusercontent.com/u/28824919?v=4" width="100px;" alt=""/><br /><sub><b>Thanasan Kumdee</b></sub></a><br /><a href="#translation-itzmeowww" title="Translation">🌍</a></td>
   </tr>
 </table>
 
