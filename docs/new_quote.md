@@ -25,7 +25,7 @@ Example:
 Here's a small checklist to make sure your Pull Request is accepted!
 
 ## ✅ Checklist
-- [ ] The quote(s) added are in alphabetical order and not ❌ duplicates.
+- [ ] The quote(s) added are in alphabetical order by author's first name and not ❌ duplicates.
 - [ ] The quote(s) added are about **learning a foreign language**.
 - [ ] The sentence attribute does not have inner quotation marks, and is ended with a period.
 - [ ] Copy pasted the raw JSON `quotes.json` file to [JSONLint](https://jsonlint.com/) and made sure that the modified JSON file is valid.
