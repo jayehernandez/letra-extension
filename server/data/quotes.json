@@ -576,6 +576,10 @@
     "sentence": "I never found accents difficult, after learning languages."
   },
   {
+    "author": "W.H. Auden",
+    "sentence": "A poet is, before anything else, a person who is passionately in love with language."
+  },
+  {
     "author": "Wilhelm von Humboldt",
     "sentence": "Absolutely nothing is so important for a nation’s culture as its language."
   },
@@ -594,9 +598,5 @@
   {
     "author": "William Shakespeare",
     "sentence": "My words fly up, my thoughts remain below. Words without thoughts never to heaven go."
-  },
-  {
-    "author": "Winston Churchill",
-    "sentence": "Success is walking from failure to failure with no loss of enthusiasm."
   }
 ]
