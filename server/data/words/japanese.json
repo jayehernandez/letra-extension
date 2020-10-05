@@ -391,7 +391,7 @@
   },
   {
     "word": "前",
-    "romanization": "",
+    "romanization": "mae",
     "translation": "ago"
   },
   {
@@ -411,12 +411,12 @@
   },
   {
     "word": "ああ",
-    "romanization": "",
+    "romanization": "aa",
     "translation": "ah"
   },
   {
     "word": "先に",
-    "romanization": "",
+    "romanization": "saki ni",
     "translation": "ahead"
   },
   {
@@ -441,7 +441,7 @@
   },
   {
     "word": "空気",
-    "romanization": "",
+    "romanization": "kuuki",
     "translation": "air"
   },
   {
@@ -476,7 +476,7 @@
   },
   {
     "word": "すべて",
-    "romanization": "",
+    "romanization": "subete",
     "translation": "all"
   },
   {
@@ -496,12 +496,12 @@
   },
   {
     "word": "ほとんど",
-    "romanization": "",
+    "romanization": "hotondo",
     "translation": "almost"
   },
   {
     "word": "一人で",
-    "romanization": "",
+    "romanization": "hitori de",
     "translation": "alone"
   },
   {
@@ -516,7 +516,7 @@
   },
   {
     "word": "さらに",
-    "romanization": "",
+    "romanization": "sorani",
     "translation": "also"
   },
   {
@@ -531,7 +531,7 @@
   },
   {
     "word": "であるが",
-    "romanization": "",
+    "romanization": "dearuga",
     "translation": "although"
   },
   {
@@ -586,7 +586,7 @@
   },
   {
     "word": "そして",
-    "romanization": "",
+    "romanization": "soshite",
     "translation": "and"
   },
   {
@@ -671,12 +671,12 @@
   },
   {
     "word": "とにかく",
-    "romanization": "",
+    "romanization": "tonikaku",
     "translation": "anyway"
   },
   {
     "word": "どこでも",
-    "romanization": "",
+    "romanization": "dokodemo",
     "translation": "anywhere"
   },
   {
@@ -686,7 +686,7 @@
   },
   {
     "word": "アパート",
-    "romanization": "",
+    "romanization": "apaato",
     "translation": "apartment"
   },
   {
@@ -866,7 +866,7 @@
   },
   {
     "word": "なので",
-    "romanization": "",
+    "romanization": "nanode",
     "translation": "as"
   },
   {
@@ -971,7 +971,7 @@
   },
   {
     "word": "に",
-    "romanization": "",
+    "romanization": "ni",
     "translation": "at"
   },
   {
@@ -1171,7 +1171,7 @@
   },
   {
     "word": "たる",
-    "romanization": "",
+    "romanization": "taru",
     "translation": "barrel"
   },
   {
@@ -1251,7 +1251,7 @@
   },
   {
     "word": "ビート",
-    "romanization": "",
+    "romanization": "bi-to",
     "translation": "beat"
   },
   {
@@ -1276,7 +1276,7 @@
   },
   {
     "word": "ベッド",
-    "romanization": "",
+    "romanization": "beddo",
     "translation": "bed"
   },
   {
@@ -1291,12 +1291,12 @@
   },
   {
     "word": "前",
-    "romanization": "",
+    "romanization": "mae",
     "translation": "before"
   },
   {
     "word": "ベギン",
-    "romanization": "",
+    "romanization": "begin",
     "translation": "begin"
   },
   {
@@ -1311,12 +1311,12 @@
   },
   {
     "word": "後ろに",
-    "romanization": "",
+    "romanization": "ushiro ni",
     "translation": "behind"
   },
   {
     "word": "であること",
-    "romanization": "",
+    "romanization": "dearukoto",
     "translation": "being"
   },
   {
@@ -1411,7 +1411,7 @@
   },
   {
     "word": "大きい",
-    "romanization": "",
+    "romanization": "ooki",
     "translation": "big"
   },
   {
@@ -1441,7 +1441,7 @@
   },
   {
     "word": "鳥",
-    "romanization": "",
+    "romanization": "tori",
     "translation": "bird"
   },
   {
@@ -1466,7 +1466,7 @@
   },
   {
     "word": "黒",
-    "romanization": "",
+    "romanization": "kuro",
     "translation": "black"
   },
   {
@@ -1536,7 +1536,7 @@
   },
   {
     "word": "つなぐ",
-    "romanization": "",
+    "romanization": "tsunagu",
     "translation": "bond"
   },
   {
@@ -1546,7 +1546,7 @@
   },
   {
     "word": "本",
-    "romanization": "",
+    "romanization": "hon",
     "translation": "book"
   },
   {
@@ -1566,12 +1566,12 @@
   },
   {
     "word": "生まれ",
-    "romanization": "",
+    "romanization": "umare",
     "translation": "born"
   },
   {
     "word": "かりて",
-    "romanization": "",
+    "romanization": "karite",
     "translation": "borrow"
   },
   {
@@ -1581,7 +1581,7 @@
   },
   {
     "word": "どちらも",
-    "romanization": "",
+    "romanization": "dochiramo",
     "translation": "both"
   },
   {
@@ -1616,7 +1616,7 @@
   },
   {
     "word": "男の子",
-    "romanization": "",
+    "romanization": "otoko no ko",
     "translation": "boy"
   },
   {
@@ -1906,7 +1906,7 @@
   },
   {
     "word": "できます",
-    "romanization": "",
+    "romanization": "dekimasu",
     "translation": "capable"
   },
   {
@@ -2071,7 +2071,7 @@
   },
   {
     "word": "もちろん",
-    "romanization": "",
+    "romanization": "mochiron",
     "translation": "certainly"
   },
   {
@@ -2186,7 +2186,7 @@
   },
   {
     "word": "チーズ",
-    "romanization": "",
+    "romanization": "chi-zu",
     "translation": "cheese"
   },
   {
@@ -2196,7 +2196,7 @@
   },
   {
     "word": "ケミカル",
-    "romanization": "",
+    "romanization": "kemikaru",
     "translation": "chemical"
   },
   {
@@ -2206,17 +2206,17 @@
   },
   {
     "word": "チキン",
-    "romanization": "",
+    "romanization": "chikin",
     "translation": "chicken"
   },
   {
     "word": "チーフ",
-    "romanization": "",
+    "romanization": "chi-fu",
     "translation": "chief"
   },
   {
     "word": "子",
-    "romanization": "",
+    "romanization": "ko",
     "translation": "child"
   },
   {
@@ -2231,12 +2231,12 @@
   },
   {
     "word": "チップ",
-    "romanization": "",
+    "romanization": "chippu",
     "translation": "chip"
   },
   {
     "word": "チョコレート",
-    "romanization": "",
+    "romanization": "chokore-to",
     "translation": "chocolate"
   },
   {
@@ -2261,7 +2261,7 @@
   },
   {
     "word": "クリスマス",
-    "romanization": "",
+    "romanization": "kurisumasu",
     "translation": "Christmas"
   },
   {
@@ -2316,12 +2316,12 @@
   },
   {
     "word": "クラス",
-    "romanization": "",
+    "romanization": "kurasu",
     "translation": "class"
   },
   {
     "word": "クラシック",
-    "romanization": "",
+    "romanization": "kurashikku",
     "translation": "classic"
   },
   {
@@ -2341,7 +2341,7 @@
   },
   {
     "word": "はっきり",
-    "romanization": "",
+    "romanization": "hakkiri",
     "translation": "clearly"
   },
   {
@@ -2411,7 +2411,7 @@
   },
   {
     "word": "手がかり",
-    "romanization": "",
+    "romanization": "tegakari",
     "translation": "clue"
   },
   {
@@ -2451,7 +2451,7 @@
   },
   {
     "word": "コーヒー",
-    "romanization": "",
+    "romanization": "ko-hi",
     "translation": "coffee"
   },
   {
@@ -2501,7 +2501,7 @@
   },
   {
     "word": "色",
-    "romanization": "",
+    "romanization": "iro",
     "translation": "color"
   },
   {
@@ -2521,7 +2521,7 @@
   },
   {
     "word": "来ます",
-    "romanization": "",
+    "romanization": "kimasu",
     "translation": "come"
   },
   {
@@ -2826,7 +2826,7 @@
   },
   {
     "word": "かなりの",
-    "romanization": "",
+    "romanization": "kanarino",
     "translation": "considerable"
   },
   {
@@ -3191,7 +3191,7 @@
   },
   {
     "word": "クリーム",
-    "romanization": "",
+    "romanization": "kuri-mu",
     "translation": "cream"
   },
   {
@@ -3346,7 +3346,7 @@
   },
   {
     "word": "パパ",
-    "romanization": "",
+    "romanization": "papa",
     "translation": "dad"
   },
   {
@@ -3406,7 +3406,7 @@
   },
   {
     "word": "日",
-    "romanization": "",
+    "romanization": "hi",
     "translation": "day"
   },
   {
@@ -3431,7 +3431,7 @@
   },
   {
     "word": "死",
-    "romanization": "",
+    "romanization": "shi",
     "translation": "death"
   },
   {
@@ -3681,7 +3681,7 @@
   },
   {
     "word": "やけくその",
-    "romanization": "",
+    "romanization": "yakekusono",
     "translation": "desperate"
   },
   {
@@ -4016,7 +4016,7 @@
   },
   {
     "word": "犬",
-    "romanization": "",
+    "romanization": "inu",
     "translation": "dog"
   },
   {
@@ -4036,12 +4036,12 @@
   },
   {
     "word": "ドア",
-    "romanization": "",
+    "romanization": "doa",
     "translation": "door"
   },
   {
     "word": "ダブル",
-    "romanization": "",
+    "romanization": "doburu",
     "translation": "double"
   },
   {
@@ -4076,7 +4076,7 @@
   },
   {
     "word": "ドラマ",
-    "romanization": "",
+    "romanization": "dorama",
     "translation": "drama"
   },
   {
@@ -4221,7 +4221,7 @@
   },
   {
     "word": "食べる",
-    "romanization": "",
+    "romanization": "taberu",
     "translation": "eat"
   },
   {

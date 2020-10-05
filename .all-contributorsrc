@@ -774,6 +774,64 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vanestorz",
+      "name": "Andhika Haeruman Santoso",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22366158?v=4",
+      "profile": "https://github.com/vanestorz",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "hjades",
+      "name": "Jade 宋玉美",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9104658?v=4",
+      "profile": "https://github.com/hjades",
+      "contributions": [
+        "projectManagement",
+        "test",
+        "review"
+      ]
+    },
+    {
+      "login": "Lundbyit",
+      "name": "Lundbyit",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12132166?v=4",
+      "profile": "https://github.com/Lundbyit",
+      "contributions": [
+        "projectManagement",
+        "translation",
+        "review"
+      ]
+    },
+    {
+      "login": "itzmeowww",
+      "name": "Thanasan Kumdee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28824919?v=4",
+      "profile": "https://github.com/itzmeowww",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "kvharish",
+      "name": "K.V.Harish",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/21171081?v=4",
+      "profile": "https://github.com/kvharish",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "therohitdas",
+      "name": "Rohit Das",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43847374?v=4",
+      "profile": "https://github.com/therohitdas",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
