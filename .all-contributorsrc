@@ -697,7 +697,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/4635843?v=4",
       "profile": "https://github.com/justinhhorner",
       "contributions": [
-        "content"
+        "content",
+        "doc",
+        "test"
       ]
     },
     {
@@ -726,6 +728,109 @@
       "profile": "https://ciaran.co.za",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "ponickkhan",
+      "name": "Md.Rafiuzzaman Khan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6341503?v=4",
+      "profile": "https://github.com/ponickkhan",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Harshalszz",
+      "name": "Harshal S Zodape ",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/61976596?v=4",
+      "profile": "https://github.com/Harshalszz",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "aniketrb-github",
+      "name": "Aniket Bharsakale",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25100972?v=4",
+      "profile": "https://stackoverflow.com/users/2788547/aniket",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "ViivekUV",
+      "name": "ViivekUV",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/46867694?v=4",
+      "profile": "https://github.com/ViivekUV",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "singleparadox",
+      "name": "singleparadox",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/29853589?v=4",
+      "profile": "https://github.com/singleparadox",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vanestorz",
+      "name": "Andhika Haeruman Santoso",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22366158?v=4",
+      "profile": "https://github.com/vanestorz",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "hjades",
+      "name": "Jade 宋玉美",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9104658?v=4",
+      "profile": "https://github.com/hjades",
+      "contributions": [
+        "projectManagement",
+        "test",
+        "review"
+      ]
+    },
+    {
+      "login": "Lundbyit",
+      "name": "Lundbyit",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12132166?v=4",
+      "profile": "https://github.com/Lundbyit",
+      "contributions": [
+        "projectManagement",
+        "translation",
+        "review"
+      ]
+    },
+    {
+      "login": "itzmeowww",
+      "name": "Thanasan Kumdee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28824919?v=4",
+      "profile": "https://github.com/itzmeowww",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "kvharish",
+      "name": "K.V.Harish",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/21171081?v=4",
+      "profile": "https://github.com/kvharish",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "therohitdas",
+      "name": "Rohit Das",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43847374?v=4",
+      "profile": "https://github.com/therohitdas",
+      "contributions": [
+        "code"
       ]
     }
   ],
