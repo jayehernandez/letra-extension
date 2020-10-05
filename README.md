@@ -50,7 +50,7 @@
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
 - ᴛʜ Thai
-- ᴠ🇮 Vietnamese
+- ᴠ🇳 Vietnamese
 
 ## 🛠 Built With
 
