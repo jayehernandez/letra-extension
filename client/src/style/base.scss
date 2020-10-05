@@ -24,6 +24,7 @@ body {
 
 .is-text-primary { color: $primary-color; }
 .is-text-secondary { color: $secondary-color; }
+.is-underlined { text-decoration: underline; }
 
 .mb0 { margin-bottom: 0; }
 .mb1 { margin-bottom: $spacing-xs; }
