@@ -31,7 +31,6 @@ describe('/languages', () => {
   });
 });
 
-
 describe('#getLanguage', () => {
   /* eslint no-underscore-dangle: ["error", { "allow": ["__get__"] }] */
   const getLanguage = letra.__get__('getLanguage');
@@ -53,7 +52,7 @@ describe('/daily', () => {
   });
 
   it('returns hindi language in the response', async () => {
-      res = await request(app).get('/daily?languages=hindi');
-      expect(res.body.language).toEqual(languages.hindi);
+    const res = await request(app).get('/daily?languages=hindi');
+    expect(res.body.language).toEqual(languages.hindi);
   });
 });
