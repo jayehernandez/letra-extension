@@ -49,8 +49,8 @@
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
-- ᴛʜ Thai
-- ᴠ🇳 Vietnamese
+- 🇹🇭 Thai
+- 🇻🇳 Vietnamese
 
 ## 🛠 Built With
 
