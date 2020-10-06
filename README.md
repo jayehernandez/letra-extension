@@ -42,6 +42,7 @@
 - 🇫🇷 French
 - 🇩🇪 German
 - 🇮🇳 Hindi
+- 🇮🇹 Italian
 - 🇮🇩 Indonesian
 - 🇯🇵 Japanese
 - 🇰🇷 Korean
