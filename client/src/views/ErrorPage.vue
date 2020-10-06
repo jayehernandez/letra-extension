@@ -4,11 +4,20 @@
   .quote-container.sentence
     | An error occured.
     br
-    | Please go to the support tab of the extension if this continues!
+    | Please go to the 
+    a.is-text-primary.is-underlined(:href="webstoreLink") {{ webstoreText }}
+    |  of the extension if this continues!
 </template>
 
 <script>
 export default {
   name: 'ErrorPage',
+  data() {
+    return {
+      webstoreLink:
+        'https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio',
+      webstoreText: 'support tab',
+    };
+  },
 };
 </script>

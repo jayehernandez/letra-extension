@@ -823,6 +823,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "therohitdas",
+      "name": "Rohit Das",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43847374?v=4",
+      "profile": "https://github.com/therohitdas",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
