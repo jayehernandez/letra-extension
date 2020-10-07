@@ -56,7 +56,6 @@ describe('/daily', () => {
     const quote = consts.RANDOM_API_QUOTE;
     const language = consts.LANGUAGE_API;
     const photo = consts.UNSPLASH_API_RET_IMAGE;
-
     const res = await request(app).get('/daily');
     expect(res.body.word).toEqual(word);
     expect(res.body.quote).toEqual(quote);

@@ -10,12 +10,10 @@ const helpers = {
     const randomIndex = Math.floor(Math.random() * options.length);
     return options[randomIndex];
   },
-
   getLanguage: (selectedLanguages) => {
     if (selectedLanguages === undefined) return defaultLanguage;
     return helpers.getRandomChoice(selectedLanguages.split(','));
   },
-
   getPhoto: async () =>
     unsplash.photos
       .getRandomPhoto({ collections: [9836658] })
