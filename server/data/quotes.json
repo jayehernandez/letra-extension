@@ -48,7 +48,7 @@
     "sentence": "One must not be shy where language is concerned."
   },
   {
-    "author": "Anne Sexton",
+    "author": "Anne **ton",
     "sentence": "I like you; your eyes are full of language."
   },
   {
@@ -140,6 +140,10 @@
     "sentence": "Words are the voice of the heart"
   },
   {
+    "author": "C.S. Lewis",
+    "sentence": "Friendship is born at that moment when one person says to another, ‘What! You too? I thought I was the only one."
+  },
+  {
     "author": "Czech Proverb",
     "sentence": "Learn a new language and get a new soul."
   },
@@ -190,6 +194,10 @@
   {
     "author": "Ellen Jovin",
     "sentence": "A new language is a hand held out to one’s neighbor, an opener of doors, a new way to see, a mental tickle, a road to unmediated communication with strangers in other lands, access to the world’s news, a gesture of peace."
+  },
+  {
+    "author": "Ernest Hemingway",
+    "sentence": "I like to listen. I have learned a great deal from listening carefully. Most people never listen."
   },
   {
     "author": "Ezra Pound",
@@ -322,6 +330,10 @@
   {
     "author": "Jhumpa Lahiri",
     "sentence": "A foreign language is like a frail, delicate muscle. If you don't use it, it weakens."
+  },
+  {
+    "author": "Jim Henson",
+    "sentence": "There’s not a word yet for old friends who’ve just met."
   },
   {
     "author": "Joanne Harris",
@@ -698,6 +710,10 @@
   {
     "author": "William Shakespeare",
     "sentence": "My words fly up, my thoughts remain below. Words without thoughts never to heaven go."
+  },
+  {
+    "author": "Winnie the Pooh",
+    "sentence": "If you live to be 100, I hope I live to be 100 minus 1 day, so I never have to live without you."
   },
   {
     "author": "Yehuda Amichai",
