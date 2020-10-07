@@ -272,6 +272,10 @@
     "sentence": "Everyone smiles in the same language."
   },
   {
+    "author": "George Bernard Shaw",
+    "sentence": "England and America are two countries separated by the same language."
+  },
+  {
     "author": "George Carlin",
     "sentence": "By and large, language is a tool for concealing the truth."
   },
@@ -296,12 +300,20 @@
     "sentence": "Learning another language is like becoming another person."
   },
   {
+	"author": "Henry Wadsworth Longfellow",
+	"sentence": "Music is the universal language of mankind."
+  },
+  {
     "author": "Herbert A. Simon",
     "sentence": "The great enemy of foreign language learning is a sense of shame, an inability or unwillingness to become like a child again and let one's inadequacies show."
   },
   {
     "author": "Ingrid Bengis",
     "sentence": "For me, words are a form of action, capable of influencing change."
+  },
+  {
+	"author": "Jackie Chan",
+	"sentence": "Coffee is a language in itself."  
   },
   {
     "author": "Jacob Ludwig Carl Grimm",
