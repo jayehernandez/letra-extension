@@ -2,31 +2,14 @@ const express = require('express');
 
 const router = express.Router();
 
-const Unsplash = require('unsplash-js').default;
-const { toJson } = require('unsplash-js');
-const { unsplashAccessKey } = require('../config');
-
-const unsplash = new Unsplash({ accessKey: unsplashAccessKey });
-
-const defaultLanguage = 'german';
 const quotes = require('../data/quotes');
 const languages = require('../data/languages');
 
-const getRandomChoice = (options) => {
-  const randomIndex = Math.floor(Math.random() * options.length);
-  return options[randomIndex];
-};
+const helper = require('./helpers');
 
-const getLanguage = (selectedLanguages) => {
-  if (selectedLanguages === undefined) return defaultLanguage;
-  return getRandomChoice(selectedLanguages.split(','));
-};
-
-const getPhoto = async () =>
-  unsplash.photos
-    .getRandomPhoto({ collections: [9836658] })
-    .then(toJson)
-    .then((json) => json);
+const getRandomChoice = helper.getRandomChoice;
+const getLanguage = helper.getLanguage;
+const getPhoto = helper.getPhoto;
 
 // eslint-disable-next-line no-unused-vars
 router.get('/', async (req, res, next) => {
