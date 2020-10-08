@@ -144,7 +144,7 @@
     "translation": "actual"
   },
   {
-    "word": "Realmente",
+    "word": "realmente",
     "translation": "actually"
   },
   {
@@ -236,7 +236,7 @@
     "translation": "advertising"
   },
   {
-    "word": "Consejo",
+    "word": "consejo",
     "translation": "advice"
   },
   {
@@ -1148,6 +1148,10 @@
     "translation": "black"
   },
   {
+    "word": "mora",
+    "translation": "blackberry"
+  },
+  {
     "word": "espada",
     "translation": "blade"
   },
@@ -1538,6 +1542,10 @@
   {
     "word": "portador",
     "translation": "carrier"
+  },
+  {
+    "word": "zanahoria",
+    "translation": "carrot"
   },
   {
     "word": "llevar",
@@ -4516,6 +4524,10 @@
     "translation": "gifted"
   },
   {
+    "word": "jengibre",
+    "translation": "ginger"
+  },
+  {
     "word": "niña",
     "translation": "girl"
   },
@@ -4810,6 +4822,10 @@
   {
     "word": "pesado",
     "translation": "heavy"
+  },
+  {
+    "word": "erizo",
+    "translation": "hedgehog"
   },
   {
     "word": "tacón",
@@ -8086,6 +8102,10 @@
   {
     "word": "Halar",
     "translation": "pull"
+  },
+  {
+    "word": "calabaza",
+    "translation": "pumpkin"
   },
   {
     "word": "castigo",
