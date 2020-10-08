@@ -404,8 +404,12 @@
     "translation": "always"
   },
   {
-    "word": "tolle",
+    "word": "toll",
     "translation": "amazing"
+  },
+  {
+    "word": "Tolle",
+    "translation": "quiff"
   },
   {
     "word": "amerikanisch",
@@ -434,6 +438,10 @@
   {
     "word": "alt",
     "translation": "ancient"
+  },
+  {
+	"word": "antik",
+	"translation": "ancient"  
   },
   {
     "word": "und",
@@ -492,8 +500,12 @@
     "translation": "anybody"
   },
   {
-    "word": "nicht mehr",
+    "word": "weiterhin",
     "translation": "anymore"
+  },
+  {
+    "word": "nicht mehr",
+    "translation": "not anymore"
   },
   {
     "word": "jemand",
@@ -512,8 +524,12 @@
     "translation": "anywhere"
   },
   {
-    "word": "ein Teil",
+    "word": "getrennt",
     "translation": "apart"
+  },
+  {
+    "word": "Teil",
+    "translation": "part"
   },
   {
     "word": "Wohnung",
@@ -562,6 +578,10 @@
   {
     "word": "schätzen",
     "translation": "appreciate"
+  },
+  {
+    "word": "schätzen",
+    "translation": "estimate"
   },
   {
     "word": "Ansatz",
@@ -10440,7 +10460,7 @@
     "translation": "vacation"
   },
   {
-    "word": "Senke",
+    "word": "Tal",
     "translation": "valley"
   },
   {
@@ -10492,7 +10512,7 @@
     "translation": "very"
   },
   {
-    "word": "Schiff",
+    "word": "Fahrzeug",
     "translation": "vessel"
   },
   {
@@ -10532,7 +10552,7 @@
     "translation": "violence"
   },
   {
-    "word": "heftig",
+    "word": "gewalttätig",
     "translation": "violent"
   },
   {
@@ -10780,7 +10800,7 @@
     "translation": "whom"
   },
   {
-    "word": "deren",
+    "word": "wessen",
     "translation": "whose"
   },
   {
@@ -10904,7 +10924,7 @@
     "translation": "worker"
   },
   {
-    "word": "Arbeiten",
+    "word": "arbeiten",
     "translation": "working"
   },
   {
@@ -10928,7 +10948,7 @@
     "translation": "worry"
   },
   {
-    "word": "wert",
+    "word": "Wert",
     "translation": "worth"
   },
   {
@@ -10996,7 +11016,7 @@
     "translation": "yield"
   },
   {
-    "word": "Sie",
+    "word": "Du",
     "translation": "you"
   },
   {
@@ -11004,7 +11024,7 @@
     "translation": "young"
   },
   {
-    "word": "Ihre",
+    "word": "dein",
     "translation": "your"
   },
   {
@@ -11018,5 +11038,9 @@
   {
     "word": "Jugend",
     "translation": "youth"
+  },
+  {
+	"word": "Zone",
+	"translation": "zone"
   }
 ]
