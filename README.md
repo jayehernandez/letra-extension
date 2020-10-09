@@ -45,6 +45,7 @@
 - 🇮🇩 Indonesian
 - 🇯🇵 Japanese
 - 🇰🇷 Korean
+- 🇵🇱 Polish
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
