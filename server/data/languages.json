@@ -15,6 +15,10 @@
     "flag": "twa-brazil-flag",
     "voice": "Brazilian Portuguese Female"
   },
+  "catalan": {
+    "flag": ,
+    "voice": "Spanish Female"
+  },
   "chinese-simplified": {
     "flag": "twa-china-flag",
     "voice": "Chinese Female"
