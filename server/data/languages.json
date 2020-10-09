@@ -47,6 +47,10 @@
     "flag": "twa-korea-south-south-korea-flag",
     "voice": "Korean Female"
   },
+  "polish": {
+    "flag": "twa-poland-flag",
+    "voice": "Polish Female"
+  },
   "russian": {
     "flag": "twa-russia-flag",
     "voice": "Russian Female"

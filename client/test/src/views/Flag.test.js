@@ -12,6 +12,7 @@ localVue.filter('titleize', str => {
     .join(' ');
 });
 localVue.use(Vuex);
+localVue.directive('wow', { bind() {}, unbind() {} });
 
 describe('Flag', () => {
   let wrapper;

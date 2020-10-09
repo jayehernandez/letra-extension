@@ -45,6 +45,7 @@
 - 🇮🇩 Indonesian
 - 🇯🇵 Japanese
 - 🇰🇷 Korean
+- 🇵🇱 Polish
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
@@ -97,7 +98,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-89-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-91-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -218,6 +219,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Lundbyit"><img src="https://avatars1.githubusercontent.com/u/12132166?v=4" width="100px;" alt=""/><br /><sub><b>Lundbyit</b></sub></a><br /><a href="#projectManagement-Lundbyit" title="Project Management">📆</a> <a href="#translation-Lundbyit" title="Translation">🌍</a> <a href="https://github.com/jayehernandez/letra-extension/pulls?q=is%3Apr+reviewed-by%3ALundbyit" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/itzmeowww"><img src="https://avatars1.githubusercontent.com/u/28824919?v=4" width="100px;" alt=""/><br /><sub><b>Thanasan Kumdee</b></sub></a><br /><a href="#translation-itzmeowww" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/kvharish"><img src="https://avatars3.githubusercontent.com/u/21171081?v=4" width="100px;" alt=""/><br /><sub><b>K.V.Harish</b></sub></a><br /><a href="#translation-kvharish" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/therohitdas"><img src="https://avatars2.githubusercontent.com/u/43847374?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Das</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=therohitdas" title="Code">💻</a></td>
+    <td align="center"><a href="http://damianszczypka.com"><img src="https://avatars2.githubusercontent.com/u/33627666?v=4" width="100px;" alt=""/><br /><sub><b>Damian Szczypka</b></sub></a><br /><a href="#translation-sthiepaan" title="Translation">🌍</a></td>
   </tr>
 </table>
 

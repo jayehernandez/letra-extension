@@ -823,6 +823,24 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "therohitdas",
+      "name": "Rohit Das",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43847374?v=4",
+      "profile": "https://github.com/therohitdas",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sthiepaan",
+      "name": "Damian Szczypka",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33627666?v=4",
+      "profile": "http://damianszczypka.com",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
