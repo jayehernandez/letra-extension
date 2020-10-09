@@ -38,7 +38,7 @@
 - 🇧🇩 Bangla
 - 🇧🇷 Brazilian Portuguese
 - 🇨🇳 Chinese (Simplified)
-- 🇨🇦 Catalan
+-    Catalan
 - 🇵🇭 Filipino
 - 🇫🇷 French
 - 🇩🇪 German
