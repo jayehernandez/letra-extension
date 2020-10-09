@@ -832,6 +832,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sthiepaan",
+      "name": "Damian Szczypka",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33627666?v=4",
+      "profile": "http://damianszczypka.com",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 7,
