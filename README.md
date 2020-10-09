@@ -50,7 +50,7 @@
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
-- ᴛʜ Thai
+- 🇹🇭 Thai
 
 ## 🛠 Built With
 
