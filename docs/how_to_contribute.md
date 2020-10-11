@@ -62,7 +62,7 @@ You can contribute in two ways, whichever is more convinient for you:
 6. From your CMD type **git clone** followed by the address you copied
 ![Cloning](screenshots/cloning.png)
 
-7. After successfully cloning, navigate into the project folder by typing**CD** followed by the folder name.
+7. After successfully cloning, navigate into the project folder by typing **CD** followed by the folder name.
 ![Navigating](screenshots/navigate.png)
 
 8. Open up the folder from your favorite **text editor**,  make changes to the repository, depending on what issues you chose to take on. **dont forget to save** 👩🏻‍💻👨🏻‍💻
