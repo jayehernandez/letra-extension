@@ -13,7 +13,6 @@ helpers.getLanguage = (selectedLanguages) => {
   if (selectedLanguages) {
     return selectedLanguages;
   }
-
   const options = ['', consts.HELPERS_MOCK_RET_LANGUAGE];
   return helpers.getRandomChoice(options);
 };
