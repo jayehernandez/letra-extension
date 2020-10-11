@@ -45,9 +45,6 @@ You can contribute in two ways, whichever is more convinient for you:
 9. Extra step: Please click on the ⭐️ **Star** button if you like this repository and it helped you in any way!
 
 ## 2️⃣ Via Local Machine
- 
-🚧 Guide coming soon! 🔜
-
 1. Check the **Issues page** to choose what you want to contribute on!
 
 2. Click on **Fork** on the upper right hand of the screen.
