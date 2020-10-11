@@ -9,7 +9,11 @@ helpers.getRandomChoice = (options) => {
   const randomIndex = 1;
   return options[randomIndex];
 };
-helpers.getLanguage = () => {
+helpers.getLanguage = (selectedLanguages) => {
+  if (selectedLanguages) {
+    return selectedLanguages;
+  }
+  
   const options = ['', consts.HELPERS_MOCK_RET_LANGUAGE];
   return helpers.getRandomChoice(options);
 };
