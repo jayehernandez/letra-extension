@@ -9,6 +9,10 @@
   z-index: 4;
 }
 
+.multiselect__element, .multiselect__input, .multiselect__single {
+  background-color: $off-white;
+}
+
 .multiselect__select {
   width: 25px;
   padding: 4px;
@@ -16,6 +20,7 @@
 
 .multiselect__tags {
   padding: 8px 25px 0px 8px;
+  background-color: $off-white;
 }
 
 .multiselect__tag, .multiselect__option--highlight, .multiselect__option--highlight:after {
