@@ -97,7 +97,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-92-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-93-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -223,6 +223,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Koddi-Evangelista"><img src="https://avatars0.githubusercontent.com/u/70675656?v=4" width="100px;" alt=""/><br /><sub><b>Koddi Evangelista</b></sub></a><br /><a href="#translation-Koddi-Evangelista" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/PulkitAgg"><img src="https://avatars1.githubusercontent.com/u/17783893?v=4" width="100px;" alt=""/><br /><sub><b>Pulkit Aggarwal</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=PulkitAgg" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
