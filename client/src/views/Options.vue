@@ -13,6 +13,7 @@ div(v-click-outside="closeOptionsMenu")
         :close-on-select="true",
         :show-labels="false",
         :custom-label="customLabel",
+        placeholder="Select a language",
         @click="resetMessage"
       )
       .has-text-centered.is-text-primary.my1.message {{ message }}
