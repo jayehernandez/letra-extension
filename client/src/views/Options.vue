@@ -84,7 +84,7 @@ export default {
     resetMessage() {
       this.message = '';
     },
-    customLabel (value) {
+    customLabel(value) {
       if (typeof value !== 'string') return '';
 
       const frags = value.split('-');
