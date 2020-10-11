@@ -360,16 +360,6 @@
       "contributions": [
         "test"
       ]
-    },
-    {
-      "login": "jayehernandez",
-      "name": "Jaye Hernandez",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/13959651?v=4",
-      "profile": "https://jayehernandez.com",
-      "contributions": [
-        "code",
-        "test"
-      ]
     }
   ],
   "contributorsPerLine": 10,
