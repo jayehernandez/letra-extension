@@ -2,6 +2,8 @@ const request = require('supertest');
 const rewire = require('rewire');
 const app = require('../app');
 const consts = require('./test-consts');
+global.fetch = require('node-fetch'); // for provide fetch to Unsplash apis
+
 const languages = require('../data/languages');
 
 const letra = rewire('../routes/letra.js');
@@ -61,5 +63,10 @@ describe('/daily', () => {
     expect(res.body.quote).toEqual(quote);
     expect(res.body.language).toEqual(language);
     expect(res.body.photo).toEqual(photo);
+  });
+
+  it('returns hindi language in the response', async () => {
+    const res = await request(app).get('/daily?languages=hindi');
+    expect(res.body.language).toEqual(languages.hindi);
   });
 });
