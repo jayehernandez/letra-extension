@@ -98,7 +98,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -152,6 +152,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/PulkitAgg"><img src="https://avatars1.githubusercontent.com/u/17783893?v=4" width="100px;" alt=""/><br /><sub><b>Pulkit Aggarwal</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=PulkitAgg" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://linhnguyen.dev"><img src="https://avatars3.githubusercontent.com/u/46255649?v=4" width="100px;" alt=""/><br /><sub><b>Linh Nguyen</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=bobsany16" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://www.technetex.com"><img src="https://avatars2.githubusercontent.com/u/44941663?v=4" width="100px;" alt=""/><br /><sub><b>Margu</b></sub></a><br /><a href="#translation-Margu86" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/mdjibril"><img src="https://avatars1.githubusercontent.com/u/34494733?v=4" width="100px;" alt=""/><br /><sub><b>Jibril Dauda Muhammad</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=mdjibril" title="Documentation">📖</a></td>
   </tr>
 </table>
 
