@@ -15,15 +15,19 @@
 }
 
 .multiselect__tags {
-  padding: 8px 0px 0px 8px;
+  padding: 8px 25px 0px 8px;
 }
 
 .multiselect__tag, .multiselect__option--highlight, .multiselect__option--highlight:after {
   background: $primary-color;
 }
 
-.multiselect__tag-icon:after {
+.multiselect__tag-icon:after, .multiselect__tag-icon:focus, .multiselect__tag-icon:hover {
   color: $third-color;
+}
+
+.multiselect__tag-icon:focus, .multiselect__tag-icon:hover {
+  background-color: $third-color;
 }
 
 .multiselect, .multiselect__input, .multiselect__single {
