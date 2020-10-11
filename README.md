@@ -160,6 +160,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
+Note: The list above excludes content contributions. If you'd like to see everyone who contributed to this project, view the contributions page [here](https://github.com/jayehernandez/letra-extension/graphs/contributors)! Thank you to everyone who contributes to Letra!
+
 ## 📝 License
 
 Copyright © 2020 [Jaye Hernandez](https://github.com/jayehernandez).<br />
