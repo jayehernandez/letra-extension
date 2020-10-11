@@ -41,7 +41,7 @@
   },
   {
     "author": "Amy Santiago in Brooklyn Nine Nine",
-    "sentence": "Some say Latin is a dead language but I say it's just taking a long nap." 
+    "sentence": "Some say Latin is a dead language but I say it's just taking a long nap."
   },
   {
     "author": "Angela Carter",
@@ -104,6 +104,11 @@
     "sentence": "Language is not simply a reporting device for experience but a defining framework for it."
   },
   {
+    "author": "Chinese Proverb",
+    "sentence": "To learn a language is to have one more window from which to look at the world."
+  },
+
+  {
     "author": "Carl Theodor Körner",
     "sentence": "With foreign words on our tongue comes also the foreign spirit into our world."
   },
@@ -128,8 +133,8 @@
     "sentence": "Learning is a treasure that will follow its owner everywhere."
   },
   {
-    "author": "Chinese Proverb",
-    "sentence": "To learn a language is to have one more window from which to look at the world."
+    "author": "Robert M. Harrison",
+    "sentence": "Learning a foreign language will not only help you, perfecting your world it will also help you perfect others."
   },
   {
     "author": "Christopher Soto",
@@ -193,6 +198,10 @@
   },
   {
     "author": "Edward Sapir",
+    "sentence": "Human beings do not live in the objective world alone, nor alone in the world of social activity as ordinarily understood, but are very much at the mercy of the particular language which has become the medium of expression for their society."
+  },
+  {
+    "author": "Edward Sapir",
     "sentence": "Language is an anonymous, collective and unconscious art; the result of the creativity of thousands of generations."
   },
   {
@@ -222,6 +231,10 @@
   {
     "author": "Ferdinand de Saussure",
     "sentence": "Language is a treasure deposited by the practice of speech in subjects belonging to the same community."
+  },
+  {
+    "author": "Ferdinand de Saussure",
+    "sentence": "Without language, thought is a vague, uncharted nebula."
   },
   {
     "author": "Flora Lewis",
@@ -300,6 +313,10 @@
     "sentence": "But if thought corrupts language, language can also corrupt thought."
   },
   {
+    "author": "George Steiner",
+    "sentence": "When a language dies, a way of understanding the world dies with it, a way of looking at the world."
+  },
+  {
     "author": "Gordon B. Hinckley",
     "sentence": "Study a foreign language if you have an opportunity to do so. You may never be called to a land where that language is spoken, but the study will have given you a better understanding of your own tongue or of another tongue you may be asked to acquire."
   },
@@ -316,8 +333,16 @@
     "sentence": "The great enemy of foreign language learning is a sense of shame, an inability or unwillingness to become like a child again and let one's inadequacies show."
   },
   {
+    "author": "Henry Longhurst",
+    "sentence": "Playing golf is like learning a foreign language"
+  },
+  {
     "author": "Ingrid Bengis",
     "sentence": "For me, words are a form of action, capable of influencing change."
+  },
+  {
+    "author": "J.R.R. Tolkien",
+    "sentence": "It is wrong to call the language you grow up speaking your native language. It is not. It is your first learnt language."
   },
   {
     "author": "Jacob Ludwig Carl Grimm",
@@ -334,6 +359,10 @@
   {
     "author": "James Humes",
     "sentence": "The art of communication is the language of leadership."
+  },
+  {
+	"author": "Jane Goodall",
+	"sentence": "What makes us human, I think, is an ability to ask questions, a consequence of our sophisticated spoken language."  
   },
   {
     "author": "Jhumpa Lahiri",
@@ -393,6 +422,10 @@
   },
   {
     "author": "Kató Lomb",
+    "sentence": "Language is present in a piece of writing like the sea in a single drop."
+  },
+  {
+    "author": "Kató Lomb",
     "sentence": "My view is that knowing languages is part of the process of becoming a cultured person."
   },
   {
@@ -438,6 +471,10 @@
   {
     "author": "Marcus Fabius Quintilian",
     "sentence": "One should not aim at being possible to understand but at being impossible to misunderstand."
+  },
+  {
+    "author": "Margaret Atwood",
+    "sentence": "War is what happens when language fails."
   },
   {
     "author": "Maria Montessori",
@@ -651,7 +688,7 @@
     "author": "Stephen King",
     "sentence": "French is the language that turns dirt into romance."
   },
-    {
+  {
     "author": "Stewart Stafford",
     "sentence": "Going to a country where you don't speak the language is like wading into the sea when you can't swim - it's intimidating at first, not impossible, and ultimately manageable."
   },
