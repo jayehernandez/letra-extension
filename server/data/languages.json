@@ -39,6 +39,10 @@
     "flag": "twa-indonesia-flag",
     "voice": "Indonesian Female"
   },
+  "italian": {
+    "flag": "twa-italy-flag",
+    "voice": "Italian Female"
+  },
   "japanese": {
     "flag": "twa-japan-flag",
     "voice": "Japanese Female"
@@ -46,6 +50,10 @@
   "korean": {
     "flag": "twa-korea-south-south-korea-flag",
     "voice": "Korean Female"
+  },
+  "polish": {
+    "flag": "twa-poland-flag",
+    "voice": "Polish Female"
   },
   "russian": {
     "flag": "twa-russia-flag",
