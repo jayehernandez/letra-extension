@@ -360,6 +360,15 @@
       "contributions": [
         "test"
       ]
+    },
+    {
+      "login": "Margu86",
+      "name": "Margu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44941663?v=4",
+      "profile": "https://www.technetex.com",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 10,
