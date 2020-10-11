@@ -9,7 +9,7 @@
       h3.mb0 {{ dailyData.word.romanization || '' }}
       .is-flex.is-justify-centered
         h1(
-          v-bind:style="{ 'font-size': calcualteFontSizeForDailyWord }"
+          v-bind:style="{ 'font-size': calculateFontSizeForDailyWord }"
         ) {{ dailyData.word.word || '' }}
         TranslateButton(@click="speak")
       h2 {{ dailyData.word.translation || '' }}
@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     ...mapState(['dailyData', 'loading']),
-    calcualteFontSizeForDailyWord() {
+    calculateFontSizeForDailyWord() {
       if (this.dailyData.word.word) {
         switch (true) {
           case this.dailyData.word.word.length >= 20:

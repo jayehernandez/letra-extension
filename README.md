@@ -45,11 +45,12 @@
 - 🇮🇩 Indonesian
 - 🇯🇵 Japanese
 - 🇰🇷 Korean
+- 🇵🇱 Polish
 - 🇷🇺 Russian
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
-- ᴛʜ Thai
+- 🇹🇭 Thai
 
 ## 🛠 Built With
 
@@ -96,7 +97,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-90-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-92-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -218,6 +219,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/itzmeowww"><img src="https://avatars1.githubusercontent.com/u/28824919?v=4" width="100px;" alt=""/><br /><sub><b>Thanasan Kumdee</b></sub></a><br /><a href="#translation-itzmeowww" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/kvharish"><img src="https://avatars3.githubusercontent.com/u/21171081?v=4" width="100px;" alt=""/><br /><sub><b>K.V.Harish</b></sub></a><br /><a href="#translation-kvharish" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/therohitdas"><img src="https://avatars2.githubusercontent.com/u/43847374?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Das</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=therohitdas" title="Code">💻</a></td>
+    <td align="center"><a href="http://damianszczypka.com"><img src="https://avatars2.githubusercontent.com/u/33627666?v=4" width="100px;" alt=""/><br /><sub><b>Damian Szczypka</b></sub></a><br /><a href="#translation-sthiepaan" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Koddi-Evangelista"><img src="https://avatars0.githubusercontent.com/u/70675656?v=4" width="100px;" alt=""/><br /><sub><b>Koddi Evangelista</b></sub></a><br /><a href="#translation-Koddi-Evangelista" title="Translation">🌍</a></td>
   </tr>
 </table>
 
