@@ -2,60 +2,45 @@
   position: absolute;
   top: 70px;
   right: 20px;
-  width: 11%;
+  width: 13%;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   padding: $spacing-s;
   z-index: 4;
 }
 
-.option {
-  display: block;
-  position: relative;
-  padding-left: $spacing;
-  cursor: pointer;
+.multiselect__select {
+  width: 25px;
+  padding: 4px;
 }
 
-.option:not(:last-child) {
-  margin-bottom: $spacing-xs;
+.multiselect__tags {
+  padding: 8px 0px 0px 8px;
 }
 
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 15px;
-  width: 15px;
-  background-color: $secondary-color;
+.multiselect__tag, .multiselect__option--highlight, .multiselect__option--highlight:after {
+  background: $primary-color;
 }
 
-.option:hover input ~ .checkmark {
-  background-color: $body-color;
+.multiselect__tag-icon:after {
+  color: $third-color;
 }
 
-.option input:checked ~ .checkmark {
-  background-color: $primary-color;
+.multiselect, .multiselect__input, .multiselect__single {
+  font-size: $fs-m;
 }
 
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+.multiselect__option--selected {
+  background: $secondary-color;
+  color: $third-color;
 }
 
-.option input:checked ~ .checkmark:after {
-  display: block;
+.multiselect__option--selected.multiselect__option--highlight {
+  background: $third-color;
 }
 
-.option .checkmark:after {
-  left: 5px;
-  width: 4px;
-  height: 10px;
-  border: solid $third-color;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+.multiselect__option--selected.multiselect__option--highlight:after {
+  background: $third-color;
 }
 
 .save-button {
