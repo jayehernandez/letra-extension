@@ -22,9 +22,28 @@ describe('Time', () => {
     expect(wrapper.find('.time').exists()).toBeTruthy();
   });
 
-  test('should call getNow()', () => {
+  it('should call getNow()', () => {
     jest.advanceTimersByTime(1000);
     expect(setInterval).toHaveBeenCalledTimes(1);
     expect(setInterval).toHaveBeenLastCalledWith(expect.any(Function), 1000);
+  });
+
+  it('should render date and time correctly', () => {
+    const today = new Date();
+
+    expect(wrapper.find('.time').text()).toBe(
+      today.toLocaleTimeString([], {
+        hour: '2-digit',
+        minute: '2-digit',
+      }),
+    );
+
+    expect(wrapper.find('.date').text()).toBe(
+      today.toLocaleDateString([], {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      }),
+    );
   });
 });
