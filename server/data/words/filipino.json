@@ -2678,5 +2678,349 @@
   {
     "word": "kakulangan",
     "translation": "deficit"
+  },
+  {
+    "word": "tukuyin",
+    "translation": "define"
+  },
+  {
+    "word": "tiyak",
+    "translation": "definitely"
+  },
+  {
+    "word": "depinisyon",
+    "translation": "definition"
+  },
+  {
+    "word": "antas",
+    "translation": "degree"
+  },
+    {
+    "word": "antala",
+    "translation": "delay"
+  },
+  {
+    "word": "iligtas",
+    "translation": "deliver"
+  },
+  {
+    "word": "paghahatid",
+    "translation": "delivery"
+  },
+  {
+    "word": "pangangailangan",
+    "translation": "demand"
+  },
+  {
+    "word": "demokrasya",
+    "translation": "democracy"
+  },
+  {
+    "word": "demokratiko",
+    "translation": "Democrat"
+  },
+  {
+    "word": "magpakita",
+    "translation": "democratic"
+  },
+  {
+    "word": "pagpapakita",
+    "translation": "demonstrate"
+  },
+  {
+    "word": "tanggihan",
+    "translation": "demonstration"
+  },
+  {
+    "word": "kagawaran",
+    "translation": "deny"
+  },
+  {
+    "word": "umasa",
+    "translation": "department"
+  },
+  {
+    "word": "umaasa",
+    "translation": "depend"
+  },
+  {
+    "word": "depende",
+    "translation": "dependent"
+  },
+  {
+    "word": "depende",
+    "translation": "depending"
+  },
+  {
+    "word": "ilarawan",
+    "translation": "depict"
+  },
+  {
+    "word": "depresyon",
+    "translation": "depression"
+  },
+  {
+    "word": "lalim",
+    "translation": "depth"
+  },
+  {
+    "word": "representante",
+    "translation": "deputy"
+  },
+  {
+    "word": "kunin sa",
+    "translation": "derive"
+  },
+  {
+    "word": "ilarawan",
+    "translation": "describe"
+  },
+  {
+    "word": "paglalarawan",
+    "translation": "description"
+  },
+  {
+    "word": "disyerto",
+    "translation": "desert"
+  },
+  {
+    "word": "maging karapat-dapat",
+    "translation": "deserve"
+  },
+  {
+    "word": "disenyo",
+    "translation": "design"
+  },
+  {
+    "word": "designer",
+    "translation": "designer"
+  },
+  {
+    "word": "pagnanais",
+    "translation": "desire"
+  },
+  {
+    "word": "mesa",
+    "translation": "desk"
+  },
+  {
+    "word": "desperado",
+    "translation": "desperate"
+  },
+  {
+    "word": "sa kabila ng",
+    "translation": "despite"
+  },
+  {
+    "word": "sirain",
+    "translation": "destroy"
+  },
+  {
+    "word": "pagkawasak",
+    "translation": "destruction"
+  },
+  {
+    "word": "detalye",
+    "translation": "detail"
+  },
+  {
+    "word": "nakadetalye",
+    "translation": "detailed"
+  },
+  {
+    "word": "tuklasin",
+    "translation": "detect"
+  },
+  {
+    "word": "ipasiya",
+    "translation": "determine"
+  },
+  {
+    "word": "linangin",
+    "translation": "develop"
+  },
+  {
+    "word": "pagbubuo",
+    "translation": "developing"
+  },
+  {
+    "word": "pag-unlad",
+    "translation": "development"
+  },
+  {
+    "word": "aparato",
+    "translation": "device"
+  },
+  {
+    "word": "pag-ukulan",
+    "translation": "devote"
+  },
+  {
+    "word": "pag-uusap",
+    "translation": "dialogue"
+  },
+  {
+    "word": "mamatay",
+    "translation": "die"
+  },
+  {
+    "word": "diyeta",
+    "translation": "diet"
+  },
+  {
+    "word": "magkaiba",
+    "translation": "differ"
+  },
+  {
+    "word": "pagkakaiba",
+    "translation": "difference"
+  },
+  {
+    "word": "iba",
+    "translation": "different"
+  },
+  {
+    "word": "sa ibang paraan",
+    "translation": "differently"
+  },
+  {
+    "word": "mahirap",
+    "translation": "difficult"
+  },
+  {
+    "word": "difficultly",
+    "translation": "difficulty"
+  },
+  {
+    "word": "maghukay",
+    "translation": "dig"
+  },
+  {
+    "word": "digital",
+    "translation": "digital"
+  },
+  {
+    "word": "sukat",
+    "translation": "dimension"
+  },
+  {
+    "word": "kainan",
+    "translation": "dining"
+  },
+  {
+    "word": "hapunan",
+    "translation": "dinner"
+  },
+  {
+    "word": "tuwiran",
+    "translation": "direct"
+  },
+  {
+    "word": "direksiyon",
+    "translation": "direction"
+  },
+  {
+    "word": "direkta",
+    "translation": "directly"
+  },
+  {
+    "word": "direktor",
+    "translation": "director"
+  },
+  {
+    "word": "dumi",
+    "translation": "dirt"
+  },
+  {
+    "word": "marumi",
+    "translation": "dirty"
+  },
+  {
+    "word": "pagkabalda",
+    "translation": "disability"
+  },
+  {
+    "word": "hindi sumang-ayon",
+    "translation": "disagree"
+  },
+  {
+    "word": "mawala",
+    "translation": "disappear"
+  },
+  {
+    "word": "sakuna",
+    "translation": "disaster"
+  },
+  {
+    "word": "disiplina",
+    "translation": "discipline"
+  },
+  {
+    "word": "diskurso",
+    "translation": "discourse"
+  },
+  {
+    "word": "matuklasan",
+    "translation": "discover"
+  },
+  {
+    "word": "pagkatuklas",
+    "translation": "discovery"
+  },
+  {
+    "word": "diskriminasyon",
+    "translation": "discrimination"
+  },
+  {
+    "word": "pag-usapan",
+    "translation": "discuss"
+  },
+  {
+    "word": "pagtalakay",
+    "translation": "discussion"
+  },
+  {
+    "word": "sakit",
+    "translation": "disease"
+  },
+  {
+    "word": "ulam",
+    "translation": "dish"
+  },
+  {
+    "word": "paalisin",
+    "translation": "dismiss"
+  },
+  {
+    "word": "kaguluhan",
+    "translation": "disorder"
+  },
+  {
+    "word": "display",
+   "translation": "display"
+  },
+  {
+    "word": "pagtatalo",
+    "translation": "dispute"
+  },
+  {
+    "word": "distansya",
+    "translation": "distance"
+  },
+  {
+    "word": "malayo",
+    "translation": "distant"
+  },
+  {
+    "word": "naiiba",
+    "translation": "distinct"
+  },
+  {
+    "word": "pagkakaiba",
+    "translation": "distinction"
+  },
+  {
+    "word": "makilala ang kaibahan",
+    "translation": "distinguish"
   }
 ]
