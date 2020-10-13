@@ -41,6 +41,7 @@
 - 🇵🇭 Filipino
 - 🇫🇷 French
 - 🇩🇪 German
+- GR Greek
 - 🇮🇳 Hindi
 - 🇮🇹 Italian
 - 🇮🇩 Indonesian
