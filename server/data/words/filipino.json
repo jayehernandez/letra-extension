@@ -3022,5 +3022,681 @@
   {
     "word": "makilala ang kaibahan",
     "translation": "distinguish"
+  },
+  {
+    "word": "ipamahagi",
+    "translation": "distribute"
+  },
+  {
+    "word": "pamamahagi",
+    "translation": "distribution"
+  },
+  {
+    "word": "distrito",
+    "translation": "district"
+  },
+  {
+    "word": "iba't iba",
+    "translation": "diverse"
+  },
+  {
+    "word": "sari-saring uri",
+    "translation": "diversity"
+  },
+  {
+    "word": "hatiin",
+    "translation": "divide"
+  },
+  {
+    "word": "dibisyon",
+    "translation": "division"
+  },
+  {
+    "word": "diborsiyo",
+    "translation": "divorce"
+  },
+  {
+    "word": "DNA",
+    "translation": "DNA"
+  },
+  {
+    "word": "gumawa",
+    "translation": "do"
+  },
+  {
+    "word": "doktor",
+    "translation": "doctor"
+  },
+  {
+    "word": "dokumento",
+    "translation": "document"
+  },
+  {
+    "word": "aso",
+    "translation": "dog"
+  },
+  {
+    "word": "lokal",
+    "translation": "domestic"
+  },
+  {
+    "word": "nangingibabaw",
+    "translation": "dominant"
+  },
+  {
+    "word": "mangibabaw",
+    "translation": "dominate"
+  },
+  {
+    "word": "pinto",
+    "translation": "door"
+  },
+  {
+    "word": "doble",
+    "translation": "double"
+  },
+  {
+    "word": "pag-aalinlangan",
+    "translation": "doubt"
+  },
+  {
+    "word": "pababa",
+    "translation": "down"
+  },
+  {
+    "word": "bayan",
+    "translation": "downtown"
+  },
+  {
+    "word": "dosena",
+    "translation": "dozen"
+  },
+  {
+    "word": "burador",
+    "translation": "draft"
+  },
+  {
+    "word": "kaladkarin",
+    "translation": "drag"
+  },
+  {
+    "word": "drama",
+    "translation": "drama"
+  },
+  {
+    "word": "dramatiko",
+    "translation": "dramatic"
+  },
+  {
+    "word": "kapansin-pansing",
+    "translation": "dramatically"
+  },
+  {
+    "word": "gumuhit",
+    "translation": "draw"
+  },
+  {
+    "word": "pagguhit",
+    "translation": "drawing"
+  },
+  {
+    "word": "mangarap",
+    "translation": "dream"
+  },
+  {
+    "word": "damit",
+    "translation": "dress"
+  },
+  {
+    "word": "inumin",
+    "translation": "drink"
+  },
+  {
+    "word": "magmaneho",
+    "translation": "drive"
+  },
+  {
+    "word": "drayber",
+    "translation": "driver"
+  },
+  {
+    "word": "patak",
+    "translation": "drop"
+  },
+  {
+    "word": "gamot",
+    "translation": "drug"
+  },
+  {
+    "word": "tuyo",
+    "translation": "dry"
+  },
+  {
+    "word": "angkop",
+    "translation": "due"
+  },
+  {
+    "word": "sa panahon ng",
+    "translation": "during"
+  },
+  {
+    "word": "alikabok",
+    "translation": "dust"
+  },
+  {
+    "word": "tungkulin",
+    "translation": "duty"
+  },
+  {
+    "word": "bawat",
+    "translation": "each"
+  },
+  {
+    "word": "sabik",
+    "translation": "eager"
+  },
+  {
+    "word": "tainga",
+    "translation": "ear"
+  },
+  {
+    "word": "maaga",
+    "translation": "early"
+  },
+  {
+    "word": "kumita",
+    "translation": "earn"
+  },
+  {
+    "word": "kita",
+    "translation": "earnings"
+  },
+  {
+    "word": "daigdig",
+    "translation": "earth"
+  },
+  {
+    "word": "luwag",
+    "translation": "ease"
+  },
+  {
+    "word": "madali",
+    "translation": "easily"
+  },
+  {
+    "word": "silangan",
+    "translation": "east"
+  },
+  {
+    "word": "silanganan",
+    "translation": "eastern"
+  },
+  {
+    "word": "madali",
+    "translation": "easy"
+  },
+  {
+    "word": "kumain",
+    "translation": "eat"
+  },
+  {
+    "word": "ekonomiya",
+    "translation": "economic"
+  },
+  {
+    "word": "ekonomika",
+    "translation": "economics"
+  },
+  {
+    "word": "ekonomista",
+    "translation": "economist"
+  },
+  {
+    "word": "ekonomya",
+    "translation": "economy"
+  },
+  {
+    "word": "gilid",
+    "translation": "edge"
+  },
+  {
+    "word": "edisyon",
+    "translation": "edition"
+  },
+  {
+    "word": "editor",
+    "translation": "editor"
+  },
+  {
+    "word": "turuan",
+    "translation": "educate"
+  },
+  {
+    "word": "pag-aaral",
+    "translation": "education"
+  },
+  {
+    "word": "pang-edukasyon",
+    "translation": "educational"
+  },
+  {
+    "word": "tagapagturo",
+    "translation": "educator"
+  },
+  {
+    "word": "epekto",
+    "translation": "effect"
+  },
+  {
+    "word": "mabisa",
+    "translation": "effective"
+  },
+  {
+    "word": "epektibong",
+    "translation": "effectively"
+  },
+  {
+    "word": "husay",
+    "translation": "efficiency"
+  },
+  {
+    "word": "mahusay",
+    "translation": "efficient"
+  },
+  {
+    "word": "pagsisikap",
+    "translation": "effort"
+  },
+  {
+    "word": "itlog",
+    "translation": "egg"
+  },
+  {
+    "word": "walo",
+    "translation": "eight"
+  },
+  {
+    "word": "mag-",
+    "translation": "either"
+  },
+  {
+    "word": "matanda",
+    "translation": "elderly"
+  },
+  {
+    "word": "mahalal",
+    "translation": "elect"
+  },
+  {
+    "word": "eleksyon",
+    "translation": "election"
+  },
+  {
+    "word": "de koryente",
+    "translation": "electric"
+  },
+  {
+    "word": "koryente",
+    "translation": "electricity"
+  },
+  {
+    "word": "electronic",
+    "translation": "electronic"
+  },
+  {
+    "word": "elemento",
+    "translation": "element"
+  },
+  {
+    "word": "elementary",
+    "translation": "elementary"
+  },
+  {
+    "word": "alisin",
+    "translation": "eliminate"
+  },
+  {
+    "word": "mga piling tao",
+    "translation": "elite"
+  },
+  {
+    "word": "iba",
+    "translation": "else"
+  },
+  {
+    "word": "sa ibang dako",
+    "translation": "elsewhere"
+  },
+  {
+    "word": "e-mail",
+    "translation": "e-mail"
+  },
+  {
+    "word": "yakap",
+    "translation": "embrace"
+  },
+  {
+    "word": "lumabas",
+    "translation": "emerge"
+  },
+  {
+    "word": "emergency",
+    "translation": "emergency"
+  },
+  {
+    "word": "paglabas",
+    "translation": "emission"
+  },
+  {
+    "word": "damdamin",
+    "translation": "emotion"
+  },
+  {
+    "word": "emosyonal",
+    "translation": "emotional"
+  },
+  {
+    "word": "diin",
+    "translation": "emphasis"
+  },
+  {
+    "word": "bigyang-diin",
+    "translation": "emphasize"
+  },
+  {
+    "word": "employ",
+    "translation": "employ"
+  },
+  {
+    "word": "empleado",
+    "translation": "employee"
+  },
+  {
+    "word": "maypagawa",
+    "translation": "employer"
+  },
+  {
+    "word": "trabaho",
+    "translation": "employment"
+  },
+  {
+    "word": "alisan ng laman",
+    "translation": "empty"
+  },
+  {
+    "word": "paganahin",
+    "translation": "enable"
+  },
+  {
+    "word": "magkasalubong",
+    "translation": "encounter"
+  },
+  {
+    "word": "himukin",
+    "translation": "encourage"
+  },
+  {
+    "word": "katapusan",
+    "translation": "end"
+  },
+  {
+    "word": "kaaway",
+    "translation": "enemy"
+  },
+  {
+    "word": "lakas",
+    "translation": "energy"
+  },
+  {
+    "word": "pagpapatupad",
+    "translation": "enforcement"
+  },
+  {
+    "word": "nakikipag-ugnayan",
+    "translation": "engage"
+  },
+  {
+    "word": "makina",
+    "translation": "engine"
+  },
+  {
+    "word": "inhinyero",
+    "translation": "engineer"
+  },
+  {
+    "word": "pag-iinhinyero",
+    "translation": "engineering"
+  },
+  {
+    "word": "Ingles",
+    "translation": "english"
+  },
+  {
+    "word": "mapahusay",
+    "translation": "enhance"
+  },
+  {
+    "word": "masiyahan",
+    "translation": "enjoy"
+  },
+  {
+    "word": "napakalubha",
+    "translation": "enormous"
+  },
+  {
+    "word": "tama na",
+    "translation": "enough"
+  },
+  {
+    "word": "matiyak",
+    "translation": "ensure"
+  },
+  {
+    "word": "magpasok",
+    "translation": "enter"
+  },
+  {
+    "word": "enterprise",
+    "translation": "enterprise"
+  },
+  {
+    "word": "Aliwan",
+    "translation": "entertainment"
+  },
+  {
+    "word": "buo",
+    "translation": "entire"
+  },
+  {
+    "word": "lahat",
+    "translation": "entirely"
+  },
+  {
+    "word": "pasukan",
+    "translation": "entrance"
+  },
+  {
+    "word": "pagpasok",
+    "translation": "entry"
+  },
+  {
+    "word": "kapaligiran",
+    "translation": "environment"
+  },
+  {
+    "word": "ukol sa kapaligiran",
+    "translation": "environmental"
+  },
+  {
+    "word": "episodyo",
+    "translation": "episode"
+  },
+  {
+    "word": "pantay",
+    "translation": "equal"
+  },
+  {
+    "word": "pare-pareho",
+    "translation": "equally"
+  },
+  {
+    "word": "kagamitan",
+    "translation": "equipment"
+  },
+  {
+    "word": "panahon",
+    "translation": "era"
+  },
+  {
+    "word": "pagkakamali",
+    "translation": "error"
+  },
+  {
+    "word": "makatakas",
+    "translation": "escape"
+  },
+  {
+    "word": "lalo na",
+    "translation": "especially"
+  },
+  {
+    "word": "sanaysay",
+    "translation": "essay"
+  },
+  {
+    "word": "mahalaga",
+    "translation": "essential"
+  },
+  {
+    "word": "mahalaga",
+    "translation": "essentially"
+  },
+  {
+    "word": "magtatag",
+    "translation": "establish"
+  },
+  {
+    "word": "pagtatatag",
+    "translation": "establishment"
+  },
+  {
+    "word": "ari-arian",
+    "translation": "estate"
+  },
+  {
+    "word": "tantiya",
+    "translation": "estimate"
+  },
+  {
+    "word": "at iba pa",
+    "translation": "etc"
+  },
+  {
+    "word": "etika",
+    "translation": "ethics"
+  },
+  {
+    "word": "etniko",
+    "translation": "ethnic"
+  },
+  {
+    "word": "taga-Europa",
+    "translation": "European"
+  },
+  {
+    "word": "suriin",
+    "translation": "evaluate"
+  },
+  {
+    "word": "pagsusuri",
+    "translation": "evaluation"
+  },
+  {
+    "word": "kahit na",
+    "translation": "even"
+  },
+  {
+    "word": "gabi",
+    "translation": "evening"
+  },
+  {
+    "word": "pangyayari",
+    "translation": "event"
+  },
+  {
+    "word": "sa huli",
+    "translation": "eventually"
+  },
+  {
+    "word": "kailanman",
+    "translation": "ever"
+  },
+  {
+    "word": "bawat",
+    "translation": "every"
+  },
+  {
+    "word": "lahat ng tao",
+    "translation": "everybody"
+  },
+  {
+    "word": "araw-araw",
+    "translation": "everyday"
+  },
+  {
+    "word": "lahat",
+    "translation": "everyone"
+  },
+  {
+    "word": "lahat ng bagay",
+    "translation": "everything"
+  },
+  {
+    "word": "sa lahat ng dako",
+    "translation": "everywhere"
+  },
+  {
+    "word": "ebidensya",
+    "translation": "evidence"
+  },
+  {
+    "word": "ebolusyon",
+    "translation": "evolution"
+  },
+  {
+    "word": "evolve",
+    "translation": "evolve"
+  },
+  {
+    "word": "eksakto",
+    "translation": "exact"
+  },
+  {
+    "word": "ganap",
+    "translation": "exactly"
+  },
+  {
+    "word": "pagsusuri",
+    "translation": "examination"
+  },
+  {
+    "word": "suriin",
+    "translation": "examine"
+  },
+  {
+    "word": "halimbawa",
+    "translation": "example"
+  },
+  {
+    "word": "lumampas",
+    "translation": "exceed"
+  },
+  {
+    "word": "napakahusay",
+    "translation": "excellent"
+  },
+  {
+    "word": "maliban",
+    "translation": "except"
   }
 ]
