@@ -50,7 +50,7 @@ I made a [reference sheet](https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-X
 
 1. Make a copy of the reference sheet above. `File -> Make a copy`
 2. Fill in the **words** column.
-* 💁🏻‍♀️ Tip: Since this may take quite some time, I suggest translating the words using Google Translate first and refine the translations afterwards. Google sheets has a handy formula for this. You can read more about it [here](https://support.google.com/docs/answer/3093331?hl=en)!
+* 💁🏻‍♀️ Tip: Since this may take quite some time, I suggest translating the words using Google Translate first and refine the translations afterwards. Google sheets has a handy formula for this. You can read more about it [here](https://support.google.com/docs/answer/3093331?hl=en)! You can also use the auto-translate tool found in the docs section to fill in the words column. Follow the instructions in the auto-translate file and the translated words will be automatically added to the Google Sheet for your review. 
 ```
 = GOOGLETRANSLATE("Hello World","en","es")
 = GOOGLETRANSLATE(word, source_language, target_language)
