@@ -1,11 +1,14 @@
 const request = require('supertest');
 const rewire = require('rewire');
 const app = require('../app');
+const consts = require('./test-consts');
 global.fetch = require('node-fetch'); // for provide fetch to Unsplash apis
 
 const languages = require('../data/languages');
 
 const letra = rewire('../routes/letra.js');
+
+jest.mock('../routes/helpers');
 
 describe('/', () => {
   it('returns a 200 response', async () => {
@@ -47,8 +50,19 @@ describe('#getLanguage', () => {
 
 describe('/daily', () => {
   it('returns a 200 response', async () => {
-    const res = await request(app).get('/daily?languages=hindi');
+    const res = await request(app).get('/daily');
     expect(res.statusCode).toEqual(200);
+  });
+  it('returns daily word as the response body', async () => {
+    const word = consts.RANDOM_API_WORD;
+    const quote = consts.RANDOM_API_QUOTE;
+    const language = consts.LANGUAGE_API;
+    const photo = consts.UNSPLASH_API_RET_IMAGE;
+    const res = await request(app).get('/daily');
+    expect(res.body.word).toEqual(word);
+    expect(res.body.quote).toEqual(quote);
+    expect(res.body.language).toEqual(language);
+    expect(res.body.photo).toEqual(photo);
   });
 
   it('returns hindi language in the response', async () => {
