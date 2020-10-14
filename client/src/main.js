@@ -48,6 +48,12 @@ Vue.directive('click-outside', {
   },
 });
 
+// A log to be viewed in dev tools with contribution info
+console.log(
+  "%c Welcome to dev tools on Letra! If you'd like to learn more about this repo please visit: https://github.com/jayehernandez/letra-extension ✨",
+  'background: #1e264e; color: #d9c278',
+);
+
 (() =>
   new Vue({
     el: '#app',
