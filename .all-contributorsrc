@@ -405,6 +405,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "elenakout",
+      "name": "elenakout",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43803990?v=4",
+      "profile": "https://github.com/elenakout",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 10,
