@@ -4,6 +4,8 @@ import vWow from 'v-wow';
 import LoadScript from 'vue-plugin-load-script';
 import VueSnackbar from 'vue-snack';
 import 'vue-snack/dist/vue-snack.min.css';
+import Multiselect from 'vue-multiselect';
+import 'vue-multiselect/dist/vue-multiselect.min.css';
 import App from './App';
 import store from './store/index';
 import router from './router/index';
@@ -20,6 +22,7 @@ Vue.use(VueAnalytics, {
 });
 
 Vue.use(VueSnackbar);
+Vue.component('multiselect', Multiselect);
 
 Vue.filter('titleize', str => {
   if (typeof str !== 'string') return '';

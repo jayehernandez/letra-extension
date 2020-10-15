@@ -6,16 +6,16 @@ div(v-click-outside="closeOptionsMenu")
   transition(name="fade")
     .options-menu(v-if="showOptions")
       .mb1 I'm learning:
-      .choices
-        label.option(v-for="languageOption in languageOptions")
-          | {{ languageOption | titleize }}
-          input.checkbox(
-            type="checkbox"
-            :value="languageOption"
-            v-model="selectedLanguages"
-            @click="resetMessage"
-          )
-          span.checkmark
+      multiselect(
+        v-model="selectedLanguages",
+        :options="languageOptions",
+        :multiple="true",
+        :close-on-select="true",
+        :show-labels="false",
+        :custom-label="customLabel",
+        placeholder="Select a language",
+        @click="resetMessage"
+      )
       .has-text-centered.is-text-primary.my1.message {{ message }}
       button.save-button(
         :disabled="selectedLanguages.length === 0"
@@ -84,6 +84,14 @@ export default {
     },
     resetMessage() {
       this.message = '';
+    },
+    customLabel(value) {
+      if (typeof value !== 'string') return '';
+
+      const frags = value.split('-');
+      return frags
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
     },
   },
 };
