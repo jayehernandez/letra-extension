@@ -387,6 +387,15 @@
       "contributions": [
         "test"
       ]
+    },
+    {
+      "login": "WyldWanderer",
+      "name": "WyldWanderer",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/44330121?v=4",
+      "profile": "https://github.com/WyldWanderer",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 10,
