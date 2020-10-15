@@ -2,7 +2,7 @@
 .center-container.fadeIn(v-wow data-wow-duration="1s")
   h1 oops!
   .quote-container.sentence
-    | An error occured.
+    | An error occurred.
     br
     | Please go to the 
     a.is-text-primary.is-underlined(:href="webstoreLink") {{ webstoreText }}
