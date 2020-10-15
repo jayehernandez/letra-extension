@@ -31,6 +31,10 @@
     "flag": "twa-germany-flag",
     "voice": "Deutsch Female"
   },
+  "greek": {
+    "flag": "twa-greece-flag",
+    "voice": "Greek Female"
+  },
   "hindi": {
     "flag": "twa-india-flag",
     "voice": "Hindi Female"
