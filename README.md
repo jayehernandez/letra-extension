@@ -99,7 +99,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -159,6 +159,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://adico.tech"><img src="https://avatars0.githubusercontent.com/u/5412270?v=4" width="100px;" alt=""/><br /><sub><b>adico</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=adico1" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/WyldWanderer"><img src="https://avatars0.githubusercontent.com/u/44330121?v=4" width="100px;" alt=""/><br /><sub><b>WyldWanderer</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=WyldWanderer" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/reginaalyssa"><img src="https://avatars2.githubusercontent.com/u/14865943?v=4" width="100px;" alt=""/><br /><sub><b>Regina Alyssa Esguerra</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=reginaalyssa" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/elenakout"><img src="https://avatars2.githubusercontent.com/u/43803990?v=4" width="100px;" alt=""/><br /><sub><b>elenakout</b></sub></a><br /><a href="#translation-elenakout" title="Translation">🌍</a></td>
   </tr>
 </table>
 
