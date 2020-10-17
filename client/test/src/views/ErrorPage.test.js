@@ -12,6 +12,7 @@ describe('ErrorPage', () => {
   beforeAll(() => {
     wrapper = shallowMount(ErrorPage, { localVue });
   });
+  
   it('is a Vue instance', () => {
     expect(wrapper.vm).toBeTruthy();
   });
