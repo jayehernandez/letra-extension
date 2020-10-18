@@ -19,6 +19,10 @@
     "flag": "twa-china-flag",
     "voice": "Chinese Female"
   },
+  "chinese-traditional": {
+    "flag": "twa-china-taiwan-flag",
+    "voice": "Chinese Taiwan Female"
+  },
   "filipino": {
     "flag": "twa-philippines-flag",
     "voice": "Filipino Female"

@@ -38,6 +38,7 @@
 - 🇧🇩 Bangla
 - 🇧🇷 Brazilian Portuguese
 - 🇨🇳 Chinese (Simplified)
+- 🇹🇼 Chinese (Traditional)
 - 🇵🇭 Filipino
 - 🇫🇷 French
 - 🇩🇪 German
