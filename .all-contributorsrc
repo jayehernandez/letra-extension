@@ -414,6 +414,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "j4ckofalltrades",
+      "name": "Jordan Duabe",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1442368?v=4",
+      "profile": "https://github.com/j4ckofalltrades",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 10,
