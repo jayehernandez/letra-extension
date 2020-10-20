@@ -16,4 +16,14 @@ describe('quotes json', () => {
 
     expect(duplicates).toEqual([]);
   });
+  it('is ordered aphalbetically according to author name', () => {
+    let auth_name = 'a';
+    const order = quotes.filter((o) => {
+      if (auth_name.toLowerCase().localeCompare(o.author.toLowerCase()) > 0)
+        return true;
+      auth_name = o.author;
+      return false;
+    })
+    expect(order).toEqual([]);
+  });
 });
