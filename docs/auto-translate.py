@@ -1,10 +1,12 @@
-#This tool is meant to be used along with the Letra translation extention guide on how to add a language found here https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md
+"""This tool is meant to be used along with the Letra translation extention guide on how to add a language found here https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md
 
-#Step 1- Make sure you can run Python on your computer
-#Step 2- Add a copy of the Google Sheet containing the 3000 most used english words to your Google Drive. You can find a copy here https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-XL_EFGZ2BUTII0Gr3ovoKPrjfEi-a14/edit#gid=0
-#Step 3- Follow the guide to set up API access to your Google Drive found here http://automatetheboringstuff.com/2e/chapter14/
-#Step 4- Fill in the variables below with the necessary info
-#Step 5- Run this file to auto-translate and fill in the words in the Google Sheet
+Step 1- Make sure you can run Python on your computer
+Step 2- Add a copy of the Google Sheet containing the 3000 most used english words to your Google Drive. You can find a copy here https://docs.google.com/spreadsheets/d/1XFWxJPyVvlG-XL_EFGZ2BUTII0Gr3ovoKPrjfEi-a14/edit#gid=0
+Step 3- Follow the guide to set up API access to your Google Drive found here http://automatetheboringstuff.com/2e/chapter14/
+Step 4- Fill in the variables below with the necessary info
+Step 5- Run this file to auto-translate and fill in the words in the Google Sheet
+
+"""
 
 #Any additional questions, feel free to reach out to me at https://github.com/WyldWanderer
 
