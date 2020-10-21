@@ -100,7 +100,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-46-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-47-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -162,6 +162,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/reginaalyssa"><img src="https://avatars2.githubusercontent.com/u/14865943?v=4" width="100px;" alt=""/><br /><sub><b>Regina Alyssa Esguerra</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=reginaalyssa" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/elenakout"><img src="https://avatars2.githubusercontent.com/u/43803990?v=4" width="100px;" alt=""/><br /><sub><b>elenakout</b></sub></a><br /><a href="#translation-elenakout" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/j4ckofalltrades"><img src="https://avatars1.githubusercontent.com/u/1442368?v=4" width="100px;" alt=""/><br /><sub><b>Jordan Duabe</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=j4ckofalltrades" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://fanlan1210.github.io"><img src="https://avatars1.githubusercontent.com/u/22187384?v=4" width="100px;" alt=""/><br /><sub><b>Fanlan</b></sub></a><br /><a href="#translation-fanlan1210" title="Translation">🌍</a></td>
   </tr>
 </table>
 
