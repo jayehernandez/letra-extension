@@ -423,6 +423,15 @@
       "contributions": [
         "test"
       ]
+    },
+    {
+      "login": "fanlan1210",
+      "name": "Fanlan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22187384?v=4",
+      "profile": "http://fanlan1210.github.io",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 10,
