@@ -68,12 +68,12 @@
     "sentence": "Learning a language helps you find answers to questions you didn't know existed."
   },
   {
-    "author": "Antonio Gramsci",
-    "sentence": "The whole of language is a continuous process of metaphor, and the history of semantics is an aspect of the history of culture; language is at the same time a living thing and a museum of fossils of life and civilisations."
-  },
-  {
     "author": "Anthony Aristar",
     "sentence": "Losing a language is a major setback for everyone, because along with the language, you will also lose all of the poems, the stories, the songs. And those things are of immense importance to all of us as human beings."
+  },
+  {
+    "author": "Antonio Gramsci",
+    "sentence": "The whole of language is a continuous process of metaphor, and the history of semantics is an aspect of the history of culture; language is at the same time a living thing and a museum of fossils of life and civilisations."
   },
   {
     "author": "Arab Proverb",
@@ -116,10 +116,6 @@
     "sentence": "Language is not simply a reporting device for experience but a defining framework for it."
   },
   {
-    "author": "Chinese Proverb",
-    "sentence": "To learn a language is to have one more window from which to look at the world."
-  },
-  {
     "author": "Carl Theodor Körner",
     "sentence": "With foreign words on our tongue comes also the foreign spirit into our world."
   },
@@ -141,11 +137,11 @@
   },
   {
     "author": "Chinese Proverb",
-    "sentence": "Learning is a treasure that will follow its owner everywhere."
+    "sentence": "To learn a language is to have one more window from which to look at the world."
   },
   {
-    "author": "Robert M. Harrison",
-    "sentence": "Learning a foreign language will not only help you, perfecting your world it will also help you perfect others."
+    "author": "Chinese Proverb",
+    "sentence": "Learning is a treasure that will follow its owner everywhere."
   },
   {
     "author": "Christopher Soto",
@@ -300,12 +296,12 @@
     "sentence": "Learning a new language is becoming a member of the club – the community of speakers of that language."
   },
   {
-    "author": "François-Marie Arouet",
-    "sentence": "If you know many languages then you have many keys for a castle."
-  },
-  {
     "author": "Frantz Fanon",
     "sentence": "To speak a language is to take on a world, a culture."
+  },
+  {
+    "author": "François-Marie Arouet",
+    "sentence": "If you know many languages then you have many keys for a castle."
   },
   {
     "author": "Frederica de Laguna",
@@ -380,12 +376,12 @@
     "sentence": "Learning another language is like becoming another person."
   },
   {
-    "author": "Herbert A. Simon",
-    "sentence": "The great enemy of foreign language learning is a sense of shame, an inability or unwillingness to become like a child again and let one's inadequacies show."
-  },
-  {
     "author": "Henry Longhurst",
     "sentence": "Playing golf is like learning a foreign language"
+  },
+  {
+    "author": "Herbert A. Simon",
+    "sentence": "The great enemy of foreign language learning is a sense of shame, an inability or unwillingness to become like a child again and let one's inadequacies show."
   },
   {
     "author": "Ingrid Bengis",
@@ -452,12 +448,12 @@
     "sentence": "The most intimate temper of a people, its deepest soul, is above all in its language."
   },
   {
-    "author": "Karl Kraus",
-    "sentence": "Language is the mother of thought, not its handmaiden."
-  },
-  {
     "author": "Karl Albrecht",
     "sentence": "Change your language and you change your thoughts."
+  },
+  {
+    "author": "Karl Kraus",
+    "sentence": "Language is the mother of thought, not its handmaiden."
   },
   {
     "author": "Karl Lagerfeld",
@@ -508,12 +504,12 @@
     "sentence": "Who wants to have an effect on others, must first speak in their language with them."
   },
   {
-    "author": "Lisa Williams",
-    "sentence": "I worked as hard as I could. I'm not fluent but I felt like I made real headway. The language is beautiful."
-  },
-  {
     "author": "Lingholic",
     "sentence": "The best time to learn a language was 20 years ago. The second best time is now."
+  },
+  {
+    "author": "Lisa Williams",
+    "sentence": "I worked as hard as I could. I'm not fluent but I felt like I made real headway. The language is beautiful."
   },
   {
     "author": "Ludwig Wittgenstein",
@@ -676,6 +672,10 @@
     "sentence": "Language is the road map of a culture. It tells you where its people come from and where they are going."
   },
   {
+    "author": "Robert M. Harrison",
+    "sentence": "Learning a foreign language will not only help you, perfecting your world it will also help you perfect others."
+  },
+  {
     "author": "Roger Ascham",
     "sentence": "As a hawk cannot fly high with one wing , similarly a man cannot reach excellence with one tongue."
   },
@@ -800,12 +800,12 @@
     "sentence": "One who speaks only one language is one person, but one who speaks two languages is two people."
   },
   {
-    "author": "Vanshaj Bhatnagar",
-    "sentence": "Learn a language, to have one more perspective to take a peek from."
-  },
-  {
     "author": "Valery Giscard D'Estaing",
     "sentence": "Everyone must be bilingual in one language and speak another one."
+  },
+  {
+    "author": "Vanshaj Bhatnagar",
+    "sentence": "Learn a language, to have one more perspective to take a peek from."
   },
   {
     "author": "Victor Hugo",
@@ -824,12 +824,12 @@
     "sentence": "I never found accents difficult, after learning languages."
   },
   {
-    "author": "Waren Gonzaga",
-    "sentence": "Learning foreign languages is like learning computer programming languages."
-  },
-  {
     "author": "W.H. Auden",
     "sentence": "A poet is, before anything else, a person who is passionately in love with language."
+  },
+  {
+    "author": "Waren Gonzaga",
+    "sentence": "Learning foreign languages is like learning computer programming languages."
   },
   {
     "author": "Wilhelm von Humboldt",
