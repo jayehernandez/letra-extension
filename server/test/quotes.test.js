@@ -31,6 +31,6 @@ describe('quotes json', () => {
     const isSortedAlphabetically =
       JSON.stringify(quotesSorted) === JSON.stringify(quotes);
 
-    expect(isSortedAlphabetically).toBe(true);
+    expect(isSortedAlphabetically).toBeTruthy();
   });
 });
