@@ -73,7 +73,6 @@ You can also suggest a new feature by creating an Issue. Please wait for confirm
 
 ### Good for First Timers
 
-- [Add a learning quote](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_quote.md) (Easiest way to contribute! 🚀)
 - [Add a new language](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md)
 - Edit translations from existing languages - guide 🔜
 - [Help in getting 100% test coverage](https://github.com/jayehernandez/letra-extension/blob/master/docs/testing_guidelines.md)
