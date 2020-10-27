@@ -442,6 +442,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "MoisesTR",
+      "name": "MTRIGUEROS",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/23252442?v=4",
+      "profile": "https://github.com/MoisesTR",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 10,
