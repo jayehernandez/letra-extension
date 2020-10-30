@@ -86,5 +86,9 @@
   "thai": {
     "flag": "twa-thailand-flag",
     "voice": "Thai Female"
+  },
+  "urdu": {
+    "flag": "twa-pakistan-flag",
+    "voice": "Turkish Male"
   }
 }
