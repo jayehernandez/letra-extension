@@ -47,6 +47,10 @@
 		"sentence": "Some say Latin is a dead language but I say it's just taking a long nap."
 	},
 	{
+		"author": "Andre Gide",
+		"sentence": "One does not discover new lands without consenting to lose sight of the shore for a very long time."
+	},
+	{
 		"author": "Angela Carter",
 		"sentence": "Language is power, life and the instrument of culture, the instrument of domination and liberation."
 	},
@@ -407,6 +411,10 @@
 		"sentence": "Our language is also our history."
 	},
 	{
+		"author": "Jack Ma",
+		"sentence": "Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine."
+	},
+	{
 		"author": "Jalaluddin Rumi",
 		"sentence": "Silence is the language of god, all else is poor translation."
 	},
@@ -507,6 +515,10 @@
 		"sentence": "Who wants to have an effect on others, must first speak in their language with them."
 	},
 	{
+		"author": "Larry Page",
+		"sentence": "Always deliver more than expected."
+	},
+	{
 		"author": "Lisa Williams",
 		"sentence": "I worked as hard as I could. I'm not fluent but I felt like I made real headway. The language is beautiful."
 	},
@@ -555,6 +567,10 @@
 		"sentence": "Kindness is the language in which the deaf can hear and the blind can see."
 	},
 	{
+		"author": "Maya Angelou",
+		"sentence": "Nothing work unless you do."
+	},
+	{
 		"author": " Melina Marchetta",
 		"sentence": "Because without our language, we have lost ourselves. Who are we without our words?"
 	},
@@ -600,6 +616,10 @@
 	},
 	{
 		"author": "Oliver Wendell Holmes",
+		"sentence": "Language is the blood of the soul into which thoughts run and out of which they grow."
+	},
+	{
+		"author": "Oprah Winfrey",
 		"sentence": "Language is the blood of the soul into which thoughts run and out of which they grow."
 	},
 	{
@@ -727,10 +747,6 @@
 		"sentence": "Learn everything you can, anytime you can, from anyone you can; there will always come a time when you will be grateful you did."
 	},
 	{
-		"author": "Scott Belsky",
-		"sentence": "It's not about ideas. It's about making ideas happen."
-	},
-	{
 		"author": "Shikha Kaul",
 		"sentence": "If God granted me a wish today, I would ask for a talent to read, write and speak all languages of the world."
 	},
@@ -757,6 +773,10 @@
 	{
 		"author": "Stephen King",
 		"sentence": "French is the language that turns dirt into romance."
+	},
+	{
+		"author": "Steve Jobs",
+		"sentence": "Your time is limited, so don't waste it living someone else's life."
 	},
 	{
 		"author": "Stewart Stafford",
