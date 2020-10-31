@@ -23,6 +23,10 @@
     "flag": "twa-china-taiwan-flag",
     "voice": "Chinese Taiwan Female"
   },
+  "croatian": {
+    "flag": "twa-croatia-flag",
+    "voice": "Croatian Female"
+  },
   "dutch": {
     "flag": "twa-netherlands-flag",
     "voice": "Dutch Male"

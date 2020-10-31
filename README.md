@@ -39,6 +39,7 @@
 - 🇧🇷 Brazilian Portuguese
 - 🇨🇳 Chinese (Simplified)
 - 🇹🇼 Chinese (Traditional)
+- 🇭🇷 Croatian
 - 🇳🇱 Dutch
 - 🇵🇭 Filipino
 - 🇫🇷 French
