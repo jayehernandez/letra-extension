@@ -3,11 +3,30 @@ import { jest } from '@jest/globals';
 import Time from '../../../src/views/Time';
 
 describe('Time', () => {
+  let dateSpy;
   let wrapper;
 
   beforeAll(() => {
     jest.useFakeTimers();
+
+    const mockDate = new Date('2020-03-10, 1:23:45 PM');
+    const mockDate2 = new Date(mockDate.getTime());
+
+    // Make `new Date()` return this specific date
+    dateSpy = jest.spyOn(global, 'Date').mockImplementation(() => mockDate);
+
+    // Force `en-US` as the locale since the default value can be different on
+    // different developers' machines
+    mockDate.toLocaleTimeString = (locales, options) =>
+      mockDate2.toLocaleTimeString('en-US', options);
+    mockDate.toLocaleDateString = (locales, options) =>
+      mockDate2.toLocaleDateString('en-US', options);
+
     wrapper = shallowMount(Time);
+  });
+
+  afterAll(() => {
+    dateSpy.mockRestore();
   });
 
   it('is a Vue instance', () => {
@@ -29,21 +48,7 @@ describe('Time', () => {
   });
 
   it('should render date and time correctly', () => {
-    const today = new Date();
-
-    expect(wrapper.find('.time').text()).toBe(
-      today.toLocaleTimeString([], {
-        hour: '2-digit',
-        minute: '2-digit',
-      }),
-    );
-
-    expect(wrapper.find('.date').text()).toBe(
-      today.toLocaleDateString([], {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      }),
-    );
+    expect(wrapper.find('.time').text()).toBe('01:23 PM');
+    expect(wrapper.find('.date').text()).toBe('March 10, 2020');
   });
 });

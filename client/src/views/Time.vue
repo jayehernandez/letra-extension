@@ -33,7 +33,6 @@ export default {
       this.computedTime = time;
 
       // Compute date according to the current locale
-      today.toLocaleString('default', { month: 'long' });
       const date = today.toLocaleDateString([], {
         year: 'numeric',
         month: 'long',
