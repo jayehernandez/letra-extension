@@ -101,7 +101,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-50-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-51-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -167,6 +167,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/DavidtKate"><img src="https://avatars2.githubusercontent.com/u/61785708?v=4" width="100px;" alt=""/><br /><sub><b>DavidtKate</b></sub></a><br /><a href="#translation-DavidtKate" title="Translation">🌍</a></td>
     <td align="center"><a href="https://github.com/MoisesTR"><img src="https://avatars0.githubusercontent.com/u/23252442?v=4" width="100px;" alt=""/><br /><sub><b>MTRIGUEROS</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=MoisesTR" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://gugacavalieri.github.io/"><img src="https://avatars0.githubusercontent.com/u/4624484?v=4" width="100px;" alt=""/><br /><sub><b>Gustavo Cavalieri Fernandes</b></sub></a><br /><a href="#translation-gugacavalieri" title="Translation">🌍</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/mViolet"><img src="https://avatars2.githubusercontent.com/u/44656740?v=4" width="100px;" alt=""/><br /><sub><b>Maria Belan-Crawford</b></sub></a><br /><a href="#translation-mViolet" title="Translation">🌍</a></td>
   </tr>
 </table>
 
