@@ -469,6 +469,15 @@
       "contributions": [
         "translation"
       ]
+    },
+    {
+      "login": "mtsknn",
+      "name": "Matias Kinnunen",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2226144?v=4",
+      "profile": "http://mtsknn.fi",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 10,
