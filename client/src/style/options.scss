@@ -89,6 +89,10 @@ input.multiselect__input::placeholder {
   white-space: nowrap;
 }
 
+.snackbar {
+  font-family: "Sen", sans-serif;
+}
+
 .snackbar .snackbar__action {
   color: $primary-color;
 }
