@@ -2,7 +2,7 @@
   position: absolute;
   top: 70px;
   right: 20px;
-  width: 13%;
+  width: 15%;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   padding: $spacing-s;
@@ -87,4 +87,8 @@ input.multiselect__input::placeholder {
 
 .nowrap {
   white-space: nowrap;
+}
+
+.snackbar .snackbar__action {
+  color: $primary-color;
 }
