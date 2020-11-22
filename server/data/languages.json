@@ -90,5 +90,11 @@
   "thai": {
     "flag": "twa-thailand-flag",
     "voice": "Thai Female"
-  }
+  },
+  {
+"Malayalam": {
+        "flag": "twa-india-flag",
+        "voice": "Malayalee Female"
+    },
+}
 }
