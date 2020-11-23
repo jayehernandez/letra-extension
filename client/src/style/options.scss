@@ -2,60 +2,75 @@
   position: absolute;
   top: 70px;
   right: 20px;
-  width: 11%;
+  width: 15%;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   padding: $spacing-s;
-  z-index: 2;
+  z-index: 4;
 }
 
-.option {
-  display: block;
-  position: relative;
-  padding-left: $spacing;
-  cursor: pointer;
+.multiselect,
+.multiselect__input,
+.multiselect__single {
+  font-size: $fs-m;
 }
 
-.option:not(:last-child) {
-  margin-bottom: $spacing-xs;
+.multiselect__element,
+.multiselect__input,
+.multiselect__single {
+  background: black;
+  color: $secondary-color;
 }
 
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 15px;
-  width: 15px;
-  background-color: $secondary-color;
+.multiselect__select {
+  width: 25px;
+  padding: 4px;
 }
 
-.option:hover input ~ .checkmark {
-  background-color: $body-color;
+.multiselect__tags {
+  background: black;
+  padding: 8px 25px 0px 8px;
+  border: 1px solid $third-color;
 }
 
-.option input:checked ~ .checkmark {
-  background-color: $primary-color;
+.multiselect__content-wrapper {
+  border: 1px solid $third-color;
 }
 
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+.multiselect__tag,
+.multiselect__option--selected {
+  background: $primary-color;
+  color: black;
 }
 
-.option input:checked ~ .checkmark:after {
-  display: block;
+.multiselect__option--highlight,
+.multiselect__option--highlight:after {
+  background: $third-color;
+  color: $secondary-color;
 }
 
-.option .checkmark:after {
-  left: 5px;
-  width: 4px;
-  height: 10px;
-  border: solid $third-color;
-  border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+.multiselect__option--selected.multiselect__option--highlight,
+.multiselect__option--selected.multiselect__option--highlight:after {
+  background: $darker-primary-color;
+  color: $secondary-color;
+}
+
+.multiselect__tag-icon:after {
+  color: black;
+}
+
+.multiselect__tag-icon:focus,
+.multiselect__tag-icon:hover {
+  background: $darker-primary-color;
+}
+
+.multiselect__tag-icon:focus:after,
+.multiselect__tag-icon:hover:after {
+  color: $secondary-color;
+}
+
+input.multiselect__input::placeholder {
+  color: $secondary-color;
 }
 
 .save-button {
@@ -72,4 +87,12 @@
 
 .nowrap {
   white-space: nowrap;
+}
+
+.snackbar {
+  font-family: "Sen", sans-serif;
+}
+
+.snackbar .snackbar__action {
+  color: $primary-color;
 }

@@ -6,6 +6,8 @@ module.exports = {
     '**/**/*.js',
     '!**/coverage/**/*.js',
     '!**/**/jest.config.js',
+    '!**/**/server.js',
+    '!**/**/prettier.config.js',
   ],
   coverageReporters: ['html', 'text-summary'],
 };
