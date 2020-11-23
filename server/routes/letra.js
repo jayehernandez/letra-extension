@@ -84,7 +84,9 @@ router.get('/daily', async (req, res, next) => {
         flag: other.language.flag,
         voice: other.language.voice,
       };
-      languageData.translation = thisWord.length === 0 ? null : thisWord[0];
+      if (thisWord.length === 0) return;
+      const [wordTranslation] = thisWord;
+      languageData.translation = wordTranslation;
       translations[translation.name] = languageData;
     });
   }

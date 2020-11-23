@@ -7,7 +7,7 @@ div(v-click-outside="closeOptionsMenu")
     .options-menu(v-if="showOptions")
       .mb1 I'm learning:
       .choices
-        label.option(v-for="languageOption in languageOptions")
+        label.option(v-for="languageOption in checkboxOptions")
           | {{ languageOption | titleize }}
           input.checkbox(
             type="checkbox"
@@ -48,6 +48,13 @@ export default {
       set(value) {
         this.$store.commit('setSelectedLanguages', value);
       },
+    },
+
+    checkboxOptions: {
+      get() {
+        return Object.keys(this.languageOptions);
+      },
+      set() {},
     },
   },
   data() {

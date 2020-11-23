@@ -19,11 +19,11 @@
   transition(name="fade")
     div(v-if="showLanguageDropdown")
       .flag-list(v-for="language in otherLanguages")
-        .flag.fadeIn(v-wow data-wow-duration="2s" :key="language.flag")
+        .flag.fadeIn(v-wow data-wow-duration="2s" :key="dailyData.translations[language].flag")
           i(
-            :class="language.flag"
+            :class="dailyData.translations[language].flag"
             class="twa twa-4x"
-            @click="toggleActiveLanguage(language.language)"
+            @click="toggleActiveLanguage(language); showLanguageDropdown = false;"
           )
 </template>
 
@@ -33,7 +33,7 @@ import { mapActions, mapState } from 'vuex';
 export default {
   name: 'Flag',
   computed: {
-    ...mapState(['dailyData', 'selectedLanguagesWithFlags']),
+    ...mapState(['dailyData', 'selectedLanguages']),
     flagClass() {
       return `twa twa-4x ${this.dailyData.language.flag}`;
     },
@@ -41,8 +41,8 @@ export default {
       return this.dailyData.word.language;
     },
     otherLanguages() {
-      return this.selectedLanguagesWithFlags.filter(
-        o => o.language !== this.dailyData.word.language,
+      return this.selectedLanguages.filter(
+        o => o !== this.dailyData.word.language,
       );
     },
   },
@@ -53,48 +53,16 @@ export default {
     };
   },
   methods: {
-    ...mapActions(['getSelectedLanguagesWithFlags', 'saveDailyData']),
+    ...mapActions([
+      'getSelectedLanguages',
+      'toggleActiveLanguage',
+      'saveDailyData',
+    ]),
     getOptions() {
-      this.getSelectedLanguagesWithFlags();
+      this.getSelectedLanguages();
     },
     toggleFlagDropdown() {
       this.showLanguageDropdown = !this.showLanguageDropdown;
-    },
-    toggleActiveLanguage(name) {
-      const other = this.dailyData.translations[name];
-      const { flag, voice, translation } = other;
-      const { word, romanization } = translation;
-
-      const thisTranslation = {
-        flag: this.dailyData.language.flag,
-        voice: this.dailyData.language.voice,
-        translation: {
-          translation: this.dailyData.word.translation,
-          word: this.dailyData.word.word,
-          romanization: this.dailyData.word.romanization
-            ? this.dailyData.word.romanization
-            : null,
-        },
-      };
-
-      const toggledDailyData = {
-        ...this.dailyData,
-        language: {
-          flag,
-          voice,
-        },
-        word: {
-          language: name,
-          translation: translation.translation,
-          word,
-          romanization,
-        },
-      };
-      const oldLanguage = this.dailyData.word.language;
-      toggledDailyData.translations[oldLanguage] = thisTranslation;
-
-      this.saveDailyData(toggledDailyData);
-      this.showLanguageDropdown = false;
     },
   },
   mounted() {
