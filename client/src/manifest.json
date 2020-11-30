@@ -19,5 +19,10 @@
       "background.js"
     ]
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "letra@letra.com"
+    }
+  },
   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://code.responsivevoice.org/responsivevoice.js 'unsafe-eval'; object-src 'self'"
 }
