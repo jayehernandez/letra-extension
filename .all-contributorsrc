@@ -478,6 +478,15 @@
       "contributions": [
         "test"
       ]
+    },
+    {
+      "login": "DieBrise",
+      "name": "Delaney Sylvans",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/25111543?v=4",
+      "profile": "http://delaneysylvans.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 10,
