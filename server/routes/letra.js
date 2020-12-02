@@ -7,6 +7,11 @@ const languages = require('../data/languages');
 
 const helper = require('./helpers');
 
+const getOtherLanguages = (selectedLanguages, selected) => {
+  if (selectedLanguages === undefined) return null;
+  return selectedLanguages.split(',').filter((o) => o !== selected);
+};
+
 const { getRandomChoice, getLanguage, getPhoto } = helper;
 
 // eslint-disable-next-line no-unused-vars
@@ -23,14 +28,50 @@ router.get('/', async (req, res, next) => {
 // eslint-disable-next-line no-unused-vars
 router.get('/daily', async (req, res, next) => {
   const selectedLanguage = getLanguage(req.query.languages);
+  const others = getOtherLanguages(req.query.languages, selectedLanguage);
   // eslint-disable-next-line global-require, import/no-dynamic-require
   const words = require(`./../data/words/${selectedLanguage}`);
 
   const language = languages[selectedLanguage];
+  const translations = {};
+
   const word = {
     ...getRandomChoice(words),
     language: selectedLanguage,
   };
+
+  if (others) {
+    const otherLanguages = others.map((lang) => {
+      return {
+        name: lang,
+        language: languages[lang],
+      };
+    });
+    const otherWords = others.map((lang) => {
+      return {
+        name: lang,
+        // eslint-disable-next-line global-require, import/no-dynamic-require
+        words: require(`./../data/words/${lang}`),
+      };
+    });
+    otherWords.forEach((translation) => {
+      const thisWord = translation.words.filter(
+        (o) => o.translation === word.translation,
+      );
+      const other = otherLanguages.filter(
+        (o) => o.name === translation.name,
+      )[0];
+      const languageData = {
+        flag: other.language.flag,
+        voice: other.language.voice,
+      };
+      if (thisWord.length === 0) return;
+      const [wordTranslation] = thisWord;
+      languageData.translation = wordTranslation;
+      translations[translation.name] = languageData;
+    });
+  }
+
   const quote = getRandomChoice(quotes);
   const photo = await getPhoto();
 
@@ -39,6 +80,7 @@ router.get('/daily', async (req, res, next) => {
     quote,
     language,
     photo,
+    translations,
   });
 });
 

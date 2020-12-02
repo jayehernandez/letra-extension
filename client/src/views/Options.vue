@@ -6,9 +6,10 @@ div(v-click-outside="closeOptionsMenu")
   transition(name="fade")
     .options-menu(v-if="showOptions")
       .mb1 I'm learning:
+
       multiselect(
         v-model="selectedLanguages",
-        :options="languageOptions",
+        :options="checkboxOptions",
         :multiple="true",
         :close-on-select="true",
         :show-labels="false",
@@ -16,6 +17,7 @@ div(v-click-outside="closeOptionsMenu")
         placeholder="Select a language",
         @click="resetMessage"
       )
+
       .has-text-centered.is-text-primary.my1.message {{ message }}
       button.save-button(
         :disabled="selectedLanguages.length === 0"
@@ -48,6 +50,13 @@ export default {
       set(value) {
         this.$store.commit('setSelectedLanguages', value);
       },
+    },
+
+    checkboxOptions: {
+      get() {
+        return Object.keys(this.languageOptions);
+      },
+      set() {},
     },
   },
   data() {
