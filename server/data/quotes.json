@@ -340,6 +340,10 @@
     "sentence": "Every language is a magnificent edifice which is built word by word, cemented by the rules of grammer and painted by colorful poetry."
   },
   {
+    "author": "Gautam Buddha",
+    "sentence": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment."
+  },
+  {
     "author": "Geoffrey Carlin",
     "sentence": "Everyone smiles in the same language."
   },
@@ -895,4 +899,5 @@
     "author": "Yehuda Amichai",
     "sentence": "The soul inside me is the last foreign language I'm learning."
   }
+ 
 ]
