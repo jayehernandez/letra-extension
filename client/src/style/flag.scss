@@ -2,9 +2,19 @@
   margin-top: $spacing;
   margin-left: $spacing;
   margin-right: calc(#{$spacing} + 0.2em);
+
+  &.mt0 {
+    margin-top: 0;
+  }
 }
 
 .language-name {
   max-width: calc(56px + 2 * #{$spacing});
   margin: 0 auto;
+}
+
+.flag-options {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: $primary-color;
 }
