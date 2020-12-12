@@ -125,6 +125,7 @@ export const actions = {
     toggledDailyData.translations[oldLanguage] = thisTranslation;
 
     dispatch('saveDailyData', toggledDailyData);
+    chrome.storage.sync.set({ dailyData: toggledDailyData });
     commit('setLoading', false);
   },
 };

@@ -18,13 +18,20 @@
   ) {{ flagLanguage | titleize }}
   transition(name="fade")
     div(v-if="showLanguageDropdown")
-      .flag-list(v-for="language in otherLanguages")
-        .flag.fadeIn(v-wow data-wow-duration="2s" :key="dailyData.translations[language].flag")
+      .flag-options Show in:
+      .flag-list(v-for="(language, index) in otherLanguages")
+        .flag.fadeIn(
+          v-wow
+          data-wow-duration="2s"
+          :key="dailyData.translations[language].flag"
+          v-bind:class=`{ mt0: index === 0 }`
+        )
           i(
             :class="dailyData.translations[language].flag"
             class="twa twa-4x"
             @click="toggleActiveLanguage(language); showLanguageDropdown = false;"
           )
+        .language-name {{ language | titleize }}
 </template>
 
 <script>

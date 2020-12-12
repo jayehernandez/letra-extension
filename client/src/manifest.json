@@ -1,7 +1,7 @@
 {
   "name": "Letra",
   "description": "Passively learn a new language every time you open a new tab.",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "manifest_version": 2,
   "permissions": ["storage"],
   "icons": {
