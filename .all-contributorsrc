@@ -496,6 +496,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "dogagcmnr",
+      "name": "Doğa Göçmemer",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/51722645?v=4",
+      "profile": "http://dogagocmener.com",
+      "contributions": [
+        "translation"
+      ]
     }
   ],
   "contributorsPerLine": 10,
