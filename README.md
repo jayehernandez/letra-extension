@@ -56,6 +56,7 @@
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
 - 🇹🇭 Thai
+- 🇹🇷 Turkish
 
 ## 🛠 Built With
 
