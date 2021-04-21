@@ -5,8 +5,15 @@
     :key="dailyData.word.word"
     v-if="!loading"
   )
+
     .daily-word-container
-      h3.mb0 {{ dailyData.word.romanization || '' }}
+      span(
+        v-show='isButtonVisible(dailyData.word.romanization)'
+        class="romanization-button" 
+        type="button" value="pinyin"
+        @click="togglePinyin"
+      ) {{ this.pinyinVal }} 
+      h3(class='mb0' v-show='isVRomanizationVisible()') {{ dailyData.word.romanization || '' }}
       .is-flex.is-justify-centered
         h1(
           v-bind:style="{ 'font-size': calculateFontSizeForDailyWord }"
@@ -51,6 +58,9 @@ export default {
       return '10vw';
     },
   },
+  data: function () {
+    return {isRomanizationVisible:true, romanizationVal:"Hide Romanization"}
+  },
   methods: {
     speak() {
       // eslint-disable-next-line
@@ -59,6 +69,24 @@ export default {
         this.dailyData.language.voice,
       );
     },
+    isVRomanizationVisible(){
+      return this.$data.isRomanizationVisible;
+    },
+    togglePinyin(){
+      this.$data.isRomanizationVisible = !this.$data.isRomanizationVisible;
+      if (this.$data.romanizationnVal == "Hide Romanization") {
+        this.$data.romanizationVal = "Show Romanization"
+      } else {
+        this.$data.romanizationVal = "Hide Romanization"
+      }
+    },
+    isButtonVisible(val) {
+      if (val) {
+        return true;
+      } else {
+        return false;
+      }
+    }
   },
 };
 </script>
