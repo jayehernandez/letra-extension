@@ -1,5 +1,8 @@
 ![Title](docs/screenshots/title.png)
 
+Hey there! This repository is currently on **VACATION MODE** 🏝
+> ⚠️ Commenting and opening issues or PRs won't be allowed for a while. You can still fork the repo, leave a star, and [**use the extension**](https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio). Just taking a break from maintaining this repo, back soon. For any urgent concerns, feel free to reach out to me on [Twitter](https://twitter.com/jayehernandez_). Thank you!
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.14-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/jayehernandez/letra#readme" target="_blank">
