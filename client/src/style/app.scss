@@ -33,6 +33,14 @@ h3 {
 .romanization-button {
   color: $secondary-color;
   text-transform: uppercase;
+  transition: all 0.8s;
+  opacity: 0.8;
+}
+
+.romanization-button:hover {
+  color: $primary-color;
+  transition: all 0.8s;
+  cursor: pointer;
 }
 
 .center-container {

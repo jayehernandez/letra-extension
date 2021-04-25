@@ -10,9 +10,9 @@
       span(
         v-show='isButtonVisible(dailyData.word.romanization)'
         class="romanization-button" 
-        type="button" value="pinyin"
-        @click="togglePinyin"
-      ) {{ this.pinyinVal }} 
+        type="button" value="romanization"
+        @click="toggleRomanization"
+      ) {{ this.romanizationVal }} 
       h3(class='mb0' v-show='isVRomanizationVisible()') {{ dailyData.word.romanization || '' }}
       .is-flex.is-justify-centered
         h1(
@@ -72,9 +72,9 @@ export default {
     isVRomanizationVisible(){
       return this.$data.isRomanizationVisible;
     },
-    togglePinyin(){
+    toggleRomanization(){
       this.$data.isRomanizationVisible = !this.$data.isRomanizationVisible;
-      if (this.$data.romanizationnVal == "Hide Romanization") {
+      if (this.$data.romanizationVal == "Hide Romanization") {
         this.$data.romanizationVal = "Show Romanization"
       } else {
         this.$data.romanizationVal = "Hide Romanization"
