@@ -71,11 +71,32 @@ describe('Word', () => {
       });
 
       it('triggers the romanization button correctly', async () => {
+        const romanizationSelector = '.daily-word-container h3';
+        const romanizationButtonSelector = '.romanization-button';
         const romanizationButton = wrapper.find('.romanization-button');
         
+        // Click to hide romanization
         await romanizationButton.trigger('click');
   
-        expect(wrapper.find('.romanization-button').text()).toBe('Show Romanization');
+        expect(wrapper.find(romanizationButtonSelector).text()).toBe('Show Romanization');
+
+        expect(wrapper.find(romanizationSelector).element.style.display).toBe(
+          'none'
+        );
+        
+        // Click to show romanization again
+        await romanizationButton.trigger('click');
+
+        expect(wrapper.find(romanizationButtonSelector).text()).toBe('Hide Romanization');
+
+        expect(wrapper.find(romanizationSelector).element.style.display).not.toBe(
+          'none'
+        );
+
+        expect(wrapper.find(romanizationSelector).text()).toBe(
+          wrapper.vm.dailyData.word.romanization,
+        );
+
       });
 
     });
