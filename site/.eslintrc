@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "next",
+    "next/core-web-vitals",
+    "plugin:prettier/recommended" // Should always be last
+  ],
+  "rules": {
+    // Not compatible with Next.js <Link />
+    "jsx-a11y/anchor-is-valid": "off"
+  }
+}
