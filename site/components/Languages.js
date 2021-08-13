@@ -13,19 +13,15 @@ function Languages({ languages }) {
         css={{
           display: 'flex',
           alignItems: 'center',
-          textAlign: 'center',
+          justifyContent: 'center',
           mb: '$5',
-          flexDirection: 'column',
-          '@md': {
-            flexDirection: 'row',
-          },
         }}
       >
         <Text type="title" css={{ color: '$primary' }}>
           {Object.keys(languages).length}
         </Text>
-        <Text type="h1" css={{ color: '$primary', '@md': { ml: '$4', mt: '$1' } }}>
-          Supported Languages
+        <Text type="h1" css={{ color: '$primary', ml: '$3', '@md': { ml: '$4', mt: '$1' } }}>
+          Languages
         </Text>
       </Container>
       <GridContainer
@@ -55,6 +51,14 @@ function Languages({ languages }) {
             </Box>
           );
         })}
+        <ExternalLink
+          href="https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md"
+          type="simple"
+        >
+          <Button size="xs" color="secondary" css={{ px: '$6' }}>
+            Add yours!
+          </Button>
+        </ExternalLink>
       </GridContainer>
     </Box>
   );

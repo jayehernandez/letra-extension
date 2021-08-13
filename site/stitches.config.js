@@ -12,6 +12,7 @@ export const { css, styled, global, getCssString, theme } = createCss({
       primary2: '#5c502c', // gold
       secondary: '#BDBDBD', // gray
       secondary2: '#383738', // darker gray
+      secondary3: 'rgba(0, 0, 0, 0.3)',
     },
     space: {
       1: '5px',
@@ -34,6 +35,7 @@ export const { css, styled, global, getCssString, theme } = createCss({
       xxl: '32px',
       xxxl: '48px',
       title: '74px',
+      title2: '90px',
       hero: '150px',
     },
     fonts: {

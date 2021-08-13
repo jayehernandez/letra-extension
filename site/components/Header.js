@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { styled } from 'stitches.config';
 import Container from '~/ui/Container';
 import TextLink, { ExternalLink } from '~/ui/TextLink';
@@ -13,6 +14,14 @@ const HeaderOuterWrapper = styled('header', {
     zIndex: '10',
     position: 'sticky',
   },
+  variants: {
+    hasBackground: {
+      true: {
+        backdropFilter: 'saturate(30%) blur(40px)',
+        backgroundColor: '$secondary3',
+      },
+    },
+  },
 });
 
 const HeaderContainer = styled(Container, {
@@ -20,11 +29,10 @@ const HeaderContainer = styled(Container, {
   justifyContent: 'flex-end',
   alignItems: 'center',
   px: '$2',
-  height: '50px',
-  background: '$bodyBg',
+  height: '70px',
   '@md': {
     justifyContent: 'space-between',
-    height: '80px',
+    height: '70px',
   },
 });
 
@@ -51,12 +59,12 @@ const NavLink = styled(TextLink, {
   alignItems: 'center',
   fontWeight: '700',
   fontSize: '$xs',
-  padding: '$1',
+  padding: '$3',
   textAlign: 'center',
-  color: '$body',
+  color: '$secondary',
   '@md': {
-    padding: '$6',
-    fontSize: '$md',
+    padding: '$5',
+    fontSize: '$sm',
   },
   variants: {
     active: {
@@ -82,36 +90,50 @@ const links = [
   },
 ];
 
-const Header = () => (
-  <HeaderOuterWrapper>
-    <HeaderContainer size={'lg'}>
-      <LogoContainer>
-        <Link href={'#'} passHref>
-          <a>
-            <Logo />
-          </a>
-        </Link>
-      </LogoContainer>
-      <NavLinks>
-        {links.map((link) => (
-          <Link key={link.title} href={link.route} passHref>
-            <NavLink type="noBorder" active={false}>
-              {link.title}
-            </NavLink>
+const Header = () => {
+  const [hasBackground, setHasBackground] = useState(false);
+
+  const listenScrollEvent = (event) => {
+    return setHasBackground(window.scrollY > 80);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent);
+
+    return () => window.removeEventListener('scroll', listenScrollEvent);
+  }, []);
+
+  return (
+    <HeaderOuterWrapper hasBackground={hasBackground}>
+      <HeaderContainer size={'lg'}>
+        <LogoContainer>
+          <Link href={'#'} passHref>
+            <a>
+              <Logo />
+            </a>
           </Link>
-        ))}
-        <ExternalLink href="https://bit.ly/letra-extension" type="simple">
-          <Button
-            color="primary"
-            size="sm"
-            css={{ ml: '$3', display: 'none', '@md': { display: 'block' } }}
-          >
-            Download
-          </Button>
-        </ExternalLink>
-      </NavLinks>
-    </HeaderContainer>
-  </HeaderOuterWrapper>
-);
+        </LogoContainer>
+        <NavLinks>
+          {links.map((link) => (
+            <Link key={link.title} href={link.route} passHref>
+              <NavLink type="noBorder" active={false}>
+                {link.title}
+              </NavLink>
+            </Link>
+          ))}
+          <ExternalLink href="https://bit.ly/letra-extension" type="simple">
+            <Button
+              color="primary"
+              size="sm"
+              css={{ ml: '$3', display: 'none', '@md': { display: 'block' } }}
+            >
+              Download
+            </Button>
+          </ExternalLink>
+        </NavLinks>
+      </HeaderContainer>
+    </HeaderOuterWrapper>
+  );
+};
 
 export default Header;
