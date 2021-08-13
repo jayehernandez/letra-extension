@@ -15,6 +15,7 @@ const TextLink = styled('a', {
     type: {
       simple: {
         fontWeight: '400',
+        color: '$body',
         boxShadow: 'none',
         '&:hover': {
           boxShadow: 'none',

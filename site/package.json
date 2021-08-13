@@ -9,10 +9,13 @@
     "lint": "next lint --fix"
   },
   "dependencies": {
+    "@radix-ui/react-tooltip": "^0.0.21",
     "@stitches/react": "^0.2.4",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-items-carousel": "^2.8.0",
+    "unsplash-js": "^7.0.15"
   },
   "devDependencies": {
     "eslint": "7.32.0",

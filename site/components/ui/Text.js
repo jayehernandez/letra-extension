@@ -14,7 +14,7 @@ const Text = styled('div', {
       h1: {
         fontFamily: '$primary',
         fontWeight: '700',
-        fontSize: '$lg',
+        fontSize: '$md',
         letterSpacing: '2px',
         textTransform: 'uppercase',
         '@md': {
@@ -29,6 +29,14 @@ const Text = styled('div', {
           fontSize: '$xl',
         },
       },
+      h3: {
+        fontFamily: '$primary',
+        fontWeight: '700',
+        fontSize: '$sm',
+        '@md': {
+          fontSize: '$md',
+        },
+      },
       p: {
         fontSize: '$sm',
         lineHeight: '28px',
@@ -39,7 +47,7 @@ const Text = styled('div', {
       },
       smallerP: {
         fontSize: '$xs',
-        lineHeight: '20px',
+        lineHeight: '25px',
         '@md': {
           fontSize: '$xs',
           lineHeight: '32px',

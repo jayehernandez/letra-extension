@@ -6,7 +6,7 @@ const globalStyles = global({
     margin: 0,
     padding: 0,
     boxSizing: 'border-box',
-    scrollMarginTop: '100px',
+    scrollMarginTop: '150px',
     scrollBehavior: 'smooth',
   },
   body: {

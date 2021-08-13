@@ -9,12 +9,28 @@ const Button = styled('button', {
   borderStyle: 'solid',
   variants: {
     size: {
+      xs: {
+        fontSize: '$xs',
+        letterSpacing: '0.3px',
+        borderRadius: '8px',
+        borderWidth: '2px',
+        px: '$4',
+        py: '$2',
+      },
       sm: {
         fontSize: '$sm',
-        letterSpacing: '0.5px',
+        letterSpacing: '0.3px',
         borderRadius: '12px',
         borderWidth: '2px',
         px: '$4',
+        py: '$2',
+      },
+      md: {
+        fontSize: '$md',
+        letterSpacing: '0.4px',
+        borderRadius: '12px',
+        borderWidth: '2px',
+        px: '$6',
         py: '$2',
       },
       lg: {
@@ -30,11 +46,20 @@ const Button = styled('button', {
       primary: {
         color: '$primary',
         borderColor: '$primary',
-        backgroundColor: '$bodyBg',
+        backgroundColor: 'transparent',
         '&:hover, &:focus': {
           backgroundColor: '$primary',
           color: '$bodyBg',
           transform: 'scale(1.05)',
+        },
+      },
+      secondary: {
+        color: '$secondary',
+        borderColor: '$secondary',
+        backgroundColor: 'transparent',
+        '&:hover, &:focus': {
+          borderColor: '$primary',
+          color: '$primary',
         },
       },
     },
