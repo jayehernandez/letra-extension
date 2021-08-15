@@ -66,6 +66,12 @@ function Footer() {
           </span>{' '}
           by <ExternalLink href="https://jayehernandez.com">Jaye Hernandez</ExternalLink>
         </Text>
+        <Text type="smallerP">
+          Like this site?{' '}
+          <ExternalLink href="https://www.buymeacoffee.com/jayehernandez">
+            Buy me a coffee
+          </ExternalLink>
+        </Text>
         <Text type="smallerP">© Copyright 2020</Text>
       </Container>
     </>

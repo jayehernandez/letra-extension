@@ -50,7 +50,7 @@ const Text = styled('div', {
         lineHeight: '25px',
         '@md': {
           fontSize: '$xs',
-          lineHeight: '32px',
+          lineHeight: '24px',
         },
       },
       footnote: {

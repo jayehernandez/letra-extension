@@ -13,6 +13,7 @@ export const { css, styled, global, getCssString, theme } = createCss({
       secondary: '#BDBDBD', // gray
       secondary2: '#383738', // darker gray
       secondary3: 'rgba(0, 0, 0, 0.3)',
+      secondary4: '#101010',
     },
     space: {
       1: '5px',

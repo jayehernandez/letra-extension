@@ -7,7 +7,7 @@ import { ExternalLink } from '~/ui/TextLink';
 
 function Languages({ languages }) {
   return (
-    <Box id="features">
+    <Box id="languages">
       <Container
         size="xs"
         css={{

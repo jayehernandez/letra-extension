@@ -81,12 +81,12 @@ const links = [
     route: '#about',
   },
   {
-    title: 'Features',
-    route: '#features',
+    title: 'FAQs',
+    route: '#faq',
   },
   {
-    title: 'Support',
-    route: '#support',
+    title: 'Contact',
+    route: '#contact',
   },
 ];
 

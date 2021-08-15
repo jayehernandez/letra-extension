@@ -122,21 +122,26 @@ function About() {
           );
         })}
       </GridContainer>
-      <Container size="sm" css={{ display: 'flex' }}>
-        <a
-          href="https://www.producthunt.com/posts/letra-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-letra-2"
-          target="_blank"
-          style={{ width: '250px', height: '54px', margin: 'auto' }}
-          rel="noreferrer"
-        >
-          <Image
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=196571&theme=dark"
-            alt="Letra - Passively learn a new language every time you open a new tab | Product Hunt"
-            style={{ width: '250px', height: '54px' }}
-            width="250"
-            height="54"
-          />
-        </a>
+      <Container size="sm" css={{ display: 'flex', justifyContent: 'center' }}>
+        <Box>
+          <a
+            href="https://www.producthunt.com/posts/letra-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-letra-2"
+            target="_blank"
+            style={{ width: '250px', height: '54px', margin: 'auto' }}
+            rel="noreferrer"
+          >
+            <Image
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=196571&theme=dark"
+              alt="Letra - Passively learn a new language every time you open a new tab | Product Hunt"
+              style={{ width: '250px', height: '54px' }}
+              width="250"
+              height="54"
+            />
+          </a>
+          <Text type="footnote" css={{ textAlign: 'center' }}>
+            Fancy an upvote? 🥺
+          </Text>
+        </Box>
       </Container>
     </Box>
   );
