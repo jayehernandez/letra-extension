@@ -139,7 +139,7 @@ function About() {
             />
           </a>
           <Text type="footnote" css={{ textAlign: 'center' }}>
-            Fancy an upvote? 🥺
+            Fancy an upvote?
           </Text>
         </Box>
       </Container>

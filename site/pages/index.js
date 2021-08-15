@@ -117,7 +117,7 @@ export default function Home({ languages, github }) {
           },
         }}
       >
-        <Image src={backgroundImage} layout="fill" />
+        <Image src={backgroundImage} layout="fill" alt="Background image" />
       </Box>
 
       <SkipLink id="skip-nav" href="#main-content">

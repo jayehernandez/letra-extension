@@ -67,7 +67,7 @@ const faqData = [
     answer: (
       <>
         No, it <strong>shows the same word the entire day</strong>, it will only reset at 12 AM the
-        next day. This is so you'll have the entire day to memorize a single word.
+        next day. This is so you&apos;ll have the entire day to memorize a single word.
       </>
     ),
   },
@@ -89,8 +89,8 @@ const faqData = [
     question: 'How can I request for a new language?',
     answer: (
       <>
-        <TextLink href="#contact">Contact us</TextLink> with the language you'd like to add! If
-        you're a native speaker of any language that is <strong>not</strong> in the{' '}
+        <TextLink href="#contact">Contact us</TextLink> with the language you&apos;d like to add! If
+        you&apos;re a native speaker of any language that is <strong>not</strong> in the{' '}
         <TextLink href="#languages">Languages</TextLink> section, check out{' '}
         <ExternalLink href="https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md">
           this link
@@ -104,7 +104,7 @@ const faqData = [
     answer: (
       <>
         Thank you for pointing that out! Please contact us <TextLink href="#contact">here</TextLink>{' '}
-        with your correction. If you are a developer, you're free to open up a{' '}
+        with your correction. If you are a developer, you&apos;re free to open up a{' '}
         <ExternalLink href="https://github.com/jayehernandez/letra-extension">
           pull request
         </ExternalLink>

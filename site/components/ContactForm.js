@@ -10,7 +10,10 @@ function ContactForm() {
   if (state.succeeded) {
     return (
       <Text type="h3" css={{ my: '$9' }}>
-        Hey, thanks for contacting us! 🥳
+        Hey, thanks for contacting us!{' '}
+        <span role="img" aria-label="party">
+          🥳
+        </span>
         <br />
         We will reply to you as soon as possible.
       </Text>
