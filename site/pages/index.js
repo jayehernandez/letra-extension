@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { styled } from 'stitches.config';
 import Head from 'next/head';
 import Header from '~/Header';
@@ -10,6 +11,7 @@ import Contact from '~/Contact';
 import Contribute from '~/Contribute';
 import Box from '~/ui/Box';
 import Image from 'next/image';
+import { createApi } from 'unsplash-js';
 
 // We're making this run every build instead of every request because I might not be able to keep up with server costs haha
 export async function getStaticProps() {
@@ -22,6 +24,10 @@ export async function getStaticProps() {
   );
   const githubRepo = await githubRepoRes.json();
   const githubContributors = await githubContributorsRes.json();
+
+  const unsplash = createApi({ accessKey: process.env.NEXT_PUBLIC_UNSPLASH_API_KEY });
+  const unsplashRes = await unsplash.photos.getRandom({ collections: [9836658] });
+  const background = unsplashRes.response;
 
   const github = {
     forks_count: githubRepo.forks_count,
@@ -37,6 +43,7 @@ export async function getStaticProps() {
     props: {
       languages: languageData.languages,
       github,
+      background,
     },
   };
 }
@@ -70,17 +77,7 @@ const description =
   'New tab. New word. Everyday. Learn a new foreign language as you browse the web through a new tab Chrome extension.';
 const image = `${domain}/og.png`;
 
-function shuffle(a) {
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-export default function Home({ languages, github }) {
-  const backgroundImage = `/backgrounds/${shuffle([1, 2, 3])[0]}.jpeg`;
-
+export default function Home({ languages, github, background }) {
   return (
     <Box>
       <Head>
@@ -104,7 +101,7 @@ export default function Home({ languages, github }) {
 
       <Box
         css={{
-          opacity: '0.15',
+          opacity: '0.25',
           display: 'block',
           position: 'fixed',
           top: '0',
@@ -117,7 +114,7 @@ export default function Home({ languages, github }) {
           },
         }}
       >
-        <Image src={backgroundImage} layout="fill" alt="Background image" />
+        <Image src={background.urls.full} layout="fill" alt={background.alt_description} />
       </Box>
 
       <SkipLink id="skip-nav" href="#main-content">
@@ -141,7 +138,7 @@ export default function Home({ languages, github }) {
         <Contact />
         <Contribute github={github} />
       </Box>
-      <Footer />
+      <Footer photographer={background.user} />
     </Box>
   );
 }

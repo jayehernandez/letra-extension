@@ -56,6 +56,7 @@ const Text = styled('div', {
       footnote: {
         fontSize: '$xxs',
         color: '$secondary',
+        lineHeight: '20px',
       },
     },
   },
