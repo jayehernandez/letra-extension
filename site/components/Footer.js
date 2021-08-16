@@ -5,7 +5,7 @@ import Button from '~/ui/Button';
 import FullLogo from '~/FullLogo';
 import { ExternalLink } from '~/ui/TextLink';
 
-function Footer() {
+function Footer({ photographer }) {
   return (
     <>
       <Container
@@ -18,12 +18,13 @@ function Footer() {
           px: '$5',
           pt: '$2',
           pb: '$7',
+          mt: '170px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           flexDirection: 'column',
           textAlign: 'center',
-          '@md': { borderRadius: '20px', pt: '$4', pb: '$7', mt: '170px' },
+          '@md': { borderRadius: '20px', py: '$4' },
         }}
       >
         <Box
@@ -47,26 +48,67 @@ function Footer() {
         </ExternalLink>
       </Container>
       <Container
-        size="xs"
+        size="lg"
         css={{
+          display: 'flex',
           textAlign: 'center',
+          flexDirection: 'column',
           mt: '$7',
           mb: '$6',
-          '@md': { mt: '$8', mb: '$7', height: '80px', color: '$secondary' },
+          '@md': {
+            mt: '$8',
+            mb: '$7',
+            color: '$secondary',
+            justifyContent: 'space-between',
+            flexDirection: 'row',
+          },
         }}
       >
-        <Text type="smallerP">
-          Made with{' '}
-          <span role="img" aria-label="white heart">
-            🤍
-          </span>{' '}
-          and{' '}
-          <span role="img" aria-label="milk tea">
-            🧋
-          </span>{' '}
-          by <ExternalLink href="https://jayehernandez.com">Jaye Hernandez</ExternalLink>
-        </Text>
-        <Text type="smallerP">© Copyright 2020</Text>
+        <Box css={{ '@md': { textAlign: 'left' } }}>
+          <Text type="footnote">
+            Made with{' '}
+            <span role="img" aria-label="white heart">
+              🤍
+            </span>{' '}
+            and{' '}
+            <span role="img" aria-label="milk tea">
+              🧋
+            </span>{' '}
+            by <ExternalLink href="https://jayehernandez.com">Jaye Hernandez</ExternalLink>
+          </Text>
+          <Text type="footnote">
+            Background photo by{' '}
+            <ExternalLink
+              href={`https://unsplash.com/@${photographer.username}?utm_source=letra&utm_medium=referral`}
+            >
+              {photographer.name}
+            </ExternalLink>{' '}
+            on{' '}
+            <ExternalLink href={`https://unsplash.com/?utm_source=letra&utm_medium=referral`}>
+              Unsplash
+            </ExternalLink>
+          </Text>
+        </Box>
+
+        <Box
+          css={{
+            borderTop: '2px solid $primary2',
+            mt: '$5',
+            pt: '$5',
+            '@md': { textAlign: 'right', mt: '$0', pt: '$0', borderTop: 'none' },
+          }}
+        >
+          <Text type="footnote">
+            Like this site?{' '}
+            <ExternalLink href="https://www.buymeacoffee.com/jayehernandez">
+              Buy me a coffee{' '}
+              <span role="img" aria-label="coffee">
+                ☕️
+              </span>
+            </ExternalLink>
+            <Text type="footnote">© Copyright 2020</Text>
+          </Text>
+        </Box>
       </Container>
     </>
   );

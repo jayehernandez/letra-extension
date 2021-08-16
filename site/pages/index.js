@@ -1,17 +1,19 @@
+import { useEffect, useState } from 'react';
+import { styled } from 'stitches.config';
 import Head from 'next/head';
-import { createApi } from 'unsplash-js';
 import Header from '~/Header';
 import Footer from '~/Footer';
 import Hero from '~/Hero';
 import About from '~/About';
 import Languages from '~/Languages';
-// import Carousel from '~/Carousel';
-import Support from '~/Support';
+import Faq from '~/Faq';
+import Contact from '~/Contact';
 import Contribute from '~/Contribute';
 import Box from '~/ui/Box';
+import Image from 'next/image';
+import { createApi } from 'unsplash-js';
 
 // We're making this run every build instead of every request because I might not be able to keep up with server costs haha
-
 export async function getStaticProps() {
   const languages = await fetch('https://letra-extension.herokuapp.com/languages');
   const languageData = await languages.json();
@@ -22,6 +24,10 @@ export async function getStaticProps() {
   );
   const githubRepo = await githubRepoRes.json();
   const githubContributors = await githubContributorsRes.json();
+
+  const unsplash = createApi({ accessKey: process.env.NEXT_PUBLIC_UNSPLASH_API_KEY });
+  const unsplashRes = await unsplash.photos.getRandom({ collections: [9836658] });
+  const background = unsplashRes.response;
 
   const github = {
     forks_count: githubRepo.forks_count,
@@ -37,9 +43,33 @@ export async function getStaticProps() {
     props: {
       languages: languageData.languages,
       github,
+      background,
     },
   };
 }
+
+const SkipLink = styled('a', {
+  position: 'absolute',
+  transform: 'translateY(-100%)',
+  transition: 'transform 0.3s',
+  left: '5%',
+  zIndex: '99999',
+  padding: '$2 $4',
+  backgroundColor: '$primary',
+  color: '$bodyBg',
+  borderRadius: '0 0 10px 10px',
+  fontSize: '$sm',
+  fontFamily: '$primary',
+  textTransform: 'uppercase',
+  fontWeight: '700',
+  letterSpacing: '0.2px',
+  '&:focus': {
+    transform: 'translateY(0%)',
+  },
+  '@md': {
+    left: '20%',
+  },
+});
 
 const domain = 'https://letra.vercel.app';
 const title = 'Letra | Learn a Foreign Language Passively';
@@ -47,15 +77,7 @@ const description =
   'New tab. New word. Everyday. Learn a new foreign language as you browse the web through a new tab Chrome extension.';
 const image = `${domain}/og.png`;
 
-function shuffle(a) {
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-export default function Home({ languages, background, github }) {
+export default function Home({ languages, github, background }) {
   return (
     <Box>
       <Head>
@@ -79,8 +101,7 @@ export default function Home({ languages, background, github }) {
 
       <Box
         css={{
-          backgroundImage: `url('/backgrounds/${shuffle([1, 2, 3])[0]}.jpeg')`,
-          opacity: '0.15',
+          opacity: '0.25',
           display: 'block',
           position: 'fixed',
           top: '0',
@@ -88,12 +109,20 @@ export default function Home({ languages, background, github }) {
           zIndex: '-2',
           width: '100%',
           height: '100%',
-          backgroundSize: 'cover',
+          '& img': {
+            objectFit: 'cover',
+          },
         }}
-      />
+      >
+        <Image src={background.urls.full} layout="fill" alt={background.alt_description} />
+      </Box>
 
+      <SkipLink id="skip-nav" href="#main-content">
+        Skip to content
+      </SkipLink>
       <Header />
       <Box
+        id="main-content"
         css={{
           display: 'grid',
           gridRowGap: '100px',
@@ -104,12 +133,12 @@ export default function Home({ languages, background, github }) {
       >
         <Hero />
         <About />
-        {/* <Carousel /> */}
         <Languages languages={languages} />
-        <Support />
+        <Faq />
+        <Contact />
         <Contribute github={github} />
       </Box>
-      <Footer />
+      <Footer photographer={background.user} />
     </Box>
   );
 }

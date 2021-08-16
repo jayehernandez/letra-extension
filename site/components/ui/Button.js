@@ -47,10 +47,15 @@ const Button = styled('button', {
         color: '$primary',
         borderColor: '$primary',
         backgroundColor: 'transparent',
-        '&:hover, &:focus': {
+        '&:hover:not(:disabled), &:focus:not(:disabled)': {
           backgroundColor: '$primary',
           color: '$bodyBg',
           transform: 'scale(1.05)',
+        },
+        '&:disabled': {
+          borderColor: '$secondary4',
+          backgroundColor: '$secondary4',
+          color: '$secondary2',
         },
       },
       secondary: {

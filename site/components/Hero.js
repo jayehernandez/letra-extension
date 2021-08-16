@@ -1,14 +1,12 @@
-import { styled } from 'stitches.config';
+import { keyframes } from '@stitches/react';
 import Container from '~/ui/Container';
 import Text from '~/ui/Text';
 import Button from '~/ui/Button';
 import Box from '~/ui/Box';
 import Logo from '~/Logo';
 import TextLink, { ExternalLink } from '~/ui/TextLink';
-import Link from 'next/link';
-import { createCss } from '@stitches/react';
 
-const scaleUp = createCss({}, null).keyframes({
+const scaleUp = keyframes({
   '0%': { transform: 'scale(1)' },
   '100%': { transform: 'scale(1.05)' },
 });
@@ -67,7 +65,7 @@ function Hero() {
         </Text>
       </Box>
       <Box css={{ mt: '$7', animation: `${scaleUp} .3s infinite alternate` }}>
-        <TextLink href="#about" type="simple">
+        <TextLink href="#about" type="simple" aria-label="About">
           <DownIcon />
         </TextLink>
       </Box>
