@@ -55,6 +55,7 @@ Hey there! This repository is currently on **VACATION MODE** 🏝
 - 🇰🇷 Korean
 - 🇵🇱 Polish
 - 🇷🇺 Russian
+- 🇷🇸 Serbian
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
@@ -105,7 +106,7 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-56-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-57-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -180,6 +181,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/rookiemonkey"><img src="https://avatars0.githubusercontent.com/u/61614867?v=4?s=100" width="100px;" alt="Kevin Roi Basina"/><br /><sub><b>Kevin Roi Basina</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=rookiemonkey" title="Code">💻</a></td>
       <td align="center"><a href="http://dogagocmener.com"><img src="https://avatars2.githubusercontent.com/u/51722645?v=4?s=100" width="100px;" alt="Doğa Göçmemer"/><br /><sub><b>Doğa Göçmemer</b></sub></a><br /><a href="#translation-dogagcmnr" title="Translation">🌍</a></td>
       <td align="center"><a href="https://github.com/teeradon43"><img src="https://avatars.githubusercontent.com/u/51240166?v=4?s=100" width="100px;" alt="Teeradon"/><br /><sub><b>Teeradon</b></sub></a><br /><a href="#translation-teeradon43" title="Translation">🌍</a></td>
+      <td align="center"><a href="https://lxmarinkovic.com/"><img src="https://avatars.githubusercontent.com/u/3509527?v=4?s=100" width="100px;" alt="lxmarinkovic"/><br /><sub><b>lxmarinkovic</b></sub></a><br /><a href="#translation-lxmarinkovic" title="Translation">🌍</a></td>
     </tr>
   </tbody>
 </table>

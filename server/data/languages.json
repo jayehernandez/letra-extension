@@ -75,6 +75,10 @@
     "flag": "twa-russia-flag",
     "voice": "Russian Female"
   },
+  "serbian": {
+    "flag": "twa-serbia-flag ",
+    "voice": "Serbian Male"
+  },
   "spanish": {
     "flag": "twa-spain-flag",
     "voice": "Spanish Female"

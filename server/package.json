@@ -29,7 +29,7 @@
     "fetch": "^1.1.0",
     "morgan": "^1.10.0",
     "node-fetch": "^2.6.1",
-    "unsplash-js": "^6.0.0"
+    "unsplash-js": "^7.0.15"
   },
   "devDependencies": {
     "dot-prop": ">=4.2.1",
