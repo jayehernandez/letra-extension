@@ -77,20 +77,22 @@ const config = {
       path: './.env',
     }),
     new VueLoaderPlugin(),
-    new CopyPlugin([
-      { from: 'icons', to: 'icons', ignore: ['icon.xcf'] },
-      { from: 'index.html', to: 'index.html', transform: transformHtml },
-      {
-        from: 'manifest.json',
-        to: 'manifest.json',
-        transform: content => {
-          const jsonContent = JSON.parse(content);
-          jsonContent.version = version;
+    new CopyPlugin({
+      patterns: [
+        { from: 'icons', to: 'icons', globOptions: { ignore: ['icon.xcf'] } },
+        { from: 'index.html', to: 'index.html', transform: transformHtml },
+        {
+          from: 'manifest.json',
+          to: 'manifest.json',
+          transform: (content) => {
+            const jsonContent = JSON.parse(content);
+            jsonContent.version = version;
 
-          return JSON.stringify(jsonContent, null, 2);
+            return JSON.stringify(jsonContent, null, 2);
+          },
         },
-      },
-    ]),
+      ],
+    }),
   ],
 };
 
