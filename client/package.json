@@ -61,7 +61,7 @@
     "file-loader": "^5.0.2",
     "jest": "^26.0.1",
     "jest-serializer-vue": "^2.0.2",
-    "node-sass": "^7.0.0",
+    "node-sass": "^7.0.3",
     "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.3.1",
