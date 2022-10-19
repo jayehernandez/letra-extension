@@ -55,6 +55,7 @@ Hey there! This repository is currently on **VACATION MODE** 🏝
 - 🇰🇷 Korean
 - 🇵🇱 Polish
 - 🇷🇺 Russian
+- 🇷🇸 Serbian
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
