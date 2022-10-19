@@ -1,8 +1,7 @@
-const Unsplash = require('unsplash-js').default;
-const { toJson } = require('unsplash-js');
 const { unsplashAccessKey } = require('../config');
+const unsplashCreateApi = require('unsplash-js').createApi;
 
-const unsplash = new Unsplash({ accessKey: unsplashAccessKey });
+const unsplash = unsplashCreateApi({ accessKey: unsplashAccessKey });
 const defaultLanguage = 'german';
 
 const helpers = {
@@ -15,10 +14,9 @@ const helpers = {
     return helpers.getRandomChoice(selectedLanguages.split(','));
   },
   getPhoto: async () =>
-    unsplash.photos
-      .getRandomPhoto({ collections: [9836658] })
-      .then(toJson)
-      .then((json) => json),
+    unsplash.photos.getRandom({ collectionIds: [9836658] }).then((result) => {
+      return result.response;
+    }),
 };
 
 module.exports = helpers;
