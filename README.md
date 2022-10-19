@@ -59,6 +59,7 @@ Hey there! This repository is currently on **VACATION MODE** 🏝
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
 - 🇹🇭 Thai
+- 🇹🇷 Turkish
 
 ## 🛠 Built With
 
@@ -176,7 +177,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://mtsknn.fi"><img src="https://avatars0.githubusercontent.com/u/2226144?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matias Kinnunen</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=mtsknn" title="Tests">⚠️</a></td>
     <td align="center"><a href="http://delaneysylvans.com"><img src="https://avatars3.githubusercontent.com/u/25111543?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Delaney Sylvans</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=DieBrise" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/rookiemonkey"><img src="https://avatars0.githubusercontent.com/u/61614867?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Roi Basina</b></sub></a><br /><a href="https://github.com/jayehernandez/letra-extension/commits?author=rookiemonkey" title="Code">💻</a></td>
-    <td align="center"><a href="http://dogagocmener.com"><img src="https://avatars2.githubusercontent.com/u/51722645?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Doğa Göçmemer</b></sub></a><br /><a href="#translation-dogagcmnr" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/dogagcmnr"><img src="https://avatars2.githubusercontent.com/u/51722645?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Doğa Göçmemer</b></sub></a><br /><a href="#translation-dogagcmnr" title="Translation">🌍</a></td>
   </tr>
 </table>
 
