@@ -1,5 +1,5 @@
-const { unsplashAccessKey } = require('../config');
 const unsplashCreateApi = require('unsplash-js').createApi;
+const { unsplashAccessKey } = require('../config');
 
 const unsplash = unsplashCreateApi({ accessKey: unsplashAccessKey });
 const defaultLanguage = 'german';
