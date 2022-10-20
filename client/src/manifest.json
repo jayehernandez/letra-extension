@@ -1,9 +1,10 @@
 {
   "name": "Letra",
   "description": "Passively learn a new language every time you open a new tab.",
-  "version": "1.0.14",
-  "manifest_version": 2,
+  "version": "1.0.15",
+  "manifest_version": 3,
   "permissions": ["storage"],
+  "host_permissions": ["https://texttospeech.responsivevoice.org/"],
   "icons": {
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
@@ -11,18 +12,12 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "browser_action": {
+  "action": {
     "default_title": "Letra"
-  },
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
   },
   "browser_specific_settings": {
     "gecko": {
       "id": "letra@letra.com"
     }
-  },
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com https://code.responsivevoice.org/responsivevoice.js 'unsafe-eval'; object-src 'self'"
+  }
 }

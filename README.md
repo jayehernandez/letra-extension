@@ -1,6 +1,7 @@
 ![Title](docs/screenshots/title.png)
 
 Hey there! This repository is currently on **VACATION MODE** 🏝
+
 > ⚠️ Commenting and opening issues or PRs won't be allowed for a while. You can still fork the repo, leave a star, and [**use the extension**](https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio). Just taking a break from maintaining this repo, back soon. For any urgent concerns, feel free to reach out to me on [Twitter](https://twitter.com/jayehernandez_). Thank you!
 
 <p>
@@ -96,7 +97,6 @@ Here's a [guide](https://github.com/jayehernandez/letra-extension/blob/master/do
 - Background Image API from [Unsplash](https://unsplash.com/developers)
 - Twitter Flag Emojis from [Twemoji Awesome](https://github.com/ellekasai/twemoji-awesome)
 - Icons from [Raj Dev](https://freeicons.io/profile/714)
-- [Vue Analytics](https://github.com/MatteoGabriele/vue-analytics)
 - README generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 
 Give a ⭐️ if this project helped you!
@@ -106,7 +106,9 @@ Give a ⭐️ if this project helped you!
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-57-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

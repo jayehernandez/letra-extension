@@ -27,6 +27,7 @@ router.get('/', async (req, res, next) => {
 
 // eslint-disable-next-line no-unused-vars
 router.get('/daily', async (req, res, next) => {
+  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
   const selectedLanguage = getLanguage(req.query.languages);
   const others = getOtherLanguages(req.query.languages, selectedLanguage);
   // eslint-disable-next-line global-require, import/no-dynamic-require

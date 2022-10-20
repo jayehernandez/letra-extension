@@ -1,5 +1,4 @@
 import Vue from 'vue';
-import VueAnalytics from 'vue-analytics';
 import vWow from 'v-wow';
 import LoadScript from 'vue-plugin-load-script';
 import VueSnackbar from 'vue-snack';
@@ -13,13 +12,7 @@ import './style/app.scss';
 
 Vue.use(vWow);
 Vue.use(LoadScript);
-Vue.loadScript(process.env.VUE_APP_VOICE_URL);
-Vue.use(VueAnalytics, {
-  id: process.env.VUE_APP_GOOGLE_ANALYTICS_ID,
-  router,
-  debug: { enabled: process.env.NODE_ENV === 'development' },
-  set: [{ field: 'checkProtocolTask', value: null }],
-});
+Vue.loadScript('./scripts/responsivevoice.js');
 
 Vue.use(VueSnackbar);
 Vue.component('multiselect', Multiselect);

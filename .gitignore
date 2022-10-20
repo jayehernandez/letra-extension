@@ -5,6 +5,10 @@ client/.env
 client/coverage
 client/.jshintrc
 
+# This is where the responsive voice code is...
+# I don't know how else to inject it without hiding the key
+client/src/scripts
+
 server/node_modules
 server/.env
 server/coverage
