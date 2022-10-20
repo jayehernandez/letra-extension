@@ -15,7 +15,7 @@ const getOtherLanguages = (selectedLanguages, selected) => {
 const { getRandomChoice, getLanguage, getPhoto } = helper;
 
 // eslint-disable-next-line no-unused-vars
-router.get('/', async (req, res, next) => {
+router.get('/api', async (req, res, next) => {
   res.writeHead(200, {
     'Content-Type': 'text/plain',
   });
@@ -26,7 +26,7 @@ router.get('/', async (req, res, next) => {
 });
 
 // eslint-disable-next-line no-unused-vars
-router.get('/daily', async (req, res, next) => {
+router.get('/api/daily', async (req, res, next) => {
   const selectedLanguage = getLanguage(req.query.languages);
   const others = getOtherLanguages(req.query.languages, selectedLanguage);
   // eslint-disable-next-line global-require, import/no-dynamic-require
@@ -85,7 +85,7 @@ router.get('/daily', async (req, res, next) => {
 });
 
 // eslint-disable-next-line no-unused-vars
-router.get('/languages', async (req, res, next) => {
+router.get('/api/languages', async (req, res, next) => {
   res.status(200).json({ languages });
 });
 

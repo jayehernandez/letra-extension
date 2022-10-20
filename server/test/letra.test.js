@@ -10,7 +10,7 @@ const letra = rewire('../routes/letra.js');
 
 jest.mock('../routes/helpers');
 
-describe('/', () => {
+describe('/api', () => {
   it('returns a 200 response', async () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toEqual(200);
@@ -23,7 +23,7 @@ describe('/', () => {
   });
 });
 
-describe('/languages', () => {
+describe('/api/languages', () => {
   it('returns a 200 response', async () => {
     const res = await request(app).get('/languages');
     expect(res.statusCode).toEqual(200);
@@ -48,7 +48,7 @@ describe('#getLanguage', () => {
   });
 });
 
-describe('/daily', () => {
+describe('/api/daily', () => {
   it('returns a 200 response', async () => {
     const res = await request(app).get('/daily');
     expect(res.statusCode).toEqual(200);
