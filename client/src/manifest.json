@@ -4,7 +4,10 @@
   "version": "1.0.15",
   "manifest_version": 3,
   "permissions": ["storage"],
-  "host_permissions": ["https://texttospeech.responsivevoice.org/"],
+  "host_permissions": [
+    "https://texttospeech.responsivevoice.org/",
+    "https://letra-extension.vercel.app/"
+  ],
   "icons": {
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"

@@ -130,7 +130,7 @@ function About() {
             style={{ width: '250px', height: '54px', margin: 'auto' }}
             rel="noreferrer"
           >
-            <Image
+            <img
               src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=196571&theme=dark"
               alt="Letra - Passively learn a new language every time you open a new tab | Product Hunt"
               style={{ width: '250px', height: '54px' }}

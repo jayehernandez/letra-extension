@@ -15,7 +15,7 @@ import { createApi } from 'unsplash-js';
 
 // We're making this run every build instead of every request because I might not be able to keep up with server costs haha
 export async function getStaticProps() {
-  const languages = await fetch('https://letra-extension.herokuapp.com/languages');
+  const languages = await fetch('https://letra-extension.vercel.app/languages');
   const languageData = await languages.json();
 
   const githubRepoRes = await fetch('https://api.github.com/repos/jayehernandez/letra-extension');

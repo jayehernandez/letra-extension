@@ -51,14 +51,6 @@ function Languages({ languages }) {
             </Box>
           );
         })}
-        <ExternalLink
-          href="https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md"
-          type="simple"
-        >
-          <Button size="xs" color="secondary" css={{ px: '$6' }}>
-            Add yours!
-          </Button>
-        </ExternalLink>
       </GridContainer>
     </Box>
   );
