@@ -1,16 +1,9 @@
 ![Title](docs/screenshots/title.png)
 
-Hey there! This repository is currently on **VACATION MODE** 🏝
-
-> ⚠️ Commenting and opening issues or PRs won't be allowed for a while. You can still fork the repo, leave a star, and [**use the extension**](https://chrome.google.com/webstore/detail/letra/cjodkkjokggcaeacdhjliobekbnnmoio). Just taking a break from maintaining this repo, back soon. For any urgent concerns, feel free to reach out to me on [Twitter](https://twitter.com/jayehernandez_). Thank you!
-
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.14-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.15-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/jayehernandez/letra#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/jayehernandez/letra/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/jayehernandez/letra-extension/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/jayehernandez/letra-extension" />
@@ -72,23 +65,13 @@ Hey there! This repository is currently on **VACATION MODE** 🏝
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />
+We've had almost ~160 [contributors](https://github.com/jayehernandez/letra-extension/graphs/contributors) since launching this, a huge **thank you** to everyone who has contributed in one way or another! Starting October 2022, contributions, issues, and feature requests are put on hold until further notice ([v1.0.15](https://github.com/jayehernandez/letra-extension/releases/tag/v1.0.15)).
 
-Feel free to check the [issues page](https://github.com/jayehernandez/letra-extension/issues) for any open issues. If this is your first time contributing to Open Source, check out the [Contributing Guidelines](https://github.com/jayehernandez/letra-extension/blob/master/docs/how_to_contribute.md).
-
-You can also suggest a new feature by creating an Issue. Please wait for confirmation before working on it.
-
-### Good for First Timers
-
-- [Add a new language](https://github.com/jayehernandez/letra-extension/blob/master/docs/new_language.md)
-- Edit translations from existing languages - guide 🔜
-- [Help in getting 100% test coverage](https://github.com/jayehernandez/letra-extension/blob/master/docs/testing_guidelines.md)
+As the repository is still made available to public, you are free to **fork** this instead and work on new features in your copy, for your own personal use.
 
 ### Installation
 
 Here's a [guide](https://github.com/jayehernandez/letra-extension/blob/master/docs/how_to_install.md) on how to install this Chrome extension on your local machine.
-
-**Note:** You don't need to do this if you're just doing some issues in the _Good for First Timers_ section above. But you're welcome to do so anyways!
 
 ## 🙏🏻 Acknowledgements
 

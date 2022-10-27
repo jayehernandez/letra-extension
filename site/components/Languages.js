@@ -33,7 +33,7 @@ function Languages({ languages }) {
           gridRowGap: '$3',
           '@md': { gridTemplateColumns: '1fr 1fr 1fr' },
           '@lg': { gridTemplateColumns: '1fr 1fr 1fr 1fr' },
-          '@xl': { gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr' },
+          '@xl': { gridTemplateColumns: '1fr 1fr 1fr 1fr' },
         }}
       >
         {Object.entries(languages).map((language, index) => {
@@ -45,9 +45,9 @@ function Languages({ languages }) {
           return (
             <Box key={index} css={{ display: 'flex', alignItems: 'center' }}>
               <Box>
-                <i className={`twa twa-3x ${language[1].flag}`}></i>
+                <i className={`twa twa-4x ${language[1].flag}`}></i>
               </Box>
-              <Text css={{ ml: '$2' }}>{titleLanguage}</Text>
+              <Text css={{ ml: '$2', fontSize: '$md' }}>{titleLanguage}</Text>
             </Box>
           );
         })}
