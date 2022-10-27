@@ -11,4 +11,4 @@ jobs:
       - uses: superbrothers/close-pull-request@v3
         with:
           comment: |
-            Hi there! This repository is currently not accepting new PRs. For more info, please check out our [README](https://github.com/jayehernandez/letra-extension#-contributing). If you have any questions, please feel free to [contact us](https://letra.vercel.app/#contact)."
+            Hi there! This repository is currently not accepting new PRs. For more info, please check out our [README](https://github.com/jayehernandez/letra-extension#-contributing). If you have any questions, please feel free to [contact us](https://letra.vercel.app/#contact).
