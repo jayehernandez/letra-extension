@@ -1,0 +1,14 @@
+name: Close Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: peter-evans/close-issue@v2
+        with:
+          comment: |
+            Hi there! This repository is currently not accepting new issues. For more info, please check out our [README](https://github.com/jayehernandez/letra-extension#-contributing). If you have any questions, please feel free to [contact us](https://letra.vercel.app/#contact).

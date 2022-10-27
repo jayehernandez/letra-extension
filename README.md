@@ -67,7 +67,7 @@
 
 We've had almost ~160 [contributors](https://github.com/jayehernandez/letra-extension/graphs/contributors) since launching this, a huge **thank you** to everyone who has contributed in one way or another! Starting October 2022, contributions, issues, and feature requests are put on hold until further notice ([v1.0.15](https://github.com/jayehernandez/letra-extension/releases/tag/v1.0.15)).
 
-As the repository is still made available to public, you are free to **fork** this instead and work on new features in your copy, for your own personal use.
+As the repository is still made available to public, you are free to **fork** this instead and work on new features in your copy, for your own personal use. If you have any questions, feel free to [contact us](https://letra.vercel.app/#contact)!
 
 ### Installation
 
