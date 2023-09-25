@@ -53,8 +53,9 @@
 - 🇪🇸 Spanish
 - 🇸🇪 Swedish
 - 🇮🇳 Tamil
+- 🇹🇪 Telugu
 - 🇹🇭 Thai
-- 🇹🇷 Turkish
+- 🇹🇷 Turkish  
 
 ## 🛠 Built With
 
