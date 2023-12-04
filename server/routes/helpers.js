@@ -15,7 +15,16 @@ const helpers = {
   },
   getPhoto: async () =>
     unsplash.photos.getRandom({ collectionIds: [9836658] }).then((result) => {
-      return result.response;
+      const photoResult = result.response;
+      return {
+        urls: {
+          full: photoResult.urls.full,
+        },
+        user: {
+          name: photoResult.user.name,
+          username: photoResult.user.username,
+        },
+      };
     }),
 };
 
