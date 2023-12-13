@@ -39,18 +39,82 @@ describe('Word', () => {
       expect(wordWrapper.exists()).toBeTruthy();
     });
 
-    it('displays romanization correctly', () => {
-      const romanizationSelector = '.daily-word-container h3';
+    describe('when romanization value exists', () => {
+      it('displays romanization correctly', () => {
+        const romanizationSelector = '.daily-word-container h3';
+  
+        expect(wrapper.find(romanizationSelector).exists()).toBeTruthy();
+        expect(wrapper.find(romanizationSelector).text()).toBe('');
+  
+        store.state.dailyData.word.romanization = 'romanization';
+        wrapper = shallowMount(Word, { store, localVue });
+  
+        expect(wrapper.find(romanizationSelector).text()).toBe(
+          wrapper.vm.dailyData.word.romanization,
+        );
+  
+        expect(wrapper.find(romanizationSelector).element.style.display).not.toBe(
+          'none'
+        );
+      });
+  
+      it('displays the romanization button correctly', () => {
+        const romanizationButtonSelector = '.romanization-button';
+  
+        expect(wrapper.find(romanizationButtonSelector).exists()).toBeTruthy();
+  
+        expect(wrapper.find(romanizationButtonSelector).element.style.display).not.toBe(
+          'none'
+        );
 
-      expect(wrapper.find(romanizationSelector).exists()).toBeTruthy();
-      expect(wrapper.find(romanizationSelector).text()).toBe('');
+        expect(wrapper.find(romanizationButtonSelector).text()).toBe('Hide Romanization');
+      });
 
-      store.state.dailyData.word.romanization = 'romanization';
-      wrapper = shallowMount(Word, { store, localVue });
+      it('triggers the romanization button correctly', async () => {
+        const romanizationSelector = '.daily-word-container h3';
+        const romanizationButtonSelector = '.romanization-button';
+        const romanizationButton = wrapper.find('.romanization-button');
+        
+        // Click to hide romanization
+        await romanizationButton.trigger('click');
+  
+        expect(wrapper.find(romanizationButtonSelector).text()).toBe('Show Romanization');
 
-      expect(wrapper.find(romanizationSelector).text()).toBe(
-        wrapper.vm.dailyData.word.romanization,
-      );
+        expect(wrapper.find(romanizationSelector).element.style.display).toBe(
+          'none'
+        );
+        
+        // Click to show romanization again
+        await romanizationButton.trigger('click');
+
+        expect(wrapper.find(romanizationButtonSelector).text()).toBe('Hide Romanization');
+
+        expect(wrapper.find(romanizationSelector).element.style.display).not.toBe(
+          'none'
+        );
+
+        expect(wrapper.find(romanizationSelector).text()).toBe(
+          wrapper.vm.dailyData.word.romanization,
+        );
+
+      });
+
+    });
+
+    describe('when romanization value does not exist', () => {  
+      it('does not display the romanization button', () => {
+        store.state.dailyData.word.romanization = null;
+        wrapper = shallowMount(Word, { store, localVue });
+
+        const romanizationButtonSelector = '.romanization-button';
+  
+        expect(wrapper.find(romanizationButtonSelector).exists()).toBeTruthy();
+  
+        expect(wrapper.find(romanizationButtonSelector).element.style.display).toBe(
+          'none'
+        );
+      });
+
     });
 
     it('displays daily word correctly', () => {
