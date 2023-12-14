@@ -1,37 +1,39 @@
 <template lang="pug">
 .top-left
-  .flag.fadeIn(v-wow data-wow-duration="2s" :key="flagClass")
-    i(
-      :class="flagClass"
-      @mouseover="showLanguage = true"
-      @mouseleave="showLanguage = false"
-      @click="toggleFlagDropdown"
-    )
-  .language-name(
-    v-bind:class=`{
-      fadeInDown: showLanguage === true,
-      fadeOutUp: showLanguage === false,
-    }`
-    v-wow
-    data-wow-duration="0.5s"
-    v-if="showLanguage !== null"
-  ) {{ flagLanguage | titleize }}
+  div(style={width:'fit-content'})
+    .flag.fadeIn(v-wow data-wow-duration="2s" :key="flagClass")
+      i(
+        :class="flagClass"
+        @mouseover="showLanguage = true"
+        @mouseleave="showLanguage = false"
+        @click="toggleFlagDropdown"
+      )
+    .language-name(
+      v-bind:class=`{
+        fadeInDown: showLanguage === true,
+        fadeOutUp: showLanguage === false,
+      }`
+      v-wow
+      data-wow-duration="0.5s"
+      v-if="showLanguage !== null"
+    ) {{ flagLanguage | titleize }}
   transition(name="fade")
     div(v-if="showLanguageDropdown")
       .flag-options Show in:
-      .flag-list(v-for="(language, index) in otherLanguages")
-        .flag.fadeIn(
-          v-wow
-          data-wow-duration="2s"
-          :key="dailyData.translations[language].flag"
-          v-bind:class=`{ mt0: index === 0 }`
-        )
-          i(
-            :class="dailyData.translations[language].flag"
-            class="twa twa-4x"
-            @click="toggleActiveLanguage(language); showLanguageDropdown = false;"
+      .flag-list-container
+        .flag-list(v-for="(language, index) in otherLanguages")
+          .flag.fadeIn(
+            v-wow
+            data-wow-duration="2s"
+            :key="dailyData.translations[language].flag"
+            v-bind:class=`{ mt0: index === 0 }`
           )
-        .language-name {{ language | titleize }}
+            i(
+              :class="dailyData.translations[language].flag"
+              class="twa twa-4x"
+              @click="toggleActiveLanguage(language); showLanguageDropdown = false;"
+            )
+          .language-name {{ language | titleize }}
 </template>
 
 <script>

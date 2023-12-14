@@ -2,7 +2,7 @@
   position: absolute;
   top: 70px;
   right: 20px;
-  width: 15%;
+  width: 20%;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   padding: $spacing-s;
@@ -31,6 +31,8 @@
   background: black;
   padding: 8px 25px 0px 8px;
   border: 1px solid $third-color;
+  max-height: 300px;
+  overflow-y: auto;
 }
 
 .multiselect__content-wrapper {
