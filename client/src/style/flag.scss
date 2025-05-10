@@ -18,3 +18,8 @@
   margin-bottom: 10px;
   color: $primary-color;
 }
+
+.flag-list-container {
+  max-height: calc(100vh - 220px);
+  overflow-y: auto;
+}
