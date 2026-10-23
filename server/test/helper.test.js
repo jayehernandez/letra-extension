@@ -23,6 +23,25 @@ describe('getLanguage', () => {
   });
 });
 
+describe('getRandomChoice', () => {
+  const { getRandomChoice } = helper;
+
+  it('returns an element contained in the provided options', () => {
+    const options = ['german', 'spanish', 'chinese'];
+    for (let i = 0; i < 100; i += 1) {
+      expect(options).toEqual(
+        expect.arrayContaining([getRandomChoice(options)]),
+      );
+    }
+  });
+  it('returns the only element when options has a single entry', () => {
+    expect(getRandomChoice(['spanish'])).toEqual('spanish');
+  });
+  it('returns undefined when options is empty', () => {
+    expect(getRandomChoice([])).toBeUndefined();
+  });
+});
+
 describe('getPhoto', () => {
   it('returns a photo', () => {
     mockHelper.getPhoto().then((resultado) => {
