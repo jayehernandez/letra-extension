@@ -48,6 +48,23 @@ describe('#getLanguage', () => {
   });
 });
 
+describe('#getOtherLanguages', () => {
+  /* eslint no-underscore-dangle: ["error", { "allow": ["__get__"] }] */
+  const getOtherLanguages = letra.__get__('getOtherLanguages');
+  it('returns null when selectedLanguages is undefined', () => {
+    expect(getOtherLanguages(undefined, 'german')).toBeNull();
+  });
+  it('returns the other languages excluding the selected one', () => {
+    expect(getOtherLanguages('spanish,chinese,german', 'chinese')).toEqual([
+      'spanish',
+      'german',
+    ]);
+  });
+  it('returns an empty array when selected is the only language', () => {
+    expect(getOtherLanguages('chinese', 'chinese')).toEqual([]);
+  });
+});
+
 describe('/daily', () => {
   it('returns a 200 response', async () => {
     const res = await request(app).get('/daily');
